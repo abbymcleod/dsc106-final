@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sea Level Risk Map</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <h1>Projected Sea Level Risk in Coastal Cities</h1>
+  <div id="scenario-buttons">
+    <button data-scenario="ssp126" class="active">SSP1-2.6</button>
+    <button data-scenario="ssp245">SSP2-4.5</button>
+    <button data-scenario="ssp370">SSP3-7.0</button>
+    <button data-scenario="ssp585">SSP5-8.5</button>
+  </div>
+
+  <!-- NEW: year slider -->
+  <div id="slider-wrap">
+    <label for="year-slider">Year</label>
+    <span id="year-display">2025</span>
+    <input id="year-slider" type="range" min="2025" max="2100" step="1" value="2025" />
+    <button id="play-btn">▶ Play</button>
+  </div>
+
+  <!-- Map + side panel side by side -->
+  <div id="map-container">
+    <svg id="map"></svg>
+
+    <!-- NEW: city detail panel -->
+    <div id="side-panel" class="empty">
+      <div id="panel-city">Click a city</div>
+      <div id="panel-risk"></div>
+      <div id="panel-stats"></div>
+      <div id="sparkline-wrap">
+        <p>Sea level trend 2025 → 2100</p>
+        <svg id="sparkline"></svg>
+      </div>
+      <div id="city-annotation"></div>
+    </div>
+  </div>
+
+  <!-- NEW: legend -->
+  <div id="legend"></div>
+
+  <div id="tooltip"></div>
+</body>
+</html>
