@@ -13,7 +13,7 @@ d3.csv('../cmip6_global_anomaly.csv', d => ({
   console.log('Data loaded:', data.length, 'rows');
 });
 
-// ── Chart 1: Placeholder (your keeling data goes here) ─────
+// ── Chart 1: CO2 Data─────
 function drawKeeling() {
     if (document.querySelector('#chart-keeling svg')) return;
   
@@ -271,69 +271,236 @@ function drawKeeling() {
 
 // ── Chart 2: Historical warming ─────────────────────────────
 function drawHistorical() {
-  if (!globalData) return;
-  if (document.querySelector('#chart-historical svg')) return;
-
-  const data = globalData.filter(d =>
-    d.scenario === 'historical'
-  );
-
-  const width = 900, height = 400;
-  const margin = { top: 20, right: 30, bottom: 40, left: 60 };
-  const innerW = width - margin.left - margin.right;
-  const innerH = height - margin.top - margin.bottom;
-
-  const svg = d3.select('#chart-historical')
-    .append('svg')
-    .attr('width', width).attr('height', height);
-
-  const g = svg.append('g')
-    .attr('transform', `translate(${margin.left},${margin.top})`);
-
-  const x = d3.scaleLinear()
-    .domain(d3.extent(data, d => d.year))
-    .range([0, innerW]);
-
-  const y = d3.scaleLinear()
-    .domain([-0.5, 1.5])
-    .range([innerH, 0]);
-
-  // Ensemble mean
-  const byYear = d3.rollup(data, v =>
-    d3.mean(v, d => d.anomaly), d => d.year
-  );
-  const meanData = Array.from(byYear, ([year, anomaly]) =>
-    ({ year, anomaly })
-  ).sort((a, b) => a.year - b.year);
-
-  const line = d3.line()
-    .x(d => x(d.year))
-    .y(d => y(d.anomaly))
-    .curve(d3.curveBasis);
-
-  g.append('path')
-    .datum(meanData)
-    .attr('fill', 'none')
-    .attr('stroke', '#888888')
-    .attr('stroke-width', 2.5)
-    .attr('d', line);
-
-  // Axes
-  g.append('g')
-    .attr('transform', `translate(0,${innerH})`)
-    .call(d3.axisBottom(x).tickFormat(d3.format('d')))
-    .selectAll('text').attr('fill', '#8b949e');
-
-  g.append('g')
-    .call(d3.axisLeft(y))
-    .selectAll('text').attr('fill', '#8b949e');
-
-  // 0 line
-  g.append('line')
-    .attr('x1', 0).attr('x2', innerW)
-    .attr('y1', y(0)).attr('y2', y(0))
-    .attr('stroke', '#444').attr('stroke-dasharray', '4,4');
-}
+    if (!globalData) return;
+    if (document.querySelector('#chart-historical svg')) return;
+  
+    const data = globalData.filter(d => d.scenario === 'historical');
+  
+    const width  = 900, height = 420;
+    const margin = { top: 30, right: 40, bottom: 50, left: 70 };
+    const innerW = width  - margin.left - margin.right;
+    const innerH = height - margin.top  - margin.bottom;
+  
+    const svg = d3.select('#chart-historical')
+      .append('svg')
+      .attr('width', width)
+      .attr('height', height);
+  
+    const g = svg.append('g')
+      .attr('transform', `translate(${margin.left},${margin.top})`);
+  
+    // ── Scales ──────────────────────────────────────────────
+    const x = d3.scaleLinear()
+      .domain([1850, 2015])
+      .range([0, innerW]);
+  
+    const y = d3.scaleLinear()
+      .domain([-0.6, 1.4])
+      .range([innerH, 0]);
+  
+    // ── Gridlines ───────────────────────────────────────────
+    g.append('g')
+      .attr('class', 'grid')
+      .call(d3.axisLeft(y).tickSize(-innerW).tickFormat(''))
+      .selectAll('line')
+      .attr('stroke', '#21262d')
+      .attr('stroke-dasharray', '3,3');
+  
+    g.select('.grid .domain').remove();
+  
+    // ── Uncertainty band (model spread) ─────────────────────
+    const byYear = d3.rollup(data, v => ({
+      mean: d3.mean(v, d => d.anomaly),
+      min:  d3.min(v,  d => d.anomaly),
+      max:  d3.max(v,  d => d.anomaly)
+    }), d => d.year);
+  
+    const bandData = Array.from(byYear, ([year, vals]) =>
+      ({ year, ...vals })
+    ).sort((a, b) => a.year - b.year);
+  
+    const area = d3.area()
+      .x(d => x(d.year))
+      .y0(d => y(d.min))
+      .y1(d => y(d.max))
+      .curve(d3.curveBasis);
+  
+    g.append('path')
+      .datum(bandData)
+      .attr('fill', '#888888')
+      .attr('opacity', 0.15)
+      .attr('d', area);
+  
+    // ── Ensemble mean line ───────────────────────────────────
+    const line = d3.line()
+      .x(d => x(d.year))
+      .y(d => y(d.mean))
+      .curve(d3.curveBasis);
+  
+    g.append('path')
+      .datum(bandData)
+      .attr('fill', 'none')
+      .attr('stroke', '#888888')
+      .attr('stroke-width', 2.5)
+      .attr('d', line);
+  
+    // ── Zero baseline ────────────────────────────────────────
+    g.append('line')
+      .attr('x1', 0).attr('x2', innerW)
+      .attr('y1', y(0)).attr('y2', y(0))
+      .attr('stroke', '#444')
+      .attr('stroke-dasharray', '4,4');
+  
+    g.append('text')
+      .attr('x', 8)
+      .attr('y', y(0) - 6)
+      .attr('fill', '#8b949e')
+      .attr('font-size', '11px')
+      .attr('font-family', 'sans-serif')
+      .text('Pre-industrial baseline (1850–1900)');
+  
+    // ── 1.2°C annotation ────────────────────────────────────
+    const lastYear = bandData[bandData.length - 1];
+  
+    g.append('circle')
+      .attr('cx', x(lastYear.year))
+      .attr('cy', y(lastYear.mean))
+      .attr('r', 5)
+      .attr('fill', '#f97316');
+  
+    g.append('text')
+      .attr('x', x(lastYear.year) - 12)
+      .attr('y', y(lastYear.mean) - 12)
+      .attr('fill', '#f97316')
+      .attr('font-size', '12px')
+      .attr('font-family', 'sans-serif')
+      .attr('text-anchor', 'end')
+      .text(`+${lastYear.mean.toFixed(2)}°C by 2015`);
+  
+    // ── Axes ────────────────────────────────────────────────
+    g.append('g')
+      .attr('transform', `translate(0,${innerH})`)
+      .call(d3.axisBottom(x).tickFormat(d3.format('d')).ticks(10))
+      .selectAll('text')
+      .attr('fill', '#8b949e')
+      .attr('font-family', 'sans-serif');
+  
+    g.append('g')
+      .call(d3.axisLeft(y).tickFormat(d => `${d > 0 ? '+' : ''}${d}°C`))
+      .selectAll('text')
+      .attr('fill', '#8b949e')
+      .attr('font-family', 'sans-serif');
+  
+    g.selectAll('.domain').attr('stroke', '#30363d');
+    g.selectAll('.tick line').attr('stroke', '#30363d');
+  
+    // ── Y axis label ────────────────────────────────────────
+    g.append('text')
+      .attr('transform', 'rotate(-90)')
+      .attr('x', -innerH / 2)
+      .attr('y', -55)
+      .attr('text-anchor', 'middle')
+      .attr('fill', '#8b949e')
+      .attr('font-size', '12px')
+      .attr('font-family', 'sans-serif')
+      .text('Temperature Anomaly (°C vs. 1850–1900)');
+  
+    // ── Tooltip ─────────────────────────────────────────────
+    const tooltip = d3.select('#chart-historical')
+      .append('div')
+      .style('position', 'absolute')
+      .style('background', '#1c2128')
+      .style('border', '1px solid #30363d')
+      .style('border-radius', '6px')
+      .style('padding', '8px 12px')
+      .style('font-family', 'sans-serif')
+      .style('font-size', '12px')
+      .style('color', '#e6edf3')
+      .style('pointer-events', 'none')
+      .style('opacity', 0);
+  
+    const bisect = d3.bisector(d => d.year).left;
+  
+    const hoverLine = g.append('line')
+      .attr('stroke', '#888888')
+      .attr('stroke-width', 1)
+      .attr('stroke-dasharray', '4,4')
+      .attr('y1', 0).attr('y2', innerH)
+      .style('opacity', 0);
+  
+    const hoverDot = g.append('circle')
+      .attr('r', 4)
+      .attr('fill', '#888888')
+      .style('opacity', 0);
+  
+    g.append('rect')
+      .attr('width', innerW)
+      .attr('height', innerH)
+      .attr('fill', 'none')
+      .attr('pointer-events', 'all')
+      .on('mousemove', function(event) {
+        const [mouseX] = d3.pointer(event);
+        const yearVal = x.invert(mouseX);
+        const idx = bisect(bandData, yearVal, 1);
+        const d = bandData[idx] || bandData[bandData.length - 1];
+  
+        hoverLine
+          .attr('x1', x(d.year)).attr('x2', x(d.year))
+          .style('opacity', 1);
+  
+        hoverDot
+          .attr('cx', x(d.year)).attr('cy', y(d.mean))
+          .style('opacity', 1);
+  
+        const tooltipX = mouseX > innerW - 160
+          ? mouseX + margin.left - 150
+          : mouseX + margin.left + 16;
+  
+        tooltip
+          .style('opacity', 1)
+          .style('left', `${tooltipX}px`)
+          .style('top', `${y(d.mean) + margin.top - 20}px`)
+          .html(`
+            <div style="color:#8b949e; margin-bottom:3px">${d.year}</div>
+            <div><span style="color:#888">●</span> Anomaly: <strong>${d.mean > 0 ? '+' : ''}${d.mean.toFixed(3)}°C</strong></div>
+            <div style="color:#8b949e; font-size:11px">Model range: ${d.min.toFixed(2)} to ${d.max.toFixed(2)}°C</div>
+          `);
+      })
+      .on('mouseleave', function() {
+        hoverLine.style('opacity', 0);
+        hoverDot.style('opacity', 0);
+        tooltip.style('opacity', 0);
+      });
+  
+    // ── Legend ───────────────────────────────────────────────
+    const legend = g.append('g').attr('transform', 'translate(20, 10)');
+  
+    legend.append('line')
+      .attr('x1', 0).attr('x2', 24)
+      .attr('y1', 8).attr('y2', 8)
+      .attr('stroke', '#888888')
+      .attr('stroke-width', 2.5);
+  
+    legend.append('text')
+      .attr('x', 30).attr('y', 12)
+      .attr('fill', '#8b949e')
+      .attr('font-size', '11px')
+      .attr('font-family', 'sans-serif')
+      .text('Ensemble mean (4 models)');
+  
+    legend.append('rect')
+      .attr('x', 0).attr('y', 22)
+      .attr('width', 24).attr('height', 10)
+      .attr('fill', '#888888')
+      .attr('opacity', 0.15);
+  
+    legend.append('text')
+      .attr('x', 30).attr('y', 32)
+      .attr('fill', '#8b949e')
+      .attr('font-size', '11px')
+      .attr('font-family', 'sans-serif')
+      .text('Model spread (uncertainty range)');
+  }
 
 // ── Chart 3: SSP fan chart ──────────────────────────────────
 function drawFan() {
