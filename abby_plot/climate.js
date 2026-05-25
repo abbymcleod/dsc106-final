@@ -17,7 +17,7 @@ d3.csv('../cmip6_global_anomaly.csv', d => ({
 function drawKeeling() {
     if (document.querySelector('#chart-keeling svg')) return;
   
-    d3.csv('./keeling.csv', d => ({
+    d3.csv('keeling.csv', d => ({
       year:        +d.year,
       month:       +d.month,
       decimal:     +d.decimal_date,
