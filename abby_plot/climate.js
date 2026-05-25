@@ -789,34 +789,79 @@ function drawAdventure() {
     // ── Emissions impact per choice (tonnes CO2 per person per year saved)
     // scaled to 10 million people, then mapped to SSP anomaly offset
     const choices = [
-      {
-        question: "How does most of America get around?",
-        subtitle:  "This represents 10 million Americans making a transportation choice.",
-        options: [
-          { label: "🚗 Most drive gas-powered cars",     impact: 0.0  },
-          { label: "🚌 Many switch to public transit",   impact: -0.08 },
-          { label: "⚡ Most adopt electric vehicles",    impact: -0.18 }
-        ]
-      },
-      {
-        question: "What does America put on its plate?",
-        subtitle:  "Diet is one of the highest-impact personal choices for emissions.",
-        options: [
-          { label: "🥩 Meat-heavy diets stay the norm",  impact: 0.0  },
-          { label: "🥗 Many reduce meat consumption",    impact: -0.07 },
-          { label: "🌱 Plant-based diets go mainstream", impact: -0.14 }
-        ]
-      },
-      {
-        question: "How does America power its homes?",
-        subtitle:  "Home energy is the third largest source of household emissions.",
-        options: [
-          { label: "🔥 Fossil fuels remain dominant",    impact: 0.0  },
-          { label: "☀️ Many homes add solar/efficiency", impact: -0.06 },
-          { label: "💚 Renewables become the standard",  impact: -0.13 }
-        ]
-      }
-    ];
+        {
+          question: "How does most of America get around?",
+          subtitle:  "This represents 10 million Americans making a transportation choice.",
+          options: [
+            {
+              label:   "🚗 Most drive gas-powered cars",
+              impact:  0.0,
+              fact:    "The average gas car emits <strong>4.6 tonnes of CO₂ per year</strong>. With 10 million drivers, that's 46 million tonnes annually — equivalent to running 12 coal plants.",
+              source:  "EPA, 2023"
+            },
+            {
+              label:   "🚌 Many switch to public transit",
+              impact:  -0.08,
+              fact:    "Switching from a car to public transit saves roughly <strong>2.4 tonnes of CO₂ per person per year</strong>. 10 million Americans making this switch eliminates 24 million tonnes annually.",
+              source:  "American Public Transportation Association, 2023"
+            },
+            {
+              label:   "⚡ Most adopt electric vehicles",
+              impact:  -0.18,
+              fact:    "EVs produce <strong>50–70% less CO₂ over their lifetime</strong> than gas vehicles, even accounting for electricity generation. 10 million EV adopters avoid ~32 million tonnes of CO₂ per year.",
+              source:  "Department of Energy, 2023"
+            }
+          ]
+        },
+        {
+          question: "What does America put on its plate?",
+          subtitle:  "Diet is one of the highest-impact personal choices for emissions.",
+          options: [
+            {
+              label:   "🥩 Meat-heavy diets stay the norm",
+              impact:  0.0,
+              fact:    "A meat-heavy diet produces roughly <strong>3.3 tonnes of CO₂ equivalent per person per year</strong>. Beef alone accounts for 60% of food-related emissions.",
+              source:  "Project Drawdown, 2023"
+            },
+            {
+              label:   "🥗 Many reduce meat consumption",
+              impact:  -0.07,
+              fact:    "Cutting meat consumption in half saves approximately <strong>0.5–1.0 tonnes of CO₂ per person per year</strong>. 10 million Americans doing this removes 7.5 million tonnes annually.",
+              source:  "Oxford University Food Climate Research, 2023"
+            },
+            {
+              label:   "🌱 Plant-based diets go mainstream",
+              impact:  -0.14,
+              fact:    "A plant-based diet produces <strong>50% fewer emissions</strong> than a meat-heavy diet — saving up to 1.5 tonnes per person per year. 10 million adopters eliminate 15 million tonnes annually.",
+              source:  "Poore & Nemecek, Science 2018"
+            }
+          ]
+        },
+        {
+          question: "How does America power its homes?",
+          subtitle:  "Home energy is the third largest source of household emissions.",
+          options: [
+            {
+              label:   "🔥 Fossil fuels remain dominant",
+              impact:  0.0,
+              fact:    "The average American home produces <strong>7.5 tonnes of CO₂ per year</strong> from energy use. Natural gas heating alone accounts for nearly half of residential emissions.",
+              source:  "EPA, 2023"
+            },
+            {
+              label:   "☀️ Many homes add solar/efficiency",
+              impact:  -0.06,
+              fact:    "Adding rooftop solar saves an average of <strong>1.0–1.5 tonnes of CO₂ per household per year</strong>. Combined with efficiency upgrades, 10 million homes could eliminate 12 million tonnes annually.",
+              source:  "NREL, 2022"
+            },
+            {
+              label:   "💚 Renewables become the standard",
+              impact:  -0.13,
+              fact:    "Full electrification with renewable energy can reduce home emissions by <strong>up to 90%</strong>. 10 million homes making this switch avoids 67 million tonnes of CO₂ over a decade.",
+              source:  "Rocky Mountain Institute, 2022"
+            }
+          ]
+        }
+      ];
   
     // ── SSP reference means at 2100 ─────────────────────────
     const sspEnds = {
@@ -1174,12 +1219,63 @@ function drawAdventure() {
             d3.select(this).style('border-color', '#30363d');
           })
           .on('click', function() {
-            totalImpact += opt.impact;
-            choicesMade.push(opt.label);
-            currentStep++;
-            updateYourLine();
-            renderStep();
-          });
+            const chosen = opt;
+          
+            // disable all buttons
+            btnRow.selectAll('button')
+              .style('cursor', 'default')
+              .style('opacity', function() {
+                return d3.select(this).text() === opt.label ? '1' : '0.3';
+              })
+              .on('click', null)
+              .on('mouseover', null)
+              .on('mouseout', null);
+          
+            // highlight chosen button
+            btnRow.selectAll('button')
+              .filter(function() {
+                return d3.select(this).text() === opt.label;
+              })
+              .style('border-color', '#58a6ff')
+              .style('background', '#1c2128');
+          
+            // show fact box
+            panel.append('div')
+              .style('margin-top', '16px')
+              .style('padding', '14px 18px')
+              .style('background', '#1c2128')
+              .style('border', '1px solid #30363d')
+              .style('border-left', '3px solid #58a6ff')
+              .style('border-radius', '6px')
+              .style('font-size', '0.88rem')
+              .style('color', '#e6edf3')
+              .style('line-height', '1.6')
+              .html(`
+                <div style="margin-bottom:6px">${chosen.fact}</div>
+                <div style="color:#8b949e; font-size:0.8rem">Source: ${chosen.source}</div>
+              `);
+          
+            // continue button
+            panel.append('button')
+              .style('margin-top', '14px')
+              .style('padding', '9px 22px')
+              .style('background', '#58a6ff')
+              .style('border', 'none')
+              .style('border-radius', '6px')
+              .style('color', '#0d1117')
+              .style('font-size', '0.9rem')
+              .style('font-family', 'sans-serif')
+              .style('font-weight', 'bold')
+              .style('cursor', 'pointer')
+              .text(currentStep + 1 < choices.length ? 'Next →' : 'See your future →')
+              .on('click', function() {
+                totalImpact += chosen.impact;
+                choicesMade.push(chosen.label);
+                currentStep++;
+                updateYourLine();
+                renderStep();
+              });
+          })
       });
     }
   
