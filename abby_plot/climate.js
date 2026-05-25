@@ -504,18 +504,282 @@ function drawHistorical() {
 
 // ── Chart 3: SSP fan chart ──────────────────────────────────
 function drawFan() {
-  if (!globalData) return;
-  if (document.querySelector('#chart-fan svg')) return;
-  // Full fan chart goes here — similar to Chart 2 but with all scenarios
-  const svg = d3.select('#chart-fan')
-    .append('svg')
-    .attr('width', 900).attr('height', 400);
-  svg.append('text')
-    .attr('x', 450).attr('y', 200)
-    .attr('text-anchor', 'middle')
-    .attr('fill', '#8b949e')
-    .text('SSP fan chart — coming in prototype');
-}
+    if (!globalData) return;
+    if (document.querySelector('#chart-fan svg')) return;
+  
+    const width  = 900, height = 480;
+    const margin = { top: 40, right: 160, bottom: 50, left: 70 };
+    const innerW = width  - margin.left - margin.right;
+    const innerH = height - margin.top  - margin.bottom;
+  
+    const scenarioColors = {
+      historical: '#888888',
+      ssp126:     '#1a9850',
+      ssp245:     '#f6c744',
+      ssp370:     '#f46d43',
+      ssp585:     '#d73027'
+    };
+  
+    const scenarioLabels = {
+      historical: 'Historical',
+      ssp126:     'SSP1-2.6 — Best Case',
+      ssp245:     'SSP2-4.5 — Middle Road',
+      ssp370:     'SSP3-7.0 — High Emissions',
+      ssp585:     'SSP5-8.5 — Worst Case'
+    };
+  
+    const svg = d3.select('#chart-fan')
+      .append('svg')
+      .attr('width', width)
+      .attr('height', height);
+  
+    const g = svg.append('g')
+      .attr('transform', `translate(${margin.left},${margin.top})`);
+  
+    // ── Scales ──────────────────────────────────────────────
+    const x = d3.scaleLinear()
+      .domain([1850, 2100])
+      .range([0, innerW]);
+  
+    const y = d3.scaleLinear()
+      .domain([-0.6, 7])
+      .range([innerH, 0]);
+  
+    // ── Gridlines ───────────────────────────────────────────
+    g.append('g')
+      .attr('class', 'grid')
+      .call(d3.axisLeft(y).tickSize(-innerW).tickFormat(''))
+      .selectAll('line')
+      .attr('stroke', '#21262d')
+      .attr('stroke-dasharray', '3,3');
+  
+    g.select('.grid .domain').remove();
+  
+    // ── Paris threshold lines ────────────────────────────────
+    [1.5, 2.0].forEach(threshold => {
+      g.append('line')
+        .attr('x1', 0).attr('x2', innerW)
+        .attr('y1', y(threshold)).attr('y2', y(threshold))
+        .attr('stroke', '#a78bfa')
+        .attr('stroke-width', 1)
+        .attr('stroke-dasharray', '5,4')
+        .attr('opacity', 0.7);
+  
+      g.append('text')
+        .attr('x', innerW + 6)
+        .attr('y', y(threshold) + 4)
+        .attr('fill', '#a78bfa')
+        .attr('font-size', '11px')
+        .attr('font-family', 'sans-serif')
+        .text(`${threshold}°C`);
+    });
+  
+    // ── 2015 handoff line ────────────────────────────────────
+    g.append('line')
+      .attr('x1', x(2015)).attr('x2', x(2015))
+      .attr('y1', 0).attr('y2', innerH)
+      .attr('stroke', '#444')
+      .attr('stroke-width', 1)
+      .attr('stroke-dasharray', '4,4');
+  
+    g.append('text')
+      .attr('x', x(2015) + 6)
+      .attr('y', 14)
+      .attr('fill', '#8b949e')
+      .attr('font-size', '11px')
+      .attr('font-family', 'sans-serif')
+      .text('Projections →');
+  
+    // ── Draw each scenario ───────────────────────────────────
+    const scenarios = ['historical', 'ssp126', 'ssp245', 'ssp370', 'ssp585'];
+  
+    scenarios.forEach(scenario => {
+      const scenData = globalData.filter(d => d.scenario === scenario);
+  
+      // ensemble mean per year
+      const byYear = d3.rollup(scenData, v => ({
+        mean: d3.mean(v, d => d.anomaly),
+        min:  d3.min(v,  d => d.anomaly),
+        max:  d3.max(v,  d => d.anomaly)
+      }), d => d.year);
+  
+      const band = Array.from(byYear, ([year, vals]) =>
+        ({ year, ...vals })
+      ).sort((a, b) => a.year - b.year);
+  
+      const color = scenarioColors[scenario];
+  
+      // uncertainty band (SSP scenarios only)
+      if (scenario !== 'historical') {
+        const area = d3.area()
+          .x(d => x(d.year))
+          .y0(d => y(d.min))
+          .y1(d => y(d.max))
+          .curve(d3.curveBasis);
+  
+        g.append('path')
+          .datum(band)
+          .attr('fill', color)
+          .attr('opacity', 0.12)
+          .attr('d', area);
+      }
+  
+      // mean line
+      const line = d3.line()
+        .x(d => x(d.year))
+        .y(d => y(d.mean))
+        .curve(d3.curveBasis);
+  
+      g.append('path')
+        .datum(band)
+        .attr('fill', 'none')
+        .attr('stroke', color)
+        .attr('stroke-width', scenario === 'historical' ? 2 : 2.5)
+        .attr('d', line);
+  
+      // end label for SSP scenarios
+      if (scenario !== 'historical') {
+        const last = band[band.length - 1];
+        g.append('text')
+          .attr('x', x(last.year) + 6)
+          .attr('y', y(last.mean) + 4)
+          .attr('fill', color)
+          .attr('font-size', '11px')
+          .attr('font-family', 'sans-serif')
+          .text(`+${last.mean.toFixed(1)}°C`);
+      }
+    });
+  
+    // ── Axes ────────────────────────────────────────────────
+    g.append('g')
+      .attr('transform', `translate(0,${innerH})`)
+      .call(d3.axisBottom(x).tickFormat(d3.format('d')).ticks(10))
+      .selectAll('text')
+      .attr('fill', '#8b949e')
+      .attr('font-family', 'sans-serif');
+  
+    g.append('g')
+      .call(d3.axisLeft(y).tickFormat(d => `${d > 0 ? '+' : ''}${d}°C`))
+      .selectAll('text')
+      .attr('fill', '#8b949e')
+      .attr('font-family', 'sans-serif');
+  
+    g.selectAll('.domain').attr('stroke', '#30363d');
+    g.selectAll('.tick line').attr('stroke', '#30363d');
+  
+    // ── Y axis label ────────────────────────────────────────
+    g.append('text')
+      .attr('transform', 'rotate(-90)')
+      .attr('x', -innerH / 2)
+      .attr('y', -55)
+      .attr('text-anchor', 'middle')
+      .attr('fill', '#8b949e')
+      .attr('font-size', '12px')
+      .attr('font-family', 'sans-serif')
+      .text('Temperature Anomaly (°C vs. 1850–1900)');
+  
+    // ── Legend ───────────────────────────────────────────────
+    const legend = g.append('g')
+      .attr('transform', `translate(20, 10)`);
+  
+    scenarios.forEach((scenario, i) => {
+      const ly = i * 22;
+      const color = scenarioColors[scenario];
+  
+      legend.append('line')
+        .attr('x1', 0).attr('x2', 24)
+        .attr('y1', ly + 8).attr('y2', ly + 8)
+        .attr('stroke', color)
+        .attr('stroke-width', 2.5);
+  
+      legend.append('text')
+        .attr('x', 30).attr('y', ly + 12)
+        .attr('fill', '#8b949e')
+        .attr('font-size', '11px')
+        .attr('font-family', 'sans-serif')
+        .text(scenarioLabels[scenario]);
+    });
+  
+    // ── Tooltip ─────────────────────────────────────────────
+    const tooltip = d3.select('#chart-fan')
+      .append('div')
+      .style('position', 'absolute')
+      .style('background', '#1c2128')
+      .style('border', '1px solid #30363d')
+      .style('border-radius', '6px')
+      .style('padding', '8px 12px')
+      .style('font-family', 'sans-serif')
+      .style('font-size', '12px')
+      .style('color', '#e6edf3')
+      .style('pointer-events', 'none')
+      .style('opacity', 0);
+  
+    // precompute all scenario band data for tooltip lookup
+    const allBands = {};
+    scenarios.forEach(scenario => {
+      const scenData = globalData.filter(d => d.scenario === scenario);
+      const byYear = d3.rollup(scenData, v => ({
+        mean: d3.mean(v, d => d.anomaly)
+      }), d => d.year);
+      allBands[scenario] = Array.from(byYear, ([year, vals]) =>
+        ({ year, ...vals })
+      ).sort((a, b) => a.year - b.year);
+    });
+  
+    const bisect = d3.bisector(d => d.year).left;
+  
+    const hoverLine = g.append('line')
+      .attr('stroke', '#555')
+      .attr('stroke-width', 1)
+      .attr('stroke-dasharray', '4,4')
+      .attr('y1', 0).attr('y2', innerH)
+      .style('opacity', 0);
+  
+    g.append('rect')
+      .attr('width', innerW)
+      .attr('height', innerH)
+      .attr('fill', 'none')
+      .attr('pointer-events', 'all')
+      .on('mousemove', function(event) {
+        const [mouseX] = d3.pointer(event);
+        const yearVal = Math.round(x.invert(mouseX));
+  
+        hoverLine
+          .attr('x1', x(yearVal)).attr('x2', x(yearVal))
+          .style('opacity', 1);
+  
+        // build tooltip rows for each scenario
+        const rows = scenarios.map(scenario => {
+          const band = allBands[scenario];
+          const idx  = bisect(band, yearVal, 1);
+          const d    = band[idx] || band[band.length - 1];
+          const color = scenarioColors[scenario];
+          const label = scenarioLabels[scenario].split(' — ')[0];
+          return `<div style="margin-bottom:2px">
+            <span style="color:${color}">●</span>
+            ${label}: <strong>${d.mean > 0 ? '+' : ''}${d.mean.toFixed(2)}°C</strong>
+          </div>`;
+        }).join('');
+  
+        const tooltipX = mouseX > innerW - 200
+          ? mouseX + margin.left - 210
+          : mouseX + margin.left + 16;
+  
+        tooltip
+          .style('opacity', 1)
+          .style('left', `${tooltipX}px`)
+          .style('top',  `${margin.top}px`)
+          .html(`
+            <div style="color:#8b949e; margin-bottom:6px;
+                 font-weight:bold">${yearVal}</div>
+            ${rows}
+          `);
+      })
+      .on('mouseleave', function() {
+        hoverLine.style('opacity', 0);
+        tooltip.style('opacity', 0);
+      });
+  }
 
 // ── Chart 4: Adventure ──────────────────────────────────────
 function drawAdventure() {
