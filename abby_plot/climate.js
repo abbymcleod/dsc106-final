@@ -187,7 +187,7 @@ function drawKeeling() {
         .attr('font-size', '11px')
         .attr('font-family', 'sans-serif')
         .text('Monthly raw (seasonal variation)');
-        
+
       // ── Tooltip ─────────────────────────────────────────────────
         const tooltip = d3.select('#chart-keeling')
         .append('div')
