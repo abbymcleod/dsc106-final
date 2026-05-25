@@ -4,84 +4,97 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Choose Your Future</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="abby_plot/abby.css" />
-  <link rel="stylesheet" href="chdiebere_plot/chdiebere.css" />
-</head>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
 
+    body {
+      font-family: 'Georgia', serif;
+      background: #0d1117;
+      color: #e6edf3;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    h1 {
+      font-size: 2.6rem;
+      color: #ffffff;
+      margin-bottom: 12px;
+      text-align: center;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: #8b949e;
+      margin-bottom: 60px;
+      text-align: center;
+    }
+
+    .card-grid {
+      display: flex;
+      gap: 32px;
+    }
+
+    .card {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      padding: 48px 40px;
+      text-align: center;
+      text-decoration: none;
+      color: inherit;
+      width: 240px;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+
+    .card:hover {
+      border-color: #58a6ff;
+      transform: translateY(-4px);
+    }
+
+    .card-name {
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+
+    .card-desc {
+      font-size: 0.9rem;
+      color: #8b949e;
+      line-height: 1.5;
+    }
+
+    .card-arrow {
+      display: block;
+      margin-top: 24px;
+      font-size: 1.4rem;
+      color: #58a6ff;
+    }
+  </style>
+</head>
 <body>
 
-  <!-- ── Site Header ─────────────────────────────────────── -->
-  <header id="site-header">
-    <h1 id="site-title">Choose Your Future</h1>
-    <p id="site-subtitle">How Today's Emissions Decide Tomorrow's Climate</p>
+  <h1>Choose Your Future</h1>
+  <p class="subtitle">How Today's Emissions Decide Tomorrow's Climate</p>
 
-    <!-- Tab Navigation -->
-    <nav id="tab-nav">
-      <button class="tab-btn active" data-tab="abby">
-        The Story
-      </button>
-      <button class="tab-btn" data-tab="chdiebere">
-        The Data
-      </button>
-    </nav>
-  </header>
+  <div class="card-grid">
 
-  <!-- ── Abby's Tab ──────────────────────────────────────── -->
-  <div class="tab-panel active" id="tab-abby">
+    <a class="card" href="abby_plot/index.html">
+      <div class="card-name">Abby</div>
+      <div class="card-desc">abby plot</div>
+      <span class="card-arrow">→</span>
+    </a>
 
-    <section class="scroll-section" id="section-now">
-      <div class="text-block">
-        <h2>Where Are We Now?</h2>
-        <p>Atmospheric CO₂ has reached 425 ppm — higher than at any
-           point in the last 800,000 years.</p>
-      </div>
-      <div class="chart-block" id="chart-keeling"></div>
-    </section>
-
-    <section class="scroll-section" id="section-history">
-      <div class="text-block">
-        <h2>How Did We Get Here?</h2>
-        <p>Since the Industrial Revolution, human emissions have driven
-           global temperatures up nearly 1.2°C above pre-industrial levels.</p>
-      </div>
-      <div class="chart-block" id="chart-historical"></div>
-    </section>
-
-    <section class="scroll-section" id="section-futures">
-      <div class="text-block">
-        <h2>Where Could We Go?</h2>
-        <p>Climate scientists have modeled four possible futures depending
-           on how aggressively humanity reduces emissions.</p>
-      </div>
-      <div class="chart-block" id="chart-fan"></div>
-    </section>
-
-    <section class="scroll-section" id="section-adventure">
-      <div class="text-block">
-        <h2>What's Your Role?</h2>
-        <p>Each choice below represents 10 million Americans making a
-           change. Watch how collective decisions shift our trajectory.</p>
-      </div>
-      <div class="chart-block" id="chart-adventure"></div>
-    </section>
+    <a class="card" href="chidiebere_plot/index.html">
+      <div class="card-name">Chidiebere</div>
+      <div class="card-desc">Chidiebere plot</div>
+      <span class="card-arrow">→</span>
+    </a>
 
   </div>
-
-  <!-- ── Chidiebere's Tab ─────────────────────────────────── -->
-  <div class="tab-panel" id="tab-chdiebere">
-    <div id="chdiebere-content">
-      <!-- Chidiebere builds inside here -->
-      <p class="placeholder-text">Chidiebere's visualization coming soon.</p>
-    </div>
-  </div>
-
-  <!-- ── Scripts ─────────────────────────────────────────── -->
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-  <script src="https://unpkg.com/scrollama"></script>
-  <script src="abby_plot/abby.js"></script>
-  <script src="chdiebere_plot/chdiebere.js"></script>
-  <script src="main.js"></script>
 
 </body>
 </html>
