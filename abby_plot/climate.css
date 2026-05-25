@@ -1,0 +1,14 @@
+/* Chart-specific styles */
+#chart-historical svg,
+#chart-fan svg,
+#chart-keeling svg,
+#chart-adventure svg {
+  background: #161b22;
+  border-radius: 8px;
+  border: 1px solid #21262d;
+}
+
+.axis path,
+.axis line {
+  stroke: #30363d;
+}
