@@ -119,3 +119,22 @@ function drawAdventure() {
     .attr('fill', '#8b949e')
     .text('Adventure mechanic — coming in prototype');
 }
+
+// ── Scrollama setup ─────────────────────────────────────────
+window.addEventListener('load', () => {
+    const scroller = scrollama();
+  
+    scroller
+      .setup({
+        step: '.scroll-section',
+        offset: 0.5,
+        debug: false
+      })
+      .onStepEnter(response => {
+        const id = response.element.id;
+        if (id === 'section-now')       drawKeeling();
+        if (id === 'section-history')   drawHistorical();
+        if (id === 'section-futures')   drawFan();
+        if (id === 'section-adventure') drawAdventure();
+      });
+  });

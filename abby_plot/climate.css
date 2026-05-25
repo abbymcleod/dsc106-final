@@ -12,3 +12,96 @@
 .axis line {
   stroke: #30363d;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Georgia', serif;
+    background: #0d1117;
+    color: #e6edf3;
+  }
+  
+  #site-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #0d1117;
+    border-bottom: 1px solid #21262d;
+    padding: 20px 40px;
+    text-align: center;
+  }
+  
+  #back-link {
+    position: absolute;
+    left: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #58a6ff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+  }
+  
+  #back-link:hover {
+    text-decoration: underline;
+  }
+  
+  #site-title {
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-bottom: 4px;
+  }
+  
+  #site-subtitle {
+    font-size: 0.95rem;
+    color: #8b949e;
+    font-family: sans-serif;
+  }
+  
+  .scroll-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 40px;
+    border-bottom: 1px solid #21262d;
+  }
+  
+  .text-block {
+    max-width: 680px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .text-block h2 {
+    font-size: 1.8rem;
+    margin-bottom: 16px;
+    color: #ffffff;
+  }
+  
+  .text-block p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #8b949e;
+    font-family: sans-serif;
+  }
+  
+  .chart-block {
+    width: 100%;
+    max-width: 900px;
+    min-height: 400px;
+  }
+  
+  #chart-historical svg,
+  #chart-fan svg,
+  #chart-keeling svg,
+  #chart-adventure svg {
+    background: #161b22;
+    border-radius: 8px;
+    border: 1px solid #21262d;
+  }
