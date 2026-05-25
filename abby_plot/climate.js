@@ -187,7 +187,85 @@ function drawKeeling() {
         .attr('font-size', '11px')
         .attr('font-family', 'sans-serif')
         .text('Monthly raw (seasonal variation)');
-  
+        
+      // ── Tooltip ─────────────────────────────────────────────────
+        const tooltip = d3.select('#chart-keeling')
+        .append('div')
+        .style('position', 'absolute')
+        .style('background', '#1c2128')
+        .style('border', '1px solid #30363d')
+        .style('border-radius', '6px')
+        .style('padding', '8px 12px')
+        .style('font-family', 'sans-serif')
+        .style('font-size', '12px')
+        .style('color', '#e6edf3')
+        .style('pointer-events', 'none')
+        .style('opacity', 0);
+
+        // invisible overlay to capture mouse position
+        const bisect = d3.bisector(d => d.decimal).left;
+
+        const overlay = g.append('rect')
+        .attr('width', innerW)
+        .attr('height', innerH)
+        .attr('fill', 'none')
+        .attr('pointer-events', 'all');
+
+        // vertical hover line
+        const hoverLine = g.append('line')
+        .attr('stroke', '#58a6ff')
+        .attr('stroke-width', 1)
+        .attr('stroke-dasharray', '4,4')
+        .attr('y1', 0)
+        .attr('y2', innerH)
+        .style('opacity', 0);
+
+        // hover dot
+        const hoverDot = g.append('circle')
+        .attr('r', 4)
+        .attr('fill', '#58a6ff')
+        .style('opacity', 0);
+
+        overlay.on('mousemove', function(event) {
+        const [mouseX] = d3.pointer(event);
+        const decimalVal = x.invert(mouseX);
+        const idx = bisect(data, decimalVal, 1);
+        const d = data[idx] || data[data.length - 1];
+
+        const months = ['Jan','Feb','Mar','Apr','May','Jun',
+                        'Jul','Aug','Sep','Oct','Nov','Dec'];
+        const monthLabel = months[d.month - 1];
+
+        hoverLine
+        .attr('x1', x(d.decimal))
+        .attr('x2', x(d.decimal))
+        .style('opacity', 1);
+
+        hoverDot
+        .attr('cx', x(d.decimal))
+        .attr('cy', y(d.co2_smooth))
+        .style('opacity', 1);
+
+        // flip tooltip to left side if near right edge
+        const tooltipX = mouseX > innerW - 160
+        ? mouseX + margin.left - 150
+        : mouseX + margin.left + 16;
+
+        tooltip
+        .style('opacity', 1)
+        .style('left', `${tooltipX}px`)
+        .style('top',  `${y(d.co2_smooth) + margin.top - 20}px`)
+        .html(`
+            <div style="color:#8b949e; margin-bottom:3px">${monthLabel} ${d.year}</div>
+            <div><span style="color:#58a6ff">●</span> CO₂: <strong>${d.co2_raw.toFixed(2)} ppm</strong></div>
+            <div><span style="color:#58a6ff; opacity:0.5">●</span> Trend: <strong>${d.co2_smooth.toFixed(2)} ppm</strong></div>
+        `);
+        })
+        .on('mouseleave', function() {
+        hoverLine.style('opacity', 0);
+        hoverDot.style('opacity', 0);
+        tooltip.style('opacity', 0);
+        });
     });
   }
 
