@@ -117,3 +117,15 @@
   #chart-fan {
     position: relative;
   }
+
+  #chart-adventure {
+    position: relative;
+  }
+  
+  #adventure-panel {
+    color: #e6edf3;
+  }
+  
+  #adventure-panel button:hover {
+    background: #21262d !important;
+  }
