@@ -172,8 +172,8 @@
       .on("mousemove", function(event, d) {
         tooltip
           .style("opacity", 1)
-          .style("left",  `${event.pageX + 12}px`)
-          .style("top",   `${event.pageY + 12}px`)
+          .style("left",  `${event.clientX + 12}px`)
+          .style("top",   `${event.clientY - 30}px`)
           .html(`
             <strong>${d.city}</strong><br>
             ${getRiskLabel(d.sea_level_cm)}<br>
