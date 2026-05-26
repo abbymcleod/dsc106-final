@@ -1218,6 +1218,14 @@ function drawAdventure() {
         .style('color', '#8b949e')
         .style('margin-bottom', '14px')
         .text(step.subtitle);
+
+      panel.append('div')
+        .style('font-size', '0.75rem')
+        .style('color', '#444')
+        .style('margin-bottom', '14px')
+        .style('font-style', 'italic')
+        .text('Trajectory shifts are illustrative, based on proportional scaling of EPA emissions factors and Project Drawdown estimates. Individual behavior savings do not map 1:1 to CMIP6 model outputs.');
+      
   
       const btnRow = panel.append('div')
         .style('display', 'flex')
