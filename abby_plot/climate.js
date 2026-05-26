@@ -1157,6 +1157,29 @@ function drawAdventure() {
             font-size:13px; font-family:sans-serif;">
             ↺ Try different choices
           </button>
+          <div style="margin-top: 24px; padding-top: 20px; 
+              border-top: 1px solid #21262d;">
+            <div style="font-size: 0.9rem; color: #8b949e; margin-bottom: 8px;">
+              But what does +${yourEnd.toFixed(1)}°C actually mean?
+            </div>
+            <div style="font-size: 1rem; color: #e6edf3; margin-bottom: 12px;">
+              Temperature numbers can feel abstract. Scroll down to see 
+              what your trajectory means for America's coastlines — in 
+              real cities, in real decades.
+            </div>
+            <a href="#section-sealevel" style="
+              display: inline-block;
+              padding: 9px 22px;
+              background: transparent;
+              border: 1px solid #58a6ff;
+              color: #58a6ff;
+              border-radius: 6px;
+              font-size: 0.9rem;
+              font-family: sans-serif;
+              text-decoration: none;">
+              See the impact on coastal cities ↓
+            </a>
+          </div>
         `);
   
       document.getElementById('restart-btn').addEventListener('click', () => {
