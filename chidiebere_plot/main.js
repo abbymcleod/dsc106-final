@@ -19,10 +19,9 @@
   const path = d3.geoPath(projection);
   const CITY_NOTES = {
   "Boston MA":
-    "Boston finishes with a moderate projected risk in this CMIP6 scenario. While projected sea-level anomalies remain lower than many Atlantic cities, coastal infrastructure near the harbor may still face increased flooding risk over time.",
-
+    "Boston reaches a critical risk level because its historic waterfront, dense coastal neighborhoods, and aging infrastructure are highly exposed to rising seas and storm surge, increasing the likelihood of widespread flooding and long-term disruption along the harbor.",
   "New York NY":
-    "New York reaches a high projected risk because even moderate increases in sea level can affect densely developed coastal areas, tidal waterways, and transportation infrastructure.",
+    "New York reaches a critical risk level because its dense coastal development and low-lying infrastructure — including subways, tunnels, and airports — make even modest sea level rise capable of causing widespread flooding and major disruptions across the city.",
 
   "Atlantic City NJ":
     "Atlantic City reaches critical projected risk in this visualization. Barrier-island communities are especially exposed to sea-level rise because small increases in ocean height can affect large low-lying coastal areas.",
