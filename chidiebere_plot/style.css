@@ -46,6 +46,11 @@ body {
     text-align: center;
     margin: 40px 0 24px;
   }
+  p {
+    text-align: center;
+    color: #8b949e;
+    margin-bottom: 30px;
+  }
 
   #content {
      min-height: 100vh;
