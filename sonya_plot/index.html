@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How Much Will Your Region Warm?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>How Much Will Your Region Warm?</h1>
+  <p class="subtitle">
+    Drag the slider to set a 2100 CO₂ concentration target, then explore how
+    warming differs across latitude bands. The white dashed line shows your
+    custom scenario; faint colored lines show the four SSP reference pathways.
+  </p>
+
+  <div class="controls">
+    <div class="control-group">
+      <label>Select Region</label>
+      <div id="band-buttons"></div>
+    </div>
+
+    <div class="control-group">
+      <label>Your 2100 CO₂ Target</label>
+      <div class="slider-row">
+        <input type="range" id="co2-slider" step="5">
+        <span id="co2-display">— ppm</span>
+      </div>
+      <div class="slider-labels">
+        <span>446 ppm (aggressive cuts)</span>
+        <span>1135 ppm (no action)</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="result-card">
+    Your scenario is closest to: <strong id="nearest-ssp">—</strong>
+  </div>
+
+  <div id="chart"></div>
+  <div id="tooltip"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="main.js"></script>
+</body>
+</html>

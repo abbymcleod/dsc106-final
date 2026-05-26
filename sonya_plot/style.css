@@ -1,0 +1,149 @@
+:root {
+  --bg: #0f1117;
+  --surface: #1a1d27;
+  --border: #2e3142;
+  --text: #e8eaf0;
+  --text-muted: #8b90a8;
+  --accent: #ffffff;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Inter", system-ui, sans-serif;
+  min-height: 100vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+h1, .subtitle {
+  text-align: center;
+}
+
+.subtitle {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  max-width: 640px;
+  line-height: 1.5;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  margin-bottom: 1.5rem;
+  max-width: 760px;
+}
+
+.control-group label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+#band-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.band-btn {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.band-btn:hover { border-color: #fff; color: #fff; }
+
+.band-btn.active {
+  background: #fff;
+  border-color: #fff;
+  color: #0f1117;
+  font-weight: 600;
+}
+
+.slider-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.slider-row input[type=range] {
+  flex: 1;
+  accent-color: #fff;
+  cursor: pointer;
+}
+
+.slider-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 0.3rem;
+}
+
+#co2-display {
+  font-size: 1rem;
+  font-weight: 600;
+  min-width: 80px;
+  color: #fff;
+}
+
+.result-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.9rem 1.2rem;
+  font-size: 0.88rem;
+  max-width: 760px;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.result-card span { color: var(--text-muted); }
+
+#nearest-ssp {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+#chart svg { display: block; }
+
+.axis text { fill: var(--text-muted); font-size: 11px; }
+.axis path, .axis line { stroke: var(--border); }
+.axis-label { fill: var(--text-muted); font-size: 12px; }
+.end-label { fill: #ffffff; font-size: 12px; font-weight: 600; }
+
+#tooltip {
+  position: fixed;
+  display: none;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.82rem;
+  pointer-events: none;
+  z-index: 100;
+  color: var(--text);
+}
