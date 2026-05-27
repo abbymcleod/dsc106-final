@@ -6,7 +6,7 @@
   let selectedCity     = null;
   let playTimer        = null;
   let rawData, citySummary;
-
+  let includeTotalSeaLevel = false;
   const svg = d3.select("#map")
     .attr("viewBox", [0, 0, width, height]);
 
@@ -17,41 +17,78 @@
     .scale(1200);
 
   const path = d3.geoPath(projection);
-  const CITY_NOTES = {
-  "Boston MA":
-    "Boston reaches a critical risk level because its historic waterfront, dense coastal neighborhoods, and aging infrastructure are highly exposed to rising seas and storm surge, increasing the likelihood of widespread flooding and long-term disruption along the harbor.",
-  "New York NY":
-    "New York reaches a critical risk level because its dense coastal development and low-lying infrastructure — including subways, tunnels, and airports — make even modest sea level rise capable of causing widespread flooding and major disruptions across the city.",
+  const CITY_NOTES_CMIP = {
+    "Boston MA":
+      "Boston reaches a critical risk level because its historic waterfront, dense coastal neighborhoods, and aging infrastructure are highly exposed to rising seas and storm surge, increasing the likelihood of widespread flooding and long-term disruption along the harbor.",
+    "New York NY":
+      "New York reaches a critical risk level because its dense coastal development and low-lying infrastructure — including subways, tunnels, and airports — make even modest sea level rise capable of causing widespread flooding and major disruptions across the city.",
 
-  "Atlantic City NJ":
-    "Atlantic City reaches critical projected risk in this visualization. Barrier-island communities are especially exposed to sea-level rise because small increases in ocean height can affect large low-lying coastal areas.",
+    "Atlantic City NJ":
+      "Atlantic City reaches critical projected risk in this visualization. Barrier-island communities are especially exposed to sea-level rise because small increases in ocean height can affect large low-lying coastal areas.",
 
-  "Norfolk VA":
-    "Norfolk shows one of the highest projected risks in the dataset. The city’s coastal position along the Chesapeake Bay makes it highly sensitive to rising sea levels and recurrent tidal flooding.",
+    "Norfolk VA":
+      "Norfolk shows one of the highest projected risks in the dataset. The city’s coastal position along the Chesapeake Bay makes it highly sensitive to rising sea levels and recurrent tidal flooding.",
 
-  "Charleston SC":
-    "Charleston reaches high projected risk because much of the historic coastal city lies close to sea level near tidal waterways and marshland environments.",
+    "Charleston SC":
+      "Charleston reaches high projected risk because much of the historic coastal city lies close to sea level near tidal waterways and marshland environments.",
 
-  "Miami FL":
-    "Miami shows moderate projected risk in this CMIP6 anomaly dataset, though even relatively small increases in sea level may worsen coastal flooding and saltwater intrusion.",
+    "Miami FL":
+      "Miami shows moderate projected risk in this CMIP6 anomaly dataset, though even relatively small increases in sea level may worsen coastal flooding and saltwater intrusion.",
 
-  "Tampa FL":
-    "Tampa reaches moderate projected risk in this CMIP6 anomaly dataset. While projected sea-level anomalies are lower than some Atlantic Coast cities, low-lying development around Tampa Bay may still face increasing coastal flooding risk over time.",
-  "New Orleans LA":
-  "New Orleans reaches moderate projected risk in this CMIP6 anomaly dataset. Although its projected dynamic sea-level anomaly is lower than some Atlantic Coast cities, the surrounding coastal region remains highly sensitive to rising water levels because much of the area is already low-lying and close to sea level.",
+    "Tampa FL":
+      "Tampa reaches moderate projected risk in this CMIP6 anomaly dataset. While projected sea-level anomalies are lower than some Atlantic Coast cities, low-lying development around Tampa Bay may still face increasing coastal flooding risk over time.",
+    "New Orleans LA":
+    "New Orleans reaches moderate projected risk in this CMIP6 anomaly dataset. Although its projected dynamic sea-level anomaly is lower than some Atlantic Coast cities, the surrounding coastal region remains highly sensitive to rising water levels because much of the area is already low-lying and close to sea level.",
 
-  "Galveston TX":
-    "Galveston reaches moderate projected risk in this CMIP6 scenario. As a barrier-island city along the Gulf Coast, it remains exposed to shoreline change and coastal flooding.",
+    "Galveston TX":
+      "Galveston reaches moderate projected risk in this CMIP6 scenario. As a barrier-island city along the Gulf Coast, it remains exposed to shoreline change and coastal flooding.",
 
-  "Seattle WA":
-    "Seattle shows one of the lowest projected risks in the dataset, with smaller projected CMIP6 sea-level anomalies compared with Atlantic and Gulf Coast cities.",
+    "Seattle WA":
+      "Seattle shows one of the lowest projected risks in the dataset, with smaller projected CMIP6 sea-level anomalies compared with Atlantic and Gulf Coast cities.",
 
-  "San Francisco CA":
-    "San Francisco reaches moderate projected risk. Although projected anomalies are lower than many East Coast cities, low-lying shoreline areas around the Bay remain sensitive to sea-level rise.",
+    "San Francisco CA":
+      "San Francisco reaches moderate projected risk. Although projected anomalies are lower than many East Coast cities, low-lying shoreline areas around the Bay remain sensitive to sea-level rise.",
 
-  "Honolulu HI":
-    "Honolulu shows moderate projected risk in this dataset. Even modest sea-level increases may affect beaches, coastal roads, and shoreline infrastructure on island coastlines."
+    "Honolulu HI":
+      "Honolulu shows moderate projected risk in this dataset. Even modest sea-level increases may affect beaches, coastal roads, and shoreline infrastructure on island coastlines."
 };
+  const CITY_NOTES_IPCC = {
+    "Boston MA":
+      "Boston reaches a critical risk level because its historic waterfront, dense coastal neighborhoods, and aging infrastructure are highly exposed to rising seas and storm surge, increasing the likelihood of widespread flooding and long-term disruption along the harbor.",
+
+    "New York NY":
+      "New York reaches a critical risk level because its dense coastal development and low-lying infrastructure — including subways, tunnels, and airports — make even modest sea level rise capable of causing widespread flooding and major disruptions across the city.",
+
+    "Atlantic City NJ":
+      "Atlantic City reaches a critical risk level because its low-lying barrier island position leaves it highly vulnerable to total sea-level rise, where even gradual increases can inundate large portions of the developed coastline.",
+
+    "Norfolk VA":
+      "Norfolk reaches a critical risk level because the combination of rising seas and ongoing land subsidence makes it one of the most flood-exposed cities on the East Coast, with tidal flooding already affecting daily life.",
+
+    "Charleston SC":
+      "Charleston reaches a critical risk level because much of its historic downtown sits close to sea level near tidal waterways, making it increasingly susceptible to chronic flooding as total sea-level projections rise.",
+
+    "Miami FL":
+      "Miami reaches a critical risk level because its porous limestone geology prevents effective flood barriers, meaning total sea-level rise can push water up through the ground even where seawalls exist.",
+
+    "Tampa FL":
+      "Tampa reaches a critical risk level because the shallow, enclosed geometry of Tampa Bay amplifies the impact of rising seas, increasing the risk of coastal flooding across its low-lying shoreline development.",
+
+    "New Orleans LA":
+      "New Orleans reaches a critical risk level because much of the city already sits below sea level, meaning any additional rise in total sea-level projections directly worsens an already precarious flood situation.",
+
+    "Galveston TX":
+      "Galveston reaches a critical risk level because its flat barrier island geography offers little elevation buffer, leaving the city highly exposed to total sea-level rise and intensifying Gulf Coast storm surge.",
+
+    "Seattle WA":
+      "Seattle reaches a high risk level because Pacific Coast sea-level dynamics and slower regional rise keep total projections below the critical threshold, though low-lying shoreline areas around Puget Sound remain increasingly at risk.",
+
+    "San Francisco CA":
+      "San Francisco reaches a high risk level because while total sea-level projections remain below the critical threshold, low-lying areas around the Bay face growing exposure to tidal flooding and coastal erosion over time.",
+
+    "Honolulu HI":
+      "Honolulu reaches a critical risk level because while total sea-level projections are lower than many mainland cities, its island geography leaves limited options for inland retreat, making even modest rise consequential for coastal communities."
+  };
 
   // ── Scales ─────────────────────────────────────────────────────────────────
   // Color: matches your original threshold logic
@@ -59,22 +96,19 @@
     .domain([15, 25])
     .range(["#58a6ff", "#e3b341", "#f85149"]);
 
-  // NEW: radius encodes magnitude (your dormant radiusScale, now active)
-  const radiusScale = d3.scaleSqrt()
-    .domain([0, 120])
-    .range([5, 22]);
-
   // ── Load data ───────────────────────────────────────────────────────────────
   Promise.all([
-    d3.json("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json"),
-    d3.csv("data/combined_city_sea_level.csv", d3.autoType)
-  ]).then(([us, data]) => {
-    rawData = data;
-    rawData.forEach(d => { if (d.lon > 180) d.lon -= 360; });
-    drawBaseMap(us);
-    processData();
-    buildLegend();
-    updateMap();
+  d3.json("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json"),
+  d3.csv("data/combined_city_sea_level.csv", d3.autoType),
+  d3.csv("data/all_cities_total_sea_level.csv", d3.autoType)
+  ]).then(([us, data, totalData]) => {
+  rawData = data;
+  rawData.forEach(d => { if (d.lon > 180) d.lon -= 360; });
+
+  processData(totalData);
+  drawBaseMap(us);
+  buildLegend();
+  updateMap();
   });
 
   // ── Base map (unchanged from yours) ────────────────────────────────────────
@@ -89,7 +123,7 @@
   }
 
   // ── processData: now builds ALL years, not just 2100 ──────────────────────
-  function processData() {
+  function processData(totalData) {
     const baselineByCityModel = d3.rollup(
       rawData.filter(d =>
         d.scenario === "historical" &&
@@ -133,8 +167,15 @@
         years.map(([year, summary]) => summary)
       )
     );
+    citySummary.forEach(d => {
+    const match = totalData.find(t =>
+    t.city === d.city &&
+    t.scenario === d.scenario &&
+    t.year === d.year
+    );
 
-    console.log("citySummary:", citySummary);
+    d.total_sea_level_cm = match ? match.total_sea_level_cm : NaN;
+    });
 }
 
   // ── updateMap: animated transitions + dual encoding ────────────────────────
@@ -164,8 +205,8 @@
     dots.transition().duration(300)
       .attr("cx",   d => projection([d.lon, d.lat])?.[0])
       .attr("cy",   d => projection([d.lon, d.lat])?.[1])
-      .attr("r",    d => radiusScale(d.sea_level_cm))      // ← now active
-      .attr("fill", d => colorScale(d.sea_level_cm));
+      .attr("r", d => getRadiusScale()(getSeaLevelValue(d)))
+      .attr("fill", d => getRiskColor(getSeaLevelValue(d)));
 
     // Tooltip — unchanged from your original
     dots
@@ -176,9 +217,10 @@
           .style("top",   `${event.clientY - 30}px`)
           .html(`
             <strong>${d.city}</strong><br>
-            ${getRiskLabel(d.sea_level_cm)}<br>
+            ${getRiskLabel(getSeaLevelValue(d))}<br>
             Scenario: ${formatScenario(d.scenario)}<br>
-            <strong>${d.sea_level_cm.toFixed(1)} cm</strong> above 1995–2014
+            <strong>${getSeaLevelValue(d).toFixed(1)} cm</strong>
+            ${includeTotalSeaLevel ? "total projected rise" : "above 1995–2014"}
           `);
       })
       .on("mouseleave", () => tooltip.style("opacity", 0))
@@ -208,8 +250,9 @@
       d.year     === selectedYear
     );
     if (!current) return;
+    const currentValue = getSeaLevelValue(current);
 
-    const riskLabel = getRiskLabel(current.sea_level_cm);
+    const riskLabel = getRiskLabel(currentValue);
     const riskClass = riskLabel === "Critical risk" ? "risk-critical"
                     : riskLabel === "High risk"     ? "risk-high"
                     :                                 "risk-moderate";
@@ -224,53 +267,46 @@
       d.city === city && d.scenario === selectedScenario && d.year === 2100
     );
 
-    d3.select("#panel-stats").html(`
-      <div class="stat-row">
-        <span class="stat-label">Year</span>
-        <span class="stat-val">${selectedYear}</span>
-      </div>
 
-      <div class="stat-row">
-        <span class="stat-label">Scenario</span>
-        <span class="stat-val">${formatScenario(selectedScenario)}</span>
-      </div>
+  d3.select("#panel-stats").html(`
+  <div class="stat-row">
+    <span class="stat-label">Year</span>
+    <span class="stat-val">${selectedYear}</span>
+  </div>
 
-      <div class="stat-row">
-        <span class="stat-label info-label">
-          CMIP6 dynamic sea-level anomaly
-          <span class="info-icon">ⓘ</span>
+  <div class="stat-row">
+    <span class="stat-label">Scenario</span>
+    <span class="stat-val">${formatScenario(selectedScenario)}</span>
+  </div>
 
-          <span class="info-tooltip">
-            This estimate uses only CMIP6 <code>zos</code>.
-            If land-ice melt and local subsidence were added,
-            total relative sea-level rise would likely be higher
-            in many coastal cities.
-          </span>
-        </span>
-        <span class="stat-val">${current.sea_level_cm.toFixed(1)} cm</span>
-      </div>
+  <div class="stat-row">
+    <span class="stat-label info-label">
+      ${
+    includeTotalSeaLevel
+      ? "IPCC total projected sea-level rise"
+      : "CMIP6 dynamic sea-level anomaly"
+      }
+      <span class="info-icon">ⓘ</span>
 
-      <div class="stat-row">
-        <span class="stat-label">By 2100</span>
-        <span class="stat-val">
-          ${val2100 ? val2100.sea_level_cm.toFixed(1) + " cm" : "—"}
-        </span>
-      </div>
-      
-    `);
-    d3.select("#city-annotation").html(`
-      <div class="annotation-box">
-        <div class="annotation-title">
-          Why this risk level?
-        </div>
+      <span class="info-tooltip">
+        ${
+            includeTotalSeaLevel
+              ? "This uses the IPCC total sea-level projection, which includes multiple contributors such as ocean dynamics, ice-sheet melt, glaciers, land water storage, and vertical land motion."
+              : "This estimate uses only CMIP6 dynamic sea-level anomaly from zos."
+          }
+      </span>
+    </span>
 
-        <div class="annotation-text">
-          ${CITY_NOTES[city]}
-        </div>
-      </div>
-    `);
+    <span class="stat-val">${currentValue.toFixed(1)} cm</span>
+  </div>
 
+  <div class="stat-row">
+    <span class="stat-label">By 2100</span>
+    <span class="stat-val">${val2100 ? getSeaLevelValue(val2100).toFixed(1) + " cm" : "—"}</span>
+  </div>
+  `);
     drawSparkline(city);
+    d3.select("#panel-note-text").text(getCityNote(city));
   }
 
   // ── Sparkline: all scenarios for the selected city ─────────────────────────
@@ -284,42 +320,14 @@
   if (!cityData.length) return;
 
   const xScale = d3.scaleLinear().domain([2025, 2100]).range([0, sw]);
-  const allVals = cityData.map(d => d.sea_level_cm);
+  const allVals = cityData.map(d => getSeaLevelValue(d));
   const yScale = d3.scaleLinear()
-    .domain([d3.min(allVals), 45]).range([sh - 4, 4]);
+    .domain([d3.min(allVals), d3.max(allVals)]).range([sh - 4, 4]);
   
-  const mtValue = 30;
-
-  if (mtValue <= yScale.domain()[1]) {
-    sp.append("line")
-      .attr("class", "mt-line")
-      .attr("x1", 0)
-      .attr("x2", sw)
-      .attr("y1", yScale(mtValue))
-      .attr("y2", yScale(mtValue));
-
-    sp.append("text")
-      .attr("class", "mt-label")
-      .attr("x", sw - 18)
-      .attr("y", yScale(mtValue) - 4)
-      .text("CR")
-      .on("mousemove", function(event) {
-        tooltip
-          .style("opacity", 1)
-          .style("left", `${event.pageX + 12}px`)
-          .style("top", `${event.pageY + 12}px`)
-          .html(`
-            <strong>Coastal risk reference</strong><br>
-            Around this level, some coastal areas may face increased flooding and shoreline change.
-          `);
-      })
-      .on("mouseleave", function() {
-        tooltip.style("opacity", 0);
-      });
-  } 
+  
   const line = d3.line()
     .x(d => xScale(d.year))
-    .y(d => yScale(d.sea_level_cm))
+    .y(d => yScale(getSeaLevelValue(d)))
     .curve(d3.curveCatmullRom);
 
   const sparkColors = {
@@ -374,7 +382,7 @@
   if (cur) {
     sp.append("circle")
       .attr("cx", xScale(cur.year))
-      .attr("cy", yScale(cur.sea_level_cm))
+      .attr("cy", yScale(getSeaLevelValue(cur)))
       .attr("r",  3.5)
       .attr("fill", sparkColors[selectedScenario])
       .attr("stroke", "#161b22")
@@ -384,23 +392,46 @@
 
   // ── Legend ──────────────────────────────────────────────────────────────────
   function buildLegend() {
-    const items = [
-      { label: "Moderate  (<15 cm)", color: "#58a6ff", r: 7  },
-      { label: "High  (15–25 cm)",   color: "#e3b341", r: 7 },
-      { label: "Critical  (>25 cm)", color: "#f85149", r: 7 },
-    ];
-    const leg = d3.select("#legend");
-    items.forEach(item => {
-      const wrap = leg.append("div").attr("class", "legend-item");
-      wrap.append("div")
-        .attr("class", "legend-circle")
-        .style("width",  `${item.r * 2}px`)
-        .style("height", `${item.r * 2}px`)
-        .style("background", item.color)
-        .style("opacity", 0.82);
-      wrap.append("span").text(item.label);
-    });
-  }
+  const leg = d3.select("#legend");
+
+  // clear old legend
+  leg.selectAll("*").remove();
+
+  const [highThreshold, criticalThreshold] = getRiskThresholds();
+
+  const items = [
+    {
+      label: `Moderate (<${highThreshold} cm)`,
+      color: "#58a6ff",
+      r: 7
+    },
+    {
+      label: `High (${highThreshold}–${criticalThreshold} cm)`,
+      color: "#e3b341",
+      r: 7
+    },
+    {
+      label: `Critical (>${criticalThreshold} cm)`,
+      color: "#f85149",
+      r: 7
+    },
+  ];
+
+  items.forEach(item => {
+    const wrap = leg.append("div")
+      .attr("class", "legend-item");
+
+    wrap.append("div")
+      .attr("class", "legend-circle")
+      .style("width", `${item.r * 2}px`)
+      .style("height", `${item.r * 2}px`)
+      .style("background", item.color)
+      .style("opacity", 0.82);
+
+    wrap.append("span")
+      .text(item.label);
+  });
+}
 
   // ── Year slider ─────────────────────────────────────────────────────────────
   const sliderEl  = document.getElementById("year-slider");
@@ -451,14 +482,54 @@
     if (selectedCity) updatePanel(selectedCity);
   });
 
+  d3.select("#total-toggle").on("change", function () {
+    includeTotalSeaLevel = this.checked;
+    updateMap();
+    if (selectedCity) updatePanel(selectedCity);
+    buildLegend(); 
+  });
+
   // ── Helpers (your originals) ────────────────────────────────────────────────
-  function getRiskLabel(value) {
-    if (value < 15) return "Moderate risk";
-    if (value < 25) return "High risk";
-    return "Critical risk";
-  }
+ function getRiskLabel(value) {
+  const [highThreshold, criticalThreshold] = getRiskThresholds();
+
+  if (value < highThreshold) return "Moderate risk";
+  if (value < criticalThreshold) return "High risk";
+  return "Critical risk";
+}
 
   function formatScenario(scenario) {
     return { ssp126:"SSP1-2.6", ssp245:"SSP2-4.5",
              ssp370:"SSP3-7.0", ssp585:"SSP5-8.5" }[scenario] || scenario;
   }
+
+function getSeaLevelValue(d) {
+  return includeTotalSeaLevel && Number.isFinite(d.total_sea_level_cm)
+    ? d.total_sea_level_cm
+    : d.sea_level_cm;
+}
+
+function getRiskThresholds() {
+  return includeTotalSeaLevel
+    ? [30, 75]
+    : [15, 25];
+}
+
+function getRiskColor(value) {
+  const [highThreshold, criticalThreshold] = getRiskThresholds();
+
+  if (value < highThreshold) return "#58a6ff";
+  if (value < criticalThreshold) return "#e3b341";
+  return "#f85149";
+}
+
+function getRadiusScale() {
+  return d3.scaleSqrt()
+    .domain([0, includeTotalSeaLevel ? 150 : 120])
+    .range([5, 22]);
+}
+
+function getCityNote(city) {
+  const notes = includeTotalSeaLevel ? CITY_NOTES_IPCC : CITY_NOTES_CMIP;
+  return notes[city] ?? "";
+}

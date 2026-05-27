@@ -9,13 +9,8 @@
   <script src="main.js" defer></script>
 </head>
 <body>
-  <header id="site-header">
-    <a href="../index.html" id="back-link">← Back</a>
-    <h1 id="site-title">Choose Your Future</h1>
-    <p id="site-subtitle">How Today's Emissions Decide Tomorrow's Climate</p>
-  </header>
-  <h1>Projected Sea Level Risk in Coastal Cities</h1>
-  <p>Explore how different carbon emission pathways could shape future sea-level rise in vulnerable coastal cities.</p>
+  <h1 class="title">Projected Sea Level Risk in Coastal Cities</h1>
+  <p class="description">Explore how different carbon emission pathways could shape future sea-level rise in vulnerable coastal cities.</p>
   <section id = "content">
   <div id="scenario-buttons">
     <button data-scenario="ssp126" class="active">SSP1-2.6</button>
@@ -33,20 +28,29 @@
   </div>
 
   <!-- Map + side panel side by side -->
-  <div id="map-container">
-    <svg id="map"></svg>
+  <div id="map-and-note">
+    <div id="map-container">
+      <svg id="map"></svg>
 
-    <!-- NEW: city detail panel -->
-    <div id="side-panel" class="empty">
-      <div id="panel-city">Click a city</div>
-      <div id="panel-risk"></div>
-      <div id="panel-stats"></div>
-      <div id="sparkline-wrap">
-        <p>Sea level trend 2025 → 2100</p>
-        <svg id="sparkline"></svg>
+      <div id="side-panel" class="empty">
+        <div id="panel-city">Click a city</div>
+        <div id="panel-risk"></div>
+        <div id="panel-stats"></div>
+        <div id="sparkline-wrap">
+          <p>Sea level trend 2025 → 2100</p>
+          <svg id="sparkline"></svg>
+        </div>
+        <div id="panel-note">
+          <div class="annotation-title">Worst-Case Risk Outlook</div>
+          <p id="panel-note-text"></p>
+        </div>
+        <label>
+          <input type="checkbox" id="total-toggle">
+          Include ice melt & land subsidence
+        </label>
       </div>
-      <div id="city-annotation"></div>
     </div>
+
   </div>
 
   <!-- NEW: legend -->

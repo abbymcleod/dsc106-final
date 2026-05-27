@@ -10,7 +10,7 @@ body {
     box-sizing: border-box;
     }
 
-    h1 {
+    .title {
       font-size: 1.35rem;
       font-weight: 600;
       letter-spacing: -0.02em;
@@ -46,7 +46,7 @@ body {
     text-align: center;
     margin: 40px 0 24px;
   }
-  p {
+  .description {
     text-align: center;
     color: #8b949e;
     margin-bottom: 30px;
@@ -133,7 +133,6 @@ body {
       display: flex;
       gap: 16px;
       width: 100%;
-      max-width: 1200px;
       align-items: flex-start;
     }
     #map {
@@ -218,6 +217,31 @@ body {
     .info-label:hover .info-tooltip {
       opacity: 1;
     }
+
+#map-and-note {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+#panel-note {
+  width: 100%;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  padding: 16px;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #c9d1d9;
+  min-height: 60px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.annotation-title {
+  color: #e6edf3;
+}
 
     /* Sparkline */
     #sparkline-wrap { 
