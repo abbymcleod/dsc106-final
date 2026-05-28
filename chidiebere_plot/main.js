@@ -306,6 +306,9 @@
   </div>
   `);
     drawSparkline(city);
+    d3.select("#panel-note")
+    .style("border-color", getRiskColor(getSeaLevelValue(val2100)));
+    d3.select(".annotation-title").style("border-color", getRiskColor(getSeaLevelValue(val2100)));
     d3.select("#panel-note-text").text(getCityNote(city));
   }
 
