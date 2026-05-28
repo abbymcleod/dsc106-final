@@ -156,7 +156,6 @@ const MILESTONES_IPCC = [
   }
 ];
 
-const milestones = includeTotalSeaLevel ? MILESTONES_IPCC : MILESTONES_CMIP;
 
   // ── Scales ─────────────────────────────────────────────────────────────────
   // Color: matches your original threshold logic
@@ -610,6 +609,8 @@ function getCityNote(city) {
 }
 
 function buildTimeline() {
+  const milestones = includeTotalSeaLevel ? MILESTONES_IPCC : MILESTONES_CMIP;
+
   const container = d3.select("#timeline");
   container.selectAll("*").remove();
 
@@ -653,6 +654,7 @@ function buildTimeline() {
 }
 
 function highlightMilestone() {
+  const milestones = includeTotalSeaLevel ? MILESTONES_IPCC : MILESTONES_CMIP;
   const active = milestones
     .filter(m => m.year <= selectedYear)
     .at(-1);
