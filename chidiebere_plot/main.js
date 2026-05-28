@@ -1,94 +1,162 @@
-  const width  = 975;
-  const height = 610;
+const width  = 975;
+const height = 610;
 
-  let selectedScenario = "ssp126";
-  let selectedYear     = 2025;
-  let selectedCity     = null;
-  let playTimer        = null;
-  let rawData, citySummary;
-  let includeTotalSeaLevel = false;
-  const svg = d3.select("#map")
-    .attr("viewBox", [0, 0, width, height]);
+let selectedScenario = "ssp126";
+let selectedYear     = 2025;
+let selectedCity     = null;
+let playTimer        = null;
+let rawData, citySummary;
+let includeTotalSeaLevel = false;
 
-  const tooltip = d3.select("#tooltip");
 
-  const projection = d3.geoAlbersUsa()
-    .translate([width / 2, height / 2])
-    .scale(1200);
 
-  const path = d3.geoPath(projection);
-  const CITY_NOTES_CMIP = {
-    "Boston MA":
-      "Boston reaches a critical risk level because its historic waterfront, dense coastal neighborhoods, and aging infrastructure are highly exposed to rising seas and storm surge, increasing the likelihood of widespread flooding and long-term disruption along the harbor.",
-    "New York NY":
-      "New York reaches a critical risk level because its dense coastal development and low-lying infrastructure — including subways, tunnels, and airports — make even modest sea level rise capable of causing widespread flooding and major disruptions across the city.",
+const svg = d3.select("#map")
+  .attr("viewBox", [0, 0, width, height]);
 
-    "Atlantic City NJ":
-      "Atlantic City reaches critical projected risk in this visualization. Barrier-island communities are especially exposed to sea-level rise because small increases in ocean height can affect large low-lying coastal areas.",
+const tooltip = d3.select("#tooltip");
 
-    "Norfolk VA":
-      "Norfolk shows one of the highest projected risks in the dataset. The city’s coastal position along the Chesapeake Bay makes it highly sensitive to rising sea levels and recurrent tidal flooding.",
+const projection = d3.geoAlbersUsa()
+  .translate([width / 2, height / 2])
+  .scale(1200);
 
-    "Charleston SC":
-      "Charleston reaches high projected risk because much of the historic coastal city lies close to sea level near tidal waterways and marshland environments.",
+const path = d3.geoPath(projection);
+const CITY_NOTES_CMIP = {
+  "Boston MA":
+    "Boston reaches a critical risk level because its historic waterfront, dense coastal neighborhoods, and aging infrastructure are highly exposed to rising seas and storm surge, increasing the likelihood of widespread flooding and long-term disruption along the harbor.",
+  "New York NY":
+    "New York reaches a critical risk level because its dense coastal development and low-lying infrastructure — including subways, tunnels, and airports — make even modest sea level rise capable of causing widespread flooding and major disruptions across the city.",
 
-    "Miami FL":
-      "Miami shows moderate projected risk in this CMIP6 anomaly dataset, though even relatively small increases in sea level may worsen coastal flooding and saltwater intrusion.",
+  "Atlantic City NJ":
+    "Atlantic City reaches critical projected risk in this visualization. Barrier-island communities are especially exposed to sea-level rise because small increases in ocean height can affect large low-lying coastal areas.",
 
-    "Tampa FL":
-      "Tampa reaches moderate projected risk in this CMIP6 anomaly dataset. While projected sea-level anomalies are lower than some Atlantic Coast cities, low-lying development around Tampa Bay may still face increasing coastal flooding risk over time.",
-    "New Orleans LA":
-    "New Orleans reaches moderate projected risk in this CMIP6 anomaly dataset. Although its projected dynamic sea-level anomaly is lower than some Atlantic Coast cities, the surrounding coastal region remains highly sensitive to rising water levels because much of the area is already low-lying and close to sea level.",
+  "Norfolk VA":
+    "Norfolk shows one of the highest projected risks in the dataset. The city’s coastal position along the Chesapeake Bay makes it highly sensitive to rising sea levels and recurrent tidal flooding.",
 
-    "Galveston TX":
-      "Galveston reaches moderate projected risk in this CMIP6 scenario. As a barrier-island city along the Gulf Coast, it remains exposed to shoreline change and coastal flooding.",
+  "Charleston SC":
+    "Charleston reaches high projected risk because much of the historic coastal city lies close to sea level near tidal waterways and marshland environments.",
 
-    "Seattle WA":
-      "Seattle shows one of the lowest projected risks in the dataset, with smaller projected CMIP6 sea-level anomalies compared with Atlantic and Gulf Coast cities.",
+  "Miami FL":
+    "Miami shows moderate projected risk in this CMIP6 anomaly dataset, though even relatively small increases in sea level may worsen coastal flooding and saltwater intrusion.",
 
-    "San Francisco CA":
-      "San Francisco reaches moderate projected risk. Although projected anomalies are lower than many East Coast cities, low-lying shoreline areas around the Bay remain sensitive to sea-level rise.",
+  "Tampa FL":
+    "Tampa reaches moderate projected risk in this CMIP6 anomaly dataset. While projected sea-level anomalies are lower than some Atlantic Coast cities, low-lying development around Tampa Bay may still face increasing coastal flooding risk over time.",
+  "New Orleans LA":
+  "New Orleans reaches moderate projected risk in this CMIP6 anomaly dataset. Although its projected dynamic sea-level anomaly is lower than some Atlantic Coast cities, the surrounding coastal region remains highly sensitive to rising water levels because much of the area is already low-lying and close to sea level.",
 
-    "Honolulu HI":
-      "Honolulu shows moderate projected risk in this dataset. Even modest sea-level increases may affect beaches, coastal roads, and shoreline infrastructure on island coastlines."
+  "Galveston TX":
+    "Galveston reaches moderate projected risk in this CMIP6 scenario. As a barrier-island city along the Gulf Coast, it remains exposed to shoreline change and coastal flooding.",
+
+  "Seattle WA":
+    "Seattle shows one of the lowest projected risks in the dataset, with smaller projected CMIP6 sea-level anomalies compared with Atlantic and Gulf Coast cities.",
+
+  "San Francisco CA":
+    "San Francisco reaches moderate projected risk. Although projected anomalies are lower than many East Coast cities, low-lying shoreline areas around the Bay remain sensitive to sea-level rise.",
+
+  "Honolulu HI":
+    "Honolulu shows moderate projected risk in this dataset. Even modest sea-level increases may affect beaches, coastal roads, and shoreline infrastructure on island coastlines."
 };
-  const CITY_NOTES_IPCC = {
-    "Boston MA":
-      "Boston reaches a critical risk level because its historic waterfront, dense coastal neighborhoods, and aging infrastructure are highly exposed to rising seas and storm surge, increasing the likelihood of widespread flooding and long-term disruption along the harbor.",
 
-    "New York NY":
-      "New York reaches a critical risk level because its dense coastal development and low-lying infrastructure — including subways, tunnels, and airports — make even modest sea level rise capable of causing widespread flooding and major disruptions across the city.",
+const CITY_NOTES_IPCC = {
+  "Boston MA":
+    "Boston reaches a critical risk level because its historic waterfront, dense coastal neighborhoods, and aging infrastructure are highly exposed to rising seas and storm surge, increasing the likelihood of widespread flooding and long-term disruption along the harbor.",
 
-    "Atlantic City NJ":
-      "Atlantic City reaches a critical risk level because its low-lying barrier island position leaves it highly vulnerable to total sea-level rise, where even gradual increases can inundate large portions of the developed coastline.",
+  "New York NY":
+    "New York reaches a critical risk level because its dense coastal development and low-lying infrastructure — including subways, tunnels, and airports — make even modest sea level rise capable of causing widespread flooding and major disruptions across the city.",
 
-    "Norfolk VA":
-      "Norfolk reaches a critical risk level because the combination of rising seas and ongoing land subsidence makes it one of the most flood-exposed cities on the East Coast, with tidal flooding already affecting daily life.",
+  "Atlantic City NJ":
+    "Atlantic City reaches a critical risk level because its low-lying barrier island position leaves it highly vulnerable to total sea-level rise, where even gradual increases can inundate large portions of the developed coastline.",
 
-    "Charleston SC":
-      "Charleston reaches a critical risk level because much of its historic downtown sits close to sea level near tidal waterways, making it increasingly susceptible to chronic flooding as total sea-level projections rise.",
+  "Norfolk VA":
+    "Norfolk reaches a critical risk level because the combination of rising seas and ongoing land subsidence makes it one of the most flood-exposed cities on the East Coast, with tidal flooding already affecting daily life.",
 
-    "Miami FL":
-      "Miami reaches a critical risk level because its porous limestone geology prevents effective flood barriers, meaning total sea-level rise can push water up through the ground even where seawalls exist.",
+  "Charleston SC":
+    "Charleston reaches a critical risk level because much of its historic downtown sits close to sea level near tidal waterways, making it increasingly susceptible to chronic flooding as total sea-level projections rise.",
 
-    "Tampa FL":
-      "Tampa reaches a critical risk level because the shallow, enclosed geometry of Tampa Bay amplifies the impact of rising seas, increasing the risk of coastal flooding across its low-lying shoreline development.",
+  "Miami FL":
+    "Miami reaches a critical risk level because its porous limestone geology prevents effective flood barriers, meaning total sea-level rise can push water up through the ground even where seawalls exist.",
 
-    "New Orleans LA":
-      "New Orleans reaches a critical risk level because much of the city already sits below sea level, meaning any additional rise in total sea-level projections directly worsens an already precarious flood situation.",
+  "Tampa FL":
+    "Tampa reaches a critical risk level because the shallow, enclosed geometry of Tampa Bay amplifies the impact of rising seas, increasing the risk of coastal flooding across its low-lying shoreline development.",
 
-    "Galveston TX":
-      "Galveston reaches a critical risk level because its flat barrier island geography offers little elevation buffer, leaving the city highly exposed to total sea-level rise and intensifying Gulf Coast storm surge.",
+  "New Orleans LA":
+    "New Orleans reaches a critical risk level because much of the city already sits below sea level, meaning any additional rise in total sea-level projections directly worsens an already precarious flood situation.",
 
-    "Seattle WA":
-      "Seattle reaches a high risk level because Pacific Coast sea-level dynamics and slower regional rise keep total projections below the critical threshold, though low-lying shoreline areas around Puget Sound remain increasingly at risk.",
+  "Galveston TX":
+    "Galveston reaches a critical risk level because its flat barrier island geography offers little elevation buffer, leaving the city highly exposed to total sea-level rise and intensifying Gulf Coast storm surge.",
 
-    "San Francisco CA":
-      "San Francisco reaches a high risk level because while total sea-level projections remain below the critical threshold, low-lying areas around the Bay face growing exposure to tidal flooding and coastal erosion over time.",
+  "Seattle WA":
+    "Seattle reaches a high risk level because Pacific Coast sea-level dynamics and slower regional rise keep total projections below the critical threshold, though low-lying shoreline areas around Puget Sound remain increasingly at risk.",
 
-    "Honolulu HI":
-      "Honolulu reaches a critical risk level because while total sea-level projections are lower than many mainland cities, its island geography leaves limited options for inland retreat, making even modest rise consequential for coastal communities."
-  };
+  "San Francisco CA":
+    "San Francisco reaches a high risk level because while total sea-level projections remain below the critical threshold, low-lying areas around the Bay face growing exposure to tidal flooding and coastal erosion over time.",
+
+  "Honolulu HI":
+    "Honolulu reaches a critical risk level because while total sea-level projections are lower than many mainland cities, its island geography leaves limited options for inland retreat, making even modest rise consequential for coastal communities."
+};
+
+const MILESTONES_CMIP = [
+  {
+    year: 2035,
+    scenario: "ssp585",
+    city: "Norfolk VA",
+    headline: "Norfolk Leads Early Rise",
+    text: "All cities remain at moderate risk but Norfolk already shows the highest dynamic sea-level anomaly on the East Coast, signaling early vulnerability along the Chesapeake Bay."
+  },
+  {
+    year: 2050,
+    scenario: "ssp585",
+    city: "Boston MA",
+    headline: "Boston Pulls Ahead",
+    text: "Cities remain moderate but Boston overtakes Norfolk as the highest projected dynamic anomaly, reflecting accelerating ocean circulation changes along the Northeast coast."
+  },
+  {
+    year: 2070,
+    scenario: "ssp585",
+    city: "New York NY",
+    headline: "Northeast Shifts to High Risk",
+    text: "Boston, New York, Atlantic City, and Norfolk all cross into high risk — the Northeast corridor emerges as the most exposed stretch of the U.S. coastline under the CMIP6 dynamic signal."
+  },
+  {
+    year: 2100,
+    scenario: "ssp585",
+    city: "Boston MA",
+    headline: "Critical Risk Arrives",
+    text: "Boston, New York, and Atlantic City reach critical risk by end of century. Charleston moves to high risk and southern cities like Miami, Tampa, and New Orleans close in on the high threshold."
+  }
+];
+
+const MILESTONES_IPCC = [
+  {
+    year: 2035,
+    scenario: "ssp585",
+    city: "Galveston TX",
+    headline: "Gulf Coast First to Escalate",
+    text: "Galveston is the first city to reach high risk under total sea-level projections, with New Orleans and Norfolk close behind — ice melt and land subsidence push Gulf and mid-Atlantic cities ahead of the rest of the country."
+  },
+  {
+    year: 2050,
+    scenario: "ssp585",
+    city: "New Orleans LA",
+    headline: "Eastern Seaboard Joins High Risk",
+    text: "Every city east of Galveston crosses into high risk as total sea-level rise accelerates — ice-sheet and glacier contributions begin compounding on top of ocean dynamics across the Gulf and Atlantic coasts."
+  },
+  {
+    year: 2070,
+    scenario: "ssp585",
+    city: "Galveston TX",
+    headline: "Galveston Hits Critical",
+    text: "Galveston becomes the first city to reach critical total sea-level risk while the remaining tracked cities hold at high risk — the Gulf Coast's low elevation and subsidence make it the most exposed region in the country."
+  },
+  {
+    year: 2100,
+    scenario: "ssp585",
+    city: "Boston MA",
+    headline: "Near Universal Critical Risk",
+    text: "By end of century every tracked city except Seattle and San Francisco reaches critical total sea-level risk — ice melt, glaciers, land subsidence, and ocean dynamics converge to put the entire Atlantic and Gulf coastline in a precarious position."
+  }
+];
+
+const milestones = includeTotalSeaLevel ? MILESTONES_IPCC : MILESTONES_CMIP;
 
   // ── Scales ─────────────────────────────────────────────────────────────────
   // Color: matches your original threshold logic
@@ -108,6 +176,7 @@
   processData(totalData);
   drawBaseMap(us);
   buildLegend();
+  buildTimeline(); 
   updateMap();
   });
 
@@ -446,6 +515,7 @@
     yearDisp.textContent = selectedYear;
     updateMap();
     if (selectedCity) updatePanel(selectedCity);
+    highlightMilestone();
   });
 
   // Play button: animates year from current to 2100
@@ -468,6 +538,7 @@
       yearDisp.textContent = selectedYear;
       updateMap();
       if (selectedCity) updatePanel(selectedCity);
+      if (selectedScenario === "ssp585") highlightMilestone();
       if (selectedYear >= 2100) {
         clearInterval(playTimer);
         playTimer = null;
@@ -490,6 +561,7 @@
     updateMap();
     if (selectedCity) updatePanel(selectedCity);
     buildLegend(); 
+    buildTimeline();
   });
 
   // ── Helpers (your originals) ────────────────────────────────────────────────
@@ -535,4 +607,55 @@ function getRadiusScale() {
 function getCityNote(city) {
   const notes = includeTotalSeaLevel ? CITY_NOTES_IPCC : CITY_NOTES_CMIP;
   return notes[city] ?? "";
+}
+
+function buildTimeline() {
+  const container = d3.select("#timeline");
+  container.selectAll("*").remove();
+
+  milestones.forEach(m => {
+    const card = container.append("div")
+      .attr("class", "timeline-card")
+      .attr("data-year", m.year)
+      .on("click", () => {
+        // jump map to this milestone
+        selectedYear     = m.year;
+        selectedScenario = m.scenario;
+        selectedCity     = m.city;
+
+        sliderEl.value       = m.year;
+        yearDisp.textContent = m.year;
+
+        // sync scenario button
+        d3.selectAll("#scenario-buttons button").classed("active", false);
+        d3.select(`[data-scenario="${m.scenario}"]`).classed("active", true);
+
+        updateMap();
+        updatePanel(m.city);
+
+        // highlight clicked card
+        d3.selectAll(".timeline-card").classed("active", false);
+        card.classed("active", true);
+      });
+
+    card.append("div")
+      .attr("class", "timeline-year")
+      .text(m.year);
+
+    card.append("div")
+      .attr("class", "timeline-headline")
+      .text(m.headline);
+
+    card.append("div")
+      .attr("class", "timeline-text")
+      .text(m.text);
+  });
+}
+
+function highlightMilestone() {
+  const active = milestones
+    .filter(m => m.year <= selectedYear)
+    .at(-1);
+  d3.selectAll(".timeline-card").classed("active", false);
+  if (active) d3.select(`[data-year="${active.year}"]`).classed("active", true);
 }
