@@ -1,5 +1,5 @@
 body {
-  font-family: 'Georgia', serif;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
   background: #0d1117;
   color: #e6edf3;
 }
@@ -19,7 +19,7 @@ body {
 
 h1 {
   text-align: center;
-  margin: 40px 0 24px;
+  margin: 16px 0 14px;
 }
 
 .description {
@@ -34,8 +34,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid #21262d;
-  margin-top: 20px;
+  margin-top: 0;
 }
 
     /* ── Scenario buttons ───────────────────────────────────────── */

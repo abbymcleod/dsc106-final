@@ -1,0 +1,4105 @@
+city,scenario,year,total_sea_level_cm
+Atlantic City NJ,ssp126,2020,11.5
+Atlantic City NJ,ssp126,2020,11.7
+Atlantic City NJ,ssp126,2021,12.59
+Atlantic City NJ,ssp126,2022,13.48
+Atlantic City NJ,ssp126,2023,14.370000000000001
+Atlantic City NJ,ssp126,2024,15.26
+Atlantic City NJ,ssp126,2025,16.15
+Atlantic City NJ,ssp126,2026,17.04
+Atlantic City NJ,ssp126,2027,17.93
+Atlantic City NJ,ssp126,2028,18.82
+Atlantic City NJ,ssp126,2029,19.71
+Atlantic City NJ,ssp126,2030,20.6
+Atlantic City NJ,ssp126,2030,20.8
+Atlantic City NJ,ssp126,2031,21.68
+Atlantic City NJ,ssp126,2032,22.560000000000002
+Atlantic City NJ,ssp126,2033,23.44
+Atlantic City NJ,ssp126,2034,24.32
+Atlantic City NJ,ssp126,2035,25.200000000000003
+Atlantic City NJ,ssp126,2036,26.080000000000002
+Atlantic City NJ,ssp126,2037,26.96
+Atlantic City NJ,ssp126,2038,27.840000000000003
+Atlantic City NJ,ssp126,2039,28.720000000000002
+Atlantic City NJ,ssp126,2040,29.6
+Atlantic City NJ,ssp126,2040,30.1
+Atlantic City NJ,ssp126,2041,30.970000000000002
+Atlantic City NJ,ssp126,2042,31.84
+Atlantic City NJ,ssp126,2043,32.71
+Atlantic City NJ,ssp126,2044,33.58
+Atlantic City NJ,ssp126,2045,34.45
+Atlantic City NJ,ssp126,2046,35.32
+Atlantic City NJ,ssp126,2047,36.19
+Atlantic City NJ,ssp126,2048,37.059999999999995
+Atlantic City NJ,ssp126,2049,37.93
+Atlantic City NJ,ssp126,2050,38.8
+Atlantic City NJ,ssp126,2050,39.3
+Atlantic City NJ,ssp126,2051,40.019999999999996
+Atlantic City NJ,ssp126,2052,40.739999999999995
+Atlantic City NJ,ssp126,2053,41.46
+Atlantic City NJ,ssp126,2054,42.18
+Atlantic City NJ,ssp126,2055,42.9
+Atlantic City NJ,ssp126,2056,43.62
+Atlantic City NJ,ssp126,2057,44.339999999999996
+Atlantic City NJ,ssp126,2058,45.06
+Atlantic City NJ,ssp126,2059,45.78
+Atlantic City NJ,ssp126,2060,46.5
+Atlantic City NJ,ssp126,2060,47.2
+Atlantic City NJ,ssp126,2061,47.96
+Atlantic City NJ,ssp126,2062,48.72
+Atlantic City NJ,ssp126,2063,49.480000000000004
+Atlantic City NJ,ssp126,2064,50.24
+Atlantic City NJ,ssp126,2065,51.0
+Atlantic City NJ,ssp126,2066,51.76
+Atlantic City NJ,ssp126,2067,52.519999999999996
+Atlantic City NJ,ssp126,2068,53.28
+Atlantic City NJ,ssp126,2069,54.04
+Atlantic City NJ,ssp126,2070,54.8
+Atlantic City NJ,ssp126,2070,55.400000000000006
+Atlantic City NJ,ssp126,2071,56.040000000000006
+Atlantic City NJ,ssp126,2072,56.68000000000001
+Atlantic City NJ,ssp126,2073,57.32
+Atlantic City NJ,ssp126,2074,57.96
+Atlantic City NJ,ssp126,2075,58.6
+Atlantic City NJ,ssp126,2076,59.24
+Atlantic City NJ,ssp126,2077,59.88
+Atlantic City NJ,ssp126,2078,60.519999999999996
+Atlantic City NJ,ssp126,2079,61.16
+Atlantic City NJ,ssp126,2080,61.8
+Atlantic City NJ,ssp126,2080,62.4
+Atlantic City NJ,ssp126,2081,63.0
+Atlantic City NJ,ssp126,2082,63.6
+Atlantic City NJ,ssp126,2083,64.2
+Atlantic City NJ,ssp126,2084,64.8
+Atlantic City NJ,ssp126,2085,65.4
+Atlantic City NJ,ssp126,2086,66.0
+Atlantic City NJ,ssp126,2087,66.60000000000001
+Atlantic City NJ,ssp126,2088,67.2
+Atlantic City NJ,ssp126,2089,67.80000000000001
+Atlantic City NJ,ssp126,2090,68.4
+Atlantic City NJ,ssp126,2090,69.0
+Atlantic City NJ,ssp126,2091,69.62
+Atlantic City NJ,ssp126,2092,70.24
+Atlantic City NJ,ssp126,2093,70.86
+Atlantic City NJ,ssp126,2094,71.48
+Atlantic City NJ,ssp126,2095,72.1
+Atlantic City NJ,ssp126,2096,72.72
+Atlantic City NJ,ssp126,2097,73.34
+Atlantic City NJ,ssp126,2098,73.96000000000001
+Atlantic City NJ,ssp126,2099,74.58
+Atlantic City NJ,ssp126,2100,75.2
+Atlantic City NJ,ssp126,2100,75.8
+Atlantic City NJ,ssp245,2020,11.6
+Atlantic City NJ,ssp245,2021,12.48
+Atlantic City NJ,ssp245,2022,13.36
+Atlantic City NJ,ssp245,2023,14.239999999999998
+Atlantic City NJ,ssp245,2024,15.12
+Atlantic City NJ,ssp245,2025,16.0
+Atlantic City NJ,ssp245,2026,16.88
+Atlantic City NJ,ssp245,2027,17.759999999999998
+Atlantic City NJ,ssp245,2028,18.64
+Atlantic City NJ,ssp245,2029,19.52
+Atlantic City NJ,ssp245,2030,20.4
+Atlantic City NJ,ssp245,2031,21.32
+Atlantic City NJ,ssp245,2032,22.24
+Atlantic City NJ,ssp245,2033,23.16
+Atlantic City NJ,ssp245,2034,24.08
+Atlantic City NJ,ssp245,2035,25.0
+Atlantic City NJ,ssp245,2036,25.92
+Atlantic City NJ,ssp245,2037,26.84
+Atlantic City NJ,ssp245,2038,27.76
+Atlantic City NJ,ssp245,2039,28.68
+Atlantic City NJ,ssp245,2040,29.6
+Atlantic City NJ,ssp245,2041,30.6
+Atlantic City NJ,ssp245,2042,31.6
+Atlantic City NJ,ssp245,2043,32.6
+Atlantic City NJ,ssp245,2044,33.6
+Atlantic City NJ,ssp245,2045,34.6
+Atlantic City NJ,ssp245,2046,35.6
+Atlantic City NJ,ssp245,2047,36.6
+Atlantic City NJ,ssp245,2048,37.6
+Atlantic City NJ,ssp245,2049,38.6
+Atlantic City NJ,ssp245,2050,39.6
+Atlantic City NJ,ssp245,2051,40.56
+Atlantic City NJ,ssp245,2052,41.52
+Atlantic City NJ,ssp245,2053,42.480000000000004
+Atlantic City NJ,ssp245,2054,43.440000000000005
+Atlantic City NJ,ssp245,2055,44.400000000000006
+Atlantic City NJ,ssp245,2056,45.36
+Atlantic City NJ,ssp245,2057,46.32
+Atlantic City NJ,ssp245,2058,47.28
+Atlantic City NJ,ssp245,2059,48.24
+Atlantic City NJ,ssp245,2060,49.2
+Atlantic City NJ,ssp245,2061,50.260000000000005
+Atlantic City NJ,ssp245,2062,51.32
+Atlantic City NJ,ssp245,2063,52.38
+Atlantic City NJ,ssp245,2064,53.44
+Atlantic City NJ,ssp245,2065,54.5
+Atlantic City NJ,ssp245,2066,55.56
+Atlantic City NJ,ssp245,2067,56.62
+Atlantic City NJ,ssp245,2068,57.68
+Atlantic City NJ,ssp245,2069,58.739999999999995
+Atlantic City NJ,ssp245,2070,59.8
+Atlantic City NJ,ssp245,2071,60.779999999999994
+Atlantic City NJ,ssp245,2072,61.76
+Atlantic City NJ,ssp245,2073,62.739999999999995
+Atlantic City NJ,ssp245,2074,63.72
+Atlantic City NJ,ssp245,2075,64.69999999999999
+Atlantic City NJ,ssp245,2076,65.67999999999999
+Atlantic City NJ,ssp245,2077,66.66
+Atlantic City NJ,ssp245,2078,67.64
+Atlantic City NJ,ssp245,2079,68.61999999999999
+Atlantic City NJ,ssp245,2080,69.6
+Atlantic City NJ,ssp245,2081,70.56
+Atlantic City NJ,ssp245,2082,71.52
+Atlantic City NJ,ssp245,2083,72.47999999999999
+Atlantic City NJ,ssp245,2084,73.44
+Atlantic City NJ,ssp245,2085,74.4
+Atlantic City NJ,ssp245,2086,75.36
+Atlantic City NJ,ssp245,2087,76.32
+Atlantic City NJ,ssp245,2088,77.28
+Atlantic City NJ,ssp245,2089,78.24000000000001
+Atlantic City NJ,ssp245,2090,79.2
+Atlantic City NJ,ssp245,2091,80.26
+Atlantic City NJ,ssp245,2092,81.32000000000001
+Atlantic City NJ,ssp245,2093,82.38
+Atlantic City NJ,ssp245,2094,83.44
+Atlantic City NJ,ssp245,2095,84.5
+Atlantic City NJ,ssp245,2096,85.56
+Atlantic City NJ,ssp245,2097,86.62
+Atlantic City NJ,ssp245,2098,87.67999999999999
+Atlantic City NJ,ssp245,2099,88.74
+Atlantic City NJ,ssp245,2100,89.8
+Atlantic City NJ,ssp370,2020,11.6
+Atlantic City NJ,ssp370,2021,12.46
+Atlantic City NJ,ssp370,2022,13.32
+Atlantic City NJ,ssp370,2023,14.18
+Atlantic City NJ,ssp370,2024,15.040000000000001
+Atlantic City NJ,ssp370,2025,15.900000000000002
+Atlantic City NJ,ssp370,2026,16.76
+Atlantic City NJ,ssp370,2027,17.62
+Atlantic City NJ,ssp370,2028,18.480000000000004
+Atlantic City NJ,ssp370,2029,19.340000000000003
+Atlantic City NJ,ssp370,2030,20.200000000000003
+Atlantic City NJ,ssp370,2031,21.12
+Atlantic City NJ,ssp370,2032,22.040000000000003
+Atlantic City NJ,ssp370,2033,22.96
+Atlantic City NJ,ssp370,2034,23.880000000000003
+Atlantic City NJ,ssp370,2035,24.8
+Atlantic City NJ,ssp370,2036,25.72
+Atlantic City NJ,ssp370,2037,26.64
+Atlantic City NJ,ssp370,2038,27.56
+Atlantic City NJ,ssp370,2039,28.479999999999997
+Atlantic City NJ,ssp370,2040,29.4
+Atlantic City NJ,ssp370,2041,30.439999999999998
+Atlantic City NJ,ssp370,2042,31.479999999999997
+Atlantic City NJ,ssp370,2043,32.519999999999996
+Atlantic City NJ,ssp370,2044,33.559999999999995
+Atlantic City NJ,ssp370,2045,34.599999999999994
+Atlantic City NJ,ssp370,2046,35.64
+Atlantic City NJ,ssp370,2047,36.68
+Atlantic City NJ,ssp370,2048,37.72
+Atlantic City NJ,ssp370,2049,38.76
+Atlantic City NJ,ssp370,2050,39.8
+Atlantic City NJ,ssp370,2051,40.82
+Atlantic City NJ,ssp370,2052,41.839999999999996
+Atlantic City NJ,ssp370,2053,42.86
+Atlantic City NJ,ssp370,2054,43.879999999999995
+Atlantic City NJ,ssp370,2055,44.9
+Atlantic City NJ,ssp370,2056,45.92
+Atlantic City NJ,ssp370,2057,46.94
+Atlantic City NJ,ssp370,2058,47.96
+Atlantic City NJ,ssp370,2059,48.98
+Atlantic City NJ,ssp370,2060,50.0
+Atlantic City NJ,ssp370,2061,51.18
+Atlantic City NJ,ssp370,2062,52.36
+Atlantic City NJ,ssp370,2063,53.54
+Atlantic City NJ,ssp370,2064,54.72
+Atlantic City NJ,ssp370,2065,55.9
+Atlantic City NJ,ssp370,2066,57.08
+Atlantic City NJ,ssp370,2067,58.26
+Atlantic City NJ,ssp370,2068,59.44
+Atlantic City NJ,ssp370,2069,60.62
+Atlantic City NJ,ssp370,2070,61.8
+Atlantic City NJ,ssp370,2071,63.04
+Atlantic City NJ,ssp370,2072,64.28
+Atlantic City NJ,ssp370,2073,65.52
+Atlantic City NJ,ssp370,2074,66.76
+Atlantic City NJ,ssp370,2075,68.0
+Atlantic City NJ,ssp370,2076,69.24
+Atlantic City NJ,ssp370,2077,70.48
+Atlantic City NJ,ssp370,2078,71.72
+Atlantic City NJ,ssp370,2079,72.96000000000001
+Atlantic City NJ,ssp370,2080,74.2
+Atlantic City NJ,ssp370,2081,75.55
+Atlantic City NJ,ssp370,2082,76.9
+Atlantic City NJ,ssp370,2083,78.25
+Atlantic City NJ,ssp370,2084,79.60000000000001
+Atlantic City NJ,ssp370,2085,80.95
+Atlantic City NJ,ssp370,2086,82.30000000000001
+Atlantic City NJ,ssp370,2087,83.65
+Atlantic City NJ,ssp370,2088,85.0
+Atlantic City NJ,ssp370,2089,86.35000000000001
+Atlantic City NJ,ssp370,2090,87.7
+Atlantic City NJ,ssp370,2091,89.09
+Atlantic City NJ,ssp370,2092,90.48
+Atlantic City NJ,ssp370,2093,91.87
+Atlantic City NJ,ssp370,2094,93.26
+Atlantic City NJ,ssp370,2095,94.65
+Atlantic City NJ,ssp370,2096,96.03999999999999
+Atlantic City NJ,ssp370,2097,97.42999999999999
+Atlantic City NJ,ssp370,2098,98.82
+Atlantic City NJ,ssp370,2099,100.21
+Atlantic City NJ,ssp370,2100,101.6
+Atlantic City NJ,ssp585,2020,11.7
+Atlantic City NJ,ssp585,2020,11.8
+Atlantic City NJ,ssp585,2021,12.72
+Atlantic City NJ,ssp585,2022,13.64
+Atlantic City NJ,ssp585,2023,14.56
+Atlantic City NJ,ssp585,2024,15.48
+Atlantic City NJ,ssp585,2025,16.4
+Atlantic City NJ,ssp585,2026,17.32
+Atlantic City NJ,ssp585,2027,18.240000000000002
+Atlantic City NJ,ssp585,2028,19.16
+Atlantic City NJ,ssp585,2029,20.08
+Atlantic City NJ,ssp585,2030,21.0
+Atlantic City NJ,ssp585,2030,21.2
+Atlantic City NJ,ssp585,2031,22.22
+Atlantic City NJ,ssp585,2032,23.24
+Atlantic City NJ,ssp585,2033,24.259999999999998
+Atlantic City NJ,ssp585,2034,25.28
+Atlantic City NJ,ssp585,2035,26.299999999999997
+Atlantic City NJ,ssp585,2036,27.32
+Atlantic City NJ,ssp585,2037,28.34
+Atlantic City NJ,ssp585,2038,29.36
+Atlantic City NJ,ssp585,2039,30.38
+Atlantic City NJ,ssp585,2040,31.4
+Atlantic City NJ,ssp585,2040,31.6
+Atlantic City NJ,ssp585,2041,32.72
+Atlantic City NJ,ssp585,2042,33.84
+Atlantic City NJ,ssp585,2043,34.96
+Atlantic City NJ,ssp585,2044,36.08
+Atlantic City NJ,ssp585,2045,37.2
+Atlantic City NJ,ssp585,2046,38.32
+Atlantic City NJ,ssp585,2047,39.44
+Atlantic City NJ,ssp585,2048,40.56
+Atlantic City NJ,ssp585,2049,41.68
+Atlantic City NJ,ssp585,2050,42.8
+Atlantic City NJ,ssp585,2050,43.2
+Atlantic City NJ,ssp585,2051,44.300000000000004
+Atlantic City NJ,ssp585,2052,45.400000000000006
+Atlantic City NJ,ssp585,2053,46.5
+Atlantic City NJ,ssp585,2054,47.6
+Atlantic City NJ,ssp585,2055,48.7
+Atlantic City NJ,ssp585,2056,49.800000000000004
+Atlantic City NJ,ssp585,2057,50.900000000000006
+Atlantic City NJ,ssp585,2058,52.0
+Atlantic City NJ,ssp585,2059,53.1
+Atlantic City NJ,ssp585,2060,54.2
+Atlantic City NJ,ssp585,2060,55.3
+Atlantic City NJ,ssp585,2061,56.51
+Atlantic City NJ,ssp585,2062,57.72
+Atlantic City NJ,ssp585,2063,58.93
+Atlantic City NJ,ssp585,2064,60.14
+Atlantic City NJ,ssp585,2065,61.35
+Atlantic City NJ,ssp585,2066,62.56
+Atlantic City NJ,ssp585,2067,63.77
+Atlantic City NJ,ssp585,2068,64.98
+Atlantic City NJ,ssp585,2069,66.19
+Atlantic City NJ,ssp585,2070,67.4
+Atlantic City NJ,ssp585,2070,69.39999999999999
+Atlantic City NJ,ssp585,2071,70.55999999999999
+Atlantic City NJ,ssp585,2072,71.72
+Atlantic City NJ,ssp585,2073,72.88
+Atlantic City NJ,ssp585,2074,74.03999999999999
+Atlantic City NJ,ssp585,2075,75.19999999999999
+Atlantic City NJ,ssp585,2076,76.36
+Atlantic City NJ,ssp585,2077,77.52
+Atlantic City NJ,ssp585,2078,78.67999999999999
+Atlantic City NJ,ssp585,2079,79.84
+Atlantic City NJ,ssp585,2080,81.0
+Atlantic City NJ,ssp585,2080,85.0
+Atlantic City NJ,ssp585,2081,86.12
+Atlantic City NJ,ssp585,2082,87.24
+Atlantic City NJ,ssp585,2083,88.36
+Atlantic City NJ,ssp585,2084,89.48
+Atlantic City NJ,ssp585,2085,90.6
+Atlantic City NJ,ssp585,2086,91.72
+Atlantic City NJ,ssp585,2087,92.84
+Atlantic City NJ,ssp585,2088,93.96000000000001
+Atlantic City NJ,ssp585,2089,95.08
+Atlantic City NJ,ssp585,2090,96.2
+Atlantic City NJ,ssp585,2090,103.3
+Atlantic City NJ,ssp585,2091,104.17
+Atlantic City NJ,ssp585,2092,105.03999999999999
+Atlantic City NJ,ssp585,2093,105.91
+Atlantic City NJ,ssp585,2094,106.78
+Atlantic City NJ,ssp585,2095,107.65
+Atlantic City NJ,ssp585,2096,108.52
+Atlantic City NJ,ssp585,2097,109.39
+Atlantic City NJ,ssp585,2098,110.26
+Atlantic City NJ,ssp585,2099,111.13
+Atlantic City NJ,ssp585,2100,112.0
+Atlantic City NJ,ssp585,2100,123.2
+Boston MA,ssp126,2020,9.5
+Boston MA,ssp126,2020,9.6
+Boston MA,ssp126,2021,10.36
+Boston MA,ssp126,2022,11.12
+Boston MA,ssp126,2023,11.879999999999999
+Boston MA,ssp126,2024,12.64
+Boston MA,ssp126,2025,13.399999999999999
+Boston MA,ssp126,2026,14.16
+Boston MA,ssp126,2027,14.92
+Boston MA,ssp126,2028,15.68
+Boston MA,ssp126,2029,16.439999999999998
+Boston MA,ssp126,2030,17.2
+Boston MA,ssp126,2030,17.4
+Boston MA,ssp126,2031,18.169999999999998
+Boston MA,ssp126,2032,18.939999999999998
+Boston MA,ssp126,2033,19.71
+Boston MA,ssp126,2034,20.48
+Boston MA,ssp126,2035,21.25
+Boston MA,ssp126,2036,22.02
+Boston MA,ssp126,2037,22.79
+Boston MA,ssp126,2038,23.560000000000002
+Boston MA,ssp126,2039,24.330000000000002
+Boston MA,ssp126,2040,25.1
+Boston MA,ssp126,2040,25.4
+Boston MA,ssp126,2041,26.16
+Boston MA,ssp126,2042,26.919999999999998
+Boston MA,ssp126,2043,27.68
+Boston MA,ssp126,2044,28.439999999999998
+Boston MA,ssp126,2045,29.2
+Boston MA,ssp126,2046,29.96
+Boston MA,ssp126,2047,30.72
+Boston MA,ssp126,2048,31.48
+Boston MA,ssp126,2049,32.24
+Boston MA,ssp126,2050,33.0
+Boston MA,ssp126,2050,33.4
+Boston MA,ssp126,2051,34.04
+Boston MA,ssp126,2052,34.68
+Boston MA,ssp126,2053,35.32
+Boston MA,ssp126,2054,35.96
+Boston MA,ssp126,2055,36.599999999999994
+Boston MA,ssp126,2056,37.239999999999995
+Boston MA,ssp126,2057,37.879999999999995
+Boston MA,ssp126,2058,38.519999999999996
+Boston MA,ssp126,2059,39.16
+Boston MA,ssp126,2060,39.8
+Boston MA,ssp126,2060,40.3
+Boston MA,ssp126,2061,40.949999999999996
+Boston MA,ssp126,2062,41.599999999999994
+Boston MA,ssp126,2063,42.25
+Boston MA,ssp126,2064,42.9
+Boston MA,ssp126,2065,43.55
+Boston MA,ssp126,2066,44.199999999999996
+Boston MA,ssp126,2067,44.849999999999994
+Boston MA,ssp126,2068,45.5
+Boston MA,ssp126,2069,46.15
+Boston MA,ssp126,2070,46.8
+Boston MA,ssp126,2070,47.2
+Boston MA,ssp126,2071,47.71
+Boston MA,ssp126,2072,48.22
+Boston MA,ssp126,2073,48.730000000000004
+Boston MA,ssp126,2074,49.24
+Boston MA,ssp126,2075,49.75
+Boston MA,ssp126,2076,50.26
+Boston MA,ssp126,2077,50.769999999999996
+Boston MA,ssp126,2078,51.28
+Boston MA,ssp126,2079,51.79
+Boston MA,ssp126,2080,52.3
+Boston MA,ssp126,2080,52.7
+Boston MA,ssp126,2081,53.22
+Boston MA,ssp126,2082,53.74
+Boston MA,ssp126,2083,54.260000000000005
+Boston MA,ssp126,2084,54.78
+Boston MA,ssp126,2085,55.3
+Boston MA,ssp126,2086,55.82
+Boston MA,ssp126,2087,56.34
+Boston MA,ssp126,2088,56.86
+Boston MA,ssp126,2089,57.379999999999995
+Boston MA,ssp126,2090,57.9
+Boston MA,ssp126,2090,58.2
+Boston MA,ssp126,2091,58.690000000000005
+Boston MA,ssp126,2092,59.18
+Boston MA,ssp126,2093,59.67
+Boston MA,ssp126,2094,60.160000000000004
+Boston MA,ssp126,2095,60.650000000000006
+Boston MA,ssp126,2096,61.14
+Boston MA,ssp126,2097,61.63
+Boston MA,ssp126,2098,62.120000000000005
+Boston MA,ssp126,2099,62.61
+Boston MA,ssp126,2100,63.1
+Boston MA,ssp126,2100,63.3
+Boston MA,ssp245,2020,9.6
+Boston MA,ssp245,2021,10.33
+Boston MA,ssp245,2022,11.06
+Boston MA,ssp245,2023,11.79
+Boston MA,ssp245,2024,12.52
+Boston MA,ssp245,2025,13.25
+Boston MA,ssp245,2026,13.98
+Boston MA,ssp245,2027,14.71
+Boston MA,ssp245,2028,15.440000000000001
+Boston MA,ssp245,2029,16.17
+Boston MA,ssp245,2030,16.900000000000002
+Boston MA,ssp245,2031,17.73
+Boston MA,ssp245,2032,18.560000000000002
+Boston MA,ssp245,2033,19.39
+Boston MA,ssp245,2034,20.220000000000002
+Boston MA,ssp245,2035,21.05
+Boston MA,ssp245,2036,21.880000000000003
+Boston MA,ssp245,2037,22.71
+Boston MA,ssp245,2038,23.54
+Boston MA,ssp245,2039,24.37
+Boston MA,ssp245,2040,25.2
+Boston MA,ssp245,2041,26.09
+Boston MA,ssp245,2042,26.98
+Boston MA,ssp245,2043,27.87
+Boston MA,ssp245,2044,28.76
+Boston MA,ssp245,2045,29.65
+Boston MA,ssp245,2046,30.54
+Boston MA,ssp245,2047,31.43
+Boston MA,ssp245,2048,32.32
+Boston MA,ssp245,2049,33.21
+Boston MA,ssp245,2050,34.1
+Boston MA,ssp245,2051,34.95
+Boston MA,ssp245,2052,35.800000000000004
+Boston MA,ssp245,2053,36.65
+Boston MA,ssp245,2054,37.5
+Boston MA,ssp245,2055,38.35
+Boston MA,ssp245,2056,39.2
+Boston MA,ssp245,2057,40.050000000000004
+Boston MA,ssp245,2058,40.9
+Boston MA,ssp245,2059,41.75
+Boston MA,ssp245,2060,42.6
+Boston MA,ssp245,2061,43.510000000000005
+Boston MA,ssp245,2062,44.42
+Boston MA,ssp245,2063,45.33
+Boston MA,ssp245,2064,46.24
+Boston MA,ssp245,2065,47.150000000000006
+Boston MA,ssp245,2066,48.06
+Boston MA,ssp245,2067,48.97
+Boston MA,ssp245,2068,49.88
+Boston MA,ssp245,2069,50.790000000000006
+Boston MA,ssp245,2070,51.7
+Boston MA,ssp245,2071,52.52
+Boston MA,ssp245,2072,53.34
+Boston MA,ssp245,2073,54.160000000000004
+Boston MA,ssp245,2074,54.980000000000004
+Boston MA,ssp245,2075,55.8
+Boston MA,ssp245,2076,56.620000000000005
+Boston MA,ssp245,2077,57.44
+Boston MA,ssp245,2078,58.26
+Boston MA,ssp245,2079,59.08
+Boston MA,ssp245,2080,59.9
+Boston MA,ssp245,2081,60.73
+Boston MA,ssp245,2082,61.56
+Boston MA,ssp245,2083,62.39
+Boston MA,ssp245,2084,63.22
+Boston MA,ssp245,2085,64.05
+Boston MA,ssp245,2086,64.88
+Boston MA,ssp245,2087,65.71000000000001
+Boston MA,ssp245,2088,66.54
+Boston MA,ssp245,2089,67.37
+Boston MA,ssp245,2090,68.2
+Boston MA,ssp245,2091,69.16
+Boston MA,ssp245,2092,70.12
+Boston MA,ssp245,2093,71.08
+Boston MA,ssp245,2094,72.04
+Boston MA,ssp245,2095,73.0
+Boston MA,ssp245,2096,73.96
+Boston MA,ssp245,2097,74.92
+Boston MA,ssp245,2098,75.88
+Boston MA,ssp245,2099,76.84
+Boston MA,ssp245,2100,77.8
+Boston MA,ssp370,2020,9.6
+Boston MA,ssp370,2021,10.3
+Boston MA,ssp370,2022,11.0
+Boston MA,ssp370,2023,11.7
+Boston MA,ssp370,2024,12.4
+Boston MA,ssp370,2025,13.100000000000001
+Boston MA,ssp370,2026,13.8
+Boston MA,ssp370,2027,14.5
+Boston MA,ssp370,2028,15.200000000000001
+Boston MA,ssp370,2029,15.900000000000002
+Boston MA,ssp370,2030,16.6
+Boston MA,ssp370,2031,17.400000000000002
+Boston MA,ssp370,2032,18.200000000000003
+Boston MA,ssp370,2033,19.0
+Boston MA,ssp370,2034,19.8
+Boston MA,ssp370,2035,20.6
+Boston MA,ssp370,2036,21.400000000000002
+Boston MA,ssp370,2037,22.200000000000003
+Boston MA,ssp370,2038,23.0
+Boston MA,ssp370,2039,23.8
+Boston MA,ssp370,2040,24.6
+Boston MA,ssp370,2041,25.5
+Boston MA,ssp370,2042,26.400000000000002
+Boston MA,ssp370,2043,27.3
+Boston MA,ssp370,2044,28.200000000000003
+Boston MA,ssp370,2045,29.1
+Boston MA,ssp370,2046,30.0
+Boston MA,ssp370,2047,30.900000000000002
+Boston MA,ssp370,2048,31.8
+Boston MA,ssp370,2049,32.7
+Boston MA,ssp370,2050,33.6
+Boston MA,ssp370,2051,34.54
+Boston MA,ssp370,2052,35.480000000000004
+Boston MA,ssp370,2053,36.42
+Boston MA,ssp370,2054,37.36
+Boston MA,ssp370,2055,38.3
+Boston MA,ssp370,2056,39.24
+Boston MA,ssp370,2057,40.18
+Boston MA,ssp370,2058,41.12
+Boston MA,ssp370,2059,42.06
+Boston MA,ssp370,2060,43.0
+Boston MA,ssp370,2061,44.06
+Boston MA,ssp370,2062,45.12
+Boston MA,ssp370,2063,46.18
+Boston MA,ssp370,2064,47.24
+Boston MA,ssp370,2065,48.3
+Boston MA,ssp370,2066,49.36
+Boston MA,ssp370,2067,50.42
+Boston MA,ssp370,2068,51.480000000000004
+Boston MA,ssp370,2069,52.54
+Boston MA,ssp370,2070,53.6
+Boston MA,ssp370,2071,54.68
+Boston MA,ssp370,2072,55.760000000000005
+Boston MA,ssp370,2073,56.84
+Boston MA,ssp370,2074,57.92
+Boston MA,ssp370,2075,59.0
+Boston MA,ssp370,2076,60.080000000000005
+Boston MA,ssp370,2077,61.160000000000004
+Boston MA,ssp370,2078,62.24000000000001
+Boston MA,ssp370,2079,63.32000000000001
+Boston MA,ssp370,2080,64.4
+Boston MA,ssp370,2081,65.62
+Boston MA,ssp370,2082,66.84
+Boston MA,ssp370,2083,68.06
+Boston MA,ssp370,2084,69.28
+Boston MA,ssp370,2085,70.5
+Boston MA,ssp370,2086,71.72
+Boston MA,ssp370,2087,72.94
+Boston MA,ssp370,2088,74.16
+Boston MA,ssp370,2089,75.38
+Boston MA,ssp370,2090,76.6
+Boston MA,ssp370,2091,77.82
+Boston MA,ssp370,2092,79.03999999999999
+Boston MA,ssp370,2093,80.25999999999999
+Boston MA,ssp370,2094,81.47999999999999
+Boston MA,ssp370,2095,82.69999999999999
+Boston MA,ssp370,2096,83.92
+Boston MA,ssp370,2097,85.14
+Boston MA,ssp370,2098,86.36
+Boston MA,ssp370,2099,87.58
+Boston MA,ssp370,2100,88.8
+Boston MA,ssp585,2020,9.5
+Boston MA,ssp585,2020,9.6
+Boston MA,ssp585,2021,10.37
+Boston MA,ssp585,2022,11.139999999999999
+Boston MA,ssp585,2023,11.91
+Boston MA,ssp585,2024,12.68
+Boston MA,ssp585,2025,13.45
+Boston MA,ssp585,2026,14.219999999999999
+Boston MA,ssp585,2027,14.989999999999998
+Boston MA,ssp585,2028,15.759999999999998
+Boston MA,ssp585,2029,16.529999999999998
+Boston MA,ssp585,2030,17.299999999999997
+Boston MA,ssp585,2030,17.4
+Boston MA,ssp585,2031,18.299999999999997
+Boston MA,ssp585,2032,19.2
+Boston MA,ssp585,2033,20.099999999999998
+Boston MA,ssp585,2034,21.0
+Boston MA,ssp585,2035,21.9
+Boston MA,ssp585,2036,22.799999999999997
+Boston MA,ssp585,2037,23.7
+Boston MA,ssp585,2038,24.599999999999998
+Boston MA,ssp585,2039,25.5
+Boston MA,ssp585,2040,26.4
+Boston MA,ssp585,2040,26.6
+Boston MA,ssp585,2041,27.6
+Boston MA,ssp585,2042,28.6
+Boston MA,ssp585,2043,29.6
+Boston MA,ssp585,2044,30.6
+Boston MA,ssp585,2045,31.6
+Boston MA,ssp585,2046,32.6
+Boston MA,ssp585,2047,33.6
+Boston MA,ssp585,2048,34.6
+Boston MA,ssp585,2049,35.6
+Boston MA,ssp585,2050,36.6
+Boston MA,ssp585,2050,36.9
+Boston MA,ssp585,2051,37.89
+Boston MA,ssp585,2052,38.879999999999995
+Boston MA,ssp585,2053,39.87
+Boston MA,ssp585,2054,40.86
+Boston MA,ssp585,2055,41.849999999999994
+Boston MA,ssp585,2056,42.839999999999996
+Boston MA,ssp585,2057,43.83
+Boston MA,ssp585,2058,44.82
+Boston MA,ssp585,2059,45.809999999999995
+Boston MA,ssp585,2060,46.8
+Boston MA,ssp585,2060,47.8
+Boston MA,ssp585,2061,48.9
+Boston MA,ssp585,2062,50.0
+Boston MA,ssp585,2063,51.099999999999994
+Boston MA,ssp585,2064,52.199999999999996
+Boston MA,ssp585,2065,53.3
+Boston MA,ssp585,2066,54.4
+Boston MA,ssp585,2067,55.5
+Boston MA,ssp585,2068,56.599999999999994
+Boston MA,ssp585,2069,57.699999999999996
+Boston MA,ssp585,2070,58.8
+Boston MA,ssp585,2070,60.6
+Boston MA,ssp585,2071,61.72
+Boston MA,ssp585,2072,62.84
+Boston MA,ssp585,2073,63.96
+Boston MA,ssp585,2074,65.08
+Boston MA,ssp585,2075,66.2
+Boston MA,ssp585,2076,67.32
+Boston MA,ssp585,2077,68.44
+Boston MA,ssp585,2078,69.56
+Boston MA,ssp585,2079,70.67999999999999
+Boston MA,ssp585,2080,71.8
+Boston MA,ssp585,2080,75.4
+Boston MA,ssp585,2081,76.48
+Boston MA,ssp585,2082,77.56
+Boston MA,ssp585,2083,78.64
+Boston MA,ssp585,2084,79.72
+Boston MA,ssp585,2085,80.80000000000001
+Boston MA,ssp585,2086,81.88000000000001
+Boston MA,ssp585,2087,82.96000000000001
+Boston MA,ssp585,2088,84.04
+Boston MA,ssp585,2089,85.12
+Boston MA,ssp585,2090,86.2
+Boston MA,ssp585,2090,92.9
+Boston MA,ssp585,2091,93.65
+Boston MA,ssp585,2092,94.4
+Boston MA,ssp585,2093,95.15
+Boston MA,ssp585,2094,95.9
+Boston MA,ssp585,2095,96.65
+Boston MA,ssp585,2096,97.4
+Boston MA,ssp585,2097,98.15
+Boston MA,ssp585,2098,98.9
+Boston MA,ssp585,2099,99.65
+Boston MA,ssp585,2100,100.4
+Boston MA,ssp585,2100,111.1
+Charleston SC,ssp126,2020,9.5
+Charleston SC,ssp126,2020,9.8
+Charleston SC,ssp126,2021,10.540000000000001
+Charleston SC,ssp126,2022,11.280000000000001
+Charleston SC,ssp126,2023,12.02
+Charleston SC,ssp126,2024,12.76
+Charleston SC,ssp126,2025,13.5
+Charleston SC,ssp126,2026,14.24
+Charleston SC,ssp126,2027,14.98
+Charleston SC,ssp126,2028,15.719999999999999
+Charleston SC,ssp126,2029,16.46
+Charleston SC,ssp126,2030,17.2
+Charleston SC,ssp126,2030,17.5
+Charleston SC,ssp126,2031,18.21
+Charleston SC,ssp126,2032,18.92
+Charleston SC,ssp126,2033,19.630000000000003
+Charleston SC,ssp126,2034,20.34
+Charleston SC,ssp126,2035,21.05
+Charleston SC,ssp126,2036,21.76
+Charleston SC,ssp126,2037,22.470000000000002
+Charleston SC,ssp126,2038,23.18
+Charleston SC,ssp126,2039,23.89
+Charleston SC,ssp126,2040,24.6
+Charleston SC,ssp126,2040,25.2
+Charleston SC,ssp126,2041,25.919999999999998
+Charleston SC,ssp126,2042,26.64
+Charleston SC,ssp126,2043,27.36
+Charleston SC,ssp126,2044,28.08
+Charleston SC,ssp126,2045,28.799999999999997
+Charleston SC,ssp126,2046,29.52
+Charleston SC,ssp126,2047,30.24
+Charleston SC,ssp126,2048,30.96
+Charleston SC,ssp126,2049,31.68
+Charleston SC,ssp126,2050,32.4
+Charleston SC,ssp126,2050,33.0
+Charleston SC,ssp126,2051,33.6
+Charleston SC,ssp126,2052,34.2
+Charleston SC,ssp126,2053,34.8
+Charleston SC,ssp126,2054,35.4
+Charleston SC,ssp126,2055,36.0
+Charleston SC,ssp126,2056,36.6
+Charleston SC,ssp126,2057,37.2
+Charleston SC,ssp126,2058,37.8
+Charleston SC,ssp126,2059,38.4
+Charleston SC,ssp126,2060,39.0
+Charleston SC,ssp126,2060,39.900000000000006
+Charleston SC,ssp126,2061,40.550000000000004
+Charleston SC,ssp126,2062,41.2
+Charleston SC,ssp126,2063,41.85000000000001
+Charleston SC,ssp126,2064,42.50000000000001
+Charleston SC,ssp126,2065,43.150000000000006
+Charleston SC,ssp126,2066,43.800000000000004
+Charleston SC,ssp126,2067,44.45
+Charleston SC,ssp126,2068,45.10000000000001
+Charleston SC,ssp126,2069,45.75000000000001
+Charleston SC,ssp126,2070,46.400000000000006
+Charleston SC,ssp126,2070,47.4
+Charleston SC,ssp126,2071,47.94
+Charleston SC,ssp126,2072,48.48
+Charleston SC,ssp126,2073,49.019999999999996
+Charleston SC,ssp126,2074,49.559999999999995
+Charleston SC,ssp126,2075,50.099999999999994
+Charleston SC,ssp126,2076,50.64
+Charleston SC,ssp126,2077,51.18
+Charleston SC,ssp126,2078,51.72
+Charleston SC,ssp126,2079,52.26
+Charleston SC,ssp126,2080,52.8
+Charleston SC,ssp126,2080,53.900000000000006
+Charleston SC,ssp126,2081,54.410000000000004
+Charleston SC,ssp126,2082,54.92
+Charleston SC,ssp126,2083,55.43000000000001
+Charleston SC,ssp126,2084,55.940000000000005
+Charleston SC,ssp126,2085,56.45
+Charleston SC,ssp126,2086,56.96
+Charleston SC,ssp126,2087,57.47
+Charleston SC,ssp126,2088,57.980000000000004
+Charleston SC,ssp126,2089,58.49
+Charleston SC,ssp126,2090,59.0
+Charleston SC,ssp126,2090,60.0
+Charleston SC,ssp126,2091,60.55
+Charleston SC,ssp126,2092,61.1
+Charleston SC,ssp126,2093,61.65
+Charleston SC,ssp126,2094,62.2
+Charleston SC,ssp126,2095,62.75
+Charleston SC,ssp126,2096,63.3
+Charleston SC,ssp126,2097,63.85
+Charleston SC,ssp126,2098,64.4
+Charleston SC,ssp126,2099,64.95
+Charleston SC,ssp126,2100,65.5
+Charleston SC,ssp126,2100,66.60000000000001
+Charleston SC,ssp245,2020,9.4
+Charleston SC,ssp245,2021,10.16
+Charleston SC,ssp245,2022,10.92
+Charleston SC,ssp245,2023,11.68
+Charleston SC,ssp245,2024,12.440000000000001
+Charleston SC,ssp245,2025,13.2
+Charleston SC,ssp245,2026,13.96
+Charleston SC,ssp245,2027,14.72
+Charleston SC,ssp245,2028,15.48
+Charleston SC,ssp245,2029,16.240000000000002
+Charleston SC,ssp245,2030,17.0
+Charleston SC,ssp245,2031,17.78
+Charleston SC,ssp245,2032,18.56
+Charleston SC,ssp245,2033,19.34
+Charleston SC,ssp245,2034,20.12
+Charleston SC,ssp245,2035,20.9
+Charleston SC,ssp245,2036,21.68
+Charleston SC,ssp245,2037,22.46
+Charleston SC,ssp245,2038,23.240000000000002
+Charleston SC,ssp245,2039,24.02
+Charleston SC,ssp245,2040,24.8
+Charleston SC,ssp245,2041,25.68
+Charleston SC,ssp245,2042,26.560000000000002
+Charleston SC,ssp245,2043,27.44
+Charleston SC,ssp245,2044,28.32
+Charleston SC,ssp245,2045,29.200000000000003
+Charleston SC,ssp245,2046,30.080000000000002
+Charleston SC,ssp245,2047,30.96
+Charleston SC,ssp245,2048,31.840000000000003
+Charleston SC,ssp245,2049,32.72
+Charleston SC,ssp245,2050,33.6
+Charleston SC,ssp245,2051,34.44
+Charleston SC,ssp245,2052,35.28
+Charleston SC,ssp245,2053,36.120000000000005
+Charleston SC,ssp245,2054,36.96
+Charleston SC,ssp245,2055,37.8
+Charleston SC,ssp245,2056,38.64
+Charleston SC,ssp245,2057,39.480000000000004
+Charleston SC,ssp245,2058,40.32
+Charleston SC,ssp245,2059,41.16
+Charleston SC,ssp245,2060,42.0
+Charleston SC,ssp245,2061,42.9
+Charleston SC,ssp245,2062,43.8
+Charleston SC,ssp245,2063,44.7
+Charleston SC,ssp245,2064,45.6
+Charleston SC,ssp245,2065,46.5
+Charleston SC,ssp245,2066,47.4
+Charleston SC,ssp245,2067,48.3
+Charleston SC,ssp245,2068,49.2
+Charleston SC,ssp245,2069,50.1
+Charleston SC,ssp245,2070,51.0
+Charleston SC,ssp245,2071,51.89
+Charleston SC,ssp245,2072,52.78
+Charleston SC,ssp245,2073,53.67
+Charleston SC,ssp245,2074,54.56
+Charleston SC,ssp245,2075,55.45
+Charleston SC,ssp245,2076,56.34
+Charleston SC,ssp245,2077,57.23
+Charleston SC,ssp245,2078,58.12
+Charleston SC,ssp245,2079,59.01
+Charleston SC,ssp245,2080,59.9
+Charleston SC,ssp245,2081,60.769999999999996
+Charleston SC,ssp245,2082,61.64
+Charleston SC,ssp245,2083,62.510000000000005
+Charleston SC,ssp245,2084,63.38
+Charleston SC,ssp245,2085,64.25
+Charleston SC,ssp245,2086,65.12
+Charleston SC,ssp245,2087,65.99000000000001
+Charleston SC,ssp245,2088,66.86000000000001
+Charleston SC,ssp245,2089,67.73
+Charleston SC,ssp245,2090,68.60000000000001
+Charleston SC,ssp245,2091,69.54
+Charleston SC,ssp245,2092,70.48
+Charleston SC,ssp245,2093,71.42
+Charleston SC,ssp245,2094,72.36
+Charleston SC,ssp245,2095,73.30000000000001
+Charleston SC,ssp245,2096,74.24000000000001
+Charleston SC,ssp245,2097,75.18
+Charleston SC,ssp245,2098,76.12
+Charleston SC,ssp245,2099,77.06
+Charleston SC,ssp245,2100,78.0
+Charleston SC,ssp370,2020,9.5
+Charleston SC,ssp370,2021,10.23
+Charleston SC,ssp370,2022,10.96
+Charleston SC,ssp370,2023,11.690000000000001
+Charleston SC,ssp370,2024,12.42
+Charleston SC,ssp370,2025,13.15
+Charleston SC,ssp370,2026,13.88
+Charleston SC,ssp370,2027,14.61
+Charleston SC,ssp370,2028,15.34
+Charleston SC,ssp370,2029,16.07
+Charleston SC,ssp370,2030,16.8
+Charleston SC,ssp370,2031,17.6
+Charleston SC,ssp370,2032,18.400000000000002
+Charleston SC,ssp370,2033,19.200000000000003
+Charleston SC,ssp370,2034,20.0
+Charleston SC,ssp370,2035,20.8
+Charleston SC,ssp370,2036,21.6
+Charleston SC,ssp370,2037,22.400000000000002
+Charleston SC,ssp370,2038,23.200000000000003
+Charleston SC,ssp370,2039,24.0
+Charleston SC,ssp370,2040,24.8
+Charleston SC,ssp370,2041,25.71
+Charleston SC,ssp370,2042,26.62
+Charleston SC,ssp370,2043,27.53
+Charleston SC,ssp370,2044,28.44
+Charleston SC,ssp370,2045,29.35
+Charleston SC,ssp370,2046,30.260000000000005
+Charleston SC,ssp370,2047,31.170000000000005
+Charleston SC,ssp370,2048,32.080000000000005
+Charleston SC,ssp370,2049,32.99000000000001
+Charleston SC,ssp370,2050,33.900000000000006
+Charleston SC,ssp370,2051,34.81
+Charleston SC,ssp370,2052,35.720000000000006
+Charleston SC,ssp370,2053,36.63
+Charleston SC,ssp370,2054,37.540000000000006
+Charleston SC,ssp370,2055,38.45
+Charleston SC,ssp370,2056,39.36
+Charleston SC,ssp370,2057,40.27
+Charleston SC,ssp370,2058,41.18
+Charleston SC,ssp370,2059,42.09
+Charleston SC,ssp370,2060,43.0
+Charleston SC,ssp370,2061,44.04
+Charleston SC,ssp370,2062,45.08
+Charleston SC,ssp370,2063,46.120000000000005
+Charleston SC,ssp370,2064,47.160000000000004
+Charleston SC,ssp370,2065,48.2
+Charleston SC,ssp370,2066,49.24
+Charleston SC,ssp370,2067,50.28
+Charleston SC,ssp370,2068,51.32000000000001
+Charleston SC,ssp370,2069,52.36000000000001
+Charleston SC,ssp370,2070,53.400000000000006
+Charleston SC,ssp370,2071,54.50000000000001
+Charleston SC,ssp370,2072,55.60000000000001
+Charleston SC,ssp370,2073,56.7
+Charleston SC,ssp370,2074,57.800000000000004
+Charleston SC,ssp370,2075,58.900000000000006
+Charleston SC,ssp370,2076,60.00000000000001
+Charleston SC,ssp370,2077,61.10000000000001
+Charleston SC,ssp370,2078,62.2
+Charleston SC,ssp370,2079,63.300000000000004
+Charleston SC,ssp370,2080,64.4
+Charleston SC,ssp370,2081,65.58000000000001
+Charleston SC,ssp370,2082,66.76
+Charleston SC,ssp370,2083,67.94
+Charleston SC,ssp370,2084,69.12
+Charleston SC,ssp370,2085,70.30000000000001
+Charleston SC,ssp370,2086,71.48
+Charleston SC,ssp370,2087,72.66
+Charleston SC,ssp370,2088,73.84
+Charleston SC,ssp370,2089,75.02000000000001
+Charleston SC,ssp370,2090,76.2
+Charleston SC,ssp370,2091,77.57000000000001
+Charleston SC,ssp370,2092,78.94
+Charleston SC,ssp370,2093,80.31
+Charleston SC,ssp370,2094,81.68
+Charleston SC,ssp370,2095,83.05000000000001
+Charleston SC,ssp370,2096,84.42
+Charleston SC,ssp370,2097,85.79
+Charleston SC,ssp370,2098,87.16000000000001
+Charleston SC,ssp370,2099,88.53
+Charleston SC,ssp370,2100,89.9
+Charleston SC,ssp585,2020,9.5
+Charleston SC,ssp585,2020,9.7
+Charleston SC,ssp585,2021,10.469999999999999
+Charleston SC,ssp585,2022,11.239999999999998
+Charleston SC,ssp585,2023,12.009999999999998
+Charleston SC,ssp585,2024,12.78
+Charleston SC,ssp585,2025,13.549999999999999
+Charleston SC,ssp585,2026,14.319999999999999
+Charleston SC,ssp585,2027,15.09
+Charleston SC,ssp585,2028,15.86
+Charleston SC,ssp585,2029,16.63
+Charleston SC,ssp585,2030,17.4
+Charleston SC,ssp585,2030,17.599999999999998
+Charleston SC,ssp585,2031,18.459999999999997
+Charleston SC,ssp585,2032,19.32
+Charleston SC,ssp585,2033,20.18
+Charleston SC,ssp585,2034,21.04
+Charleston SC,ssp585,2035,21.9
+Charleston SC,ssp585,2036,22.76
+Charleston SC,ssp585,2037,23.62
+Charleston SC,ssp585,2038,24.480000000000004
+Charleston SC,ssp585,2039,25.340000000000003
+Charleston SC,ssp585,2040,26.200000000000003
+Charleston SC,ssp585,2040,26.5
+Charleston SC,ssp585,2041,27.49
+Charleston SC,ssp585,2042,28.48
+Charleston SC,ssp585,2043,29.47
+Charleston SC,ssp585,2044,30.46
+Charleston SC,ssp585,2045,31.45
+Charleston SC,ssp585,2046,32.44
+Charleston SC,ssp585,2047,33.43
+Charleston SC,ssp585,2048,34.42
+Charleston SC,ssp585,2049,35.41
+Charleston SC,ssp585,2050,36.4
+Charleston SC,ssp585,2050,37.0
+Charleston SC,ssp585,2051,37.92
+Charleston SC,ssp585,2052,38.84
+Charleston SC,ssp585,2053,39.76
+Charleston SC,ssp585,2054,40.68
+Charleston SC,ssp585,2055,41.6
+Charleston SC,ssp585,2056,42.52
+Charleston SC,ssp585,2057,43.440000000000005
+Charleston SC,ssp585,2058,44.36
+Charleston SC,ssp585,2059,45.28
+Charleston SC,ssp585,2060,46.2
+Charleston SC,ssp585,2060,47.6
+Charleston SC,ssp585,2061,48.6
+Charleston SC,ssp585,2062,49.6
+Charleston SC,ssp585,2063,50.6
+Charleston SC,ssp585,2064,51.6
+Charleston SC,ssp585,2065,52.6
+Charleston SC,ssp585,2066,53.6
+Charleston SC,ssp585,2067,54.6
+Charleston SC,ssp585,2068,55.6
+Charleston SC,ssp585,2069,56.6
+Charleston SC,ssp585,2070,57.6
+Charleston SC,ssp585,2070,60.1
+Charleston SC,ssp585,2071,61.09
+Charleston SC,ssp585,2072,62.08
+Charleston SC,ssp585,2073,63.07
+Charleston SC,ssp585,2074,64.06
+Charleston SC,ssp585,2075,65.05
+Charleston SC,ssp585,2076,66.04
+Charleston SC,ssp585,2077,67.03
+Charleston SC,ssp585,2078,68.02
+Charleston SC,ssp585,2079,69.01
+Charleston SC,ssp585,2080,70.0
+Charleston SC,ssp585,2080,74.6
+Charleston SC,ssp585,2081,75.52
+Charleston SC,ssp585,2082,76.44
+Charleston SC,ssp585,2083,77.36
+Charleston SC,ssp585,2084,78.28
+Charleston SC,ssp585,2085,79.19999999999999
+Charleston SC,ssp585,2086,80.11999999999999
+Charleston SC,ssp585,2087,81.03999999999999
+Charleston SC,ssp585,2088,81.96
+Charleston SC,ssp585,2089,82.88
+Charleston SC,ssp585,2090,83.8
+Charleston SC,ssp585,2090,91.6
+Charleston SC,ssp585,2091,92.3
+Charleston SC,ssp585,2092,93.0
+Charleston SC,ssp585,2093,93.69999999999999
+Charleston SC,ssp585,2094,94.39999999999999
+Charleston SC,ssp585,2095,95.1
+Charleston SC,ssp585,2096,95.8
+Charleston SC,ssp585,2097,96.5
+Charleston SC,ssp585,2098,97.19999999999999
+Charleston SC,ssp585,2099,97.89999999999999
+Charleston SC,ssp585,2100,98.6
+Charleston SC,ssp585,2100,110.6
+Galveston TX,ssp126,2020,14.000000000000002
+Galveston TX,ssp126,2020,14.3
+Galveston TX,ssp126,2021,15.34
+Galveston TX,ssp126,2022,16.38
+Galveston TX,ssp126,2023,17.42
+Galveston TX,ssp126,2024,18.46
+Galveston TX,ssp126,2025,19.5
+Galveston TX,ssp126,2026,20.54
+Galveston TX,ssp126,2027,21.58
+Galveston TX,ssp126,2028,22.619999999999997
+Galveston TX,ssp126,2029,23.659999999999997
+Galveston TX,ssp126,2030,24.7
+Galveston TX,ssp126,2030,25.1
+Galveston TX,ssp126,2031,26.1
+Galveston TX,ssp126,2032,27.1
+Galveston TX,ssp126,2033,28.1
+Galveston TX,ssp126,2034,29.099999999999998
+Galveston TX,ssp126,2035,30.099999999999998
+Galveston TX,ssp126,2036,31.099999999999998
+Galveston TX,ssp126,2037,32.099999999999994
+Galveston TX,ssp126,2038,33.099999999999994
+Galveston TX,ssp126,2039,34.099999999999994
+Galveston TX,ssp126,2040,35.099999999999994
+Galveston TX,ssp126,2040,35.8
+Galveston TX,ssp126,2041,36.769999999999996
+Galveston TX,ssp126,2042,37.739999999999995
+Galveston TX,ssp126,2043,38.71
+Galveston TX,ssp126,2044,39.68
+Galveston TX,ssp126,2045,40.65
+Galveston TX,ssp126,2046,41.62
+Galveston TX,ssp126,2047,42.589999999999996
+Galveston TX,ssp126,2048,43.56
+Galveston TX,ssp126,2049,44.53
+Galveston TX,ssp126,2050,45.5
+Galveston TX,ssp126,2050,46.2
+Galveston TX,ssp126,2051,47.080000000000005
+Galveston TX,ssp126,2052,47.96
+Galveston TX,ssp126,2053,48.84
+Galveston TX,ssp126,2054,49.720000000000006
+Galveston TX,ssp126,2055,50.60000000000001
+Galveston TX,ssp126,2056,51.480000000000004
+Galveston TX,ssp126,2057,52.36000000000001
+Galveston TX,ssp126,2058,53.24000000000001
+Galveston TX,ssp126,2059,54.120000000000005
+Galveston TX,ssp126,2060,55.00000000000001
+Galveston TX,ssp126,2060,56.10000000000001
+Galveston TX,ssp126,2061,57.10000000000001
+Galveston TX,ssp126,2062,58.10000000000001
+Galveston TX,ssp126,2063,59.10000000000001
+Galveston TX,ssp126,2064,60.10000000000001
+Galveston TX,ssp126,2065,61.10000000000001
+Galveston TX,ssp126,2066,62.10000000000001
+Galveston TX,ssp126,2067,63.10000000000001
+Galveston TX,ssp126,2068,64.10000000000001
+Galveston TX,ssp126,2069,65.10000000000001
+Galveston TX,ssp126,2070,66.10000000000001
+Galveston TX,ssp126,2070,67.2
+Galveston TX,ssp126,2071,68.10000000000001
+Galveston TX,ssp126,2072,69.0
+Galveston TX,ssp126,2073,69.9
+Galveston TX,ssp126,2074,70.8
+Galveston TX,ssp126,2075,71.7
+Galveston TX,ssp126,2076,72.60000000000001
+Galveston TX,ssp126,2077,73.5
+Galveston TX,ssp126,2078,74.4
+Galveston TX,ssp126,2079,75.3
+Galveston TX,ssp126,2080,76.2
+Galveston TX,ssp126,2080,77.5
+Galveston TX,ssp126,2081,78.31
+Galveston TX,ssp126,2082,79.12
+Galveston TX,ssp126,2083,79.92999999999999
+Galveston TX,ssp126,2084,80.74
+Galveston TX,ssp126,2085,81.55
+Galveston TX,ssp126,2086,82.36
+Galveston TX,ssp126,2087,83.17
+Galveston TX,ssp126,2088,83.97999999999999
+Galveston TX,ssp126,2089,84.78999999999999
+Galveston TX,ssp126,2090,85.6
+Galveston TX,ssp126,2090,87.0
+Galveston TX,ssp126,2091,87.84
+Galveston TX,ssp126,2092,88.68
+Galveston TX,ssp126,2093,89.52
+Galveston TX,ssp126,2094,90.36
+Galveston TX,ssp126,2095,91.2
+Galveston TX,ssp126,2096,92.04
+Galveston TX,ssp126,2097,92.88000000000001
+Galveston TX,ssp126,2098,93.72
+Galveston TX,ssp126,2099,94.56
+Galveston TX,ssp126,2100,95.4
+Galveston TX,ssp126,2100,96.8
+Galveston TX,ssp245,2020,13.7
+Galveston TX,ssp245,2021,14.75
+Galveston TX,ssp245,2022,15.799999999999999
+Galveston TX,ssp245,2023,16.85
+Galveston TX,ssp245,2024,17.9
+Galveston TX,ssp245,2025,18.95
+Galveston TX,ssp245,2026,20.0
+Galveston TX,ssp245,2027,21.05
+Galveston TX,ssp245,2028,22.1
+Galveston TX,ssp245,2029,23.15
+Galveston TX,ssp245,2030,24.2
+Galveston TX,ssp245,2031,25.3
+Galveston TX,ssp245,2032,26.4
+Galveston TX,ssp245,2033,27.5
+Galveston TX,ssp245,2034,28.6
+Galveston TX,ssp245,2035,29.700000000000003
+Galveston TX,ssp245,2036,30.8
+Galveston TX,ssp245,2037,31.900000000000002
+Galveston TX,ssp245,2038,33.0
+Galveston TX,ssp245,2039,34.1
+Galveston TX,ssp245,2040,35.2
+Galveston TX,ssp245,2041,36.39
+Galveston TX,ssp245,2042,37.580000000000005
+Galveston TX,ssp245,2043,38.77
+Galveston TX,ssp245,2044,39.96
+Galveston TX,ssp245,2045,41.150000000000006
+Galveston TX,ssp245,2046,42.34
+Galveston TX,ssp245,2047,43.53
+Galveston TX,ssp245,2048,44.72
+Galveston TX,ssp245,2049,45.910000000000004
+Galveston TX,ssp245,2050,47.1
+Galveston TX,ssp245,2051,48.21
+Galveston TX,ssp245,2052,49.32
+Galveston TX,ssp245,2053,50.43
+Galveston TX,ssp245,2054,51.54
+Galveston TX,ssp245,2055,52.650000000000006
+Galveston TX,ssp245,2056,53.760000000000005
+Galveston TX,ssp245,2057,54.870000000000005
+Galveston TX,ssp245,2058,55.980000000000004
+Galveston TX,ssp245,2059,57.09
+Galveston TX,ssp245,2060,58.2
+Galveston TX,ssp245,2061,59.42
+Galveston TX,ssp245,2062,60.64
+Galveston TX,ssp245,2063,61.86
+Galveston TX,ssp245,2064,63.08
+Galveston TX,ssp245,2065,64.3
+Galveston TX,ssp245,2066,65.52
+Galveston TX,ssp245,2067,66.74
+Galveston TX,ssp245,2068,67.96
+Galveston TX,ssp245,2069,69.17999999999999
+Galveston TX,ssp245,2070,70.39999999999999
+Galveston TX,ssp245,2071,71.66
+Galveston TX,ssp245,2072,72.91999999999999
+Galveston TX,ssp245,2073,74.17999999999999
+Galveston TX,ssp245,2074,75.44
+Galveston TX,ssp245,2075,76.69999999999999
+Galveston TX,ssp245,2076,77.96
+Galveston TX,ssp245,2077,79.22
+Galveston TX,ssp245,2078,80.48
+Galveston TX,ssp245,2079,81.74
+Galveston TX,ssp245,2080,83.0
+Galveston TX,ssp245,2081,84.19
+Galveston TX,ssp245,2082,85.38
+Galveston TX,ssp245,2083,86.57000000000001
+Galveston TX,ssp245,2084,87.76
+Galveston TX,ssp245,2085,88.95
+Galveston TX,ssp245,2086,90.14
+Galveston TX,ssp245,2087,91.33
+Galveston TX,ssp245,2088,92.52000000000001
+Galveston TX,ssp245,2089,93.71000000000001
+Galveston TX,ssp245,2090,94.9
+Galveston TX,ssp245,2091,96.13000000000001
+Galveston TX,ssp245,2092,97.36
+Galveston TX,ssp245,2093,98.59
+Galveston TX,ssp245,2094,99.82000000000001
+Galveston TX,ssp245,2095,101.05000000000001
+Galveston TX,ssp245,2096,102.28
+Galveston TX,ssp245,2097,103.51
+Galveston TX,ssp245,2098,104.74000000000001
+Galveston TX,ssp245,2099,105.97
+Galveston TX,ssp245,2100,107.2
+Galveston TX,ssp370,2020,14.2
+Galveston TX,ssp370,2021,15.25
+Galveston TX,ssp370,2022,16.3
+Galveston TX,ssp370,2023,17.35
+Galveston TX,ssp370,2024,18.4
+Galveston TX,ssp370,2025,19.45
+Galveston TX,ssp370,2026,20.5
+Galveston TX,ssp370,2027,21.55
+Galveston TX,ssp370,2028,22.6
+Galveston TX,ssp370,2029,23.65
+Galveston TX,ssp370,2030,24.7
+Galveston TX,ssp370,2031,25.79
+Galveston TX,ssp370,2032,26.88
+Galveston TX,ssp370,2033,27.97
+Galveston TX,ssp370,2034,29.060000000000002
+Galveston TX,ssp370,2035,30.15
+Galveston TX,ssp370,2036,31.240000000000002
+Galveston TX,ssp370,2037,32.33
+Galveston TX,ssp370,2038,33.42
+Galveston TX,ssp370,2039,34.510000000000005
+Galveston TX,ssp370,2040,35.6
+Galveston TX,ssp370,2041,36.800000000000004
+Galveston TX,ssp370,2042,38.0
+Galveston TX,ssp370,2043,39.2
+Galveston TX,ssp370,2044,40.4
+Galveston TX,ssp370,2045,41.6
+Galveston TX,ssp370,2046,42.8
+Galveston TX,ssp370,2047,44.0
+Galveston TX,ssp370,2048,45.2
+Galveston TX,ssp370,2049,46.4
+Galveston TX,ssp370,2050,47.6
+Galveston TX,ssp370,2051,48.81
+Galveston TX,ssp370,2052,50.02
+Galveston TX,ssp370,2053,51.230000000000004
+Galveston TX,ssp370,2054,52.440000000000005
+Galveston TX,ssp370,2055,53.650000000000006
+Galveston TX,ssp370,2056,54.86
+Galveston TX,ssp370,2057,56.07
+Galveston TX,ssp370,2058,57.28
+Galveston TX,ssp370,2059,58.49
+Galveston TX,ssp370,2060,59.7
+Galveston TX,ssp370,2061,61.07
+Galveston TX,ssp370,2062,62.440000000000005
+Galveston TX,ssp370,2063,63.81
+Galveston TX,ssp370,2064,65.18
+Galveston TX,ssp370,2065,66.55000000000001
+Galveston TX,ssp370,2066,67.92
+Galveston TX,ssp370,2067,69.29
+Galveston TX,ssp370,2068,70.66000000000001
+Galveston TX,ssp370,2069,72.03
+Galveston TX,ssp370,2070,73.4
+Galveston TX,ssp370,2071,74.82000000000001
+Galveston TX,ssp370,2072,76.24000000000001
+Galveston TX,ssp370,2073,77.66
+Galveston TX,ssp370,2074,79.08
+Galveston TX,ssp370,2075,80.5
+Galveston TX,ssp370,2076,81.92
+Galveston TX,ssp370,2077,83.34
+Galveston TX,ssp370,2078,84.75999999999999
+Galveston TX,ssp370,2079,86.17999999999999
+Galveston TX,ssp370,2080,87.6
+Galveston TX,ssp370,2081,89.11
+Galveston TX,ssp370,2082,90.61999999999999
+Galveston TX,ssp370,2083,92.13
+Galveston TX,ssp370,2084,93.64
+Galveston TX,ssp370,2085,95.15
+Galveston TX,ssp370,2086,96.66
+Galveston TX,ssp370,2087,98.17
+Galveston TX,ssp370,2088,99.68
+Galveston TX,ssp370,2089,101.19
+Galveston TX,ssp370,2090,102.7
+Galveston TX,ssp370,2091,104.39
+Galveston TX,ssp370,2092,106.08
+Galveston TX,ssp370,2093,107.77
+Galveston TX,ssp370,2094,109.46
+Galveston TX,ssp370,2095,111.15
+Galveston TX,ssp370,2096,112.84
+Galveston TX,ssp370,2097,114.53
+Galveston TX,ssp370,2098,116.22
+Galveston TX,ssp370,2099,117.91
+Galveston TX,ssp370,2100,119.6
+Galveston TX,ssp585,2020,13.900000000000002
+Galveston TX,ssp585,2020,14.2
+Galveston TX,ssp585,2021,15.25
+Galveston TX,ssp585,2022,16.3
+Galveston TX,ssp585,2023,17.35
+Galveston TX,ssp585,2024,18.4
+Galveston TX,ssp585,2025,19.45
+Galveston TX,ssp585,2026,20.5
+Galveston TX,ssp585,2027,21.55
+Galveston TX,ssp585,2028,22.6
+Galveston TX,ssp585,2029,23.65
+Galveston TX,ssp585,2030,24.7
+Galveston TX,ssp585,2030,25.0
+Galveston TX,ssp585,2031,26.16
+Galveston TX,ssp585,2032,27.32
+Galveston TX,ssp585,2033,28.48
+Galveston TX,ssp585,2034,29.64
+Galveston TX,ssp585,2035,30.8
+Galveston TX,ssp585,2036,31.96
+Galveston TX,ssp585,2037,33.120000000000005
+Galveston TX,ssp585,2038,34.28
+Galveston TX,ssp585,2039,35.44
+Galveston TX,ssp585,2040,36.6
+Galveston TX,ssp585,2040,37.0
+Galveston TX,ssp585,2041,38.26
+Galveston TX,ssp585,2042,39.52
+Galveston TX,ssp585,2043,40.78
+Galveston TX,ssp585,2044,42.04
+Galveston TX,ssp585,2045,43.3
+Galveston TX,ssp585,2046,44.56
+Galveston TX,ssp585,2047,45.82
+Galveston TX,ssp585,2048,47.08
+Galveston TX,ssp585,2049,48.34
+Galveston TX,ssp585,2050,49.6
+Galveston TX,ssp585,2050,50.3
+Galveston TX,ssp585,2051,51.51
+Galveston TX,ssp585,2052,52.72
+Galveston TX,ssp585,2053,53.93
+Galveston TX,ssp585,2054,55.14
+Galveston TX,ssp585,2055,56.349999999999994
+Galveston TX,ssp585,2056,57.56
+Galveston TX,ssp585,2057,58.769999999999996
+Galveston TX,ssp585,2058,59.98
+Galveston TX,ssp585,2059,61.19
+Galveston TX,ssp585,2060,62.4
+Galveston TX,ssp585,2060,64.0
+Galveston TX,ssp585,2061,65.32
+Galveston TX,ssp585,2062,66.64
+Galveston TX,ssp585,2063,67.96000000000001
+Galveston TX,ssp585,2064,69.28
+Galveston TX,ssp585,2065,70.6
+Galveston TX,ssp585,2066,71.92
+Galveston TX,ssp585,2067,73.24000000000001
+Galveston TX,ssp585,2068,74.56
+Galveston TX,ssp585,2069,75.88
+Galveston TX,ssp585,2070,77.2
+Galveston TX,ssp585,2070,80.0
+Galveston TX,ssp585,2071,81.3
+Galveston TX,ssp585,2072,82.6
+Galveston TX,ssp585,2073,83.9
+Galveston TX,ssp585,2074,85.2
+Galveston TX,ssp585,2075,86.5
+Galveston TX,ssp585,2076,87.8
+Galveston TX,ssp585,2077,89.1
+Galveston TX,ssp585,2078,90.4
+Galveston TX,ssp585,2079,91.7
+Galveston TX,ssp585,2080,93.0
+Galveston TX,ssp585,2080,98.0
+Galveston TX,ssp585,2081,99.21
+Galveston TX,ssp585,2082,100.42
+Galveston TX,ssp585,2083,101.63
+Galveston TX,ssp585,2084,102.84
+Galveston TX,ssp585,2085,104.05
+Galveston TX,ssp585,2086,105.25999999999999
+Galveston TX,ssp585,2087,106.47
+Galveston TX,ssp585,2088,107.67999999999999
+Galveston TX,ssp585,2089,108.89
+Galveston TX,ssp585,2090,110.1
+Galveston TX,ssp585,2090,118.3
+Galveston TX,ssp585,2091,119.33
+Galveston TX,ssp585,2092,120.36
+Galveston TX,ssp585,2093,121.39
+Galveston TX,ssp585,2094,122.42
+Galveston TX,ssp585,2095,123.44999999999999
+Galveston TX,ssp585,2096,124.47999999999999
+Galveston TX,ssp585,2097,125.50999999999999
+Galveston TX,ssp585,2098,126.53999999999999
+Galveston TX,ssp585,2099,127.57
+Galveston TX,ssp585,2100,128.6
+Galveston TX,ssp585,2100,141.0
+Honolulu HI,ssp126,2020,6.0
+Honolulu HI,ssp126,2020,6.4
+Honolulu HI,ssp126,2021,6.840000000000001
+Honolulu HI,ssp126,2022,7.28
+Honolulu HI,ssp126,2023,7.720000000000001
+Honolulu HI,ssp126,2024,8.16
+Honolulu HI,ssp126,2025,8.600000000000001
+Honolulu HI,ssp126,2026,9.040000000000001
+Honolulu HI,ssp126,2027,9.48
+Honolulu HI,ssp126,2028,9.920000000000002
+Honolulu HI,ssp126,2029,10.360000000000001
+Honolulu HI,ssp126,2030,10.8
+Honolulu HI,ssp126,2030,11.3
+Honolulu HI,ssp126,2031,11.75
+Honolulu HI,ssp126,2032,12.200000000000001
+Honolulu HI,ssp126,2033,12.65
+Honolulu HI,ssp126,2034,13.100000000000001
+Honolulu HI,ssp126,2035,13.55
+Honolulu HI,ssp126,2036,14.0
+Honolulu HI,ssp126,2037,14.450000000000001
+Honolulu HI,ssp126,2038,14.9
+Honolulu HI,ssp126,2039,15.350000000000001
+Honolulu HI,ssp126,2040,15.8
+Honolulu HI,ssp126,2040,16.6
+Honolulu HI,ssp126,2041,17.14
+Honolulu HI,ssp126,2042,17.68
+Honolulu HI,ssp126,2043,18.220000000000002
+Honolulu HI,ssp126,2044,18.76
+Honolulu HI,ssp126,2045,19.3
+Honolulu HI,ssp126,2046,19.84
+Honolulu HI,ssp126,2047,20.38
+Honolulu HI,ssp126,2048,20.92
+Honolulu HI,ssp126,2049,21.46
+Honolulu HI,ssp126,2050,22.0
+Honolulu HI,ssp126,2050,23.0
+Honolulu HI,ssp126,2051,23.42
+Honolulu HI,ssp126,2052,23.84
+Honolulu HI,ssp126,2053,24.26
+Honolulu HI,ssp126,2054,24.68
+Honolulu HI,ssp126,2055,25.1
+Honolulu HI,ssp126,2056,25.520000000000003
+Honolulu HI,ssp126,2057,25.94
+Honolulu HI,ssp126,2058,26.360000000000003
+Honolulu HI,ssp126,2059,26.78
+Honolulu HI,ssp126,2060,27.200000000000003
+Honolulu HI,ssp126,2060,28.6
+Honolulu HI,ssp126,2061,29.12
+Honolulu HI,ssp126,2062,29.64
+Honolulu HI,ssp126,2063,30.160000000000004
+Honolulu HI,ssp126,2064,30.680000000000003
+Honolulu HI,ssp126,2065,31.200000000000003
+Honolulu HI,ssp126,2066,31.720000000000002
+Honolulu HI,ssp126,2067,32.24
+Honolulu HI,ssp126,2068,32.760000000000005
+Honolulu HI,ssp126,2069,33.28
+Honolulu HI,ssp126,2070,33.800000000000004
+Honolulu HI,ssp126,2070,35.3
+Honolulu HI,ssp126,2071,35.75
+Honolulu HI,ssp126,2072,36.199999999999996
+Honolulu HI,ssp126,2073,36.65
+Honolulu HI,ssp126,2074,37.099999999999994
+Honolulu HI,ssp126,2075,37.55
+Honolulu HI,ssp126,2076,38.0
+Honolulu HI,ssp126,2077,38.449999999999996
+Honolulu HI,ssp126,2078,38.9
+Honolulu HI,ssp126,2079,39.349999999999994
+Honolulu HI,ssp126,2080,39.8
+Honolulu HI,ssp126,2080,41.6
+Honolulu HI,ssp126,2081,42.03
+Honolulu HI,ssp126,2082,42.46
+Honolulu HI,ssp126,2083,42.89
+Honolulu HI,ssp126,2084,43.32
+Honolulu HI,ssp126,2085,43.75
+Honolulu HI,ssp126,2086,44.18
+Honolulu HI,ssp126,2087,44.61
+Honolulu HI,ssp126,2088,45.04
+Honolulu HI,ssp126,2089,45.47
+Honolulu HI,ssp126,2090,45.9
+Honolulu HI,ssp126,2090,47.9
+Honolulu HI,ssp126,2091,48.25
+Honolulu HI,ssp126,2092,48.6
+Honolulu HI,ssp126,2093,48.949999999999996
+Honolulu HI,ssp126,2094,49.3
+Honolulu HI,ssp126,2095,49.65
+Honolulu HI,ssp126,2096,50.0
+Honolulu HI,ssp126,2097,50.35
+Honolulu HI,ssp126,2098,50.699999999999996
+Honolulu HI,ssp126,2099,51.05
+Honolulu HI,ssp126,2100,51.4
+Honolulu HI,ssp126,2100,53.5
+Honolulu HI,ssp245,2020,6.0
+Honolulu HI,ssp245,2021,6.5
+Honolulu HI,ssp245,2022,7.0
+Honolulu HI,ssp245,2023,7.5
+Honolulu HI,ssp245,2024,8.0
+Honolulu HI,ssp245,2025,8.5
+Honolulu HI,ssp245,2026,9.0
+Honolulu HI,ssp245,2027,9.5
+Honolulu HI,ssp245,2028,10.0
+Honolulu HI,ssp245,2029,10.5
+Honolulu HI,ssp245,2030,11.0
+Honolulu HI,ssp245,2031,11.56
+Honolulu HI,ssp245,2032,12.120000000000001
+Honolulu HI,ssp245,2033,12.68
+Honolulu HI,ssp245,2034,13.24
+Honolulu HI,ssp245,2035,13.8
+Honolulu HI,ssp245,2036,14.360000000000001
+Honolulu HI,ssp245,2037,14.920000000000002
+Honolulu HI,ssp245,2038,15.48
+Honolulu HI,ssp245,2039,16.040000000000003
+Honolulu HI,ssp245,2040,16.6
+Honolulu HI,ssp245,2041,17.32
+Honolulu HI,ssp245,2042,18.040000000000003
+Honolulu HI,ssp245,2043,18.76
+Honolulu HI,ssp245,2044,19.48
+Honolulu HI,ssp245,2045,20.200000000000003
+Honolulu HI,ssp245,2046,20.92
+Honolulu HI,ssp245,2047,21.64
+Honolulu HI,ssp245,2048,22.36
+Honolulu HI,ssp245,2049,23.080000000000002
+Honolulu HI,ssp245,2050,23.8
+Honolulu HI,ssp245,2051,24.46
+Honolulu HI,ssp245,2052,25.12
+Honolulu HI,ssp245,2053,25.78
+Honolulu HI,ssp245,2054,26.44
+Honolulu HI,ssp245,2055,27.1
+Honolulu HI,ssp245,2056,27.759999999999998
+Honolulu HI,ssp245,2057,28.419999999999998
+Honolulu HI,ssp245,2058,29.08
+Honolulu HI,ssp245,2059,29.74
+Honolulu HI,ssp245,2060,30.4
+Honolulu HI,ssp245,2061,31.169999999999998
+Honolulu HI,ssp245,2062,31.939999999999998
+Honolulu HI,ssp245,2063,32.71
+Honolulu HI,ssp245,2064,33.48
+Honolulu HI,ssp245,2065,34.25
+Honolulu HI,ssp245,2066,35.019999999999996
+Honolulu HI,ssp245,2067,35.79
+Honolulu HI,ssp245,2068,36.56
+Honolulu HI,ssp245,2069,37.33
+Honolulu HI,ssp245,2070,38.1
+Honolulu HI,ssp245,2071,38.97
+Honolulu HI,ssp245,2072,39.84
+Honolulu HI,ssp245,2073,40.71
+Honolulu HI,ssp245,2074,41.58
+Honolulu HI,ssp245,2075,42.45
+Honolulu HI,ssp245,2076,43.32
+Honolulu HI,ssp245,2077,44.19
+Honolulu HI,ssp245,2078,45.059999999999995
+Honolulu HI,ssp245,2079,45.93
+Honolulu HI,ssp245,2080,46.8
+Honolulu HI,ssp245,2081,47.68
+Honolulu HI,ssp245,2082,48.56
+Honolulu HI,ssp245,2083,49.44
+Honolulu HI,ssp245,2084,50.32
+Honolulu HI,ssp245,2085,51.2
+Honolulu HI,ssp245,2086,52.080000000000005
+Honolulu HI,ssp245,2087,52.96000000000001
+Honolulu HI,ssp245,2088,53.84
+Honolulu HI,ssp245,2089,54.720000000000006
+Honolulu HI,ssp245,2090,55.60000000000001
+Honolulu HI,ssp245,2091,56.64000000000001
+Honolulu HI,ssp245,2092,57.68000000000001
+Honolulu HI,ssp245,2093,58.720000000000006
+Honolulu HI,ssp245,2094,59.760000000000005
+Honolulu HI,ssp245,2095,60.800000000000004
+Honolulu HI,ssp245,2096,61.84
+Honolulu HI,ssp245,2097,62.88
+Honolulu HI,ssp245,2098,63.92
+Honolulu HI,ssp245,2099,64.96000000000001
+Honolulu HI,ssp245,2100,66.0
+Honolulu HI,ssp370,2020,5.9
+Honolulu HI,ssp370,2021,6.38
+Honolulu HI,ssp370,2022,6.86
+Honolulu HI,ssp370,2023,7.34
+Honolulu HI,ssp370,2024,7.82
+Honolulu HI,ssp370,2025,8.3
+Honolulu HI,ssp370,2026,8.78
+Honolulu HI,ssp370,2027,9.26
+Honolulu HI,ssp370,2028,9.739999999999998
+Honolulu HI,ssp370,2029,10.219999999999999
+Honolulu HI,ssp370,2030,10.7
+Honolulu HI,ssp370,2031,11.29
+Honolulu HI,ssp370,2032,11.879999999999999
+Honolulu HI,ssp370,2033,12.469999999999999
+Honolulu HI,ssp370,2034,13.06
+Honolulu HI,ssp370,2035,13.65
+Honolulu HI,ssp370,2036,14.24
+Honolulu HI,ssp370,2037,14.830000000000002
+Honolulu HI,ssp370,2038,15.420000000000002
+Honolulu HI,ssp370,2039,16.01
+Honolulu HI,ssp370,2040,16.6
+Honolulu HI,ssp370,2041,17.42
+Honolulu HI,ssp370,2042,18.240000000000002
+Honolulu HI,ssp370,2043,19.060000000000002
+Honolulu HI,ssp370,2044,19.880000000000003
+Honolulu HI,ssp370,2045,20.700000000000003
+Honolulu HI,ssp370,2046,21.520000000000003
+Honolulu HI,ssp370,2047,22.34
+Honolulu HI,ssp370,2048,23.16
+Honolulu HI,ssp370,2049,23.98
+Honolulu HI,ssp370,2050,24.8
+Honolulu HI,ssp370,2051,25.62
+Honolulu HI,ssp370,2052,26.44
+Honolulu HI,ssp370,2053,27.26
+Honolulu HI,ssp370,2054,28.080000000000002
+Honolulu HI,ssp370,2055,28.9
+Honolulu HI,ssp370,2056,29.72
+Honolulu HI,ssp370,2057,30.54
+Honolulu HI,ssp370,2058,31.36
+Honolulu HI,ssp370,2059,32.18
+Honolulu HI,ssp370,2060,33.0
+Honolulu HI,ssp370,2061,33.97
+Honolulu HI,ssp370,2062,34.94
+Honolulu HI,ssp370,2063,35.910000000000004
+Honolulu HI,ssp370,2064,36.88
+Honolulu HI,ssp370,2065,37.85
+Honolulu HI,ssp370,2066,38.82
+Honolulu HI,ssp370,2067,39.79
+Honolulu HI,ssp370,2068,40.760000000000005
+Honolulu HI,ssp370,2069,41.730000000000004
+Honolulu HI,ssp370,2070,42.7
+Honolulu HI,ssp370,2071,43.790000000000006
+Honolulu HI,ssp370,2072,44.88
+Honolulu HI,ssp370,2073,45.97
+Honolulu HI,ssp370,2074,47.06
+Honolulu HI,ssp370,2075,48.150000000000006
+Honolulu HI,ssp370,2076,49.24
+Honolulu HI,ssp370,2077,50.33
+Honolulu HI,ssp370,2078,51.42
+Honolulu HI,ssp370,2079,52.510000000000005
+Honolulu HI,ssp370,2080,53.6
+Honolulu HI,ssp370,2081,54.81
+Honolulu HI,ssp370,2082,56.02
+Honolulu HI,ssp370,2083,57.230000000000004
+Honolulu HI,ssp370,2084,58.440000000000005
+Honolulu HI,ssp370,2085,59.650000000000006
+Honolulu HI,ssp370,2086,60.86
+Honolulu HI,ssp370,2087,62.07
+Honolulu HI,ssp370,2088,63.28
+Honolulu HI,ssp370,2089,64.49000000000001
+Honolulu HI,ssp370,2090,65.7
+Honolulu HI,ssp370,2091,67.07000000000001
+Honolulu HI,ssp370,2092,68.44
+Honolulu HI,ssp370,2093,69.81
+Honolulu HI,ssp370,2094,71.18
+Honolulu HI,ssp370,2095,72.55000000000001
+Honolulu HI,ssp370,2096,73.92
+Honolulu HI,ssp370,2097,75.29
+Honolulu HI,ssp370,2098,76.66000000000001
+Honolulu HI,ssp370,2099,78.03
+Honolulu HI,ssp370,2100,79.4
+Honolulu HI,ssp585,2020,6.5
+Honolulu HI,ssp585,2020,6.800000000000001
+Honolulu HI,ssp585,2021,7.340000000000001
+Honolulu HI,ssp585,2022,7.880000000000001
+Honolulu HI,ssp585,2023,8.42
+Honolulu HI,ssp585,2024,8.96
+Honolulu HI,ssp585,2025,9.5
+Honolulu HI,ssp585,2026,10.04
+Honolulu HI,ssp585,2027,10.579999999999998
+Honolulu HI,ssp585,2028,11.12
+Honolulu HI,ssp585,2029,11.66
+Honolulu HI,ssp585,2030,12.2
+Honolulu HI,ssp585,2030,12.5
+Honolulu HI,ssp585,2031,13.07
+Honolulu HI,ssp585,2032,13.64
+Honolulu HI,ssp585,2033,14.21
+Honolulu HI,ssp585,2034,14.78
+Honolulu HI,ssp585,2035,15.35
+Honolulu HI,ssp585,2036,15.92
+Honolulu HI,ssp585,2037,16.49
+Honolulu HI,ssp585,2038,17.06
+Honolulu HI,ssp585,2039,17.63
+Honolulu HI,ssp585,2040,18.2
+Honolulu HI,ssp585,2040,18.8
+Honolulu HI,ssp585,2041,19.630000000000003
+Honolulu HI,ssp585,2042,20.46
+Honolulu HI,ssp585,2043,21.29
+Honolulu HI,ssp585,2044,22.12
+Honolulu HI,ssp585,2045,22.950000000000003
+Honolulu HI,ssp585,2046,23.78
+Honolulu HI,ssp585,2047,24.61
+Honolulu HI,ssp585,2048,25.44
+Honolulu HI,ssp585,2049,26.270000000000003
+Honolulu HI,ssp585,2050,27.1
+Honolulu HI,ssp585,2050,28.1
+Honolulu HI,ssp585,2051,28.93
+Honolulu HI,ssp585,2052,29.76
+Honolulu HI,ssp585,2053,30.59
+Honolulu HI,ssp585,2054,31.42
+Honolulu HI,ssp585,2055,32.25
+Honolulu HI,ssp585,2056,33.08
+Honolulu HI,ssp585,2057,33.91
+Honolulu HI,ssp585,2058,34.74
+Honolulu HI,ssp585,2059,35.57
+Honolulu HI,ssp585,2060,36.4
+Honolulu HI,ssp585,2060,38.5
+Honolulu HI,ssp585,2061,39.42
+Honolulu HI,ssp585,2062,40.34
+Honolulu HI,ssp585,2063,41.26
+Honolulu HI,ssp585,2064,42.18
+Honolulu HI,ssp585,2065,43.1
+Honolulu HI,ssp585,2066,44.02
+Honolulu HI,ssp585,2067,44.940000000000005
+Honolulu HI,ssp585,2068,45.86
+Honolulu HI,ssp585,2069,46.78
+Honolulu HI,ssp585,2070,47.7
+Honolulu HI,ssp585,2070,51.4
+Honolulu HI,ssp585,2071,52.269999999999996
+Honolulu HI,ssp585,2072,53.14
+Honolulu HI,ssp585,2073,54.01
+Honolulu HI,ssp585,2074,54.88
+Honolulu HI,ssp585,2075,55.75
+Honolulu HI,ssp585,2076,56.620000000000005
+Honolulu HI,ssp585,2077,57.49
+Honolulu HI,ssp585,2078,58.36
+Honolulu HI,ssp585,2079,59.230000000000004
+Honolulu HI,ssp585,2080,60.1
+Honolulu HI,ssp585,2080,66.2
+Honolulu HI,ssp585,2081,67.04
+Honolulu HI,ssp585,2082,67.88
+Honolulu HI,ssp585,2083,68.72
+Honolulu HI,ssp585,2084,69.56
+Honolulu HI,ssp585,2085,70.4
+Honolulu HI,ssp585,2086,71.24
+Honolulu HI,ssp585,2087,72.08
+Honolulu HI,ssp585,2088,72.92
+Honolulu HI,ssp585,2089,73.75999999999999
+Honolulu HI,ssp585,2090,74.6
+Honolulu HI,ssp585,2090,84.39999999999999
+Honolulu HI,ssp585,2091,85.02
+Honolulu HI,ssp585,2092,85.63999999999999
+Honolulu HI,ssp585,2093,86.25999999999999
+Honolulu HI,ssp585,2094,86.88
+Honolulu HI,ssp585,2095,87.5
+Honolulu HI,ssp585,2096,88.11999999999999
+Honolulu HI,ssp585,2097,88.74
+Honolulu HI,ssp585,2098,89.36
+Honolulu HI,ssp585,2099,89.97999999999999
+Honolulu HI,ssp585,2100,90.6
+Honolulu HI,ssp585,2100,105.2
+Miami FL,ssp126,2020,7.9
+Miami FL,ssp126,2020,8.200000000000001
+Miami FL,ssp126,2021,8.83
+Miami FL,ssp126,2022,9.46
+Miami FL,ssp126,2023,10.09
+Miami FL,ssp126,2024,10.719999999999999
+Miami FL,ssp126,2025,11.35
+Miami FL,ssp126,2026,11.979999999999999
+Miami FL,ssp126,2027,12.61
+Miami FL,ssp126,2028,13.239999999999998
+Miami FL,ssp126,2029,13.869999999999997
+Miami FL,ssp126,2030,14.499999999999998
+Miami FL,ssp126,2030,14.8
+Miami FL,ssp126,2031,15.39
+Miami FL,ssp126,2032,15.98
+Miami FL,ssp126,2033,16.57
+Miami FL,ssp126,2034,17.16
+Miami FL,ssp126,2035,17.75
+Miami FL,ssp126,2036,18.34
+Miami FL,ssp126,2037,18.93
+Miami FL,ssp126,2038,19.52
+Miami FL,ssp126,2039,20.11
+Miami FL,ssp126,2040,20.7
+Miami FL,ssp126,2040,21.3
+Miami FL,ssp126,2041,21.93
+Miami FL,ssp126,2042,22.560000000000002
+Miami FL,ssp126,2043,23.19
+Miami FL,ssp126,2044,23.82
+Miami FL,ssp126,2045,24.450000000000003
+Miami FL,ssp126,2046,25.080000000000002
+Miami FL,ssp126,2047,25.71
+Miami FL,ssp126,2048,26.340000000000003
+Miami FL,ssp126,2049,26.970000000000002
+Miami FL,ssp126,2050,27.6
+Miami FL,ssp126,2050,28.3
+Miami FL,ssp126,2051,28.830000000000002
+Miami FL,ssp126,2052,29.36
+Miami FL,ssp126,2053,29.89
+Miami FL,ssp126,2054,30.42
+Miami FL,ssp126,2055,30.950000000000003
+Miami FL,ssp126,2056,31.48
+Miami FL,ssp126,2057,32.01
+Miami FL,ssp126,2058,32.54
+Miami FL,ssp126,2059,33.07
+Miami FL,ssp126,2060,33.6
+Miami FL,ssp126,2060,34.599999999999994
+Miami FL,ssp126,2061,35.199999999999996
+Miami FL,ssp126,2062,35.8
+Miami FL,ssp126,2063,36.4
+Miami FL,ssp126,2064,37.0
+Miami FL,ssp126,2065,37.599999999999994
+Miami FL,ssp126,2066,38.199999999999996
+Miami FL,ssp126,2067,38.8
+Miami FL,ssp126,2068,39.4
+Miami FL,ssp126,2069,40.0
+Miami FL,ssp126,2070,40.6
+Miami FL,ssp126,2070,41.7
+Miami FL,ssp126,2071,42.21
+Miami FL,ssp126,2072,42.72
+Miami FL,ssp126,2073,43.230000000000004
+Miami FL,ssp126,2074,43.74
+Miami FL,ssp126,2075,44.25
+Miami FL,ssp126,2076,44.76
+Miami FL,ssp126,2077,45.269999999999996
+Miami FL,ssp126,2078,45.78
+Miami FL,ssp126,2079,46.29
+Miami FL,ssp126,2080,46.8
+Miami FL,ssp126,2080,48.1
+Miami FL,ssp126,2081,48.57
+Miami FL,ssp126,2082,49.04
+Miami FL,ssp126,2083,49.51
+Miami FL,ssp126,2084,49.98
+Miami FL,ssp126,2085,50.45
+Miami FL,ssp126,2086,50.92
+Miami FL,ssp126,2087,51.39
+Miami FL,ssp126,2088,51.86
+Miami FL,ssp126,2089,52.33
+Miami FL,ssp126,2090,52.8
+Miami FL,ssp126,2090,54.2
+Miami FL,ssp126,2091,54.690000000000005
+Miami FL,ssp126,2092,55.18
+Miami FL,ssp126,2093,55.67
+Miami FL,ssp126,2094,56.160000000000004
+Miami FL,ssp126,2095,56.650000000000006
+Miami FL,ssp126,2096,57.14
+Miami FL,ssp126,2097,57.63
+Miami FL,ssp126,2098,58.120000000000005
+Miami FL,ssp126,2099,58.61
+Miami FL,ssp126,2100,59.1
+Miami FL,ssp126,2100,60.4
+Miami FL,ssp245,2020,7.9
+Miami FL,ssp245,2021,8.530000000000001
+Miami FL,ssp245,2022,9.16
+Miami FL,ssp245,2023,9.79
+Miami FL,ssp245,2024,10.42
+Miami FL,ssp245,2025,11.05
+Miami FL,ssp245,2026,11.68
+Miami FL,ssp245,2027,12.309999999999999
+Miami FL,ssp245,2028,12.94
+Miami FL,ssp245,2029,13.57
+Miami FL,ssp245,2030,14.2
+Miami FL,ssp245,2031,14.879999999999999
+Miami FL,ssp245,2032,15.559999999999999
+Miami FL,ssp245,2033,16.24
+Miami FL,ssp245,2034,16.919999999999998
+Miami FL,ssp245,2035,17.6
+Miami FL,ssp245,2036,18.28
+Miami FL,ssp245,2037,18.96
+Miami FL,ssp245,2038,19.64
+Miami FL,ssp245,2039,20.32
+Miami FL,ssp245,2040,21.0
+Miami FL,ssp245,2041,21.8
+Miami FL,ssp245,2042,22.6
+Miami FL,ssp245,2043,23.4
+Miami FL,ssp245,2044,24.2
+Miami FL,ssp245,2045,25.0
+Miami FL,ssp245,2046,25.8
+Miami FL,ssp245,2047,26.6
+Miami FL,ssp245,2048,27.4
+Miami FL,ssp245,2049,28.2
+Miami FL,ssp245,2050,29.0
+Miami FL,ssp245,2051,29.75
+Miami FL,ssp245,2052,30.5
+Miami FL,ssp245,2053,31.25
+Miami FL,ssp245,2054,32.0
+Miami FL,ssp245,2055,32.75
+Miami FL,ssp245,2056,33.5
+Miami FL,ssp245,2057,34.25
+Miami FL,ssp245,2058,35.0
+Miami FL,ssp245,2059,35.75
+Miami FL,ssp245,2060,36.5
+Miami FL,ssp245,2061,37.34
+Miami FL,ssp245,2062,38.18
+Miami FL,ssp245,2063,39.019999999999996
+Miami FL,ssp245,2064,39.86
+Miami FL,ssp245,2065,40.7
+Miami FL,ssp245,2066,41.54
+Miami FL,ssp245,2067,42.379999999999995
+Miami FL,ssp245,2068,43.22
+Miami FL,ssp245,2069,44.06
+Miami FL,ssp245,2070,44.9
+Miami FL,ssp245,2071,45.78
+Miami FL,ssp245,2072,46.66
+Miami FL,ssp245,2073,47.54
+Miami FL,ssp245,2074,48.42
+Miami FL,ssp245,2075,49.3
+Miami FL,ssp245,2076,50.18
+Miami FL,ssp245,2077,51.06
+Miami FL,ssp245,2078,51.940000000000005
+Miami FL,ssp245,2079,52.82
+Miami FL,ssp245,2080,53.7
+Miami FL,ssp245,2081,54.550000000000004
+Miami FL,ssp245,2082,55.400000000000006
+Miami FL,ssp245,2083,56.25
+Miami FL,ssp245,2084,57.1
+Miami FL,ssp245,2085,57.95
+Miami FL,ssp245,2086,58.800000000000004
+Miami FL,ssp245,2087,59.650000000000006
+Miami FL,ssp245,2088,60.5
+Miami FL,ssp245,2089,61.35
+Miami FL,ssp245,2090,62.2
+Miami FL,ssp245,2091,63.120000000000005
+Miami FL,ssp245,2092,64.04
+Miami FL,ssp245,2093,64.96
+Miami FL,ssp245,2094,65.88
+Miami FL,ssp245,2095,66.8
+Miami FL,ssp245,2096,67.72
+Miami FL,ssp245,2097,68.64
+Miami FL,ssp245,2098,69.55999999999999
+Miami FL,ssp245,2099,70.47999999999999
+Miami FL,ssp245,2100,71.39999999999999
+Miami FL,ssp370,2020,8.200000000000001
+Miami FL,ssp370,2021,8.81
+Miami FL,ssp370,2022,9.420000000000002
+Miami FL,ssp370,2023,10.030000000000001
+Miami FL,ssp370,2024,10.64
+Miami FL,ssp370,2025,11.25
+Miami FL,ssp370,2026,11.860000000000001
+Miami FL,ssp370,2027,12.47
+Miami FL,ssp370,2028,13.080000000000002
+Miami FL,ssp370,2029,13.690000000000001
+Miami FL,ssp370,2030,14.3
+Miami FL,ssp370,2031,14.97
+Miami FL,ssp370,2032,15.64
+Miami FL,ssp370,2033,16.310000000000002
+Miami FL,ssp370,2034,16.98
+Miami FL,ssp370,2035,17.65
+Miami FL,ssp370,2036,18.32
+Miami FL,ssp370,2037,18.990000000000002
+Miami FL,ssp370,2038,19.66
+Miami FL,ssp370,2039,20.33
+Miami FL,ssp370,2040,21.0
+Miami FL,ssp370,2041,21.85
+Miami FL,ssp370,2042,22.7
+Miami FL,ssp370,2043,23.55
+Miami FL,ssp370,2044,24.4
+Miami FL,ssp370,2045,25.25
+Miami FL,ssp370,2046,26.1
+Miami FL,ssp370,2047,26.95
+Miami FL,ssp370,2048,27.8
+Miami FL,ssp370,2049,28.65
+Miami FL,ssp370,2050,29.5
+Miami FL,ssp370,2051,30.33
+Miami FL,ssp370,2052,31.16
+Miami FL,ssp370,2053,31.99
+Miami FL,ssp370,2054,32.82
+Miami FL,ssp370,2055,33.65
+Miami FL,ssp370,2056,34.48
+Miami FL,ssp370,2057,35.309999999999995
+Miami FL,ssp370,2058,36.14
+Miami FL,ssp370,2059,36.97
+Miami FL,ssp370,2060,37.8
+Miami FL,ssp370,2061,38.79
+Miami FL,ssp370,2062,39.78
+Miami FL,ssp370,2063,40.769999999999996
+Miami FL,ssp370,2064,41.76
+Miami FL,ssp370,2065,42.75
+Miami FL,ssp370,2066,43.74
+Miami FL,ssp370,2067,44.730000000000004
+Miami FL,ssp370,2068,45.72
+Miami FL,ssp370,2069,46.71
+Miami FL,ssp370,2070,47.7
+Miami FL,ssp370,2071,48.74
+Miami FL,ssp370,2072,49.78
+Miami FL,ssp370,2073,50.82
+Miami FL,ssp370,2074,51.86
+Miami FL,ssp370,2075,52.900000000000006
+Miami FL,ssp370,2076,53.94
+Miami FL,ssp370,2077,54.980000000000004
+Miami FL,ssp370,2078,56.02
+Miami FL,ssp370,2079,57.06
+Miami FL,ssp370,2080,58.1
+Miami FL,ssp370,2081,59.26
+Miami FL,ssp370,2082,60.42
+Miami FL,ssp370,2083,61.58
+Miami FL,ssp370,2084,62.739999999999995
+Miami FL,ssp370,2085,63.89999999999999
+Miami FL,ssp370,2086,65.05999999999999
+Miami FL,ssp370,2087,66.22
+Miami FL,ssp370,2088,67.38
+Miami FL,ssp370,2089,68.53999999999999
+Miami FL,ssp370,2090,69.69999999999999
+Miami FL,ssp370,2091,71.01999999999998
+Miami FL,ssp370,2092,72.33999999999999
+Miami FL,ssp370,2093,73.66
+Miami FL,ssp370,2094,74.97999999999999
+Miami FL,ssp370,2095,76.29999999999998
+Miami FL,ssp370,2096,77.61999999999999
+Miami FL,ssp370,2097,78.94
+Miami FL,ssp370,2098,80.25999999999999
+Miami FL,ssp370,2099,81.57999999999998
+Miami FL,ssp370,2100,82.89999999999999
+Miami FL,ssp585,2020,8.0
+Miami FL,ssp585,2020,8.200000000000001
+Miami FL,ssp585,2021,8.82
+Miami FL,ssp585,2022,9.440000000000001
+Miami FL,ssp585,2023,10.06
+Miami FL,ssp585,2024,10.68
+Miami FL,ssp585,2025,11.3
+Miami FL,ssp585,2026,11.92
+Miami FL,ssp585,2027,12.54
+Miami FL,ssp585,2028,13.16
+Miami FL,ssp585,2029,13.780000000000001
+Miami FL,ssp585,2030,14.4
+Miami FL,ssp585,2030,14.7
+Miami FL,ssp585,2031,15.45
+Miami FL,ssp585,2032,16.2
+Miami FL,ssp585,2033,16.95
+Miami FL,ssp585,2034,17.7
+Miami FL,ssp585,2035,18.45
+Miami FL,ssp585,2036,19.2
+Miami FL,ssp585,2037,19.95
+Miami FL,ssp585,2038,20.7
+Miami FL,ssp585,2039,21.45
+Miami FL,ssp585,2040,22.2
+Miami FL,ssp585,2040,22.6
+Miami FL,ssp585,2041,23.48
+Miami FL,ssp585,2042,24.36
+Miami FL,ssp585,2043,25.240000000000002
+Miami FL,ssp585,2044,26.12
+Miami FL,ssp585,2045,27.0
+Miami FL,ssp585,2046,27.88
+Miami FL,ssp585,2047,28.759999999999998
+Miami FL,ssp585,2048,29.64
+Miami FL,ssp585,2049,30.52
+Miami FL,ssp585,2050,31.4
+Miami FL,ssp585,2050,32.1
+Miami FL,ssp585,2051,32.93
+Miami FL,ssp585,2052,33.760000000000005
+Miami FL,ssp585,2053,34.59
+Miami FL,ssp585,2054,35.42
+Miami FL,ssp585,2055,36.25
+Miami FL,ssp585,2056,37.080000000000005
+Miami FL,ssp585,2057,37.910000000000004
+Miami FL,ssp585,2058,38.74
+Miami FL,ssp585,2059,39.57000000000001
+Miami FL,ssp585,2060,40.400000000000006
+Miami FL,ssp585,2060,42.1
+Miami FL,ssp585,2061,43.010000000000005
+Miami FL,ssp585,2062,43.92
+Miami FL,ssp585,2063,44.83
+Miami FL,ssp585,2064,45.74
+Miami FL,ssp585,2065,46.650000000000006
+Miami FL,ssp585,2066,47.56
+Miami FL,ssp585,2067,48.47
+Miami FL,ssp585,2068,49.38
+Miami FL,ssp585,2069,50.290000000000006
+Miami FL,ssp585,2070,51.2
+Miami FL,ssp585,2070,54.2
+Miami FL,ssp585,2071,55.1
+Miami FL,ssp585,2072,56.0
+Miami FL,ssp585,2073,56.900000000000006
+Miami FL,ssp585,2074,57.800000000000004
+Miami FL,ssp585,2075,58.7
+Miami FL,ssp585,2076,59.6
+Miami FL,ssp585,2077,60.5
+Miami FL,ssp585,2078,61.400000000000006
+Miami FL,ssp585,2079,62.300000000000004
+Miami FL,ssp585,2080,63.2
+Miami FL,ssp585,2080,68.30000000000001
+Miami FL,ssp585,2081,69.15
+Miami FL,ssp585,2082,70.00000000000001
+Miami FL,ssp585,2083,70.85000000000001
+Miami FL,ssp585,2084,71.7
+Miami FL,ssp585,2085,72.55000000000001
+Miami FL,ssp585,2086,73.4
+Miami FL,ssp585,2087,74.25
+Miami FL,ssp585,2088,75.1
+Miami FL,ssp585,2089,75.95
+Miami FL,ssp585,2090,76.8
+Miami FL,ssp585,2090,85.1
+Miami FL,ssp585,2091,85.77
+Miami FL,ssp585,2092,86.44
+Miami FL,ssp585,2093,87.11
+Miami FL,ssp585,2094,87.78
+Miami FL,ssp585,2095,88.44999999999999
+Miami FL,ssp585,2096,89.11999999999999
+Miami FL,ssp585,2097,89.78999999999999
+Miami FL,ssp585,2098,90.46
+Miami FL,ssp585,2099,91.13
+Miami FL,ssp585,2100,91.8
+Miami FL,ssp585,2100,104.4
+New Orleans LA,ssp126,2020,11.3
+New Orleans LA,ssp126,2020,11.5
+New Orleans LA,ssp126,2021,12.370000000000001
+New Orleans LA,ssp126,2022,13.24
+New Orleans LA,ssp126,2023,14.110000000000001
+New Orleans LA,ssp126,2024,14.98
+New Orleans LA,ssp126,2025,15.850000000000001
+New Orleans LA,ssp126,2026,16.720000000000002
+New Orleans LA,ssp126,2027,17.590000000000003
+New Orleans LA,ssp126,2028,18.46
+New Orleans LA,ssp126,2029,19.330000000000002
+New Orleans LA,ssp126,2030,20.200000000000003
+New Orleans LA,ssp126,2030,20.6
+New Orleans LA,ssp126,2031,21.42
+New Orleans LA,ssp126,2032,22.240000000000002
+New Orleans LA,ssp126,2033,23.060000000000002
+New Orleans LA,ssp126,2034,23.880000000000003
+New Orleans LA,ssp126,2035,24.700000000000003
+New Orleans LA,ssp126,2036,25.520000000000003
+New Orleans LA,ssp126,2037,26.34
+New Orleans LA,ssp126,2038,27.16
+New Orleans LA,ssp126,2039,27.98
+New Orleans LA,ssp126,2040,28.8
+New Orleans LA,ssp126,2040,29.4
+New Orleans LA,ssp126,2041,30.2
+New Orleans LA,ssp126,2042,31.0
+New Orleans LA,ssp126,2043,31.799999999999997
+New Orleans LA,ssp126,2044,32.6
+New Orleans LA,ssp126,2045,33.4
+New Orleans LA,ssp126,2046,34.2
+New Orleans LA,ssp126,2047,35.0
+New Orleans LA,ssp126,2048,35.8
+New Orleans LA,ssp126,2049,36.6
+New Orleans LA,ssp126,2050,37.4
+New Orleans LA,ssp126,2050,38.0
+New Orleans LA,ssp126,2051,38.71
+New Orleans LA,ssp126,2052,39.42
+New Orleans LA,ssp126,2053,40.13
+New Orleans LA,ssp126,2054,40.84
+New Orleans LA,ssp126,2055,41.55
+New Orleans LA,ssp126,2056,42.260000000000005
+New Orleans LA,ssp126,2057,42.97
+New Orleans LA,ssp126,2058,43.68
+New Orleans LA,ssp126,2059,44.39
+New Orleans LA,ssp126,2060,45.1
+New Orleans LA,ssp126,2060,46.1
+New Orleans LA,ssp126,2061,46.93
+New Orleans LA,ssp126,2062,47.760000000000005
+New Orleans LA,ssp126,2063,48.59
+New Orleans LA,ssp126,2064,49.42
+New Orleans LA,ssp126,2065,50.25
+New Orleans LA,ssp126,2066,51.080000000000005
+New Orleans LA,ssp126,2067,51.910000000000004
+New Orleans LA,ssp126,2068,52.74
+New Orleans LA,ssp126,2069,53.57000000000001
+New Orleans LA,ssp126,2070,54.400000000000006
+New Orleans LA,ssp126,2070,55.400000000000006
+New Orleans LA,ssp126,2071,56.120000000000005
+New Orleans LA,ssp126,2072,56.84
+New Orleans LA,ssp126,2073,57.56
+New Orleans LA,ssp126,2074,58.28
+New Orleans LA,ssp126,2075,59.0
+New Orleans LA,ssp126,2076,59.72
+New Orleans LA,ssp126,2077,60.440000000000005
+New Orleans LA,ssp126,2078,61.160000000000004
+New Orleans LA,ssp126,2079,61.88
+New Orleans LA,ssp126,2080,62.6
+New Orleans LA,ssp126,2080,63.7
+New Orleans LA,ssp126,2081,64.35
+New Orleans LA,ssp126,2082,65.0
+New Orleans LA,ssp126,2083,65.65
+New Orleans LA,ssp126,2084,66.3
+New Orleans LA,ssp126,2085,66.94999999999999
+New Orleans LA,ssp126,2086,67.6
+New Orleans LA,ssp126,2087,68.25
+New Orleans LA,ssp126,2088,68.89999999999999
+New Orleans LA,ssp126,2089,69.54999999999998
+New Orleans LA,ssp126,2090,70.19999999999999
+New Orleans LA,ssp126,2090,71.39999999999999
+New Orleans LA,ssp126,2091,72.08
+New Orleans LA,ssp126,2092,72.75999999999999
+New Orleans LA,ssp126,2093,73.44
+New Orleans LA,ssp126,2094,74.11999999999999
+New Orleans LA,ssp126,2095,74.8
+New Orleans LA,ssp126,2096,75.48
+New Orleans LA,ssp126,2097,76.16
+New Orleans LA,ssp126,2098,76.84
+New Orleans LA,ssp126,2099,77.52
+New Orleans LA,ssp126,2100,78.2
+New Orleans LA,ssp126,2100,79.4
+New Orleans LA,ssp245,2020,10.9
+New Orleans LA,ssp245,2021,11.77
+New Orleans LA,ssp245,2022,12.64
+New Orleans LA,ssp245,2023,13.510000000000002
+New Orleans LA,ssp245,2024,14.38
+New Orleans LA,ssp245,2025,15.25
+New Orleans LA,ssp245,2026,16.12
+New Orleans LA,ssp245,2027,16.990000000000002
+New Orleans LA,ssp245,2028,17.86
+New Orleans LA,ssp245,2029,18.73
+New Orleans LA,ssp245,2030,19.6
+New Orleans LA,ssp245,2031,20.520000000000003
+New Orleans LA,ssp245,2032,21.44
+New Orleans LA,ssp245,2033,22.36
+New Orleans LA,ssp245,2034,23.28
+New Orleans LA,ssp245,2035,24.200000000000003
+New Orleans LA,ssp245,2036,25.12
+New Orleans LA,ssp245,2037,26.04
+New Orleans LA,ssp245,2038,26.96
+New Orleans LA,ssp245,2039,27.880000000000003
+New Orleans LA,ssp245,2040,28.8
+New Orleans LA,ssp245,2041,29.8
+New Orleans LA,ssp245,2042,30.8
+New Orleans LA,ssp245,2043,31.8
+New Orleans LA,ssp245,2044,32.8
+New Orleans LA,ssp245,2045,33.8
+New Orleans LA,ssp245,2046,34.8
+New Orleans LA,ssp245,2047,35.8
+New Orleans LA,ssp245,2048,36.8
+New Orleans LA,ssp245,2049,37.8
+New Orleans LA,ssp245,2050,38.8
+New Orleans LA,ssp245,2051,39.739999999999995
+New Orleans LA,ssp245,2052,40.68
+New Orleans LA,ssp245,2053,41.62
+New Orleans LA,ssp245,2054,42.56
+New Orleans LA,ssp245,2055,43.5
+New Orleans LA,ssp245,2056,44.44
+New Orleans LA,ssp245,2057,45.38
+New Orleans LA,ssp245,2058,46.32
+New Orleans LA,ssp245,2059,47.260000000000005
+New Orleans LA,ssp245,2060,48.2
+New Orleans LA,ssp245,2061,49.25
+New Orleans LA,ssp245,2062,50.300000000000004
+New Orleans LA,ssp245,2063,51.35
+New Orleans LA,ssp245,2064,52.400000000000006
+New Orleans LA,ssp245,2065,53.45
+New Orleans LA,ssp245,2066,54.5
+New Orleans LA,ssp245,2067,55.550000000000004
+New Orleans LA,ssp245,2068,56.6
+New Orleans LA,ssp245,2069,57.650000000000006
+New Orleans LA,ssp245,2070,58.7
+New Orleans LA,ssp245,2071,59.77
+New Orleans LA,ssp245,2072,60.84
+New Orleans LA,ssp245,2073,61.91
+New Orleans LA,ssp245,2074,62.98
+New Orleans LA,ssp245,2075,64.05
+New Orleans LA,ssp245,2076,65.11999999999999
+New Orleans LA,ssp245,2077,66.19
+New Orleans LA,ssp245,2078,67.25999999999999
+New Orleans LA,ssp245,2079,68.33
+New Orleans LA,ssp245,2080,69.39999999999999
+New Orleans LA,ssp245,2081,70.41999999999999
+New Orleans LA,ssp245,2082,71.44
+New Orleans LA,ssp245,2083,72.46
+New Orleans LA,ssp245,2084,73.48
+New Orleans LA,ssp245,2085,74.5
+New Orleans LA,ssp245,2086,75.52
+New Orleans LA,ssp245,2087,76.54
+New Orleans LA,ssp245,2088,77.56
+New Orleans LA,ssp245,2089,78.58000000000001
+New Orleans LA,ssp245,2090,79.60000000000001
+New Orleans LA,ssp245,2091,80.66000000000001
+New Orleans LA,ssp245,2092,81.72000000000001
+New Orleans LA,ssp245,2093,82.78
+New Orleans LA,ssp245,2094,83.84
+New Orleans LA,ssp245,2095,84.9
+New Orleans LA,ssp245,2096,85.96000000000001
+New Orleans LA,ssp245,2097,87.02000000000001
+New Orleans LA,ssp245,2098,88.08
+New Orleans LA,ssp245,2099,89.14
+New Orleans LA,ssp245,2100,90.2
+New Orleans LA,ssp370,2020,11.3
+New Orleans LA,ssp370,2021,12.17
+New Orleans LA,ssp370,2022,13.040000000000001
+New Orleans LA,ssp370,2023,13.91
+New Orleans LA,ssp370,2024,14.780000000000001
+New Orleans LA,ssp370,2025,15.65
+New Orleans LA,ssp370,2026,16.52
+New Orleans LA,ssp370,2027,17.39
+New Orleans LA,ssp370,2028,18.259999999999998
+New Orleans LA,ssp370,2029,19.13
+New Orleans LA,ssp370,2030,20.0
+New Orleans LA,ssp370,2031,20.92
+New Orleans LA,ssp370,2032,21.84
+New Orleans LA,ssp370,2033,22.759999999999998
+New Orleans LA,ssp370,2034,23.68
+New Orleans LA,ssp370,2035,24.6
+New Orleans LA,ssp370,2036,25.52
+New Orleans LA,ssp370,2037,26.439999999999998
+New Orleans LA,ssp370,2038,27.36
+New Orleans LA,ssp370,2039,28.28
+New Orleans LA,ssp370,2040,29.2
+New Orleans LA,ssp370,2041,30.21
+New Orleans LA,ssp370,2042,31.22
+New Orleans LA,ssp370,2043,32.23
+New Orleans LA,ssp370,2044,33.239999999999995
+New Orleans LA,ssp370,2045,34.25
+New Orleans LA,ssp370,2046,35.26
+New Orleans LA,ssp370,2047,36.269999999999996
+New Orleans LA,ssp370,2048,37.28
+New Orleans LA,ssp370,2049,38.29
+New Orleans LA,ssp370,2050,39.3
+New Orleans LA,ssp370,2051,40.339999999999996
+New Orleans LA,ssp370,2052,41.379999999999995
+New Orleans LA,ssp370,2053,42.42
+New Orleans LA,ssp370,2054,43.46
+New Orleans LA,ssp370,2055,44.5
+New Orleans LA,ssp370,2056,45.54
+New Orleans LA,ssp370,2057,46.58
+New Orleans LA,ssp370,2058,47.620000000000005
+New Orleans LA,ssp370,2059,48.660000000000004
+New Orleans LA,ssp370,2060,49.7
+New Orleans LA,ssp370,2061,50.89
+New Orleans LA,ssp370,2062,52.080000000000005
+New Orleans LA,ssp370,2063,53.27
+New Orleans LA,ssp370,2064,54.46
+New Orleans LA,ssp370,2065,55.650000000000006
+New Orleans LA,ssp370,2066,56.84
+New Orleans LA,ssp370,2067,58.03
+New Orleans LA,ssp370,2068,59.22
+New Orleans LA,ssp370,2069,60.410000000000004
+New Orleans LA,ssp370,2070,61.6
+New Orleans LA,ssp370,2071,62.85
+New Orleans LA,ssp370,2072,64.1
+New Orleans LA,ssp370,2073,65.35
+New Orleans LA,ssp370,2074,66.6
+New Orleans LA,ssp370,2075,67.85
+New Orleans LA,ssp370,2076,69.1
+New Orleans LA,ssp370,2077,70.35
+New Orleans LA,ssp370,2078,71.6
+New Orleans LA,ssp370,2079,72.85
+New Orleans LA,ssp370,2080,74.1
+New Orleans LA,ssp370,2081,75.41999999999999
+New Orleans LA,ssp370,2082,76.74
+New Orleans LA,ssp370,2083,78.06
+New Orleans LA,ssp370,2084,79.38
+New Orleans LA,ssp370,2085,80.69999999999999
+New Orleans LA,ssp370,2086,82.02
+New Orleans LA,ssp370,2087,83.34
+New Orleans LA,ssp370,2088,84.66
+New Orleans LA,ssp370,2089,85.97999999999999
+New Orleans LA,ssp370,2090,87.3
+New Orleans LA,ssp370,2091,88.78999999999999
+New Orleans LA,ssp370,2092,90.28
+New Orleans LA,ssp370,2093,91.77
+New Orleans LA,ssp370,2094,93.26
+New Orleans LA,ssp370,2095,94.75
+New Orleans LA,ssp370,2096,96.24000000000001
+New Orleans LA,ssp370,2097,97.73
+New Orleans LA,ssp370,2098,99.22
+New Orleans LA,ssp370,2099,100.71000000000001
+New Orleans LA,ssp370,2100,102.2
+New Orleans LA,ssp585,2020,11.1
+New Orleans LA,ssp585,2020,11.3
+New Orleans LA,ssp585,2021,12.17
+New Orleans LA,ssp585,2022,13.040000000000001
+New Orleans LA,ssp585,2023,13.91
+New Orleans LA,ssp585,2024,14.780000000000001
+New Orleans LA,ssp585,2025,15.65
+New Orleans LA,ssp585,2026,16.52
+New Orleans LA,ssp585,2027,17.39
+New Orleans LA,ssp585,2028,18.259999999999998
+New Orleans LA,ssp585,2029,19.13
+New Orleans LA,ssp585,2030,20.0
+New Orleans LA,ssp585,2030,20.3
+New Orleans LA,ssp585,2031,21.29
+New Orleans LA,ssp585,2032,22.28
+New Orleans LA,ssp585,2033,23.27
+New Orleans LA,ssp585,2034,24.26
+New Orleans LA,ssp585,2035,25.25
+New Orleans LA,ssp585,2036,26.240000000000002
+New Orleans LA,ssp585,2037,27.23
+New Orleans LA,ssp585,2038,28.22
+New Orleans LA,ssp585,2039,29.21
+New Orleans LA,ssp585,2040,30.2
+New Orleans LA,ssp585,2040,30.6
+New Orleans LA,ssp585,2041,31.69
+New Orleans LA,ssp585,2042,32.78
+New Orleans LA,ssp585,2043,33.870000000000005
+New Orleans LA,ssp585,2044,34.96
+New Orleans LA,ssp585,2045,36.05
+New Orleans LA,ssp585,2046,37.14
+New Orleans LA,ssp585,2047,38.230000000000004
+New Orleans LA,ssp585,2048,39.32
+New Orleans LA,ssp585,2049,40.41
+New Orleans LA,ssp585,2050,41.5
+New Orleans LA,ssp585,2050,42.2
+New Orleans LA,ssp585,2051,43.220000000000006
+New Orleans LA,ssp585,2052,44.24
+New Orleans LA,ssp585,2053,45.260000000000005
+New Orleans LA,ssp585,2054,46.28
+New Orleans LA,ssp585,2055,47.300000000000004
+New Orleans LA,ssp585,2056,48.32000000000001
+New Orleans LA,ssp585,2057,49.34
+New Orleans LA,ssp585,2058,50.36000000000001
+New Orleans LA,ssp585,2059,51.38
+New Orleans LA,ssp585,2060,52.400000000000006
+New Orleans LA,ssp585,2060,54.0
+New Orleans LA,ssp585,2061,55.13
+New Orleans LA,ssp585,2062,56.26
+New Orleans LA,ssp585,2063,57.39
+New Orleans LA,ssp585,2064,58.519999999999996
+New Orleans LA,ssp585,2065,59.65
+New Orleans LA,ssp585,2066,60.78
+New Orleans LA,ssp585,2067,61.91
+New Orleans LA,ssp585,2068,63.04
+New Orleans LA,ssp585,2069,64.17
+New Orleans LA,ssp585,2070,65.3
+New Orleans LA,ssp585,2070,68.10000000000001
+New Orleans LA,ssp585,2071,69.25000000000001
+New Orleans LA,ssp585,2072,70.4
+New Orleans LA,ssp585,2073,71.55000000000001
+New Orleans LA,ssp585,2074,72.7
+New Orleans LA,ssp585,2075,73.85000000000001
+New Orleans LA,ssp585,2076,75.00000000000001
+New Orleans LA,ssp585,2077,76.15
+New Orleans LA,ssp585,2078,77.30000000000001
+New Orleans LA,ssp585,2079,78.45
+New Orleans LA,ssp585,2080,79.60000000000001
+New Orleans LA,ssp585,2080,84.39999999999999
+New Orleans LA,ssp585,2081,85.44
+New Orleans LA,ssp585,2082,86.47999999999999
+New Orleans LA,ssp585,2083,87.52
+New Orleans LA,ssp585,2084,88.55999999999999
+New Orleans LA,ssp585,2085,89.6
+New Orleans LA,ssp585,2086,90.64
+New Orleans LA,ssp585,2087,91.67999999999999
+New Orleans LA,ssp585,2088,92.72
+New Orleans LA,ssp585,2089,93.75999999999999
+New Orleans LA,ssp585,2090,94.8
+New Orleans LA,ssp585,2090,102.8
+New Orleans LA,ssp585,2091,103.62
+New Orleans LA,ssp585,2092,104.44
+New Orleans LA,ssp585,2093,105.25999999999999
+New Orleans LA,ssp585,2094,106.08
+New Orleans LA,ssp585,2095,106.9
+New Orleans LA,ssp585,2096,107.72
+New Orleans LA,ssp585,2097,108.53999999999999
+New Orleans LA,ssp585,2098,109.36
+New Orleans LA,ssp585,2099,110.18
+New Orleans LA,ssp585,2100,111.0
+New Orleans LA,ssp585,2100,123.4
+New York NY,ssp126,2020,10.1
+New York NY,ssp126,2020,10.3
+New York NY,ssp126,2021,11.09
+New York NY,ssp126,2022,11.88
+New York NY,ssp126,2023,12.67
+New York NY,ssp126,2024,13.46
+New York NY,ssp126,2025,14.25
+New York NY,ssp126,2026,15.04
+New York NY,ssp126,2027,15.829999999999998
+New York NY,ssp126,2028,16.619999999999997
+New York NY,ssp126,2029,17.41
+New York NY,ssp126,2030,18.2
+New York NY,ssp126,2030,18.5
+New York NY,ssp126,2031,19.29
+New York NY,ssp126,2032,20.08
+New York NY,ssp126,2033,20.869999999999997
+New York NY,ssp126,2034,21.66
+New York NY,ssp126,2035,22.45
+New York NY,ssp126,2036,23.24
+New York NY,ssp126,2037,24.029999999999998
+New York NY,ssp126,2038,24.82
+New York NY,ssp126,2039,25.61
+New York NY,ssp126,2040,26.4
+New York NY,ssp126,2040,26.9
+New York NY,ssp126,2041,27.689999999999998
+New York NY,ssp126,2042,28.479999999999997
+New York NY,ssp126,2043,29.269999999999996
+New York NY,ssp126,2044,30.06
+New York NY,ssp126,2045,30.849999999999998
+New York NY,ssp126,2046,31.639999999999997
+New York NY,ssp126,2047,32.43
+New York NY,ssp126,2048,33.22
+New York NY,ssp126,2049,34.01
+New York NY,ssp126,2050,34.8
+New York NY,ssp126,2050,35.3
+New York NY,ssp126,2051,35.949999999999996
+New York NY,ssp126,2052,36.599999999999994
+New York NY,ssp126,2053,37.25
+New York NY,ssp126,2054,37.9
+New York NY,ssp126,2055,38.55
+New York NY,ssp126,2056,39.199999999999996
+New York NY,ssp126,2057,39.849999999999994
+New York NY,ssp126,2058,40.5
+New York NY,ssp126,2059,41.15
+New York NY,ssp126,2060,41.8
+New York NY,ssp126,2060,42.4
+New York NY,ssp126,2061,43.07
+New York NY,ssp126,2062,43.74
+New York NY,ssp126,2063,44.41
+New York NY,ssp126,2064,45.08
+New York NY,ssp126,2065,45.75
+New York NY,ssp126,2066,46.42
+New York NY,ssp126,2067,47.09
+New York NY,ssp126,2068,47.76
+New York NY,ssp126,2069,48.43
+New York NY,ssp126,2070,49.1
+New York NY,ssp126,2070,49.7
+New York NY,ssp126,2071,50.25
+New York NY,ssp126,2072,50.800000000000004
+New York NY,ssp126,2073,51.35
+New York NY,ssp126,2074,51.900000000000006
+New York NY,ssp126,2075,52.45
+New York NY,ssp126,2076,53.0
+New York NY,ssp126,2077,53.550000000000004
+New York NY,ssp126,2078,54.1
+New York NY,ssp126,2079,54.650000000000006
+New York NY,ssp126,2080,55.2
+New York NY,ssp126,2080,55.8
+New York NY,ssp126,2081,56.32
+New York NY,ssp126,2082,56.839999999999996
+New York NY,ssp126,2083,57.36
+New York NY,ssp126,2084,57.879999999999995
+New York NY,ssp126,2085,58.4
+New York NY,ssp126,2086,58.92
+New York NY,ssp126,2087,59.44
+New York NY,ssp126,2088,59.96
+New York NY,ssp126,2089,60.48
+New York NY,ssp126,2090,61.0
+New York NY,ssp126,2090,61.6
+New York NY,ssp126,2091,62.11
+New York NY,ssp126,2092,62.620000000000005
+New York NY,ssp126,2093,63.13
+New York NY,ssp126,2094,63.64
+New York NY,ssp126,2095,64.15
+New York NY,ssp126,2096,64.66
+New York NY,ssp126,2097,65.17
+New York NY,ssp126,2098,65.68
+New York NY,ssp126,2099,66.19
+New York NY,ssp126,2100,66.7
+New York NY,ssp126,2100,67.2
+New York NY,ssp245,2020,10.2
+New York NY,ssp245,2021,10.979999999999999
+New York NY,ssp245,2022,11.76
+New York NY,ssp245,2023,12.54
+New York NY,ssp245,2024,13.32
+New York NY,ssp245,2025,14.1
+New York NY,ssp245,2026,14.879999999999999
+New York NY,ssp245,2027,15.66
+New York NY,ssp245,2028,16.439999999999998
+New York NY,ssp245,2029,17.22
+New York NY,ssp245,2030,18.0
+New York NY,ssp245,2031,18.86
+New York NY,ssp245,2032,19.72
+New York NY,ssp245,2033,20.58
+New York NY,ssp245,2034,21.44
+New York NY,ssp245,2035,22.3
+New York NY,ssp245,2036,23.16
+New York NY,ssp245,2037,24.02
+New York NY,ssp245,2038,24.880000000000003
+New York NY,ssp245,2039,25.740000000000002
+New York NY,ssp245,2040,26.6
+New York NY,ssp245,2041,27.52
+New York NY,ssp245,2042,28.44
+New York NY,ssp245,2043,29.36
+New York NY,ssp245,2044,30.28
+New York NY,ssp245,2045,31.2
+New York NY,ssp245,2046,32.12
+New York NY,ssp245,2047,33.04
+New York NY,ssp245,2048,33.96
+New York NY,ssp245,2049,34.879999999999995
+New York NY,ssp245,2050,35.8
+New York NY,ssp245,2051,36.66
+New York NY,ssp245,2052,37.519999999999996
+New York NY,ssp245,2053,38.379999999999995
+New York NY,ssp245,2054,39.239999999999995
+New York NY,ssp245,2055,40.099999999999994
+New York NY,ssp245,2056,40.959999999999994
+New York NY,ssp245,2057,41.82
+New York NY,ssp245,2058,42.68
+New York NY,ssp245,2059,43.54
+New York NY,ssp245,2060,44.4
+New York NY,ssp245,2061,45.36
+New York NY,ssp245,2062,46.32
+New York NY,ssp245,2063,47.28
+New York NY,ssp245,2064,48.24
+New York NY,ssp245,2065,49.2
+New York NY,ssp245,2066,50.16
+New York NY,ssp245,2067,51.12
+New York NY,ssp245,2068,52.08
+New York NY,ssp245,2069,53.04
+New York NY,ssp245,2070,54.0
+New York NY,ssp245,2071,54.9
+New York NY,ssp245,2072,55.8
+New York NY,ssp245,2073,56.7
+New York NY,ssp245,2074,57.6
+New York NY,ssp245,2075,58.5
+New York NY,ssp245,2076,59.4
+New York NY,ssp245,2077,60.3
+New York NY,ssp245,2078,61.2
+New York NY,ssp245,2079,62.1
+New York NY,ssp245,2080,63.0
+New York NY,ssp245,2081,63.86
+New York NY,ssp245,2082,64.72
+New York NY,ssp245,2083,65.58
+New York NY,ssp245,2084,66.44
+New York NY,ssp245,2085,67.3
+New York NY,ssp245,2086,68.16
+New York NY,ssp245,2087,69.02
+New York NY,ssp245,2088,69.88
+New York NY,ssp245,2089,70.74
+New York NY,ssp245,2090,71.6
+New York NY,ssp245,2091,72.58
+New York NY,ssp245,2092,73.55999999999999
+New York NY,ssp245,2093,74.53999999999999
+New York NY,ssp245,2094,75.52
+New York NY,ssp245,2095,76.5
+New York NY,ssp245,2096,77.47999999999999
+New York NY,ssp245,2097,78.46
+New York NY,ssp245,2098,79.44
+New York NY,ssp245,2099,80.41999999999999
+New York NY,ssp245,2100,81.39999999999999
+New York NY,ssp370,2020,10.2
+New York NY,ssp370,2021,10.95
+New York NY,ssp370,2022,11.7
+New York NY,ssp370,2023,12.45
+New York NY,ssp370,2024,13.2
+New York NY,ssp370,2025,13.95
+New York NY,ssp370,2026,14.7
+New York NY,ssp370,2027,15.45
+New York NY,ssp370,2028,16.2
+New York NY,ssp370,2029,16.95
+New York NY,ssp370,2030,17.7
+New York NY,ssp370,2031,18.53
+New York NY,ssp370,2032,19.36
+New York NY,ssp370,2033,20.189999999999998
+New York NY,ssp370,2034,21.02
+New York NY,ssp370,2035,21.85
+New York NY,ssp370,2036,22.68
+New York NY,ssp370,2037,23.509999999999998
+New York NY,ssp370,2038,24.34
+New York NY,ssp370,2039,25.17
+New York NY,ssp370,2040,26.0
+New York NY,ssp370,2041,26.94
+New York NY,ssp370,2042,27.88
+New York NY,ssp370,2043,28.82
+New York NY,ssp370,2044,29.759999999999998
+New York NY,ssp370,2045,30.7
+New York NY,ssp370,2046,31.64
+New York NY,ssp370,2047,32.58
+New York NY,ssp370,2048,33.519999999999996
+New York NY,ssp370,2049,34.46
+New York NY,ssp370,2050,35.4
+New York NY,ssp370,2051,36.36
+New York NY,ssp370,2052,37.32
+New York NY,ssp370,2053,38.28
+New York NY,ssp370,2054,39.24
+New York NY,ssp370,2055,40.2
+New York NY,ssp370,2056,41.16
+New York NY,ssp370,2057,42.12
+New York NY,ssp370,2058,43.08
+New York NY,ssp370,2059,44.04
+New York NY,ssp370,2060,45.0
+New York NY,ssp370,2061,46.1
+New York NY,ssp370,2062,47.2
+New York NY,ssp370,2063,48.300000000000004
+New York NY,ssp370,2064,49.400000000000006
+New York NY,ssp370,2065,50.5
+New York NY,ssp370,2066,51.60000000000001
+New York NY,ssp370,2067,52.7
+New York NY,ssp370,2068,53.800000000000004
+New York NY,ssp370,2069,54.900000000000006
+New York NY,ssp370,2070,56.00000000000001
+New York NY,ssp370,2071,57.120000000000005
+New York NY,ssp370,2072,58.24000000000001
+New York NY,ssp370,2073,59.36000000000001
+New York NY,ssp370,2074,60.480000000000004
+New York NY,ssp370,2075,61.60000000000001
+New York NY,ssp370,2076,62.720000000000006
+New York NY,ssp370,2077,63.84
+New York NY,ssp370,2078,64.96000000000001
+New York NY,ssp370,2079,66.08
+New York NY,ssp370,2080,67.2
+New York NY,ssp370,2081,68.48
+New York NY,ssp370,2082,69.76
+New York NY,ssp370,2083,71.04
+New York NY,ssp370,2084,72.32000000000001
+New York NY,ssp370,2085,73.6
+New York NY,ssp370,2086,74.88
+New York NY,ssp370,2087,76.16
+New York NY,ssp370,2088,77.44
+New York NY,ssp370,2089,78.72
+New York NY,ssp370,2090,80.0
+New York NY,ssp370,2091,81.3
+New York NY,ssp370,2092,82.6
+New York NY,ssp370,2093,83.9
+New York NY,ssp370,2094,85.2
+New York NY,ssp370,2095,86.5
+New York NY,ssp370,2096,87.8
+New York NY,ssp370,2097,89.1
+New York NY,ssp370,2098,90.4
+New York NY,ssp370,2099,91.7
+New York NY,ssp370,2100,93.0
+New York NY,ssp585,2020,10.2
+New York NY,ssp585,2020,10.3
+New York NY,ssp585,2021,11.110000000000001
+New York NY,ssp585,2022,11.92
+New York NY,ssp585,2023,12.73
+New York NY,ssp585,2024,13.54
+New York NY,ssp585,2025,14.35
+New York NY,ssp585,2026,15.16
+New York NY,ssp585,2027,15.969999999999999
+New York NY,ssp585,2028,16.78
+New York NY,ssp585,2029,17.59
+New York NY,ssp585,2030,18.4
+New York NY,ssp585,2030,18.6
+New York NY,ssp585,2031,19.540000000000003
+New York NY,ssp585,2032,20.48
+New York NY,ssp585,2033,21.42
+New York NY,ssp585,2034,22.360000000000003
+New York NY,ssp585,2035,23.300000000000004
+New York NY,ssp585,2036,24.240000000000002
+New York NY,ssp585,2037,25.180000000000003
+New York NY,ssp585,2038,26.120000000000005
+New York NY,ssp585,2039,27.060000000000002
+New York NY,ssp585,2040,28.000000000000004
+New York NY,ssp585,2040,28.2
+New York NY,ssp585,2041,29.24
+New York NY,ssp585,2042,30.28
+New York NY,ssp585,2043,31.32
+New York NY,ssp585,2044,32.36
+New York NY,ssp585,2045,33.4
+New York NY,ssp585,2046,34.44
+New York NY,ssp585,2047,35.480000000000004
+New York NY,ssp585,2048,36.52
+New York NY,ssp585,2049,37.56
+New York NY,ssp585,2050,38.6
+New York NY,ssp585,2050,39.0
+New York NY,ssp585,2051,40.0
+New York NY,ssp585,2052,41.0
+New York NY,ssp585,2053,42.0
+New York NY,ssp585,2054,43.0
+New York NY,ssp585,2055,44.0
+New York NY,ssp585,2056,45.0
+New York NY,ssp585,2057,46.0
+New York NY,ssp585,2058,47.0
+New York NY,ssp585,2059,48.0
+New York NY,ssp585,2060,49.0
+New York NY,ssp585,2060,50.1
+New York NY,ssp585,2061,51.21
+New York NY,ssp585,2062,52.32
+New York NY,ssp585,2063,53.43
+New York NY,ssp585,2064,54.54
+New York NY,ssp585,2065,55.650000000000006
+New York NY,ssp585,2066,56.760000000000005
+New York NY,ssp585,2067,57.870000000000005
+New York NY,ssp585,2068,58.980000000000004
+New York NY,ssp585,2069,60.09
+New York NY,ssp585,2070,61.2
+New York NY,ssp585,2070,63.2
+New York NY,ssp585,2071,64.32000000000001
+New York NY,ssp585,2072,65.44
+New York NY,ssp585,2073,66.56
+New York NY,ssp585,2074,67.68
+New York NY,ssp585,2075,68.80000000000001
+New York NY,ssp585,2076,69.92
+New York NY,ssp585,2077,71.04
+New York NY,ssp585,2078,72.16000000000001
+New York NY,ssp585,2079,73.28
+New York NY,ssp585,2080,74.4
+New York NY,ssp585,2080,78.2
+New York NY,ssp585,2081,79.28
+New York NY,ssp585,2082,80.36
+New York NY,ssp585,2083,81.44
+New York NY,ssp585,2084,82.52
+New York NY,ssp585,2085,83.6
+New York NY,ssp585,2086,84.68
+New York NY,ssp585,2087,85.76
+New York NY,ssp585,2088,86.84
+New York NY,ssp585,2089,87.92
+New York NY,ssp585,2090,89.0
+New York NY,ssp585,2090,95.9
+New York NY,ssp585,2091,96.67
+New York NY,ssp585,2092,97.44
+New York NY,ssp585,2093,98.21000000000001
+New York NY,ssp585,2094,98.98
+New York NY,ssp585,2095,99.75
+New York NY,ssp585,2096,100.52
+New York NY,ssp585,2097,101.28999999999999
+New York NY,ssp585,2098,102.06
+New York NY,ssp585,2099,102.83
+New York NY,ssp585,2100,103.6
+New York NY,ssp585,2100,114.5
+Norfolk VA,ssp126,2020,11.9
+Norfolk VA,ssp126,2020,12.1
+Norfolk VA,ssp126,2021,13.01
+Norfolk VA,ssp126,2022,13.92
+Norfolk VA,ssp126,2023,14.829999999999998
+Norfolk VA,ssp126,2024,15.739999999999998
+Norfolk VA,ssp126,2025,16.65
+Norfolk VA,ssp126,2026,17.56
+Norfolk VA,ssp126,2027,18.47
+Norfolk VA,ssp126,2028,19.38
+Norfolk VA,ssp126,2029,20.29
+Norfolk VA,ssp126,2030,21.2
+Norfolk VA,ssp126,2030,21.4
+Norfolk VA,ssp126,2031,22.259999999999998
+Norfolk VA,ssp126,2032,23.119999999999997
+Norfolk VA,ssp126,2033,23.979999999999997
+Norfolk VA,ssp126,2034,24.84
+Norfolk VA,ssp126,2035,25.7
+Norfolk VA,ssp126,2036,26.56
+Norfolk VA,ssp126,2037,27.419999999999998
+Norfolk VA,ssp126,2038,28.28
+Norfolk VA,ssp126,2039,29.14
+Norfolk VA,ssp126,2040,30.0
+Norfolk VA,ssp126,2040,30.4
+Norfolk VA,ssp126,2041,31.25
+Norfolk VA,ssp126,2042,32.1
+Norfolk VA,ssp126,2043,32.949999999999996
+Norfolk VA,ssp126,2044,33.8
+Norfolk VA,ssp126,2045,34.65
+Norfolk VA,ssp126,2046,35.5
+Norfolk VA,ssp126,2047,36.35
+Norfolk VA,ssp126,2048,37.199999999999996
+Norfolk VA,ssp126,2049,38.05
+Norfolk VA,ssp126,2050,38.9
+Norfolk VA,ssp126,2050,39.4
+Norfolk VA,ssp126,2051,40.14
+Norfolk VA,ssp126,2052,40.879999999999995
+Norfolk VA,ssp126,2053,41.62
+Norfolk VA,ssp126,2054,42.36
+Norfolk VA,ssp126,2055,43.099999999999994
+Norfolk VA,ssp126,2056,43.839999999999996
+Norfolk VA,ssp126,2057,44.58
+Norfolk VA,ssp126,2058,45.32
+Norfolk VA,ssp126,2059,46.059999999999995
+Norfolk VA,ssp126,2060,46.8
+Norfolk VA,ssp126,2060,47.6
+Norfolk VA,ssp126,2061,48.38
+Norfolk VA,ssp126,2062,49.160000000000004
+Norfolk VA,ssp126,2063,49.940000000000005
+Norfolk VA,ssp126,2064,50.720000000000006
+Norfolk VA,ssp126,2065,51.5
+Norfolk VA,ssp126,2066,52.28
+Norfolk VA,ssp126,2067,53.06
+Norfolk VA,ssp126,2068,53.84
+Norfolk VA,ssp126,2069,54.620000000000005
+Norfolk VA,ssp126,2070,55.400000000000006
+Norfolk VA,ssp126,2070,56.2
+Norfolk VA,ssp126,2071,56.86
+Norfolk VA,ssp126,2072,57.52
+Norfolk VA,ssp126,2073,58.18
+Norfolk VA,ssp126,2074,58.84
+Norfolk VA,ssp126,2075,59.5
+Norfolk VA,ssp126,2076,60.16
+Norfolk VA,ssp126,2077,60.82
+Norfolk VA,ssp126,2078,61.48
+Norfolk VA,ssp126,2079,62.14
+Norfolk VA,ssp126,2080,62.8
+Norfolk VA,ssp126,2080,63.6
+Norfolk VA,ssp126,2081,64.2
+Norfolk VA,ssp126,2082,64.8
+Norfolk VA,ssp126,2083,65.4
+Norfolk VA,ssp126,2084,66.0
+Norfolk VA,ssp126,2085,66.6
+Norfolk VA,ssp126,2086,67.2
+Norfolk VA,ssp126,2087,67.8
+Norfolk VA,ssp126,2088,68.39999999999999
+Norfolk VA,ssp126,2089,69.0
+Norfolk VA,ssp126,2090,69.6
+Norfolk VA,ssp126,2090,70.5
+Norfolk VA,ssp126,2091,71.17
+Norfolk VA,ssp126,2092,71.84
+Norfolk VA,ssp126,2093,72.51
+Norfolk VA,ssp126,2094,73.18
+Norfolk VA,ssp126,2095,73.85
+Norfolk VA,ssp126,2096,74.52
+Norfolk VA,ssp126,2097,75.19
+Norfolk VA,ssp126,2098,75.86
+Norfolk VA,ssp126,2099,76.53
+Norfolk VA,ssp126,2100,77.2
+Norfolk VA,ssp126,2100,78.0
+Norfolk VA,ssp245,2020,11.8
+Norfolk VA,ssp245,2021,12.700000000000001
+Norfolk VA,ssp245,2022,13.600000000000001
+Norfolk VA,ssp245,2023,14.5
+Norfolk VA,ssp245,2024,15.4
+Norfolk VA,ssp245,2025,16.3
+Norfolk VA,ssp245,2026,17.200000000000003
+Norfolk VA,ssp245,2027,18.1
+Norfolk VA,ssp245,2028,19.0
+Norfolk VA,ssp245,2029,19.9
+Norfolk VA,ssp245,2030,20.8
+Norfolk VA,ssp245,2031,21.72
+Norfolk VA,ssp245,2032,22.64
+Norfolk VA,ssp245,2033,23.560000000000002
+Norfolk VA,ssp245,2034,24.48
+Norfolk VA,ssp245,2035,25.4
+Norfolk VA,ssp245,2036,26.32
+Norfolk VA,ssp245,2037,27.240000000000002
+Norfolk VA,ssp245,2038,28.16
+Norfolk VA,ssp245,2039,29.08
+Norfolk VA,ssp245,2040,30.0
+Norfolk VA,ssp245,2041,31.01
+Norfolk VA,ssp245,2042,32.02
+Norfolk VA,ssp245,2043,33.03
+Norfolk VA,ssp245,2044,34.04
+Norfolk VA,ssp245,2045,35.05
+Norfolk VA,ssp245,2046,36.06
+Norfolk VA,ssp245,2047,37.07
+Norfolk VA,ssp245,2048,38.08
+Norfolk VA,ssp245,2049,39.09
+Norfolk VA,ssp245,2050,40.1
+Norfolk VA,ssp245,2051,41.050000000000004
+Norfolk VA,ssp245,2052,42.0
+Norfolk VA,ssp245,2053,42.95
+Norfolk VA,ssp245,2054,43.9
+Norfolk VA,ssp245,2055,44.85
+Norfolk VA,ssp245,2056,45.8
+Norfolk VA,ssp245,2057,46.75
+Norfolk VA,ssp245,2058,47.7
+Norfolk VA,ssp245,2059,48.65
+Norfolk VA,ssp245,2060,49.6
+Norfolk VA,ssp245,2061,50.660000000000004
+Norfolk VA,ssp245,2062,51.72
+Norfolk VA,ssp245,2063,52.78
+Norfolk VA,ssp245,2064,53.84
+Norfolk VA,ssp245,2065,54.900000000000006
+Norfolk VA,ssp245,2066,55.96
+Norfolk VA,ssp245,2067,57.02
+Norfolk VA,ssp245,2068,58.08
+Norfolk VA,ssp245,2069,59.14
+Norfolk VA,ssp245,2070,60.2
+Norfolk VA,ssp245,2071,61.18
+Norfolk VA,ssp245,2072,62.160000000000004
+Norfolk VA,ssp245,2073,63.14
+Norfolk VA,ssp245,2074,64.12
+Norfolk VA,ssp245,2075,65.1
+Norfolk VA,ssp245,2076,66.08
+Norfolk VA,ssp245,2077,67.06
+Norfolk VA,ssp245,2078,68.04
+Norfolk VA,ssp245,2079,69.02
+Norfolk VA,ssp245,2080,70.0
+Norfolk VA,ssp245,2081,70.95
+Norfolk VA,ssp245,2082,71.9
+Norfolk VA,ssp245,2083,72.85
+Norfolk VA,ssp245,2084,73.8
+Norfolk VA,ssp245,2085,74.75
+Norfolk VA,ssp245,2086,75.7
+Norfolk VA,ssp245,2087,76.65
+Norfolk VA,ssp245,2088,77.6
+Norfolk VA,ssp245,2089,78.55
+Norfolk VA,ssp245,2090,79.5
+Norfolk VA,ssp245,2091,80.57
+Norfolk VA,ssp245,2092,81.64
+Norfolk VA,ssp245,2093,82.71000000000001
+Norfolk VA,ssp245,2094,83.78
+Norfolk VA,ssp245,2095,84.85
+Norfolk VA,ssp245,2096,85.92
+Norfolk VA,ssp245,2097,86.99000000000001
+Norfolk VA,ssp245,2098,88.06
+Norfolk VA,ssp245,2099,89.13
+Norfolk VA,ssp245,2100,90.2
+Norfolk VA,ssp370,2020,11.7
+Norfolk VA,ssp370,2021,12.59
+Norfolk VA,ssp370,2022,13.48
+Norfolk VA,ssp370,2023,14.370000000000001
+Norfolk VA,ssp370,2024,15.26
+Norfolk VA,ssp370,2025,16.15
+Norfolk VA,ssp370,2026,17.04
+Norfolk VA,ssp370,2027,17.93
+Norfolk VA,ssp370,2028,18.82
+Norfolk VA,ssp370,2029,19.71
+Norfolk VA,ssp370,2030,20.6
+Norfolk VA,ssp370,2031,21.540000000000003
+Norfolk VA,ssp370,2032,22.48
+Norfolk VA,ssp370,2033,23.42
+Norfolk VA,ssp370,2034,24.36
+Norfolk VA,ssp370,2035,25.3
+Norfolk VA,ssp370,2036,26.240000000000002
+Norfolk VA,ssp370,2037,27.18
+Norfolk VA,ssp370,2038,28.12
+Norfolk VA,ssp370,2039,29.060000000000002
+Norfolk VA,ssp370,2040,30.0
+Norfolk VA,ssp370,2041,31.04
+Norfolk VA,ssp370,2042,32.08
+Norfolk VA,ssp370,2043,33.120000000000005
+Norfolk VA,ssp370,2044,34.160000000000004
+Norfolk VA,ssp370,2045,35.2
+Norfolk VA,ssp370,2046,36.24
+Norfolk VA,ssp370,2047,37.28
+Norfolk VA,ssp370,2048,38.32000000000001
+Norfolk VA,ssp370,2049,39.36000000000001
+Norfolk VA,ssp370,2050,40.400000000000006
+Norfolk VA,ssp370,2051,41.43000000000001
+Norfolk VA,ssp370,2052,42.46000000000001
+Norfolk VA,ssp370,2053,43.49
+Norfolk VA,ssp370,2054,44.52
+Norfolk VA,ssp370,2055,45.550000000000004
+Norfolk VA,ssp370,2056,46.580000000000005
+Norfolk VA,ssp370,2057,47.61000000000001
+Norfolk VA,ssp370,2058,48.64
+Norfolk VA,ssp370,2059,49.67
+Norfolk VA,ssp370,2060,50.7
+Norfolk VA,ssp370,2061,51.870000000000005
+Norfolk VA,ssp370,2062,53.04
+Norfolk VA,ssp370,2063,54.21
+Norfolk VA,ssp370,2064,55.38
+Norfolk VA,ssp370,2065,56.55
+Norfolk VA,ssp370,2066,57.72
+Norfolk VA,ssp370,2067,58.89
+Norfolk VA,ssp370,2068,60.06
+Norfolk VA,ssp370,2069,61.23
+Norfolk VA,ssp370,2070,62.4
+Norfolk VA,ssp370,2071,63.64
+Norfolk VA,ssp370,2072,64.88
+Norfolk VA,ssp370,2073,66.12
+Norfolk VA,ssp370,2074,67.36
+Norfolk VA,ssp370,2075,68.6
+Norfolk VA,ssp370,2076,69.84
+Norfolk VA,ssp370,2077,71.08
+Norfolk VA,ssp370,2078,72.32
+Norfolk VA,ssp370,2079,73.56
+Norfolk VA,ssp370,2080,74.8
+Norfolk VA,ssp370,2081,76.12
+Norfolk VA,ssp370,2082,77.44
+Norfolk VA,ssp370,2083,78.75999999999999
+Norfolk VA,ssp370,2084,80.08
+Norfolk VA,ssp370,2085,81.4
+Norfolk VA,ssp370,2086,82.72
+Norfolk VA,ssp370,2087,84.03999999999999
+Norfolk VA,ssp370,2088,85.36
+Norfolk VA,ssp370,2089,86.68
+Norfolk VA,ssp370,2090,88.0
+Norfolk VA,ssp370,2091,89.42
+Norfolk VA,ssp370,2092,90.84
+Norfolk VA,ssp370,2093,92.26
+Norfolk VA,ssp370,2094,93.68
+Norfolk VA,ssp370,2095,95.1
+Norfolk VA,ssp370,2096,96.52000000000001
+Norfolk VA,ssp370,2097,97.94
+Norfolk VA,ssp370,2098,99.36
+Norfolk VA,ssp370,2099,100.78
+Norfolk VA,ssp370,2100,102.2
+Norfolk VA,ssp585,2020,11.8
+Norfolk VA,ssp585,2020,11.9
+Norfolk VA,ssp585,2021,12.86
+Norfolk VA,ssp585,2022,13.82
+Norfolk VA,ssp585,2023,14.780000000000001
+Norfolk VA,ssp585,2024,15.74
+Norfolk VA,ssp585,2025,16.7
+Norfolk VA,ssp585,2026,17.66
+Norfolk VA,ssp585,2027,18.62
+Norfolk VA,ssp585,2028,19.58
+Norfolk VA,ssp585,2029,20.54
+Norfolk VA,ssp585,2030,21.5
+Norfolk VA,ssp585,2030,21.6
+Norfolk VA,ssp585,2031,22.630000000000003
+Norfolk VA,ssp585,2032,23.66
+Norfolk VA,ssp585,2033,24.69
+Norfolk VA,ssp585,2034,25.72
+Norfolk VA,ssp585,2035,26.75
+Norfolk VA,ssp585,2036,27.78
+Norfolk VA,ssp585,2037,28.810000000000002
+Norfolk VA,ssp585,2038,29.84
+Norfolk VA,ssp585,2039,30.869999999999997
+Norfolk VA,ssp585,2040,31.9
+Norfolk VA,ssp585,2040,32.2
+Norfolk VA,ssp585,2041,33.300000000000004
+Norfolk VA,ssp585,2042,34.400000000000006
+Norfolk VA,ssp585,2043,35.5
+Norfolk VA,ssp585,2044,36.6
+Norfolk VA,ssp585,2045,37.7
+Norfolk VA,ssp585,2046,38.800000000000004
+Norfolk VA,ssp585,2047,39.900000000000006
+Norfolk VA,ssp585,2048,41.0
+Norfolk VA,ssp585,2049,42.1
+Norfolk VA,ssp585,2050,43.2
+Norfolk VA,ssp585,2050,43.7
+Norfolk VA,ssp585,2051,44.77
+Norfolk VA,ssp585,2052,45.84
+Norfolk VA,ssp585,2053,46.910000000000004
+Norfolk VA,ssp585,2054,47.980000000000004
+Norfolk VA,ssp585,2055,49.050000000000004
+Norfolk VA,ssp585,2056,50.120000000000005
+Norfolk VA,ssp585,2057,51.190000000000005
+Norfolk VA,ssp585,2058,52.260000000000005
+Norfolk VA,ssp585,2059,53.330000000000005
+Norfolk VA,ssp585,2060,54.400000000000006
+Norfolk VA,ssp585,2060,55.7
+Norfolk VA,ssp585,2061,56.870000000000005
+Norfolk VA,ssp585,2062,58.040000000000006
+Norfolk VA,ssp585,2063,59.21
+Norfolk VA,ssp585,2064,60.38
+Norfolk VA,ssp585,2065,61.550000000000004
+Norfolk VA,ssp585,2066,62.720000000000006
+Norfolk VA,ssp585,2067,63.89000000000001
+Norfolk VA,ssp585,2068,65.06
+Norfolk VA,ssp585,2069,66.23
+Norfolk VA,ssp585,2070,67.4
+Norfolk VA,ssp585,2070,69.69999999999999
+Norfolk VA,ssp585,2071,70.80999999999999
+Norfolk VA,ssp585,2072,71.91999999999999
+Norfolk VA,ssp585,2073,73.03
+Norfolk VA,ssp585,2074,74.14
+Norfolk VA,ssp585,2075,75.25
+Norfolk VA,ssp585,2076,76.36
+Norfolk VA,ssp585,2077,77.47
+Norfolk VA,ssp585,2078,78.58000000000001
+Norfolk VA,ssp585,2079,79.69000000000001
+Norfolk VA,ssp585,2080,80.80000000000001
+Norfolk VA,ssp585,2080,85.1
+Norfolk VA,ssp585,2081,86.16999999999999
+Norfolk VA,ssp585,2082,87.24
+Norfolk VA,ssp585,2083,88.31
+Norfolk VA,ssp585,2084,89.38
+Norfolk VA,ssp585,2085,90.44999999999999
+Norfolk VA,ssp585,2086,91.52
+Norfolk VA,ssp585,2087,92.59
+Norfolk VA,ssp585,2088,93.66
+Norfolk VA,ssp585,2089,94.72999999999999
+Norfolk VA,ssp585,2090,95.8
+Norfolk VA,ssp585,2090,103.2
+Norfolk VA,ssp585,2091,104.02000000000001
+Norfolk VA,ssp585,2092,104.84
+Norfolk VA,ssp585,2093,105.66
+Norfolk VA,ssp585,2094,106.48
+Norfolk VA,ssp585,2095,107.30000000000001
+Norfolk VA,ssp585,2096,108.12
+Norfolk VA,ssp585,2097,108.94
+Norfolk VA,ssp585,2098,109.76
+Norfolk VA,ssp585,2099,110.58000000000001
+Norfolk VA,ssp585,2100,111.4
+Norfolk VA,ssp585,2100,122.8
+San Francisco CA,ssp126,2020,5.0
+San Francisco CA,ssp126,2020,5.2
+San Francisco CA,ssp126,2021,5.6
+San Francisco CA,ssp126,2022,6.0
+San Francisco CA,ssp126,2023,6.4
+San Francisco CA,ssp126,2024,6.8
+San Francisco CA,ssp126,2025,7.199999999999999
+San Francisco CA,ssp126,2026,7.6
+San Francisco CA,ssp126,2027,8.0
+San Francisco CA,ssp126,2028,8.399999999999999
+San Francisco CA,ssp126,2029,8.799999999999999
+San Francisco CA,ssp126,2030,9.2
+San Francisco CA,ssp126,2030,9.6
+San Francisco CA,ssp126,2031,9.99
+San Francisco CA,ssp126,2032,10.379999999999999
+San Francisco CA,ssp126,2033,10.77
+San Francisco CA,ssp126,2034,11.16
+San Francisco CA,ssp126,2035,11.55
+San Francisco CA,ssp126,2036,11.94
+San Francisco CA,ssp126,2037,12.33
+San Francisco CA,ssp126,2038,12.719999999999999
+San Francisco CA,ssp126,2039,13.11
+San Francisco CA,ssp126,2040,13.5
+San Francisco CA,ssp126,2040,14.2
+San Francisco CA,ssp126,2041,14.639999999999999
+San Francisco CA,ssp126,2042,15.08
+San Francisco CA,ssp126,2043,15.52
+San Francisco CA,ssp126,2044,15.96
+San Francisco CA,ssp126,2045,16.4
+San Francisco CA,ssp126,2046,16.84
+San Francisco CA,ssp126,2047,17.28
+San Francisco CA,ssp126,2048,17.720000000000002
+San Francisco CA,ssp126,2049,18.16
+San Francisco CA,ssp126,2050,18.6
+San Francisco CA,ssp126,2050,19.4
+San Francisco CA,ssp126,2051,19.74
+San Francisco CA,ssp126,2052,20.08
+San Francisco CA,ssp126,2053,20.419999999999998
+San Francisco CA,ssp126,2054,20.759999999999998
+San Francisco CA,ssp126,2055,21.1
+San Francisco CA,ssp126,2056,21.439999999999998
+San Francisco CA,ssp126,2057,21.78
+San Francisco CA,ssp126,2058,22.12
+San Francisco CA,ssp126,2059,22.46
+San Francisco CA,ssp126,2060,22.8
+San Francisco CA,ssp126,2060,24.0
+San Francisco CA,ssp126,2061,24.4
+San Francisco CA,ssp126,2062,24.8
+San Francisco CA,ssp126,2063,25.200000000000003
+San Francisco CA,ssp126,2064,25.6
+San Francisco CA,ssp126,2065,26.0
+San Francisco CA,ssp126,2066,26.400000000000002
+San Francisco CA,ssp126,2067,26.800000000000004
+San Francisco CA,ssp126,2068,27.200000000000003
+San Francisco CA,ssp126,2069,27.6
+San Francisco CA,ssp126,2070,28.000000000000004
+San Francisco CA,ssp126,2070,29.2
+San Francisco CA,ssp126,2071,29.56
+San Francisco CA,ssp126,2072,29.92
+San Francisco CA,ssp126,2073,30.28
+San Francisco CA,ssp126,2074,30.64
+San Francisco CA,ssp126,2075,31.0
+San Francisco CA,ssp126,2076,31.360000000000003
+San Francisco CA,ssp126,2077,31.720000000000002
+San Francisco CA,ssp126,2078,32.080000000000005
+San Francisco CA,ssp126,2079,32.440000000000005
+San Francisco CA,ssp126,2080,32.800000000000004
+San Francisco CA,ssp126,2080,34.2
+San Francisco CA,ssp126,2081,34.6
+San Francisco CA,ssp126,2082,35.0
+San Francisco CA,ssp126,2083,35.400000000000006
+San Francisco CA,ssp126,2084,35.800000000000004
+San Francisco CA,ssp126,2085,36.2
+San Francisco CA,ssp126,2086,36.6
+San Francisco CA,ssp126,2087,37.0
+San Francisco CA,ssp126,2088,37.400000000000006
+San Francisco CA,ssp126,2089,37.800000000000004
+San Francisco CA,ssp126,2090,38.2
+San Francisco CA,ssp126,2090,39.7
+San Francisco CA,ssp126,2091,40.03
+San Francisco CA,ssp126,2092,40.36
+San Francisco CA,ssp126,2093,40.690000000000005
+San Francisco CA,ssp126,2094,41.02
+San Francisco CA,ssp126,2095,41.35
+San Francisco CA,ssp126,2096,41.68
+San Francisco CA,ssp126,2097,42.01
+San Francisco CA,ssp126,2098,42.34
+San Francisco CA,ssp126,2099,42.67
+San Francisco CA,ssp126,2100,43.0
+San Francisco CA,ssp126,2100,44.6
+San Francisco CA,ssp245,2020,4.9
+San Francisco CA,ssp245,2021,5.3100000000000005
+San Francisco CA,ssp245,2022,5.720000000000001
+San Francisco CA,ssp245,2023,6.130000000000001
+San Francisco CA,ssp245,2024,6.54
+San Francisco CA,ssp245,2025,6.95
+San Francisco CA,ssp245,2026,7.36
+San Francisco CA,ssp245,2027,7.77
+San Francisco CA,ssp245,2028,8.18
+San Francisco CA,ssp245,2029,8.59
+San Francisco CA,ssp245,2030,9.0
+San Francisco CA,ssp245,2031,9.45
+San Francisco CA,ssp245,2032,9.9
+San Francisco CA,ssp245,2033,10.35
+San Francisco CA,ssp245,2034,10.8
+San Francisco CA,ssp245,2035,11.25
+San Francisco CA,ssp245,2036,11.7
+San Francisco CA,ssp245,2037,12.15
+San Francisco CA,ssp245,2038,12.6
+San Francisco CA,ssp245,2039,13.05
+San Francisco CA,ssp245,2040,13.5
+San Francisco CA,ssp245,2041,14.09
+San Francisco CA,ssp245,2042,14.68
+San Francisco CA,ssp245,2043,15.27
+San Francisco CA,ssp245,2044,15.86
+San Francisco CA,ssp245,2045,16.45
+San Francisco CA,ssp245,2046,17.04
+San Francisco CA,ssp245,2047,17.63
+San Francisco CA,ssp245,2048,18.22
+San Francisco CA,ssp245,2049,18.81
+San Francisco CA,ssp245,2050,19.4
+San Francisco CA,ssp245,2051,19.919999999999998
+San Francisco CA,ssp245,2052,20.439999999999998
+San Francisco CA,ssp245,2053,20.96
+San Francisco CA,ssp245,2054,21.48
+San Francisco CA,ssp245,2055,22.0
+San Francisco CA,ssp245,2056,22.52
+San Francisco CA,ssp245,2057,23.04
+San Francisco CA,ssp245,2058,23.560000000000002
+San Francisco CA,ssp245,2059,24.080000000000002
+San Francisco CA,ssp245,2060,24.6
+San Francisco CA,ssp245,2061,25.23
+San Francisco CA,ssp245,2062,25.86
+San Francisco CA,ssp245,2063,26.490000000000002
+San Francisco CA,ssp245,2064,27.12
+San Francisco CA,ssp245,2065,27.75
+San Francisco CA,ssp245,2066,28.38
+San Francisco CA,ssp245,2067,29.009999999999998
+San Francisco CA,ssp245,2068,29.64
+San Francisco CA,ssp245,2069,30.27
+San Francisco CA,ssp245,2070,30.9
+San Francisco CA,ssp245,2071,31.61
+San Francisco CA,ssp245,2072,32.32
+San Francisco CA,ssp245,2073,33.03
+San Francisco CA,ssp245,2074,33.74
+San Francisco CA,ssp245,2075,34.45
+San Francisco CA,ssp245,2076,35.16
+San Francisco CA,ssp245,2077,35.87
+San Francisco CA,ssp245,2078,36.58
+San Francisco CA,ssp245,2079,37.29
+San Francisco CA,ssp245,2080,38.0
+San Francisco CA,ssp245,2081,38.76
+San Francisco CA,ssp245,2082,39.52
+San Francisco CA,ssp245,2083,40.28
+San Francisco CA,ssp245,2084,41.04
+San Francisco CA,ssp245,2085,41.8
+San Francisco CA,ssp245,2086,42.56
+San Francisco CA,ssp245,2087,43.32
+San Francisco CA,ssp245,2088,44.08
+San Francisco CA,ssp245,2089,44.84
+San Francisco CA,ssp245,2090,45.6
+San Francisco CA,ssp245,2091,46.32
+San Francisco CA,ssp245,2092,47.04
+San Francisco CA,ssp245,2093,47.76
+San Francisco CA,ssp245,2094,48.48
+San Francisco CA,ssp245,2095,49.2
+San Francisco CA,ssp245,2096,49.92
+San Francisco CA,ssp245,2097,50.64
+San Francisco CA,ssp245,2098,51.36
+San Francisco CA,ssp245,2099,52.08
+San Francisco CA,ssp245,2100,52.8
+San Francisco CA,ssp370,2020,5.0
+San Francisco CA,ssp370,2021,5.4
+San Francisco CA,ssp370,2022,5.8
+San Francisco CA,ssp370,2023,6.2
+San Francisco CA,ssp370,2024,6.6
+San Francisco CA,ssp370,2025,7.0
+San Francisco CA,ssp370,2026,7.4
+San Francisco CA,ssp370,2027,7.800000000000001
+San Francisco CA,ssp370,2028,8.2
+San Francisco CA,ssp370,2029,8.6
+San Francisco CA,ssp370,2030,9.0
+San Francisco CA,ssp370,2031,9.46
+San Francisco CA,ssp370,2032,9.92
+San Francisco CA,ssp370,2033,10.379999999999999
+San Francisco CA,ssp370,2034,10.84
+San Francisco CA,ssp370,2035,11.3
+San Francisco CA,ssp370,2036,11.76
+San Francisco CA,ssp370,2037,12.219999999999999
+San Francisco CA,ssp370,2038,12.68
+San Francisco CA,ssp370,2039,13.14
+San Francisco CA,ssp370,2040,13.6
+San Francisco CA,ssp370,2041,14.219999999999999
+San Francisco CA,ssp370,2042,14.84
+San Francisco CA,ssp370,2043,15.46
+San Francisco CA,ssp370,2044,16.08
+San Francisco CA,ssp370,2045,16.7
+San Francisco CA,ssp370,2046,17.32
+San Francisco CA,ssp370,2047,17.94
+San Francisco CA,ssp370,2048,18.560000000000002
+San Francisco CA,ssp370,2049,19.18
+San Francisco CA,ssp370,2050,19.8
+San Francisco CA,ssp370,2051,20.45
+San Francisco CA,ssp370,2052,21.1
+San Francisco CA,ssp370,2053,21.75
+San Francisco CA,ssp370,2054,22.400000000000002
+San Francisco CA,ssp370,2055,23.05
+San Francisco CA,ssp370,2056,23.700000000000003
+San Francisco CA,ssp370,2057,24.35
+San Francisco CA,ssp370,2058,25.0
+San Francisco CA,ssp370,2059,25.650000000000002
+San Francisco CA,ssp370,2060,26.3
+San Francisco CA,ssp370,2061,27.05
+San Francisco CA,ssp370,2062,27.8
+San Francisco CA,ssp370,2063,28.55
+San Francisco CA,ssp370,2064,29.3
+San Francisco CA,ssp370,2065,30.050000000000004
+San Francisco CA,ssp370,2066,30.800000000000004
+San Francisco CA,ssp370,2067,31.550000000000004
+San Francisco CA,ssp370,2068,32.300000000000004
+San Francisco CA,ssp370,2069,33.050000000000004
+San Francisco CA,ssp370,2070,33.800000000000004
+San Francisco CA,ssp370,2071,34.64
+San Francisco CA,ssp370,2072,35.480000000000004
+San Francisco CA,ssp370,2073,36.32000000000001
+San Francisco CA,ssp370,2074,37.160000000000004
+San Francisco CA,ssp370,2075,38.0
+San Francisco CA,ssp370,2076,38.84
+San Francisco CA,ssp370,2077,39.68000000000001
+San Francisco CA,ssp370,2078,40.52
+San Francisco CA,ssp370,2079,41.36
+San Francisco CA,ssp370,2080,42.2
+San Francisco CA,ssp370,2081,43.150000000000006
+San Francisco CA,ssp370,2082,44.1
+San Francisco CA,ssp370,2083,45.050000000000004
+San Francisco CA,ssp370,2084,46.0
+San Francisco CA,ssp370,2085,46.95
+San Francisco CA,ssp370,2086,47.900000000000006
+San Francisco CA,ssp370,2087,48.85
+San Francisco CA,ssp370,2088,49.800000000000004
+San Francisco CA,ssp370,2089,50.75
+San Francisco CA,ssp370,2090,51.7
+San Francisco CA,ssp370,2091,52.830000000000005
+San Francisco CA,ssp370,2092,53.96
+San Francisco CA,ssp370,2093,55.09
+San Francisco CA,ssp370,2094,56.22
+San Francisco CA,ssp370,2095,57.35
+San Francisco CA,ssp370,2096,58.480000000000004
+San Francisco CA,ssp370,2097,59.61
+San Francisco CA,ssp370,2098,60.74
+San Francisco CA,ssp370,2099,61.87
+San Francisco CA,ssp370,2100,63.0
+San Francisco CA,ssp585,2020,5.3
+San Francisco CA,ssp585,2020,5.5
+San Francisco CA,ssp585,2021,5.9
+San Francisco CA,ssp585,2022,6.3
+San Francisco CA,ssp585,2023,6.7
+San Francisco CA,ssp585,2024,7.1
+San Francisco CA,ssp585,2025,7.5
+San Francisco CA,ssp585,2026,7.9
+San Francisco CA,ssp585,2027,8.3
+San Francisco CA,ssp585,2028,8.7
+San Francisco CA,ssp585,2029,9.1
+San Francisco CA,ssp585,2030,9.5
+San Francisco CA,ssp585,2030,9.8
+San Francisco CA,ssp585,2031,10.32
+San Francisco CA,ssp585,2032,10.84
+San Francisco CA,ssp585,2033,11.36
+San Francisco CA,ssp585,2034,11.88
+San Francisco CA,ssp585,2035,12.4
+San Francisco CA,ssp585,2036,12.92
+San Francisco CA,ssp585,2037,13.44
+San Francisco CA,ssp585,2038,13.96
+San Francisco CA,ssp585,2039,14.48
+San Francisco CA,ssp585,2040,15.0
+San Francisco CA,ssp585,2040,15.4
+San Francisco CA,ssp585,2041,16.07
+San Francisco CA,ssp585,2042,16.740000000000002
+San Francisco CA,ssp585,2043,17.41
+San Francisco CA,ssp585,2044,18.080000000000002
+San Francisco CA,ssp585,2045,18.75
+San Francisco CA,ssp585,2046,19.42
+San Francisco CA,ssp585,2047,20.090000000000003
+San Francisco CA,ssp585,2048,20.76
+San Francisco CA,ssp585,2049,21.43
+San Francisco CA,ssp585,2050,22.1
+San Francisco CA,ssp585,2050,23.0
+San Francisco CA,ssp585,2051,23.6
+San Francisco CA,ssp585,2052,24.2
+San Francisco CA,ssp585,2053,24.8
+San Francisco CA,ssp585,2054,25.4
+San Francisco CA,ssp585,2055,26.0
+San Francisco CA,ssp585,2056,26.6
+San Francisco CA,ssp585,2057,27.2
+San Francisco CA,ssp585,2058,27.8
+San Francisco CA,ssp585,2059,28.4
+San Francisco CA,ssp585,2060,29.0
+San Francisco CA,ssp585,2060,30.9
+San Francisco CA,ssp585,2061,31.59
+San Francisco CA,ssp585,2062,32.28
+San Francisco CA,ssp585,2063,32.97
+San Francisco CA,ssp585,2064,33.66
+San Francisco CA,ssp585,2065,34.349999999999994
+San Francisco CA,ssp585,2066,35.04
+San Francisco CA,ssp585,2067,35.73
+San Francisco CA,ssp585,2068,36.419999999999995
+San Francisco CA,ssp585,2069,37.11
+San Francisco CA,ssp585,2070,37.8
+San Francisco CA,ssp585,2070,41.0
+San Francisco CA,ssp585,2071,41.68
+San Francisco CA,ssp585,2072,42.36
+San Francisco CA,ssp585,2073,43.04
+San Francisco CA,ssp585,2074,43.72
+San Francisco CA,ssp585,2075,44.4
+San Francisco CA,ssp585,2076,45.08
+San Francisco CA,ssp585,2077,45.76
+San Francisco CA,ssp585,2078,46.44
+San Francisco CA,ssp585,2079,47.12
+San Francisco CA,ssp585,2080,47.8
+San Francisco CA,ssp585,2080,53.2
+San Francisco CA,ssp585,2081,53.84
+San Francisco CA,ssp585,2082,54.480000000000004
+San Francisco CA,ssp585,2083,55.120000000000005
+San Francisco CA,ssp585,2084,55.760000000000005
+San Francisco CA,ssp585,2085,56.400000000000006
+San Francisco CA,ssp585,2086,57.04
+San Francisco CA,ssp585,2087,57.68
+San Francisco CA,ssp585,2088,58.32
+San Francisco CA,ssp585,2089,58.96
+San Francisco CA,ssp585,2090,59.6
+San Francisco CA,ssp585,2090,68.30000000000001
+San Francisco CA,ssp585,2091,68.66000000000001
+San Francisco CA,ssp585,2092,69.02000000000001
+San Francisco CA,ssp585,2093,69.38000000000001
+San Francisco CA,ssp585,2094,69.74000000000001
+San Francisco CA,ssp585,2095,70.1
+San Francisco CA,ssp585,2096,70.46
+San Francisco CA,ssp585,2097,70.82
+San Francisco CA,ssp585,2098,71.17999999999999
+San Francisco CA,ssp585,2099,71.53999999999999
+San Francisco CA,ssp585,2100,71.89999999999999
+San Francisco CA,ssp585,2100,84.8
+Seattle WA,ssp126,2020,4.8
+Seattle WA,ssp126,2020,4.9
+Seattle WA,ssp126,2021,5.2700000000000005
+Seattle WA,ssp126,2022,5.640000000000001
+Seattle WA,ssp126,2023,6.01
+Seattle WA,ssp126,2024,6.38
+Seattle WA,ssp126,2025,6.75
+Seattle WA,ssp126,2026,7.12
+Seattle WA,ssp126,2027,7.49
+Seattle WA,ssp126,2028,7.859999999999999
+Seattle WA,ssp126,2029,8.23
+Seattle WA,ssp126,2030,8.6
+Seattle WA,ssp126,2030,8.799999999999999
+Seattle WA,ssp126,2031,9.219999999999999
+Seattle WA,ssp126,2032,9.639999999999999
+Seattle WA,ssp126,2033,10.059999999999999
+Seattle WA,ssp126,2034,10.479999999999999
+Seattle WA,ssp126,2035,10.899999999999999
+Seattle WA,ssp126,2036,11.32
+Seattle WA,ssp126,2037,11.74
+Seattle WA,ssp126,2038,12.16
+Seattle WA,ssp126,2039,12.58
+Seattle WA,ssp126,2040,13.0
+Seattle WA,ssp126,2040,13.6
+Seattle WA,ssp126,2041,14.059999999999999
+Seattle WA,ssp126,2042,14.52
+Seattle WA,ssp126,2043,14.98
+Seattle WA,ssp126,2044,15.44
+Seattle WA,ssp126,2045,15.899999999999999
+Seattle WA,ssp126,2046,16.36
+Seattle WA,ssp126,2047,16.82
+Seattle WA,ssp126,2048,17.28
+Seattle WA,ssp126,2049,17.74
+Seattle WA,ssp126,2050,18.2
+Seattle WA,ssp126,2050,18.8
+Seattle WA,ssp126,2051,19.2
+Seattle WA,ssp126,2052,19.6
+Seattle WA,ssp126,2053,20.0
+Seattle WA,ssp126,2054,20.400000000000002
+Seattle WA,ssp126,2055,20.8
+Seattle WA,ssp126,2056,21.200000000000003
+Seattle WA,ssp126,2057,21.6
+Seattle WA,ssp126,2058,22.0
+Seattle WA,ssp126,2059,22.400000000000002
+Seattle WA,ssp126,2060,22.8
+Seattle WA,ssp126,2060,23.8
+Seattle WA,ssp126,2061,24.23
+Seattle WA,ssp126,2062,24.66
+Seattle WA,ssp126,2063,25.09
+Seattle WA,ssp126,2064,25.52
+Seattle WA,ssp126,2065,25.950000000000003
+Seattle WA,ssp126,2066,26.380000000000003
+Seattle WA,ssp126,2067,26.810000000000002
+Seattle WA,ssp126,2068,27.240000000000002
+Seattle WA,ssp126,2069,27.67
+Seattle WA,ssp126,2070,28.1
+Seattle WA,ssp126,2070,29.1
+Seattle WA,ssp126,2071,29.51
+Seattle WA,ssp126,2072,29.92
+Seattle WA,ssp126,2073,30.330000000000002
+Seattle WA,ssp126,2074,30.740000000000002
+Seattle WA,ssp126,2075,31.150000000000002
+Seattle WA,ssp126,2076,31.560000000000002
+Seattle WA,ssp126,2077,31.970000000000002
+Seattle WA,ssp126,2078,32.38
+Seattle WA,ssp126,2079,32.790000000000006
+Seattle WA,ssp126,2080,33.2
+Seattle WA,ssp126,2080,34.300000000000004
+Seattle WA,ssp126,2081,34.75
+Seattle WA,ssp126,2082,35.2
+Seattle WA,ssp126,2083,35.650000000000006
+Seattle WA,ssp126,2084,36.1
+Seattle WA,ssp126,2085,36.55
+Seattle WA,ssp126,2086,37.0
+Seattle WA,ssp126,2087,37.45
+Seattle WA,ssp126,2088,37.9
+Seattle WA,ssp126,2089,38.349999999999994
+Seattle WA,ssp126,2090,38.8
+Seattle WA,ssp126,2090,40.1
+Seattle WA,ssp126,2091,40.53
+Seattle WA,ssp126,2092,40.96
+Seattle WA,ssp126,2093,41.39
+Seattle WA,ssp126,2094,41.82
+Seattle WA,ssp126,2095,42.25
+Seattle WA,ssp126,2096,42.68
+Seattle WA,ssp126,2097,43.11
+Seattle WA,ssp126,2098,43.54
+Seattle WA,ssp126,2099,43.97
+Seattle WA,ssp126,2100,44.4
+Seattle WA,ssp126,2100,45.6
+Seattle WA,ssp245,2020,4.7
+Seattle WA,ssp245,2021,5.07
+Seattle WA,ssp245,2022,5.44
+Seattle WA,ssp245,2023,5.8100000000000005
+Seattle WA,ssp245,2024,6.18
+Seattle WA,ssp245,2025,6.550000000000001
+Seattle WA,ssp245,2026,6.92
+Seattle WA,ssp245,2027,7.29
+Seattle WA,ssp245,2028,7.66
+Seattle WA,ssp245,2029,8.030000000000001
+Seattle WA,ssp245,2030,8.4
+Seattle WA,ssp245,2031,8.84
+Seattle WA,ssp245,2032,9.280000000000001
+Seattle WA,ssp245,2033,9.72
+Seattle WA,ssp245,2034,10.16
+Seattle WA,ssp245,2035,10.600000000000001
+Seattle WA,ssp245,2036,11.040000000000001
+Seattle WA,ssp245,2037,11.48
+Seattle WA,ssp245,2038,11.920000000000002
+Seattle WA,ssp245,2039,12.360000000000001
+Seattle WA,ssp245,2040,12.8
+Seattle WA,ssp245,2041,13.38
+Seattle WA,ssp245,2042,13.96
+Seattle WA,ssp245,2043,14.540000000000001
+Seattle WA,ssp245,2044,15.120000000000001
+Seattle WA,ssp245,2045,15.700000000000001
+Seattle WA,ssp245,2046,16.28
+Seattle WA,ssp245,2047,16.86
+Seattle WA,ssp245,2048,17.44
+Seattle WA,ssp245,2049,18.020000000000003
+Seattle WA,ssp245,2050,18.6
+Seattle WA,ssp245,2051,19.17
+Seattle WA,ssp245,2052,19.740000000000002
+Seattle WA,ssp245,2053,20.310000000000002
+Seattle WA,ssp245,2054,20.880000000000003
+Seattle WA,ssp245,2055,21.450000000000003
+Seattle WA,ssp245,2056,22.020000000000003
+Seattle WA,ssp245,2057,22.59
+Seattle WA,ssp245,2058,23.16
+Seattle WA,ssp245,2059,23.73
+Seattle WA,ssp245,2060,24.3
+Seattle WA,ssp245,2061,24.92
+Seattle WA,ssp245,2062,25.54
+Seattle WA,ssp245,2063,26.16
+Seattle WA,ssp245,2064,26.78
+Seattle WA,ssp245,2065,27.4
+Seattle WA,ssp245,2066,28.02
+Seattle WA,ssp245,2067,28.64
+Seattle WA,ssp245,2068,29.259999999999998
+Seattle WA,ssp245,2069,29.88
+Seattle WA,ssp245,2070,30.5
+Seattle WA,ssp245,2071,31.19
+Seattle WA,ssp245,2072,31.88
+Seattle WA,ssp245,2073,32.57
+Seattle WA,ssp245,2074,33.26
+Seattle WA,ssp245,2075,33.95
+Seattle WA,ssp245,2076,34.64
+Seattle WA,ssp245,2077,35.33
+Seattle WA,ssp245,2078,36.019999999999996
+Seattle WA,ssp245,2079,36.71
+Seattle WA,ssp245,2080,37.4
+Seattle WA,ssp245,2081,38.18
+Seattle WA,ssp245,2082,38.96
+Seattle WA,ssp245,2083,39.74
+Seattle WA,ssp245,2084,40.52
+Seattle WA,ssp245,2085,41.3
+Seattle WA,ssp245,2086,42.08
+Seattle WA,ssp245,2087,42.86
+Seattle WA,ssp245,2088,43.64
+Seattle WA,ssp245,2089,44.42
+Seattle WA,ssp245,2090,45.2
+Seattle WA,ssp245,2091,45.96
+Seattle WA,ssp245,2092,46.72
+Seattle WA,ssp245,2093,47.480000000000004
+Seattle WA,ssp245,2094,48.24
+Seattle WA,ssp245,2095,49.0
+Seattle WA,ssp245,2096,49.76
+Seattle WA,ssp245,2097,50.519999999999996
+Seattle WA,ssp245,2098,51.28
+Seattle WA,ssp245,2099,52.04
+Seattle WA,ssp245,2100,52.8
+Seattle WA,ssp370,2020,4.8
+Seattle WA,ssp370,2021,5.15
+Seattle WA,ssp370,2022,5.5
+Seattle WA,ssp370,2023,5.85
+Seattle WA,ssp370,2024,6.2
+Seattle WA,ssp370,2025,6.550000000000001
+Seattle WA,ssp370,2026,6.9
+Seattle WA,ssp370,2027,7.25
+Seattle WA,ssp370,2028,7.6000000000000005
+Seattle WA,ssp370,2029,7.950000000000001
+Seattle WA,ssp370,2030,8.3
+Seattle WA,ssp370,2031,8.72
+Seattle WA,ssp370,2032,9.14
+Seattle WA,ssp370,2033,9.56
+Seattle WA,ssp370,2034,9.98
+Seattle WA,ssp370,2035,10.4
+Seattle WA,ssp370,2036,10.82
+Seattle WA,ssp370,2037,11.24
+Seattle WA,ssp370,2038,11.66
+Seattle WA,ssp370,2039,12.08
+Seattle WA,ssp370,2040,12.5
+Seattle WA,ssp370,2041,13.11
+Seattle WA,ssp370,2042,13.72
+Seattle WA,ssp370,2043,14.33
+Seattle WA,ssp370,2044,14.940000000000001
+Seattle WA,ssp370,2045,15.55
+Seattle WA,ssp370,2046,16.16
+Seattle WA,ssp370,2047,16.77
+Seattle WA,ssp370,2048,17.380000000000003
+Seattle WA,ssp370,2049,17.990000000000002
+Seattle WA,ssp370,2050,18.6
+Seattle WA,ssp370,2051,19.270000000000003
+Seattle WA,ssp370,2052,19.94
+Seattle WA,ssp370,2053,20.61
+Seattle WA,ssp370,2054,21.28
+Seattle WA,ssp370,2055,21.950000000000003
+Seattle WA,ssp370,2056,22.62
+Seattle WA,ssp370,2057,23.29
+Seattle WA,ssp370,2058,23.96
+Seattle WA,ssp370,2059,24.630000000000003
+Seattle WA,ssp370,2060,25.3
+Seattle WA,ssp370,2061,26.02
+Seattle WA,ssp370,2062,26.740000000000002
+Seattle WA,ssp370,2063,27.46
+Seattle WA,ssp370,2064,28.18
+Seattle WA,ssp370,2065,28.9
+Seattle WA,ssp370,2066,29.62
+Seattle WA,ssp370,2067,30.34
+Seattle WA,ssp370,2068,31.060000000000002
+Seattle WA,ssp370,2069,31.78
+Seattle WA,ssp370,2070,32.5
+Seattle WA,ssp370,2071,33.35
+Seattle WA,ssp370,2072,34.2
+Seattle WA,ssp370,2073,35.05
+Seattle WA,ssp370,2074,35.9
+Seattle WA,ssp370,2075,36.75
+Seattle WA,ssp370,2076,37.6
+Seattle WA,ssp370,2077,38.45
+Seattle WA,ssp370,2078,39.3
+Seattle WA,ssp370,2079,40.15
+Seattle WA,ssp370,2080,41.0
+Seattle WA,ssp370,2081,41.94
+Seattle WA,ssp370,2082,42.88
+Seattle WA,ssp370,2083,43.82
+Seattle WA,ssp370,2084,44.76
+Seattle WA,ssp370,2085,45.7
+Seattle WA,ssp370,2086,46.64
+Seattle WA,ssp370,2087,47.58
+Seattle WA,ssp370,2088,48.519999999999996
+Seattle WA,ssp370,2089,49.46
+Seattle WA,ssp370,2090,50.4
+Seattle WA,ssp370,2091,51.5
+Seattle WA,ssp370,2092,52.6
+Seattle WA,ssp370,2093,53.699999999999996
+Seattle WA,ssp370,2094,54.8
+Seattle WA,ssp370,2095,55.9
+Seattle WA,ssp370,2096,57.0
+Seattle WA,ssp370,2097,58.1
+Seattle WA,ssp370,2098,59.2
+Seattle WA,ssp370,2099,60.3
+Seattle WA,ssp370,2100,61.4
+Seattle WA,ssp585,2020,5.0
+Seattle WA,ssp585,2020,5.2
+Seattle WA,ssp585,2021,5.5600000000000005
+Seattle WA,ssp585,2022,5.92
+Seattle WA,ssp585,2023,6.279999999999999
+Seattle WA,ssp585,2024,6.64
+Seattle WA,ssp585,2025,7.0
+Seattle WA,ssp585,2026,7.359999999999999
+Seattle WA,ssp585,2027,7.719999999999999
+Seattle WA,ssp585,2028,8.079999999999998
+Seattle WA,ssp585,2029,8.44
+Seattle WA,ssp585,2030,8.799999999999999
+Seattle WA,ssp585,2030,9.0
+Seattle WA,ssp585,2031,9.49
+Seattle WA,ssp585,2032,9.98
+Seattle WA,ssp585,2033,10.47
+Seattle WA,ssp585,2034,10.96
+Seattle WA,ssp585,2035,11.450000000000001
+Seattle WA,ssp585,2036,11.940000000000001
+Seattle WA,ssp585,2037,12.430000000000001
+Seattle WA,ssp585,2038,12.920000000000002
+Seattle WA,ssp585,2039,13.410000000000002
+Seattle WA,ssp585,2040,13.900000000000002
+Seattle WA,ssp585,2040,14.2
+Seattle WA,ssp585,2041,14.84
+Seattle WA,ssp585,2042,15.48
+Seattle WA,ssp585,2043,16.12
+Seattle WA,ssp585,2044,16.76
+Seattle WA,ssp585,2045,17.4
+Seattle WA,ssp585,2046,18.04
+Seattle WA,ssp585,2047,18.68
+Seattle WA,ssp585,2048,19.32
+Seattle WA,ssp585,2049,19.96
+Seattle WA,ssp585,2050,20.6
+Seattle WA,ssp585,2050,21.3
+Seattle WA,ssp585,2051,21.91
+Seattle WA,ssp585,2052,22.52
+Seattle WA,ssp585,2053,23.13
+Seattle WA,ssp585,2054,23.74
+Seattle WA,ssp585,2055,24.35
+Seattle WA,ssp585,2056,24.96
+Seattle WA,ssp585,2057,25.57
+Seattle WA,ssp585,2058,26.18
+Seattle WA,ssp585,2059,26.79
+Seattle WA,ssp585,2060,27.4
+Seattle WA,ssp585,2060,29.0
+Seattle WA,ssp585,2061,29.67
+Seattle WA,ssp585,2062,30.34
+Seattle WA,ssp585,2063,31.01
+Seattle WA,ssp585,2064,31.68
+Seattle WA,ssp585,2065,32.35
+Seattle WA,ssp585,2066,33.02
+Seattle WA,ssp585,2067,33.690000000000005
+Seattle WA,ssp585,2068,34.36
+Seattle WA,ssp585,2069,35.03
+Seattle WA,ssp585,2070,35.7
+Seattle WA,ssp585,2070,38.5
+Seattle WA,ssp585,2071,39.21
+Seattle WA,ssp585,2072,39.92
+Seattle WA,ssp585,2073,40.63
+Seattle WA,ssp585,2074,41.34
+Seattle WA,ssp585,2075,42.05
+Seattle WA,ssp585,2076,42.760000000000005
+Seattle WA,ssp585,2077,43.47
+Seattle WA,ssp585,2078,44.18
+Seattle WA,ssp585,2079,44.89
+Seattle WA,ssp585,2080,45.6
+Seattle WA,ssp585,2080,50.4
+Seattle WA,ssp585,2081,51.059999999999995
+Seattle WA,ssp585,2082,51.72
+Seattle WA,ssp585,2083,52.379999999999995
+Seattle WA,ssp585,2084,53.04
+Seattle WA,ssp585,2085,53.699999999999996
+Seattle WA,ssp585,2086,54.35999999999999
+Seattle WA,ssp585,2087,55.019999999999996
+Seattle WA,ssp585,2088,55.67999999999999
+Seattle WA,ssp585,2089,56.339999999999996
+Seattle WA,ssp585,2090,56.99999999999999
+Seattle WA,ssp585,2090,64.9
+Seattle WA,ssp585,2091,65.27000000000001
+Seattle WA,ssp585,2092,65.64
+Seattle WA,ssp585,2093,66.01
+Seattle WA,ssp585,2094,66.38000000000001
+Seattle WA,ssp585,2095,66.75
+Seattle WA,ssp585,2096,67.12
+Seattle WA,ssp585,2097,67.49000000000001
+Seattle WA,ssp585,2098,67.86000000000001
+Seattle WA,ssp585,2099,68.23
+Seattle WA,ssp585,2100,68.60000000000001
+Seattle WA,ssp585,2100,80.60000000000001
+Tampa FL,ssp126,2020,8.4
+Tampa FL,ssp126,2020,8.7
+Tampa FL,ssp126,2021,9.37
+Tampa FL,ssp126,2022,10.04
+Tampa FL,ssp126,2023,10.71
+Tampa FL,ssp126,2024,11.379999999999999
+Tampa FL,ssp126,2025,12.05
+Tampa FL,ssp126,2026,12.72
+Tampa FL,ssp126,2027,13.39
+Tampa FL,ssp126,2028,14.06
+Tampa FL,ssp126,2029,14.73
+Tampa FL,ssp126,2030,15.4
+Tampa FL,ssp126,2030,15.8
+Tampa FL,ssp126,2031,16.44
+Tampa FL,ssp126,2032,17.080000000000002
+Tampa FL,ssp126,2033,17.72
+Tampa FL,ssp126,2034,18.36
+Tampa FL,ssp126,2035,19.0
+Tampa FL,ssp126,2036,19.64
+Tampa FL,ssp126,2037,20.28
+Tampa FL,ssp126,2038,20.92
+Tampa FL,ssp126,2039,21.56
+Tampa FL,ssp126,2040,22.2
+Tampa FL,ssp126,2040,22.8
+Tampa FL,ssp126,2041,23.42
+Tampa FL,ssp126,2042,24.04
+Tampa FL,ssp126,2043,24.66
+Tampa FL,ssp126,2044,25.28
+Tampa FL,ssp126,2045,25.9
+Tampa FL,ssp126,2046,26.52
+Tampa FL,ssp126,2047,27.14
+Tampa FL,ssp126,2048,27.759999999999998
+Tampa FL,ssp126,2049,28.38
+Tampa FL,ssp126,2050,29.0
+Tampa FL,ssp126,2050,29.8
+Tampa FL,ssp126,2051,30.32
+Tampa FL,ssp126,2052,30.84
+Tampa FL,ssp126,2053,31.36
+Tampa FL,ssp126,2054,31.88
+Tampa FL,ssp126,2055,32.4
+Tampa FL,ssp126,2056,32.92
+Tampa FL,ssp126,2057,33.44
+Tampa FL,ssp126,2058,33.96
+Tampa FL,ssp126,2059,34.48
+Tampa FL,ssp126,2060,35.0
+Tampa FL,ssp126,2060,36.1
+Tampa FL,ssp126,2061,36.730000000000004
+Tampa FL,ssp126,2062,37.36
+Tampa FL,ssp126,2063,37.99
+Tampa FL,ssp126,2064,38.62
+Tampa FL,ssp126,2065,39.25
+Tampa FL,ssp126,2066,39.88
+Tampa FL,ssp126,2067,40.51
+Tampa FL,ssp126,2068,41.14
+Tampa FL,ssp126,2069,41.769999999999996
+Tampa FL,ssp126,2070,42.4
+Tampa FL,ssp126,2070,43.4
+Tampa FL,ssp126,2071,43.94
+Tampa FL,ssp126,2072,44.48
+Tampa FL,ssp126,2073,45.019999999999996
+Tampa FL,ssp126,2074,45.559999999999995
+Tampa FL,ssp126,2075,46.099999999999994
+Tampa FL,ssp126,2076,46.64
+Tampa FL,ssp126,2077,47.18
+Tampa FL,ssp126,2078,47.72
+Tampa FL,ssp126,2079,48.26
+Tampa FL,ssp126,2080,48.8
+Tampa FL,ssp126,2080,50.0
+Tampa FL,ssp126,2081,50.44
+Tampa FL,ssp126,2082,50.88
+Tampa FL,ssp126,2083,51.32
+Tampa FL,ssp126,2084,51.760000000000005
+Tampa FL,ssp126,2085,52.2
+Tampa FL,ssp126,2086,52.64
+Tampa FL,ssp126,2087,53.080000000000005
+Tampa FL,ssp126,2088,53.52
+Tampa FL,ssp126,2089,53.96000000000001
+Tampa FL,ssp126,2090,54.400000000000006
+Tampa FL,ssp126,2090,55.7
+Tampa FL,ssp126,2091,56.190000000000005
+Tampa FL,ssp126,2092,56.68
+Tampa FL,ssp126,2093,57.17
+Tampa FL,ssp126,2094,57.660000000000004
+Tampa FL,ssp126,2095,58.150000000000006
+Tampa FL,ssp126,2096,58.64
+Tampa FL,ssp126,2097,59.13
+Tampa FL,ssp126,2098,59.620000000000005
+Tampa FL,ssp126,2099,60.11
+Tampa FL,ssp126,2100,60.6
+Tampa FL,ssp126,2100,61.8
+Tampa FL,ssp245,2020,8.200000000000001
+Tampa FL,ssp245,2021,8.88
+Tampa FL,ssp245,2022,9.56
+Tampa FL,ssp245,2023,10.240000000000002
+Tampa FL,ssp245,2024,10.920000000000002
+Tampa FL,ssp245,2025,11.600000000000001
+Tampa FL,ssp245,2026,12.280000000000001
+Tampa FL,ssp245,2027,12.96
+Tampa FL,ssp245,2028,13.64
+Tampa FL,ssp245,2029,14.32
+Tampa FL,ssp245,2030,15.0
+Tampa FL,ssp245,2031,15.74
+Tampa FL,ssp245,2032,16.48
+Tampa FL,ssp245,2033,17.22
+Tampa FL,ssp245,2034,17.96
+Tampa FL,ssp245,2035,18.7
+Tampa FL,ssp245,2036,19.439999999999998
+Tampa FL,ssp245,2037,20.18
+Tampa FL,ssp245,2038,20.919999999999998
+Tampa FL,ssp245,2039,21.66
+Tampa FL,ssp245,2040,22.4
+Tampa FL,ssp245,2041,23.22
+Tampa FL,ssp245,2042,24.04
+Tampa FL,ssp245,2043,24.86
+Tampa FL,ssp245,2044,25.68
+Tampa FL,ssp245,2045,26.5
+Tampa FL,ssp245,2046,27.32
+Tampa FL,ssp245,2047,28.14
+Tampa FL,ssp245,2048,28.96
+Tampa FL,ssp245,2049,29.78
+Tampa FL,ssp245,2050,30.6
+Tampa FL,ssp245,2051,31.360000000000003
+Tampa FL,ssp245,2052,32.120000000000005
+Tampa FL,ssp245,2053,32.88
+Tampa FL,ssp245,2054,33.64
+Tampa FL,ssp245,2055,34.400000000000006
+Tampa FL,ssp245,2056,35.160000000000004
+Tampa FL,ssp245,2057,35.92
+Tampa FL,ssp245,2058,36.68
+Tampa FL,ssp245,2059,37.440000000000005
+Tampa FL,ssp245,2060,38.2
+Tampa FL,ssp245,2061,39.06
+Tampa FL,ssp245,2062,39.92
+Tampa FL,ssp245,2063,40.78
+Tampa FL,ssp245,2064,41.64
+Tampa FL,ssp245,2065,42.5
+Tampa FL,ssp245,2066,43.36
+Tampa FL,ssp245,2067,44.22
+Tampa FL,ssp245,2068,45.08
+Tampa FL,ssp245,2069,45.94
+Tampa FL,ssp245,2070,46.8
+Tampa FL,ssp245,2071,47.699999999999996
+Tampa FL,ssp245,2072,48.599999999999994
+Tampa FL,ssp245,2073,49.5
+Tampa FL,ssp245,2074,50.4
+Tampa FL,ssp245,2075,51.3
+Tampa FL,ssp245,2076,52.199999999999996
+Tampa FL,ssp245,2077,53.099999999999994
+Tampa FL,ssp245,2078,54.0
+Tampa FL,ssp245,2079,54.9
+Tampa FL,ssp245,2080,55.8
+Tampa FL,ssp245,2081,56.629999999999995
+Tampa FL,ssp245,2082,57.459999999999994
+Tampa FL,ssp245,2083,58.29
+Tampa FL,ssp245,2084,59.12
+Tampa FL,ssp245,2085,59.949999999999996
+Tampa FL,ssp245,2086,60.779999999999994
+Tampa FL,ssp245,2087,61.60999999999999
+Tampa FL,ssp245,2088,62.44
+Tampa FL,ssp245,2089,63.269999999999996
+Tampa FL,ssp245,2090,64.1
+Tampa FL,ssp245,2091,64.99
+Tampa FL,ssp245,2092,65.88
+Tampa FL,ssp245,2093,66.77
+Tampa FL,ssp245,2094,67.66
+Tampa FL,ssp245,2095,68.55
+Tampa FL,ssp245,2096,69.44
+Tampa FL,ssp245,2097,70.33
+Tampa FL,ssp245,2098,71.22
+Tampa FL,ssp245,2099,72.11
+Tampa FL,ssp245,2100,73.0
+Tampa FL,ssp370,2020,8.5
+Tampa FL,ssp370,2021,9.17
+Tampa FL,ssp370,2022,9.84
+Tampa FL,ssp370,2023,10.51
+Tampa FL,ssp370,2024,11.18
+Tampa FL,ssp370,2025,11.85
+Tampa FL,ssp370,2026,12.52
+Tampa FL,ssp370,2027,13.19
+Tampa FL,ssp370,2028,13.86
+Tampa FL,ssp370,2029,14.53
+Tampa FL,ssp370,2030,15.2
+Tampa FL,ssp370,2031,15.93
+Tampa FL,ssp370,2032,16.66
+Tampa FL,ssp370,2033,17.39
+Tampa FL,ssp370,2034,18.12
+Tampa FL,ssp370,2035,18.85
+Tampa FL,ssp370,2036,19.58
+Tampa FL,ssp370,2037,20.31
+Tampa FL,ssp370,2038,21.04
+Tampa FL,ssp370,2039,21.77
+Tampa FL,ssp370,2040,22.5
+Tampa FL,ssp370,2041,23.36
+Tampa FL,ssp370,2042,24.22
+Tampa FL,ssp370,2043,25.08
+Tampa FL,ssp370,2044,25.94
+Tampa FL,ssp370,2045,26.8
+Tampa FL,ssp370,2046,27.66
+Tampa FL,ssp370,2047,28.52
+Tampa FL,ssp370,2048,29.380000000000003
+Tampa FL,ssp370,2049,30.240000000000002
+Tampa FL,ssp370,2050,31.1
+Tampa FL,ssp370,2051,31.96
+Tampa FL,ssp370,2052,32.82
+Tampa FL,ssp370,2053,33.68
+Tampa FL,ssp370,2054,34.54
+Tampa FL,ssp370,2055,35.400000000000006
+Tampa FL,ssp370,2056,36.260000000000005
+Tampa FL,ssp370,2057,37.120000000000005
+Tampa FL,ssp370,2058,37.980000000000004
+Tampa FL,ssp370,2059,38.84
+Tampa FL,ssp370,2060,39.7
+Tampa FL,ssp370,2061,40.71
+Tampa FL,ssp370,2062,41.72
+Tampa FL,ssp370,2063,42.730000000000004
+Tampa FL,ssp370,2064,43.74
+Tampa FL,ssp370,2065,44.75
+Tampa FL,ssp370,2066,45.76
+Tampa FL,ssp370,2067,46.769999999999996
+Tampa FL,ssp370,2068,47.78
+Tampa FL,ssp370,2069,48.79
+Tampa FL,ssp370,2070,49.8
+Tampa FL,ssp370,2071,50.86
+Tampa FL,ssp370,2072,51.919999999999995
+Tampa FL,ssp370,2073,52.98
+Tampa FL,ssp370,2074,54.04
+Tampa FL,ssp370,2075,55.099999999999994
+Tampa FL,ssp370,2076,56.16
+Tampa FL,ssp370,2077,57.22
+Tampa FL,ssp370,2078,58.28
+Tampa FL,ssp370,2079,59.339999999999996
+Tampa FL,ssp370,2080,60.4
+Tampa FL,ssp370,2081,61.56
+Tampa FL,ssp370,2082,62.72
+Tampa FL,ssp370,2083,63.879999999999995
+Tampa FL,ssp370,2084,65.03999999999999
+Tampa FL,ssp370,2085,66.2
+Tampa FL,ssp370,2086,67.36
+Tampa FL,ssp370,2087,68.52
+Tampa FL,ssp370,2088,69.68
+Tampa FL,ssp370,2089,70.84
+Tampa FL,ssp370,2090,72.0
+Tampa FL,ssp370,2091,73.34
+Tampa FL,ssp370,2092,74.67999999999999
+Tampa FL,ssp370,2093,76.02
+Tampa FL,ssp370,2094,77.36
+Tampa FL,ssp370,2095,78.69999999999999
+Tampa FL,ssp370,2096,80.03999999999999
+Tampa FL,ssp370,2097,81.38
+Tampa FL,ssp370,2098,82.72
+Tampa FL,ssp370,2099,84.05999999999999
+Tampa FL,ssp370,2100,85.39999999999999
+Tampa FL,ssp585,2020,8.3
+Tampa FL,ssp585,2020,8.5
+Tampa FL,ssp585,2021,9.18
+Tampa FL,ssp585,2022,9.86
+Tampa FL,ssp585,2023,10.54
+Tampa FL,ssp585,2024,11.22
+Tampa FL,ssp585,2025,11.9
+Tampa FL,ssp585,2026,12.58
+Tampa FL,ssp585,2027,13.260000000000002
+Tampa FL,ssp585,2028,13.940000000000001
+Tampa FL,ssp585,2029,14.620000000000001
+Tampa FL,ssp585,2030,15.3
+Tampa FL,ssp585,2030,15.6
+Tampa FL,ssp585,2031,16.4
+Tampa FL,ssp585,2032,17.2
+Tampa FL,ssp585,2033,18.0
+Tampa FL,ssp585,2034,18.8
+Tampa FL,ssp585,2035,19.6
+Tampa FL,ssp585,2036,20.4
+Tampa FL,ssp585,2037,21.200000000000003
+Tampa FL,ssp585,2038,22.0
+Tampa FL,ssp585,2039,22.8
+Tampa FL,ssp585,2040,23.6
+Tampa FL,ssp585,2040,24.0
+Tampa FL,ssp585,2041,24.92
+Tampa FL,ssp585,2042,25.84
+Tampa FL,ssp585,2043,26.76
+Tampa FL,ssp585,2044,27.68
+Tampa FL,ssp585,2045,28.6
+Tampa FL,ssp585,2046,29.520000000000003
+Tampa FL,ssp585,2047,30.44
+Tampa FL,ssp585,2048,31.360000000000003
+Tampa FL,ssp585,2049,32.28
+Tampa FL,ssp585,2050,33.2
+Tampa FL,ssp585,2050,34.0
+Tampa FL,ssp585,2051,34.84
+Tampa FL,ssp585,2052,35.68
+Tampa FL,ssp585,2053,36.519999999999996
+Tampa FL,ssp585,2054,37.36
+Tampa FL,ssp585,2055,38.2
+Tampa FL,ssp585,2056,39.04
+Tampa FL,ssp585,2057,39.879999999999995
+Tampa FL,ssp585,2058,40.72
+Tampa FL,ssp585,2059,41.56
+Tampa FL,ssp585,2060,42.4
+Tampa FL,ssp585,2060,44.0
+Tampa FL,ssp585,2061,44.96
+Tampa FL,ssp585,2062,45.92
+Tampa FL,ssp585,2063,46.88
+Tampa FL,ssp585,2064,47.84
+Tampa FL,ssp585,2065,48.8
+Tampa FL,ssp585,2066,49.760000000000005
+Tampa FL,ssp585,2067,50.72
+Tampa FL,ssp585,2068,51.68
+Tampa FL,ssp585,2069,52.64
+Tampa FL,ssp585,2070,53.6
+Tampa FL,ssp585,2070,56.39999999999999
+Tampa FL,ssp585,2071,57.35999999999999
+Tampa FL,ssp585,2072,58.31999999999999
+Tampa FL,ssp585,2073,59.279999999999994
+Tampa FL,ssp585,2074,60.239999999999995
+Tampa FL,ssp585,2075,61.199999999999996
+Tampa FL,ssp585,2076,62.16
+Tampa FL,ssp585,2077,63.12
+Tampa FL,ssp585,2078,64.08
+Tampa FL,ssp585,2079,65.03999999999999
+Tampa FL,ssp585,2080,66.0
+Tampa FL,ssp585,2080,70.89999999999999
+Tampa FL,ssp585,2081,71.77999999999999
+Tampa FL,ssp585,2082,72.66
+Tampa FL,ssp585,2083,73.53999999999999
+Tampa FL,ssp585,2084,74.42
+Tampa FL,ssp585,2085,75.3
+Tampa FL,ssp585,2086,76.17999999999999
+Tampa FL,ssp585,2087,77.06
+Tampa FL,ssp585,2088,77.94
+Tampa FL,ssp585,2089,78.82000000000001
+Tampa FL,ssp585,2090,79.7
+Tampa FL,ssp585,2090,87.9
+Tampa FL,ssp585,2091,88.56
+Tampa FL,ssp585,2092,89.22
+Tampa FL,ssp585,2093,89.88000000000001
+Tampa FL,ssp585,2094,90.54
+Tampa FL,ssp585,2095,91.2
+Tampa FL,ssp585,2096,91.86
+Tampa FL,ssp585,2097,92.52
+Tampa FL,ssp585,2098,93.18
+Tampa FL,ssp585,2099,93.84
+Tampa FL,ssp585,2100,94.5
+Tampa FL,ssp585,2100,107.0

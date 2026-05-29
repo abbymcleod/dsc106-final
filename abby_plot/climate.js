@@ -1317,7 +1317,7 @@ function drawAdventure() {
 // ── Scrollama setup ─────────────────────────────────────────
 window.addEventListener('load', () => {
     const scroller = scrollama();
-  
+
     scroller
       .setup({
         step: '.scroll-section',
@@ -1332,3 +1332,21 @@ window.addEventListener('load', () => {
         if (id === 'section-adventure') drawAdventure();
       });
   });
+
+// ── Section nav: highlight active dot on scroll ──────────────
+window.addEventListener('load', () => {
+  const dots = document.querySelectorAll('.section-nav a[data-section]');
+  if (!dots.length) return;
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        dots.forEach(dot =>
+          dot.classList.toggle('active', dot.dataset.section === entry.target.id)
+        );
+      }
+    });
+  }, { threshold: 0.4 });
+
+  document.querySelectorAll('.scroll-section').forEach(s => observer.observe(s));
+});
