@@ -131,21 +131,21 @@ const MILESTONES_IPCC = [
     scenario: "ssp585",
     city: "Galveston TX",
     headline: "Gulf Coast First to Escalate",
-    text: "Galveston is the first city to reach high risk under total sea-level projections, with New Orleans and Norfolk close behind — ice melt and land subsidence push Gulf and mid-Atlantic cities ahead of the rest of the country."
+    text: "Galveston and New Orleans are the first cities to reach high risk under total sea-level projections, with Norfolk close behind — ice melt and land subsidence push Gulf and mid-Atlantic cities ahead of the rest of the country."
   },
   {
     year: 2050,
     scenario: "ssp585",
     city: "New Orleans LA",
     headline: "Eastern Seaboard Joins High Risk",
-    text: "Every city east of Galveston crosses into high risk as total sea-level rise accelerates — ice-sheet and glacier contributions begin compounding on top of ocean dynamics across the Gulf and Atlantic coasts."
+    text: "Almost every city east of Galveston crosses into high risk as total sea-level rise accelerates — ice-sheet and glacier contributions begin compounding on top of ocean dynamics across the Gulf and Atlantic coasts."
   },
   {
     year: 2070,
     scenario: "ssp585",
     city: "Galveston TX",
     headline: "Galveston Hits Critical",
-    text: "Galveston becomes the first city to reach critical total sea-level risk while the remaining tracked cities hold at high risk — the Gulf Coast's low elevation and subsidence make it the most exposed region in the country."
+    text: "Galveston and New Orleans becomes the first cities to reach critical total sea-level risk while the remaining tracked cities hold at high risk — the Gulf Coast's low elevation and subsidence make it the most exposed region in the country."
   },
   {
     year: 2100,
