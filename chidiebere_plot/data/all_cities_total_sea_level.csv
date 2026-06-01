@@ -1,4 +1,4 @@
-year,city,scenario,sea_level_cm,lat,lon
+year,city,scenario,total_sea_level_cm,lat,lon
 2020,Atlantic City NJ,ssp126,11.5,39.36,-74.43
 2021,Atlantic City NJ,ssp126,12.39,39.36,-74.43
 2022,Atlantic City NJ,ssp126,13.28,39.36,-74.43
