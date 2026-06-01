@@ -288,7 +288,7 @@ const MILESTONES_IPCC = [
         ${
             includeTotalSeaLevel
               ? "This uses the IPCC total sea-level projection, which includes multiple contributors such as ocean dynamics, ice-sheet melt, glaciers, land water storage, and vertical land motion."
-              : "This estimate uses only CMIP6 dynamic sea-level anomaly from zos."
+              : "This estimate uses CMIP6 dynamic sea-level anomaly (zos), which reflects regional ocean changes but excludes ice melt and land movement"
           }
       </span>
     </span>

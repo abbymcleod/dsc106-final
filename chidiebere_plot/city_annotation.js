@@ -1,315 +1,317 @@
 const CITY_NOTES_IPCC_spp126 = {
   "Boston MA":
-    "By 2100 Boston reaches a high projected risk because rising sea levels increase flood exposure near the harbor. Residents may notice elevated waterfront paths, improved drainage, and more visible flood protection.",
+    "By 2100 Boston faces high flood risk. Sea-level rise increases flood exposure along the harbor, leading to elevated waterfront paths, upgraded drainage systems, and expanded flood barriers.",
 
   "New York NY":
-    "By 2100 New York reaches a high projected risk because rising sea levels place greater pressure on waterfront neighborhoods and transit systems. Residents may notice expanded seawalls, raised waterfront paths, and more flood-resistant infrastructure along the shoreline.",
+    "By 2100 New York faces high flood risk. Rising seas put pressure on waterfront neighborhoods and transit infrastructure, resulting in expanded seawalls, raised pathways, and flood-resistant construction along the shoreline.",
 
   "Atlantic City NJ":
-    "By 2100 Atlantic City reaches a high projected risk because flooding becomes more common across low coastal areas. Residents may notice narrower beaches, more visible shoreline protection, and periodic disruptions near the waterfront.",
+    "By 2100 Atlantic City faces high flood risk. Coastal flooding becomes more frequent, beaches narrow, and shoreline protection structures become more prominent along the waterfront.",
 
   "Norfolk VA":
-    "By 2100 Norfolk reaches a high projected risk because recurring coastal flooding may begin affecting roads and neighborhoods. Residents may see elevated roadways, temporary closures after high tides, and visible investments in drainage and shoreline protection",
+    "By 2100 Norfolk faces high flood risk. Coastal flooding affects roads and neighborhoods regularly, prompting elevated roadways, periodic closures after high tides, and expanded drainage and shoreline infrastructure.",
 
   "Charleston SC":
-    "By 2100 Charleston reaches a high projected risk because rising sea levels may increase flooding around historic and low-elevation areas. Residents may notice more raised walkways, improved drainage systems, and more frequent standing water after storms.",
+    "By 2100 Charleston faces high flood risk. Rising seas increase flooding in historic and low-elevation areas, resulting in raised walkways, upgraded drainage, and more frequent standing water after storms.",
 
   "Miami FL":
-    "By 2100 Miami reaches a high projected risk because rising sea levels increasingly affect low-lying neighborhoods and drainage systems. Residents may notice more frequent street flooding during unusually high tides, elevated roads, expanded pump systems, and waterfront areas that close more often after storms. The city still feels recognizable, but adapting to water becomes part of everyday life.",
+    "By 2100 Miami faces high flood risk. Low-lying neighborhoods and drainage systems are regularly affected by sea-level rise, leading to street flooding during high tides, elevated roads, expanded pump systems, and more frequent waterfront closures after storms.",
 
   "Tampa FL":
-    "By 2100 Tampa reaches a high projected risk because increasing sea levels may lead to more frequent flooding near the coast. Residents may notice elevated development, expanded drainage infrastructure, and periodic road flooding.",
+    "By 2100 Tampa faces high flood risk. Rising seas increase coastal flooding, leading to elevated development, expanded drainage infrastructure, and periodic road flooding near the coast.",
 
   "New Orleans LA":
-    "By 2100 New Orleans reaches a critical projected risk because maintaining current conditions may require major expansion of flood defenses. The city could appear increasingly engineered, with larger barriers, upgraded pumping systems, and vulnerable areas redesigned around managing water.",
+    "By 2100 New Orleans faces critical flood risk. Sustaining the city requires major expansion of flood defenses, including larger barriers and upgraded pumping systems. Low-lying areas are redesigned around active water management.",
 
   "Galveston TX":
-    "By 2100 Galveston reaches a critical projected risk because protecting the city becomes increasingly central to development. Parts of the coastline may appear more fortified, and maintaining coastal access could require ongoing infrastructure changes.",
+    "By 2100 Galveston faces critical flood risk. Coastal protection becomes central to how the city develops, with fortified shorelines and ongoing infrastructure changes required to maintain coastal access.",
 
   "Seattle WA":
-    "By 2100 Seattle reaches a moderate projected risk. Sea-level rise remains more manageable compared with many lower-elevation coastal cities, but gradual impacts may still become noticeable over time. Residents may notice occasional flooding along parts of the waterfront during unusually high tides or storms, along with investments in drainage improvements and shoreline adaptation.",
+    "By 2100 Seattle faces moderate flood risk. Sea-level rise is more manageable than in lower-elevation cities, but waterfront areas experience occasional flooding during high tides and storms, alongside drainage upgrades and shoreline improvements.",
 
   "San Francisco CA":
-    "By 2100 San Francisco reaches a high projected risk because rising water levels place greater pressure on bayside development. Residents may notice expanded shoreline protection and adaptation projects.",
+    "By 2100 San Francisco faces high flood risk. Rising bay water levels increase pressure on bayside development, leading to expanded shoreline protection and ongoing coastal adaptation projects.",
 
   "Honolulu HI":
-    "By 2100 Honolulu reaches a high projected risk because rising sea levels may gradually affect beaches and shoreline access. Residents may notice narrower beaches and more coastal management projects"
+    "By 2100 Honolulu faces high flood risk. Rising seas gradually narrow beaches and reduce shoreline access, prompting ongoing coastal management and shoreline restoration projects.",
 };
 
 const CITY_NOTES_IPCC_spp245 = {
   "Boston MA":
-    "By 2100 Boston reaches a high projected risk because rising sea levels increase flood exposure near the harbor. Residents may notice elevated waterfront paths, improved drainage, and more visible flood protection.",
+    "By 2100 Boston faces high flood risk. Sea-level rise increases flood exposure along the harbor, leading to elevated waterfront paths, upgraded drainage systems, and expanded flood barriers.",
 
   "New York NY":
-    "By 2100 New York reaches a high projected risk because rising sea levels place greater pressure on waterfront neighborhoods and transit systems. Residents may notice expanded seawalls, raised waterfront paths, and more flood-resistant infrastructure along the shoreline.",
+    "By 2100 New York faces high flood risk. Rising seas put pressure on waterfront neighborhoods and transit infrastructure, resulting in expanded seawalls, raised pathways, and flood-resistant construction along the shoreline.",
 
   "Atlantic City NJ":
-    "By 2100 Atlantic City reaches a critical projected risk because repeated flooding may reshape how coastal land is used. Portions of the shoreline could appear more heavily protected, while some low-lying areas become increasingly difficult to maintain.",
+    "By 2100 Atlantic City faces critical flood risk. Repeated flooding reshapes how coastal land is used, with heavily protected shorelines and some low-lying areas becoming difficult to maintain.",
 
   "Norfolk VA":
-    "By 2100 Norfolk reaches a critical projected risk because flooding may begin shaping where people travel and build. Waterfront areas could experience repeated inundation, protective barriers become more common, and movement through parts of the city may increasingly depend on flood conditions.",
+    "By 2100 Norfolk faces critical flood risk. Flooding regularly affects where people travel and build. Waterfront areas experience repeated inundation, protective barriers are widespread, and movement through parts of the city depends on flood conditions.",
 
   "Charleston SC":
-    "By 2100 Charleston reaches a high projected risk because rising sea levels may increase flooding around historic and low-elevation areas. Residents may notice more raised walkways, improved drainage systems, and more frequent standing water after storms.",
+    "By 2100 Charleston faces high flood risk. Rising seas increase flooding in historic and low-elevation areas, resulting in raised walkways, upgraded drainage, and more frequent standing water after storms.",
 
   "Miami FL":
-    "By 2100 Miami reaches a high projected risk because rising sea levels increasingly affect low-lying neighborhoods and drainage systems. Residents may notice more frequent street flooding during unusually high tides, elevated roads, expanded pump systems, and waterfront areas that close more often after storms. The city still feels recognizable, but adapting to water becomes part of everyday life.",
+    "By 2100 Miami faces high flood risk. Low-lying neighborhoods and drainage systems are regularly affected by sea-level rise, leading to street flooding during high tides, elevated roads, expanded pump systems, and more frequent waterfront closures after storms.",
 
   "Tampa FL":
-    "By 2100 Tampa reaches a high projected risk because increasing sea levels may lead to more frequent flooding near the coast. Residents may notice elevated development, expanded drainage infrastructure, and periodic road flooding.",
+    "By 2100 Tampa faces high flood risk. Rising seas increase coastal flooding, leading to elevated development, expanded drainage infrastructure, and periodic road flooding near the coast.",
 
   "New Orleans LA":
-    "By 2100 New Orleans reaches a critical projected risk because maintaining current conditions may require major expansion of flood defenses. The city could appear increasingly engineered, with larger barriers, upgraded pumping systems, and vulnerable areas redesigned around managing water.",
+    "By 2100 New Orleans faces critical flood risk. Sustaining the city requires major expansion of flood defenses, including larger barriers and upgraded pumping systems. Low-lying areas are redesigned around active water management.",
 
   "Galveston TX":
-    "By 2100 Galveston reaches a critical projected risk because protecting the city becomes increasingly central to development. Parts of the coastline may appear more fortified, and maintaining coastal access could require ongoing infrastructure changes.",
+    "By 2100 Galveston faces critical flood risk. Coastal protection becomes central to how the city develops, with fortified shorelines and ongoing infrastructure changes required to maintain coastal access.",
 
   "Seattle WA":
-    "By 2100 Seattle reaches a high projected risk because waterfront areas may experience increasing flood pressure. Residents may notice shoreline improvements and upgraded infrastructure near the water.",
+    "By 2100 Seattle faces high flood risk. Waterfront areas experience increasing flood pressure, leading to reinforced shorelines and upgraded coastal infrastructure.",
 
   "San Francisco CA":
-    "By 2100 San Francisco reaches a high projected risk because rising water levels place greater pressure on bayside development. Residents may notice expanded shoreline protection and adaptation projects.",
-    
+    "By 2100 San Francisco faces high flood risk. Rising bay water levels increase pressure on bayside development, leading to expanded shoreline protection and ongoing coastal adaptation projects.",
+
   "Honolulu HI":
-    "By 2100 Honolulu reaches a high projected risk because rising sea levels may gradually affect beaches and shoreline access. Residents may notice narrower beaches and more coastal management projects"
+    "By 2100 Honolulu faces high flood risk. Rising seas gradually narrow beaches and reduce shoreline access, prompting ongoing coastal management and shoreline restoration projects.",
 };
 
 const CITY_NOTES_IPCC_spp370 = {
   "Boston MA":
-    "By 2100 Boston reaches a critical projected risk because protecting vulnerable neighborhoods may require substantial redesign. The harbor edge could increasingly include barriers and raised infrastructure to manage flooding.",
-    
+    "By 2100 Boston faces critical flood risk. Protecting vulnerable neighborhoods requires substantial redesign, with flood barriers and raised infrastructure becoming prominent features along the harbor edge.",
+
   "New York NY":
-    "By 2100 New York reaches a critical projected risk because parts of the coastline and infrastructure may require major redesign. Some waterfront areas could look increasingly elevated and protected, with larger barriers and redesigned public spaces intended to manage higher water levels.",
+    "By 2100 New York faces critical flood risk. Coastal areas and transit infrastructure require major redesign. Waterfront zones are elevated and heavily protected, with large barriers and redesigned public spaces built to manage higher water levels.",
 
   "Atlantic City NJ":
-    "By 2100 Atlantic City reaches a critical projected risk because repeated flooding may reshape how coastal land is used. Portions of the shoreline could appear more heavily protected, while some low-lying areas become increasingly difficult to maintain.",
+    "By 2100 Atlantic City faces critical flood risk. Repeated flooding reshapes how coastal land is used, with heavily protected shorelines and some low-lying areas becoming difficult to maintain.",
 
   "Norfolk VA":
-    "By 2100 Norfolk reaches a critical projected risk because flooding may begin shaping where people travel and build. Waterfront areas could experience repeated inundation, protective barriers become more common, and movement through parts of the city may increasingly depend on flood conditions.",
+    "By 2100 Norfolk faces critical flood risk. Flooding regularly affects where people travel and build. Waterfront areas experience repeated inundation, protective barriers are widespread, and movement through parts of the city depends on flood conditions.",
 
   "Charleston SC":
-    "By 2100 Charleston reaches a critical projected risk because long-term flooding may begin changing movement through historic districts. Flood protection could become part of the city’s appearance, with redesigned streets and expanded coastal barriers.",
+    "By 2100 Charleston faces critical flood risk. Long-term flooding alters movement through historic districts, with flood barriers and redesigned streets becoming defining features of the city's appearance.",
 
   "Miami FL":
-    "By 2100 Miami reaches a critical projected risk because sea-level rise could begin changing how parts of the city function. Some neighborhoods may experience repeated flooding, shorelines could move inland, and flood barriers and elevated infrastructure become defining features of the landscape. Parts of the city may feel increasingly built around keeping water out.",
+    "By 2100 Miami faces critical flood risk. Sea-level rise alters how parts of the city function. Some neighborhoods flood repeatedly, shorelines move inland, and flood barriers and elevated roads become defining features of the built environment.",
 
   "Tampa FL":
-    "By 2100 Tampa reaches a critical projected risk because higher water levels may reshape where future growth occurs. Coastal areas could appear increasingly engineered with raised roads and stronger flood protection systems.",
+    "By 2100 Tampa faces critical flood risk. Higher water levels reshape where development occurs, with coastal areas increasingly engineered through raised roads and stronger flood protection systems.",
 
   "New Orleans LA":
-    "By 2100 New Orleans reaches a critical projected risk because maintaining current conditions may require major expansion of flood defenses. The city could appear increasingly engineered, with larger barriers, upgraded pumping systems, and vulnerable areas redesigned around managing water.",
+    "By 2100 New Orleans faces critical flood risk. Sustaining the city requires major expansion of flood defenses, including larger barriers and upgraded pumping systems. Low-lying areas are redesigned around active water management.",
 
   "Galveston TX":
-    "By 2100 Galveston reaches a critical projected risk because protecting the city becomes increasingly central to development. Parts of the coastline may appear more fortified, and maintaining coastal access could require ongoing infrastructure changes.",
+    "By 2100 Galveston faces critical flood risk. Coastal protection becomes central to how the city develops, with fortified shorelines and ongoing infrastructure changes required to maintain coastal access.",
 
   "Seattle WA":
-    "By 2100 Seattle reaches a high projected risk because waterfront areas may experience increasing flood pressure. Residents may notice shoreline improvements and upgraded infrastructure near the water.",
+    "By 2100 Seattle faces high flood risk. Waterfront areas experience increasing flood pressure, leading to reinforced shorelines and upgraded coastal infrastructure.",
 
   "San Francisco CA":
-    "By 2100 San Francisco reaches a high projected risk because rising water levels place greater pressure on bayside development. Residents may notice expanded shoreline protection and adaptation projects.",
-    
+    "By 2100 San Francisco faces high flood risk. Rising bay water levels increase pressure on bayside development, leading to expanded shoreline protection and ongoing coastal adaptation projects.",
+
   "Honolulu HI":
-    "By 2100 Honolulu reaches a high projected risk because rising sea levels may gradually affect beaches and shoreline access. Residents may notice narrower beaches and more coastal management projects"
+    "By 2100 Honolulu faces high flood risk. Rising seas gradually narrow beaches and reduce shoreline access, prompting ongoing coastal management and shoreline restoration projects.",
 };
 
 const CITY_NOTES_IPCC_spp585 = {
   "Boston MA":
-    "By 2100 Boston reaches a critical projected risk because protecting vulnerable neighborhoods may require substantial redesign. The harbor edge could increasingly include barriers and raised infrastructure to manage flooding.",
-    
+    "By 2100 Boston faces critical flood risk. Protecting vulnerable neighborhoods requires substantial redesign, with flood barriers and raised infrastructure becoming prominent features along the harbor edge.",
+
   "New York NY":
-    "By 2100 New York reaches a critical projected risk because parts of the coastline and infrastructure may require major redesign. Some waterfront areas could look increasingly elevated and protected, with larger barriers and redesigned public spaces intended to manage higher water levels.",
+    "By 2100 New York faces critical flood risk. Coastal areas and transit infrastructure require major redesign. Waterfront zones are elevated and heavily protected, with large barriers and redesigned public spaces built to manage higher water levels.",
 
   "Atlantic City NJ":
-    "By 2100 Atlantic City reaches a critical projected risk because repeated flooding may reshape how coastal land is used. Portions of the shoreline could appear more heavily protected, while some low-lying areas become increasingly difficult to maintain.",
+    "By 2100 Atlantic City faces critical flood risk. Repeated flooding reshapes how coastal land is used, with heavily protected shorelines and some low-lying areas becoming difficult to maintain.",
 
   "Norfolk VA":
-    "By 2100 Norfolk reaches a critical projected risk because flooding may begin shaping where people travel and build. Waterfront areas could experience repeated inundation, protective barriers become more common, and movement through parts of the city may increasingly depend on flood conditions.",
+    "By 2100 Norfolk faces critical flood risk. Flooding regularly affects where people travel and build. Waterfront areas experience repeated inundation, protective barriers are widespread, and movement through parts of the city depends on flood conditions.",
 
   "Charleston SC":
-    "By 2100 Charleston reaches a critical projected risk because long-term flooding may begin changing movement through historic districts. Flood protection could become part of the city’s appearance, with redesigned streets and expanded coastal barriers.",
+    "By 2100 Charleston faces critical flood risk. Long-term flooding alters movement through historic districts, with flood barriers and redesigned streets becoming defining features of the city's appearance.",
 
   "Miami FL":
-    "By 2100 Miami reaches a critical projected risk because sea-level rise could begin changing how parts of the city function. Some neighborhoods may experience repeated flooding, shorelines could move inland, and flood barriers and elevated infrastructure become defining features of the landscape. Parts of the city may feel increasingly built around keeping water out.",
+    "By 2100 Miami faces critical flood risk. Sea-level rise alters how parts of the city function. Some neighborhoods flood repeatedly, shorelines move inland, and flood barriers and elevated roads become defining features of the built environment.",
 
   "Tampa FL":
-    "By 2100 Tampa reaches a critical projected risk because higher water levels may reshape where future growth occurs. Coastal areas could appear increasingly engineered with raised roads and stronger flood protection systems.",
+    "By 2100 Tampa faces critical flood risk. Higher water levels reshape where development occurs, with coastal areas increasingly engineered through raised roads and stronger flood protection systems.",
 
   "New Orleans LA":
-    "By 2100 New Orleans reaches a critical projected risk because maintaining current conditions may require major expansion of flood defenses. The city could appear increasingly engineered, with larger barriers, upgraded pumping systems, and vulnerable areas redesigned around managing water.",
+    "By 2100 New Orleans faces critical flood risk. Sustaining the city requires major expansion of flood defenses, including larger barriers and upgraded pumping systems. Low-lying areas are redesigned around active water management.",
 
   "Galveston TX":
-    "By 2100 Galveston reaches a critical projected risk because protecting the city becomes increasingly central to development. Parts of the coastline may appear more fortified, and maintaining coastal access could require ongoing infrastructure changes.",
+    "By 2100 Galveston faces critical flood risk. Coastal protection becomes central to how the city develops, with fortified shorelines and ongoing infrastructure changes required to maintain coastal access.",
 
   "Seattle WA":
-    "By 2100 Seattle reaches a high projected risk because waterfront areas may experience increasing flood pressure. Residents may notice shoreline improvements and upgraded infrastructure near the water.",
+    "By 2100 Seattle faces high flood risk. Waterfront areas experience increasing flood pressure, leading to reinforced shorelines and upgraded coastal infrastructure.",
 
   "San Francisco CA":
-    "By 2100 San Francisco reaches a high projected risk because rising water levels place greater pressure on bayside development. Residents may notice expanded shoreline protection and adaptation projects.",
-    
+    "By 2100 San Francisco faces high flood risk. Rising bay water levels increase pressure on bayside development, leading to expanded shoreline protection and ongoing coastal adaptation projects.",
+
   "Honolulu HI":
-    "By 2100 Honolulu reaches a critical projected risk because continued sea-level rise could visibly transform sections of the coastline. Some beaches may retreat inland while infrastructure near the ocean becomes increasingly protected."
+    "By 2100 Honolulu faces critical flood risk. Continued sea-level rise visibly transforms sections of the coastline. Some beaches retreat inland and infrastructure near the ocean requires extensive protection.",
 };
 
 const CITY_NOTES_CMIP_ssp126 = {
   "Boston MA":
-    "By 2100 Boston reaches a high projected risk because rising sea levels increase flood exposure near the harbor. Residents may notice elevated waterfront paths, improved drainage, and more visible flood protection.",
+    "By 2100 Boston faces high flood risk. Sea-level rise increases flood exposure along the harbor, leading to elevated waterfront paths, upgraded drainage systems, and expanded flood barriers.",
 
   "New York NY":
-    "By 2100 New York reaches a high projected risk because rising sea levels place greater pressure on waterfront neighborhoods and transit systems. Residents may notice expanded seawalls, raised waterfront paths, and more flood-resistant infrastructure along the shoreline.",
+    "By 2100 New York faces high flood risk. Rising seas put pressure on waterfront neighborhoods and transit infrastructure, resulting in expanded seawalls, raised pathways, and flood-resistant construction along the shoreline.",
 
   "Atlantic City NJ":
-    "By 2100 Atlantic City reaches a high projected risk because flooding becomes more common across low coastal areas. Residents may notice narrower beaches, more visible shoreline protection, and periodic disruptions near the waterfront",
+    "By 2100 Atlantic City faces high flood risk. Coastal flooding becomes more frequent, beaches narrow, and shoreline protection structures become more prominent along the waterfront.",
 
   "Norfolk VA":
-    "By 2100 Norfolk reaches a high projected risk because recurring coastal flooding may begin affecting roads and neighborhoods. Residents may see elevated roadways, temporary closures after high tides, and visible investments in drainage and shoreline protection.",
+    "By 2100 Norfolk faces high flood risk. Coastal flooding affects roads and neighborhoods regularly, prompting elevated roadways, periodic closures after high tides, and expanded drainage and shoreline infrastructure.",
 
   "Charleston SC":
-    "By 2100 Charleston reaches a moderate projected risk because higher water levels increase flood exposure but remain limited to vulnerable areas. Residents may notice upgraded drainage systems and occasional flooding in low-lying streets after storms. Most of the city continues operating normally while adaptation gradually expands.",
+    "By 2100 Charleston faces moderate flood risk. Higher water levels increase flood exposure in vulnerable areas, with upgraded drainage systems and occasional flooding in low-lying streets after storms. Most of the city continues to function normally.",
 
   "Miami FL":
-    "By 2100 Miami reaches a moderate projected risk because sea-level rise remains noticeable but does not yet fundamentally change how most of the city functions. Residents may notice occasional flooding during unusually high tides, expanded drainage projects, and more elevated coastal infrastructure. The city remains highly recognizable, with most changes focused on adapting vulnerable waterfront areas.",
+    "By 2100 Miami faces moderate flood risk. Sea-level rise produces occasional flooding during high tides and drives investment in drainage and elevated coastal infrastructure, but does not fundamentally change how most of the city functions.",
 
   "Tampa FL":
-    "By 2100 Tampa reaches moderate projected risk in this CMIP6 anomaly dataset. While projected sea-level anomalies are lower than some Atlantic Coast cities, low-lying development around Tampa Bay may still face increasing coastal flooding risk over time.",
-  
-    "New Orleans LA":
-    "By 2100 New Orleans reaches a moderate projected risk because existing flood protection systems continue managing most impacts under this scenario. Residents may notice increased maintenance of levees and drainage infrastructure, but everyday life remains largely unchanged. The city continues functioning much as it does today with gradual adaptation.",
+    "By 2100 Tampa faces moderate flood risk. Projected sea-level anomalies are lower than many Atlantic Coast cities under this scenario, but low-lying development around Tampa Bay remains exposed to increasing coastal flooding over time.",
+
+  "New Orleans LA":
+    "By 2100 New Orleans faces moderate flood risk. Existing flood protection systems manage most impacts under this scenario. Levee and drainage maintenance increases, but the city continues to function largely as it does today.",
 
   "Galveston TX":
-    "By 2100 Galveston reaches a moderate projected risk because sea-level rise increases flood exposure without causing widespread disruption. Residents may notice expanded shoreline maintenance and improvements to flood protection systems. Coastal activity continues while adaptation becomes more visible over time.",
+    "By 2100 Galveston faces moderate flood risk. Sea-level rise increases flood exposure without causing widespread disruption. Shoreline maintenance expands and flood protection systems are incrementally improved.",
 
   "Seattle WA":
-    "By 2100 Seattle reaches a moderate projected risk because sea-level rise remains more manageable compared with many coastal cities while still creating gradual pressure along the waterfront. Residents may notice occasional flooding during unusually high tides, shoreline improvements, and upgraded drainage systems.",
+    "By 2100 Seattle faces moderate flood risk. Sea-level rise creates gradual pressure along the waterfront, with occasional flooding during high tides and investments in shoreline improvements and drainage upgrades.",
 
   "San Francisco CA":
-    "By 2100 San Francisco reaches a moderate projected risk because rising water levels place gradual pressure on bayside infrastructure without significantly changing daily life. Residents may notice shoreline improvements and adaptation projects along vulnerable sections of the bay. The city remains largely unchanged while investing in long-term resilience.",
+    "By 2100 San Francisco faces moderate flood risk. Rising bay water levels create gradual pressure on bayside infrastructure, prompting shoreline improvements and targeted adaptation projects. Most of the city is unaffected.",
 
   "Honolulu HI":
-    "By 2100 Honolulu reaches a moderate projected risk because rising sea levels gradually affect beaches and waterfront areas while leaving most daily activity unchanged. Residents may notice smaller beaches, shoreline restoration projects, and efforts to protect coastal infrastructure. The city remains recognizable with gradual changes concentrated near the ocean."
+    "By 2100 Honolulu faces moderate flood risk. Rising seas gradually reduce beach width and affect waterfront areas, prompting shoreline restoration and coastal infrastructure protection. Most daily activity remains unchanged.",
 };
 
 const CITY_NOTES_CMIP_ssp245 = {
   "Boston MA":
-    "By 2100 Boston reaches a high projected risk because rising sea levels increase flood exposure near the harbor. Residents may notice elevated waterfront paths, improved drainage, and more visible flood protection.",
+    "By 2100 Boston faces high flood risk. Sea-level rise increases flood exposure along the harbor, leading to elevated waterfront paths, upgraded drainage systems, and expanded flood barriers.",
 
   "New York NY":
-    "By 2100 New York reaches a high projected risk because rising sea levels place greater pressure on waterfront neighborhoods and transit systems. Residents may notice expanded seawalls, raised waterfront paths, and more flood-resistant infrastructure along the shoreline.",
+    "By 2100 New York faces high flood risk. Rising seas put pressure on waterfront neighborhoods and transit infrastructure, resulting in expanded seawalls, raised pathways, and flood-resistant construction along the shoreline.",
 
   "Atlantic City NJ":
-    "By 2100 Atlantic City reaches a high projected risk because flooding becomes more common across low coastal areas. Residents may notice narrower beaches, more visible shoreline protection, and periodic disruptions near the waterfront",
+    "By 2100 Atlantic City faces high flood risk. Coastal flooding becomes more frequent, beaches narrow, and shoreline protection structures become more prominent along the waterfront.",
 
   "Norfolk VA":
-    "By 2100 Norfolk reaches a high projected risk because recurring coastal flooding may begin affecting roads and neighborhoods. Residents may see elevated roadways, temporary closures after high tides, and visible investments in drainage and shoreline protection.",
+    "By 2100 Norfolk faces high flood risk. Coastal flooding affects roads and neighborhoods regularly, prompting elevated roadways, periodic closures after high tides, and expanded drainage and shoreline infrastructure.",
 
   "Charleston SC":
-    "By 2100 Charleston reaches a moderate projected risk because higher water levels increase flood exposure but remain limited to vulnerable areas. Residents may notice upgraded drainage systems and occasional flooding in low-lying streets after storms. Most of the city continues operating normally while adaptation gradually expands.",    
+    "By 2100 Charleston faces moderate flood risk. Higher water levels increase flood exposure in vulnerable areas, with upgraded drainage systems and occasional flooding in low-lying streets after storms. Most of the city continues to function normally.",
+
   "Miami FL":
-    "By 2100 Miami reaches a moderate projected risk because sea-level rise remains noticeable but does not yet fundamentally change how most of the city functions. Residents may notice occasional flooding during unusually high tides, expanded drainage projects, and more elevated coastal infrastructure. The city remains highly recognizable, with most changes focused on adapting vulnerable waterfront areas.",
+    "By 2100 Miami faces moderate flood risk. Sea-level rise produces occasional flooding during high tides and drives investment in drainage and elevated coastal infrastructure, but does not fundamentally change how most of the city functions.",
 
   "Tampa FL":
-    "By 2100 Tampa reaches moderate projected risk in this CMIP6 anomaly dataset. While projected sea-level anomalies are lower than some Atlantic Coast cities, low-lying development around Tampa Bay may still face increasing coastal flooding risk over time.",
-  
-    "New Orleans LA":
-    "By 2100 New Orleans reaches a moderate projected risk because existing flood protection systems continue managing most impacts under this scenario. Residents may notice increased maintenance of levees and drainage infrastructure, but everyday life remains largely unchanged. The city continues functioning much as it does today with gradual adaptation.",
+    "By 2100 Tampa faces moderate flood risk. Projected sea-level anomalies are lower than many Atlantic Coast cities under this scenario, but low-lying development around Tampa Bay remains exposed to increasing coastal flooding over time.",
+
+  "New Orleans LA":
+    "By 2100 New Orleans faces moderate flood risk. Existing flood protection systems manage most impacts under this scenario. Levee and drainage maintenance increases, but the city continues to function largely as it does today.",
 
   "Galveston TX":
-    "By 2100 Galveston reaches a moderate projected risk because sea-level rise increases flood exposure without causing widespread disruption. Residents may notice expanded shoreline maintenance and improvements to flood protection systems. Coastal activity continues while adaptation becomes more visible over time.",
+    "By 2100 Galveston faces moderate flood risk. Sea-level rise increases flood exposure without causing widespread disruption. Shoreline maintenance expands and flood protection systems are incrementally improved.",
 
   "Seattle WA":
-    "By 2100 Seattle reaches a moderate projected risk,sea-level rise remains more manageable compared with many coastal cities while still creating gradual pressure along the waterfront. Residents may notice occasional flooding during unusually high tides, shoreline improvements, and upgraded drainage systems.",
+    "By 2100 Seattle faces moderate flood risk. Sea-level rise creates gradual pressure along the waterfront, with occasional flooding during high tides and investments in shoreline improvements and drainage upgrades.",
 
   "San Francisco CA":
-    "By 2100 San Francisco reaches a moderate projected risk because rising water levels place gradual pressure on bayside infrastructure without significantly changing daily life. Residents may notice shoreline improvements and adaptation projects along vulnerable sections of the bay. The city remains largely unchanged while investing in long-term resilience.",
+    "By 2100 San Francisco faces moderate flood risk. Rising bay water levels create gradual pressure on bayside infrastructure, prompting shoreline improvements and targeted adaptation projects. Most of the city is unaffected.",
 
   "Honolulu HI":
-    "By 2100 Honolulu reaches a moderate projected risk because rising sea levels gradually affect beaches and waterfront areas while leaving most daily activity unchanged. Residents may notice smaller beaches, shoreline restoration projects, and efforts to protect coastal infrastructure. The city remains recognizable with gradual changes concentrated near the ocean."
+    "By 2100 Honolulu faces moderate flood risk. Rising seas gradually reduce beach width and affect waterfront areas, prompting shoreline restoration and coastal infrastructure protection. Most daily activity remains unchanged.",
 };
 
 const CITY_NOTES_CMIP_ssp370 = {
   "Boston MA":
-    "By 2100 Boston reaches a high projected risk because rising sea levels increase flood exposure near the harbor. Residents may notice elevated waterfront paths, improved drainage, and more visible flood protection.",
+    "By 2100 Boston faces high flood risk. Sea-level rise increases flood exposure along the harbor, leading to elevated waterfront paths, upgraded drainage systems, and expanded flood barriers.",
 
   "New York NY":
-    "By 2100 New York reaches a high projected risk because rising sea levels place greater pressure on waterfront neighborhoods and transit systems. Residents may notice expanded seawalls, raised waterfront paths, and more flood-resistant infrastructure along the shoreline.",
+    "By 2100 New York faces high flood risk. Rising seas put pressure on waterfront neighborhoods and transit infrastructure, resulting in expanded seawalls, raised pathways, and flood-resistant construction along the shoreline.",
 
   "Atlantic City NJ":
-    "By 2100 Atlantic City reaches a high projected risk because flooding becomes more common across low coastal areas. Residents may notice narrower beaches, more visible shoreline protection, and periodic disruptions near the waterfront",
+    "By 2100 Atlantic City faces high flood risk. Coastal flooding becomes more frequent, beaches narrow, and shoreline protection structures become more prominent along the waterfront.",
 
   "Norfolk VA":
-    "Norfolk reaches a high projected risk because recurring coastal flooding may begin affecting roads and neighborhoods. Residents may see elevated roadways, temporary closures after high tides, and visible investments in drainage and shoreline protection.",
+    "By 2100 Norfolk faces high flood risk. Coastal flooding affects roads and neighborhoods regularly, prompting elevated roadways, periodic closures after high tides, and expanded drainage and shoreline infrastructure.",
 
   "Charleston SC":
-    "By 2100 Charleston reaches a high projected risk because rising sea levels may increase flooding around historic and low-elevation areas. Residents may notice more raised walkways, improved drainage systems, and more frequent standing water after storms.",
+    "By 2100 Charleston faces high flood risk. Rising seas increase flooding in historic and low-elevation areas, resulting in raised walkways, upgraded drainage, and more frequent standing water after storms.",
 
   "Miami FL":
-    "By 2100 Miami reaches a moderate projected risk because sea-level rise remains noticeable but does not yet fundamentally change how most of the city functions. Residents may notice occasional flooding during unusually high tides, expanded drainage projects, and more elevated coastal infrastructure. The city remains highly recognizable, with most changes focused on adapting vulnerable waterfront areas.",
+    "By 2100 Miami faces moderate flood risk. Sea-level rise produces occasional flooding during high tides and drives investment in drainage and elevated coastal infrastructure, but does not fundamentally change how most of the city functions.",
 
   "Tampa FL":
-    "By 2100 Tampa reaches moderate projected risk in this CMIP6 anomaly dataset. While projected sea-level anomalies are lower than some Atlantic Coast cities, low-lying development around Tampa Bay may still face increasing coastal flooding risk over time.",
-  
-    "New Orleans LA":
-    "By 2100 New Orleans reaches a moderate projected risk because existing flood protection systems continue managing most impacts under this scenario. Residents may notice increased maintenance of levees and drainage infrastructure, but everyday life remains largely unchanged. The city continues functioning much as it does today with gradual adaptation.",
+    "By 2100 Tampa faces moderate flood risk. Projected sea-level anomalies are lower than many Atlantic Coast cities under this scenario, but low-lying development around Tampa Bay remains exposed to increasing coastal flooding over time.",
+
+  "New Orleans LA":
+    "By 2100 New Orleans faces moderate flood risk. Existing flood protection systems manage most impacts under this scenario. Levee and drainage maintenance increases, but the city continues to function largely as it does today.",
 
   "Galveston TX":
-    "By 2100 Galveston reaches a moderate projected risk because sea-level rise increases flood exposure without causing widespread disruption. Residents may notice expanded shoreline maintenance and improvements to flood protection systems. Coastal activity continues while adaptation becomes more visible over time.",
+    "By 2100 Galveston faces moderate flood risk. Sea-level rise increases flood exposure without causing widespread disruption. Shoreline maintenance expands and flood protection systems are incrementally improved.",
 
   "Seattle WA":
-    "By 2100 Seattle reaches a moderate projected risk because sea-level rise remains more manageable compared with many coastal cities while still creating gradual pressure along the waterfront. Residents may notice occasional flooding during unusually high tides, shoreline improvements, and upgraded drainage systems.",
+    "By 2100 Seattle faces moderate flood risk. Sea-level rise creates gradual pressure along the waterfront, with occasional flooding during high tides and investments in shoreline improvements and drainage upgrades.",
 
   "San Francisco CA":
-    "By 2100 San Francisco reaches a moderate projected risk because rising water levels place gradual pressure on bayside infrastructure without significantly changing daily life. Residents may notice shoreline improvements and adaptation projects along vulnerable sections of the bay. The city remains largely unchanged while investing in long-term resilience.",
+    "By 2100 San Francisco faces moderate flood risk. Rising bay water levels create gradual pressure on bayside infrastructure, prompting shoreline improvements and targeted adaptation projects. Most of the city is unaffected.",
 
   "Honolulu HI":
-    "By 2100 Honolulu reaches a moderate projected risk because rising sea levels gradually affect beaches and waterfront areas while leaving most daily activity unchanged. Residents may notice smaller beaches, shoreline restoration projects, and efforts to protect coastal infrastructure. The city remains recognizable with gradual changes concentrated near the ocean."
+    "By 2100 Honolulu faces moderate flood risk. Rising seas gradually reduce beach width and affect waterfront areas, prompting shoreline restoration and coastal infrastructure protection. Most daily activity remains unchanged.",
 };
+
 const CITY_NOTES_CMIP_ssp585 = {
   "Boston MA":
-    "By 2100 Boston reaches a critical projected risk because protecting vulnerable neighborhoods may require substantial redesign. The harbor edge could increasingly include barriers and raised infrastructure to manage flooding.",
+    "By 2100 Boston faces critical flood risk. Protecting vulnerable neighborhoods requires substantial redesign, with flood barriers and raised infrastructure becoming prominent features along the harbor edge.",
 
   "New York NY":
-    "By 2100 New York reaches a critical projected risk because parts of the coastline and infrastructure may require major redesign. Some waterfront areas could look increasingly elevated and protected, with larger barriers and redesigned public spaces intended to manage higher water levels.",
+    "By 2100 New York faces critical flood risk. Coastal areas and transit infrastructure require major redesign. Waterfront zones are elevated and heavily protected, with large barriers and redesigned public spaces built to manage higher water levels.",
 
   "Atlantic City NJ":
-    "By 2100 Atlantic City reaches a critical projected risk because repeated flooding may reshape how coastal land is used. Portions of the shoreline could appear more heavily protected, while some low-lying areas become increasingly difficult to maintain",
-    
+    "By 2100 Atlantic City faces critical flood risk. Repeated flooding reshapes how coastal land is used, with heavily protected shorelines and some low-lying areas becoming difficult to maintain.",
+
   "Norfolk VA":
-    "By 2100 Norfolk reaches a high projected risk because recurring coastal flooding may begin affecting roads and neighborhoods. Residents may see elevated roadways, temporary closures after high tides, and visible investments in drainage and shoreline protection.",
+    "By 2100 Norfolk faces high flood risk. Coastal flooding affects roads and neighborhoods regularly, prompting elevated roadways, periodic closures after high tides, and expanded drainage and shoreline infrastructure.",
 
   "Charleston SC":
-    "By 2100 Charleston reaches a high projected risk because rising sea levels may increase flooding around historic and low-elevation areas. Residents may notice more raised walkways, improved drainage systems, and more frequent standing water after storms.",
+    "By 2100 Charleston faces high flood risk. Rising seas increase flooding in historic and low-elevation areas, resulting in raised walkways, upgraded drainage, and more frequent standing water after storms.",
 
   "Miami FL":
-    "By 2100 Miami reaches a moderate projected risk because sea-level rise remains noticeable but does not yet fundamentally change how most of the city functions. Residents may notice occasional flooding during unusually high tides, expanded drainage projects, and more elevated coastal infrastructure. The city remains highly recognizable, with most changes focused on adapting vulnerable waterfront areas.",
+    "By 2100 Miami faces moderate flood risk. Sea-level rise produces occasional flooding during high tides and drives investment in drainage and elevated coastal infrastructure, but does not fundamentally change how most of the city functions.",
 
   "Tampa FL":
-    "By 2100 Tampa reaches moderate projected risk in this CMIP6 anomaly dataset. While projected sea-level anomalies are lower than some Atlantic Coast cities, low-lying development around Tampa Bay may still face increasing coastal flooding risk over time.",
-  
-    "New Orleans LA":
-    "By 2100 New Orleans reaches a moderate projected risk because existing flood protection systems continue managing most impacts under this scenario. Residents may notice increased maintenance of levees and drainage infrastructure, but everyday life remains largely unchanged. The city continues functioning much as it does today with gradual adaptation.",
+    "By 2100 Tampa faces moderate flood risk. Projected sea-level anomalies are lower than many Atlantic Coast cities under this scenario, but low-lying development around Tampa Bay remains exposed to increasing coastal flooding over time.",
+
+  "New Orleans LA":
+    "By 2100 New Orleans faces moderate flood risk. Existing flood protection systems manage most impacts under this scenario. Levee and drainage maintenance increases, but the city continues to function largely as it does today.",
 
   "Galveston TX":
-    "By 2100 Galveston reaches a moderate projected risk because sea-level rise increases flood exposure without causing widespread disruption. Residents may notice expanded shoreline maintenance and improvements to flood protection systems. Coastal activity continues while adaptation becomes more visible over time.",
+    "By 2100 Galveston faces moderate flood risk. Sea-level rise increases flood exposure without causing widespread disruption. Shoreline maintenance expands and flood protection systems are incrementally improved.",
 
   "Seattle WA":
-    "By 2100 Seattle reaches a moderate projected risk because sea-level rise remains more manageable compared with many coastal cities while still creating gradual pressure along the waterfront. Residents may notice occasional flooding during unusually high tides, shoreline improvements, and upgraded drainage systems.",
+    "By 2100 Seattle faces moderate flood risk. Sea-level rise creates gradual pressure along the waterfront, with occasional flooding during high tides and investments in shoreline improvements and drainage upgrades.",
 
   "San Francisco CA":
-    "By 2100 San Francisco reaches a moderate projected risk because rising water levels place gradual pressure on bayside infrastructure without significantly changing daily life. Residents may notice shoreline improvements and adaptation projects along vulnerable sections of the bay. The city remains largely unchanged while investing in long-term resilience.",
+    "By 2100 San Francisco faces moderate flood risk. Rising bay water levels create gradual pressure on bayside infrastructure, prompting shoreline improvements and targeted adaptation projects. Most of the city is unaffected.",
 
   "Honolulu HI":
-    "By 2100 Honolulu reaches a moderate projected risk because rising sea levels gradually affect beaches and waterfront areas while leaving most daily activity unchanged. Residents may notice smaller beaches, shoreline restoration projects, and efforts to protect coastal infrastructure. The city remains recognizable with gradual changes concentrated near the ocean."
+    "By 2100 Honolulu faces moderate flood risk. Rising seas gradually reduce beach width and affect waterfront areas, prompting shoreline restoration and coastal infrastructure protection. Most daily activity remains unchanged.",
 };
 
 const CITY_NOTES_CMIP = {
   ssp126: CITY_NOTES_CMIP_ssp126,
   ssp245: CITY_NOTES_CMIP_ssp245,
   ssp370: CITY_NOTES_CMIP_ssp370,
-  ssp585: CITY_NOTES_CMIP_ssp585
+  ssp585: CITY_NOTES_CMIP_ssp585,
 };
 
 const CITY_NOTES_IPCC = {
   ssp126: CITY_NOTES_IPCC_spp126,
   ssp245: CITY_NOTES_IPCC_spp245,
   ssp370: CITY_NOTES_IPCC_spp370,
-  ssp585: CITY_NOTES_IPCC_spp585
+  ssp585: CITY_NOTES_IPCC_spp585,
 };
