@@ -20,79 +20,7 @@ const projection = d3.geoAlbersUsa()
   .scale(1200);
 
 const path = d3.geoPath(projection);
-const CITY_NOTES_CMIP = {
-  "Boston MA":
-    "Boston reaches a critical risk level because its historic waterfront, dense coastal neighborhoods, and aging infrastructure are highly exposed to rising seas and storm surge, increasing the likelihood of widespread flooding and long-term disruption along the harbor.",
-  "New York NY":
-    "New York reaches a critical risk level because its dense coastal development and low-lying infrastructure — including subways, tunnels, and airports — make even modest sea level rise capable of causing widespread flooding and major disruptions across the city.",
 
-  "Atlantic City NJ":
-    "Atlantic City reaches critical projected risk in this visualization. Barrier-island communities are especially exposed to sea-level rise because small increases in ocean height can affect large low-lying coastal areas.",
-
-  "Norfolk VA":
-    "Norfolk shows one of the highest projected risks in the dataset. The city’s coastal position along the Chesapeake Bay makes it highly sensitive to rising sea levels and recurrent tidal flooding.",
-
-  "Charleston SC":
-    "Charleston reaches high projected risk because much of the historic coastal city lies close to sea level near tidal waterways and marshland environments.",
-
-  "Miami FL":
-    "Miami shows moderate projected risk in this CMIP6 anomaly dataset, though even relatively small increases in sea level may worsen coastal flooding and saltwater intrusion.",
-
-  "Tampa FL":
-    "Tampa reaches moderate projected risk in this CMIP6 anomaly dataset. While projected sea-level anomalies are lower than some Atlantic Coast cities, low-lying development around Tampa Bay may still face increasing coastal flooding risk over time.",
-  "New Orleans LA":
-  "New Orleans reaches moderate projected risk in this CMIP6 anomaly dataset. Although its projected dynamic sea-level anomaly is lower than some Atlantic Coast cities, the surrounding coastal region remains highly sensitive to rising water levels because much of the area is already low-lying and close to sea level.",
-
-  "Galveston TX":
-    "Galveston reaches moderate projected risk in this CMIP6 scenario. As a barrier-island city along the Gulf Coast, it remains exposed to shoreline change and coastal flooding.",
-
-  "Seattle WA":
-    "Seattle shows one of the lowest projected risks in the dataset, with smaller projected CMIP6 sea-level anomalies compared with Atlantic and Gulf Coast cities.",
-
-  "San Francisco CA":
-    "San Francisco reaches moderate projected risk. Although projected anomalies are lower than many East Coast cities, low-lying shoreline areas around the Bay remain sensitive to sea-level rise.",
-
-  "Honolulu HI":
-    "Honolulu shows moderate projected risk in this dataset. Even modest sea-level increases may affect beaches, coastal roads, and shoreline infrastructure on island coastlines."
-};
-
-const CITY_NOTES_IPCC = {
-  "Boston MA":
-    "Boston reaches a critical risk level because its historic waterfront, dense coastal neighborhoods, and aging infrastructure are highly exposed to rising seas and storm surge, increasing the likelihood of widespread flooding and long-term disruption along the harbor.",
-
-  "New York NY":
-    "New York reaches a critical risk level because its dense coastal development and low-lying infrastructure — including subways, tunnels, and airports — make even modest sea level rise capable of causing widespread flooding and major disruptions across the city.",
-
-  "Atlantic City NJ":
-    "Atlantic City reaches a critical risk level because its low-lying barrier island position leaves it highly vulnerable to total sea-level rise, where even gradual increases can inundate large portions of the developed coastline.",
-
-  "Norfolk VA":
-    "Norfolk reaches a critical risk level because the combination of rising seas and ongoing land subsidence makes it one of the most flood-exposed cities on the East Coast, with tidal flooding already affecting daily life.",
-
-  "Charleston SC":
-    "Charleston reaches a critical risk level because much of its historic downtown sits close to sea level near tidal waterways, making it increasingly susceptible to chronic flooding as total sea-level projections rise.",
-
-  "Miami FL":
-    "Miami reaches a critical risk level because its porous limestone geology prevents effective flood barriers, meaning total sea-level rise can push water up through the ground even where seawalls exist.",
-
-  "Tampa FL":
-    "Tampa reaches a critical risk level because the shallow, enclosed geometry of Tampa Bay amplifies the impact of rising seas, increasing the risk of coastal flooding across its low-lying shoreline development.",
-
-  "New Orleans LA":
-    "New Orleans reaches a critical risk level because much of the city already sits below sea level, meaning any additional rise in total sea-level projections directly worsens an already precarious flood situation.",
-
-  "Galveston TX":
-    "Galveston reaches a critical risk level because its flat barrier island geography offers little elevation buffer, leaving the city highly exposed to total sea-level rise and intensifying Gulf Coast storm surge.",
-
-  "Seattle WA":
-    "Seattle reaches a high risk level because Pacific Coast sea-level dynamics and slower regional rise keep total projections below the critical threshold, though low-lying shoreline areas around Puget Sound remain increasingly at risk.",
-
-  "San Francisco CA":
-    "San Francisco reaches a high risk level because while total sea-level projections remain below the critical threshold, low-lying areas around the Bay face growing exposure to tidal flooding and coastal erosion over time.",
-
-  "Honolulu HI":
-    "Honolulu reaches a critical risk level because while total sea-level projections are lower than many mainland cities, its island geography leaves limited options for inland retreat, making even modest rise consequential for coastal communities."
-};
 
 const MILESTONES_CMIP = [
   {
@@ -131,21 +59,21 @@ const MILESTONES_IPCC = [
     scenario: "ssp585",
     city: "Galveston TX",
     headline: "Gulf Coast First to Escalate",
-    text: "Galveston is the first city to reach high risk under total sea-level projections, with New Orleans and Norfolk close behind — ice melt and land subsidence push Gulf and mid-Atlantic cities ahead of the rest of the country."
+    text: "Galveston and New Orleans are the first cities to reach high risk under total sea-level projections, with Norfolk close behind — ice melt and land subsidence push Gulf and mid-Atlantic cities ahead of the rest of the country."
   },
   {
     year: 2050,
     scenario: "ssp585",
     city: "New Orleans LA",
     headline: "Eastern Seaboard Joins High Risk",
-    text: "Every city east of Galveston crosses into high risk as total sea-level rise accelerates — ice-sheet and glacier contributions begin compounding on top of ocean dynamics across the Gulf and Atlantic coasts."
+    text: "Almost every city east of Galveston crosses into high risk as total sea-level rise accelerates — ice-sheet and glacier contributions begin compounding on top of ocean dynamics across the Gulf and Atlantic coasts."
   },
   {
     year: 2070,
     scenario: "ssp585",
     city: "Galveston TX",
     headline: "Galveston Hits Critical",
-    text: "Galveston becomes the first city to reach critical total sea-level risk while the remaining tracked cities hold at high risk — the Gulf Coast's low elevation and subsidence make it the most exposed region in the country."
+    text: "Galveston and New Orleans becomes the first cities to reach critical total sea-level risk while the remaining tracked cities hold at high risk — the Gulf Coast's low elevation and subsidence make it the most exposed region in the country."
   },
   {
     year: 2100,
@@ -360,7 +288,7 @@ const MILESTONES_IPCC = [
         ${
             includeTotalSeaLevel
               ? "This uses the IPCC total sea-level projection, which includes multiple contributors such as ocean dynamics, ice-sheet melt, glaciers, land water storage, and vertical land motion."
-              : "This estimate uses only CMIP6 dynamic sea-level anomaly from zos."
+              : "This estimate uses CMIP6 dynamic sea-level anomaly (zos), which reflects regional ocean changes but excludes ice melt and land movement"
           }
       </span>
     </span>
@@ -604,8 +532,11 @@ function getRadiusScale() {
 }
 
 function getCityNote(city) {
-  const notes = includeTotalSeaLevel ? CITY_NOTES_IPCC : CITY_NOTES_CMIP;
-  return notes[city] ?? "";
+  const notesByScenario = includeTotalSeaLevel
+    ? CITY_NOTES_IPCC
+    : CITY_NOTES_CMIP;
+
+  return notesByScenario[selectedScenario]?.[city] ?? "";
 }
 
 function buildTimeline() {
