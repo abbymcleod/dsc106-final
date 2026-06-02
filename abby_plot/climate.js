@@ -506,9 +506,9 @@ function drawHistorical() {
 function drawFan() {
     if (!globalData) return;
     if (document.querySelector('#chart-fan svg')) return;
-  
+
     const width  = 900, height = 480;
-    const margin = { top: 40, right: 160, bottom: 50, left: 70 };
+    const margin = { top: 40, right: 60, bottom: 50, left: 70 };
     const innerW = width  - margin.left - margin.right;
     const innerH = height - margin.top  - margin.bottom;
   
@@ -957,7 +957,7 @@ function drawAdventure() {
   
     // ── Layout ───────────────────────────────────────────────
     const width  = 900, height = 480;
-    const margin = { top: 40, right: 160, bottom: 50, left: 70 };
+    const margin = { top: 40, right: 60, bottom: 50, left: 70 };
     const innerW = width  - margin.left - margin.right;
     const innerH = height - margin.top  - margin.bottom;
   
@@ -1103,7 +1103,7 @@ function drawAdventure() {
       .style('background', '#1c2128')
       .style('border', '1px solid #30363d')
       .style('border-radius', '10px')
-      .style('padding', '24px')
+      .style('padding', '16px')
       .style('font-family', 'sans-serif')
       .style('color', '#e6edf3');
   
@@ -1185,6 +1185,7 @@ function drawAdventure() {
     // ── Helper: show final summary ───────────────────────────
     function showSummary() {
       container.classed('phase-2', true);
+      document.getElementById('section-adventure').classList.add('quiz-complete');
       const maxImpact = 0.45;
       const t = Math.min(Math.abs(totalImpact) / maxImpact, 1);
       const worstEnd = sspEnds.ssp585;
@@ -1200,49 +1201,51 @@ function drawAdventure() {
         .style('display', 'block')
         .style('border-color', color)
         .html(`
-          <div style="font-size:13px; color:#8b949e; margin-bottom:6px; text-transform:uppercase; letter-spacing:1px;">Your collective future</div>
-          <div style="font-size:1.4rem; font-weight:bold; color:${color}; margin-bottom:12px;">
+          <div style="font-size:12px; color:#8b949e; margin-bottom:4px; text-transform:uppercase; letter-spacing:1px;">Your collective future</div>
+          <div style="font-size:1.25rem; font-weight:bold; color:${color}; margin-bottom:8px;">
             Tracking toward ${label}
           </div>
-          <div style="font-size:1rem; color:#e6edf3; margin-bottom:8px;">
+          <div style="font-size:0.95rem; color:#e6edf3; margin-bottom:6px;">
             By 2100, your collective choices lead to approximately
             <strong style="color:${color}">+${yourEnd.toFixed(1)}°C</strong>
             of warming above pre-industrial levels.
           </div>
-          <div style="font-size:0.95rem; color:#8b949e;">
+          <div style="font-size:0.88rem; color:#8b949e; margin-bottom:6px;">
             ${avoided > 0
               ? `Compared to a fossil-fuel-heavy future, these choices avoid <strong style="color:#ffffff">${avoided}°C</strong> of additional warming — equivalent to the difference between a manageable disruption and civilizational risk.`
               : `Without significant changes, warming continues on the highest-emissions trajectory.`
             }
           </div>
-          <div style="margin-top:16px; font-size:0.85rem; color:#8b949e;">
-            Choices made: ${choicesMade.join(' → ')}
+          <div style="margin-top:10px; display:flex; align-items:stretch; gap:12px; justify-content:space-between;">
+            <div style="font-size:0.82rem; color:#8b949e;">
+              Choices made: ${choicesMade.join(' → ')}
+            </div>
+            <button id="restart-btn" style="
+              flex-shrink:0; padding:0 12px; width:80px;
+              display:flex; flex-direction:column; align-items:center; justify-content:center;
+              background:transparent; border:1px solid #30363d;
+              color:#8b949e; border-radius:6px; cursor:pointer;
+              font-size:12px; font-family:sans-serif; text-align:center; line-height:1.4;">
+              ↺ Try<br>different<br>choices
+            </button>
           </div>
-          <button id="restart-btn" style="
-            margin-top:16px; padding:8px 20px;
-            background:transparent; border:1px solid #30363d;
-            color:#8b949e; border-radius:6px; cursor:pointer;
-            font-size:13px; font-family:sans-serif;">
-            ↺ Try different choices
-          </button>
-          <div style="margin-top: 24px; padding-top: 20px; 
-              border-top: 1px solid #21262d;">
-            <div style="font-size: 0.9rem; color: #8b949e; margin-bottom: 8px;">
+          <div style="margin-top:auto; padding-top:8px; border-top:1px solid #21262d;">
+            <div style="font-size:0.85rem; color:#8b949e; margin-bottom:4px;">
               But what does +${yourEnd.toFixed(1)}°C actually mean?
             </div>
-            <div style="font-size: 1rem; color: #e6edf3; margin-bottom: 12px;">
-              Temperature numbers can feel abstract. Scroll down to see 
-              what your trajectory means for America's coastlines — in 
+            <div style="font-size:0.9rem; color:#e6edf3; margin-bottom:8px;">
+              Temperature numbers can feel abstract. Scroll down to see
+              what your trajectory means for America's coastlines — in
               real cities, in real decades.
             </div>
             <a href="#section-sealevel" style="
               display: inline-block;
-              padding: 9px 22px;
+              padding: 7px 18px;
               background: transparent;
               border: 1px solid #58a6ff;
               color: #58a6ff;
               border-radius: 6px;
-              font-size: 0.9rem;
+              font-size: 0.85rem;
               font-family: sans-serif;
               text-decoration: none;">
               See the impact on coastal cities ↓
@@ -1259,6 +1262,7 @@ function drawAdventure() {
         yourLabel.attr('opacity', 0);
         summary.style('display', 'none');
         container.classed('phase-2', false);
+        document.getElementById('section-adventure').classList.remove('quiz-complete');
         renderStep();
       });
     }
@@ -1320,7 +1324,8 @@ function drawAdventure() {
           })
           .on('click', function() {
             const chosen = opt;
-          
+            const savedScroll = document.documentElement.scrollTop;
+
             // disable all buttons
             btnRow.selectAll('button')
               .style('cursor', 'default')
@@ -1375,6 +1380,12 @@ function drawAdventure() {
                 updateYourLine();
                 renderStep();
               });
+
+            // Restore scroll position so the newly appended fact box + button
+            // don't trigger a browser auto-scroll that jumps the snap point.
+            requestAnimationFrame(() => {
+              document.documentElement.scrollTop = savedScroll;
+            });
           })
       });
     }
