@@ -635,6 +635,23 @@ body {
   font-size: 0.74rem;
 }
 
+/* ── Section 05 scenario buttons: match SSP colors from section 03 ─ */
+#scenario-buttons button[data-scenario="ssp126"]        { border-color: var(--color-ssp126); }
+#scenario-buttons button[data-scenario="ssp126"]:hover  { color: var(--color-ssp126); border-color: var(--color-ssp126); }
+#scenario-buttons button[data-scenario="ssp126"].active { background: #1a985022; color: var(--color-ssp126); border-color: var(--color-ssp126); }
+
+#scenario-buttons button[data-scenario="ssp245"]        { border-color: var(--color-ssp245); }
+#scenario-buttons button[data-scenario="ssp245"]:hover  { color: var(--color-ssp245); border-color: var(--color-ssp245); }
+#scenario-buttons button[data-scenario="ssp245"].active { background: #f6c74422; color: var(--color-ssp245); border-color: var(--color-ssp245); }
+
+#scenario-buttons button[data-scenario="ssp370"]        { border-color: var(--color-ssp370); }
+#scenario-buttons button[data-scenario="ssp370"]:hover  { color: var(--color-ssp370); border-color: var(--color-ssp370); }
+#scenario-buttons button[data-scenario="ssp370"].active { background: #f46d4322; color: var(--color-ssp370); border-color: var(--color-ssp370); }
+
+#scenario-buttons button[data-scenario="ssp585"]        { border-color: var(--color-ssp585); }
+#scenario-buttons button[data-scenario="ssp585"]:hover  { color: var(--color-ssp585); border-color: var(--color-ssp585); }
+#scenario-buttons button[data-scenario="ssp585"].active { background: #d7302722; color: var(--color-ssp585); border-color: var(--color-ssp585); }
+
 /* ── Section 01: text + chart side by side ───────────────────── */
 #section-now {
   flex-direction: row;

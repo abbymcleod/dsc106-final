@@ -330,8 +330,8 @@ const MILESTONES_IPCC = [
     .curve(d3.curveCatmullRom);
 
   const sparkColors = {
-    ssp126: "#58a6ff", ssp245: "#e3b341",
-    ssp370: "#f0883e", ssp585: "#f85149"
+    ssp126: "#1a9850", ssp245: "#f6c744",
+    ssp370: "#f46d43", ssp585: "#d73027"
   };
 
   ["ssp126","ssp245","ssp370","ssp585"].forEach(scen => {
