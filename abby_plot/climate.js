@@ -352,11 +352,12 @@ function drawHistorical() {
       .attr('stroke-dasharray', '4,4');
   
     g.append('text')
-      .attr('x', 8)
-      .attr('y', y(0) - 6)
+      .attr('x', innerW - 8)
+      .attr('y', y(0) - 8)
       .attr('fill', '#8b949e')
       .attr('font-size', '11px')
       .attr('font-family', 'sans-serif')
+      .attr('text-anchor', 'end')
       .text('Pre-industrial baseline (1850–1900)');
   
     // ── 1.2°C annotation ────────────────────────────────────
