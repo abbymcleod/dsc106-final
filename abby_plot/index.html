@@ -13,7 +13,7 @@
 <body>
 
   <header id="site-header">
-    <a href="../index.html" id="back-link">← Back</a>
+    <div class="header-spacer"></div>
     <div id="header-center">
       <h1 id="site-title">Choose Your Future</h1>
       <p id="site-subtitle">How Today's Emissions Decide Tomorrow's Climate</p>
@@ -23,16 +23,37 @@
       <a href="#section-history"   data-section="section-history"   title="How Did We Get Here?"></a>
       <a href="#section-futures"   data-section="section-futures"   title="Where Could We Go?"></a>
       <a href="#section-adventure" data-section="section-adventure" title="What's Your Role?"></a>
-      <a href="#section-sealevel"  data-section="section-sealevel"  title="Coastal Impact"></a>
+      <a href="#section-sealevel" data-section="section-sealevel" title="Coastal Impact"></a>
+      <a href="#section-closing"  data-section="section-closing"  title="The Path Forward"></a>
     </nav>
   </header>
+
+  <section id="section-hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow">A climate story</p>
+      <h1 class="hero-title">Choose Your Future</h1>
+      <p class="hero-subtitle">How Today's Emissions Decide Tomorrow's Climate</p>
+      <p class="hero-hook">How can your choices change the climate?</p>
+      <a class="scroll-cue" href="#section-now" aria-label="Scroll to begin">↓</a>
+    </div>
+  </section>
 
   <section class="scroll-section" id="section-now">
     <div class="text-block">
       <span class="section-num">01</span>
       <h2>Where Are We Now?</h2>
-      <p>Atmospheric CO₂ has reached 425 ppm — higher than at any
-         point in the last 800,000 years.</p>
+      <p>Atmospheric CO₂ has reached <strong>425 ppm</strong> — higher than at any point in the
+         last 800,000 years. But what does that number actually mean?
+         <em>PPM</em> stands for <em>parts per million</em>: the count of CO₂ molecules
+         in every million molecules of air. Scientists have tracked this figure
+         continuously since 1958 at the Mauna Loa Observatory in Hawaii, producing
+         what's known as the <em>Keeling Curve</em> — the longest unbroken record of
+         atmospheric CO₂ in history. The steady rise you see in that curve is driven
+         primarily by burning fossil fuels (coal, oil, and natural gas) and by
+         deforestation, which releases carbon stored in trees back into the atmosphere.
+         Before the Industrial Revolution, CO₂ held steady at roughly
+         <strong>280 ppm</strong> for thousands of years. We are now at
+         <strong>425 ppm</strong> — a roughly 52% increase in under 200 years.</p>
     </div>
     <div class="chart-block" id="chart-keeling"></div>
   </section>
@@ -54,7 +75,18 @@
       <p>Climate scientists have modeled four possible futures depending
          on how aggressively humanity reduces emissions.</p>
     </div>
-    <div class="chart-block" id="chart-fan"></div>
+    <div id="fan-layout">
+      <div id="fan-chart-col">
+        <div id="fan-controls">
+          <button class="ssp-btn" data-ssp="ssp126">SSP1-2.6</button>
+          <button class="ssp-btn" data-ssp="ssp245">SSP2-4.5</button>
+          <button class="ssp-btn" data-ssp="ssp370">SSP3-7.0</button>
+          <button class="ssp-btn" data-ssp="ssp585">SSP5-8.5</button>
+        </div>
+        <div class="chart-block" id="chart-fan"></div>
+      </div>
+      <div id="fan-description"></div>
+    </div>
   </section>
 
   <section class="scroll-section" id="section-adventure">
@@ -68,15 +100,19 @@
   </section>
 
   <section class="scroll-section" id="section-sealevel">
-    <div class="text-block">
+    <div id="sealevel-header">
       <span class="section-num">05</span>
       <h2>So What Does This Actually Mean?</h2>
+    </div>
+    <div id="sealevel-phases">
+    <div id="sealevel-phase1">
       <p>Rising temperatures aren't just a number on a chart.
          They translate directly into rising seas — threatening
          the homes, infrastructure, and lives of millions of
          Americans in coastal cities. Explore how each emissions
          scenario plays out city by city, decade by decade.</p>
     </div>
+    <div id="sealevel-phase2">
     <section id="content">
       <div id="scenario-buttons">
         <button data-scenario="ssp126" class="active">SSP1-2.6</button>
@@ -109,16 +145,35 @@
               <input type="checkbox" id="total-toggle">
               Include ice melt &amp; land subsidence
             </label>
+            <div id="timeline-section">
+              <h3 class="timeline-header">Worst Case Scenario Timeline</h3>
+              <div id="timeline"></div>
+            </div>
           </div>
         </div>
       </div>
       <div id="legend"></div>
       <div id="tooltip"></div>
-      <div id="timeline-section">
-        <h3 class="timeline-header">Worst Case Scenario Timeline</h3>
-        <div id="timeline"></div>
-      </div>
     </section>
+    </div>
+    </div>
+  </section>
+
+  <section class="scroll-section" id="section-closing">
+    <div class="text-block">
+      <span class="section-num">06</span>
+      <h2>The Path Forward</h2>
+      <p>The data tells a clear story: the globe is warming, seas are rising, and the
+         choices we make collectively determine how severe those changes become. The
+         difference between SSP1-2.6 and SSP5-8.5 is not a matter of fate — it is a
+         matter of decisions made by governments, industries, and individuals over the
+         next few decades. Every fraction of a degree avoided is real infrastructure
+         protected, real communities kept whole, real futures kept open.</p>
+      <p>You've just walked through what the science shows: where we are, how we got
+         here, where each pathway leads, and what it means for the places people live.
+         The window for meaningful action is narrow, but it is still open. The question
+         the data cannot answer — only people can — is which future we choose to build.</p>
+    </div>
   </section>
 
   <script src="https://d3js.org/d3.v7.min.js"></script>

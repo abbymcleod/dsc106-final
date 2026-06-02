@@ -621,6 +621,7 @@ function drawFan() {
           .datum(band)
           .attr('fill', color)
           .attr('opacity', 0.12)
+          .attr('class', `fan-band-${scenario}`)
           .attr('d', area);
       }
   
@@ -635,8 +636,9 @@ function drawFan() {
         .attr('fill', 'none')
         .attr('stroke', color)
         .attr('stroke-width', scenario === 'historical' ? 2 : 2.5)
+        .attr('class', `fan-line-${scenario}`)
         .attr('d', line);
-  
+
       // end label for SSP scenarios
       if (scenario !== 'historical') {
         const last = band[band.length - 1];
@@ -729,7 +731,7 @@ function drawFan() {
     const bisect = d3.bisector(d => d.year).left;
   
     const hoverLine = g.append('line')
-      .attr('stroke', '#555')
+      .attr('stroke', '#8b949e')
       .attr('stroke-width', 1)
       .attr('stroke-dasharray', '4,4')
       .attr('y1', 0).attr('y2', innerH)
@@ -779,6 +781,71 @@ function drawFan() {
         hoverLine.style('opacity', 0);
         tooltip.style('opacity', 0);
       });
+
+    // ── SSP toggle ───────────────────────────────────────────────
+    const fanDescriptions = {
+      ssp126: {
+        title: 'SSP1-2.6 — Best Case',
+        body:  'Rapid global decarbonization reaches net-zero before 2075. Renewables scale massively, international cooperation holds, and warming is limited to roughly +1.5–2°C by 2100 — but only with transformational action starting now.'
+      },
+      ssp245: {
+        title: 'SSP2-4.5 — Middle Road',
+        body:  'Modest mitigation efforts slow but never stop rising emissions. Warming reaches approximately +2.7°C by 2100 — enough to cause severe disruptions to ecosystems, agriculture, and coastlines worldwide.'
+      },
+      ssp370: {
+        title: 'SSP3-7.0 — High Emissions',
+        body:  'A fragmented world with limited climate cooperation. Emissions keep rising through 2100, reaching +3.6°C — associated with widespread food and water insecurity, mass displacement, and irreversible ecosystem loss.'
+      },
+      ssp585: {
+        title: 'SSP5-8.5 — Worst Case',
+        body:  'Fossil fuel development expands aggressively with no serious mitigation. Emissions roughly double by 2100. Warming exceeds +4.4°C — a level last seen millions of years ago, with catastrophic and largely irreversible consequences.'
+      }
+    };
+
+    const fanOverview = {
+      title: 'What are SSP scenarios?',
+      body:  'Shared Socioeconomic Pathways (SSPs) are the scientific community\'s standard framework for modeling how different emissions levels lead to different climate futures. The four pathways here range from aggressive decarbonization (SSP1-2.6) to unchecked fossil fuel expansion (SSP5-8.5). Click any button to focus on that scenario.'
+    };
+
+    function setFanDescription(ssp) {
+      const desc  = ssp ? fanDescriptions[ssp] : fanOverview;
+      const color = ssp ? scenarioColors[ssp] : 'var(--color-accent)';
+      d3.select('#fan-description').html(`
+        <div class="fan-desc-title" style="color:${color}">${desc.title}</div>
+        <div class="fan-desc-body">${desc.body}</div>
+      `);
+    }
+
+    setFanDescription(null);
+
+    let activeSsp = null;
+
+    d3.selectAll('.ssp-btn').on('click', function() {
+      const ssp = d3.select(this).attr('data-ssp');
+      if (activeSsp === ssp) {
+        activeSsp = null;
+        d3.selectAll('.ssp-btn').classed('active', false);
+        scenarios.forEach(s => {
+          g.select(`.fan-line-${s}`)
+            .attr('opacity', 1)
+            .attr('stroke-width', s === 'historical' ? 2 : 2.5);
+          if (s !== 'historical') g.select(`.fan-band-${s}`).attr('opacity', 0.12);
+        });
+        setFanDescription(null);
+      } else {
+        activeSsp = ssp;
+        d3.selectAll('.ssp-btn').classed('active', false);
+        d3.select(this).classed('active', true);
+        scenarios.forEach(s => {
+          const sel = s === ssp;
+          g.select(`.fan-line-${s}`)
+            .attr('opacity', (sel || s === 'historical') ? 1 : 0.15)
+            .attr('stroke-width', s === 'historical' ? 2 : (sel ? 3 : 2.5));
+          if (s !== 'historical') g.select(`.fan-band-${s}`).attr('opacity', sel ? 0.2 : 0.04);
+        });
+        setFanDescription(ssp);
+      }
+    });
   }
 
 // ── Chart 4: Adventure ──────────────────────────────────────
@@ -1117,6 +1184,7 @@ function drawAdventure() {
   
     // ── Helper: show final summary ───────────────────────────
     function showSummary() {
+      container.classed('phase-2', true);
       const maxImpact = 0.45;
       const t = Math.min(Math.abs(totalImpact) / maxImpact, 1);
       const worstEnd = sspEnds.ssp585;
@@ -1147,7 +1215,7 @@ function drawAdventure() {
               : `Without significant changes, warming continues on the highest-emissions trajectory.`
             }
           </div>
-          <div style="margin-top:16px; font-size:0.85rem; color:#555;">
+          <div style="margin-top:16px; font-size:0.85rem; color:#8b949e;">
             Choices made: ${choicesMade.join(' → ')}
           </div>
           <button id="restart-btn" style="
@@ -1190,6 +1258,7 @@ function drawAdventure() {
         yourDot.attr('opacity', 0);
         yourLabel.attr('opacity', 0);
         summary.style('display', 'none');
+        container.classed('phase-2', false);
         renderStep();
       });
     }
@@ -1344,9 +1413,91 @@ window.addEventListener('load', () => {
         dots.forEach(dot =>
           dot.classList.toggle('active', dot.dataset.section === entry.target.id)
         );
+        // Reset to description phase whenever section-sealevel scrolls into view from above
+        if (entry.target.id === 'section-sealevel' &&
+            entry.target.getBoundingClientRect().top > 50) {
+          entry.target.classList.remove('phase-2');
+        }
       }
     });
   }, { threshold: 0.4 });
 
   document.querySelectorAll('.scroll-section').forEach(s => observer.observe(s));
 });
+
+// ── Section 05: scroll triggers description → map transition ──
+(function () {
+  const section = document.getElementById('section-sealevel');
+  if (!section) return;
+  let transitioning = false;
+  let acc = 0;                  // signed: positive = scrolling down, negative = up
+  const DURATION     = 500;
+  const THRESHOLD_FWD  = 350;  // phase 1 → phase 2  (description → map)
+  const THRESHOLD_BCK  = 200;  // phase 2 → phase 1  (map → description)
+  const THRESHOLD_NEXT = 400;  // phase 2 → section-closing
+
+  function isSnapped() {
+    const t = section.getBoundingClientRect().top;
+    return t > 55 && t < 110;
+  }
+
+  function goTo(phase2) {
+    if (transitioning || section.classList.contains('phase-2') === phase2) return;
+    transitioning = true;
+    acc = 0;
+    section.classList.toggle('phase-2', phase2);
+    // Hold slightly longer than the CSS transition to absorb trackpad inertia
+    setTimeout(() => { transitioning = false; }, DURATION + 300);
+  }
+
+  // Find nearest scrollable ancestor (between target and section) that can
+  // still scroll in the given direction
+  function findScrollable(target, goingUp) {
+    let el = target;
+    while (el && el !== section) {
+      if (el.scrollHeight > el.clientHeight) {
+        if (goingUp  && el.scrollTop > 0) return el;
+        if (!goingUp && el.scrollTop < el.scrollHeight - el.clientHeight - 1) return el;
+      }
+      el = el.parentElement;
+    }
+    return null;
+  }
+
+  // Capture phase fires before D3/child handlers that may stopPropagation
+  section.addEventListener('wheel', e => {
+    if (!isSnapped()) { acc = 0; return; }
+    if (transitioning) { e.preventDefault(); return; }
+
+    const inPhase2 = section.classList.contains('phase-2');
+
+    if (!inPhase2 && e.deltaY > 0) {
+      // Phase 1: accumulate downward scroll → reveal map
+      e.preventDefault();
+      acc += e.deltaY;
+      if (acc >= THRESHOLD_FWD) goTo(true);
+
+    } else if (inPhase2) {
+      // Phase 2: own ALL scroll so the page never drifts
+      e.preventDefault();
+      const scrollable = findScrollable(e.target, e.deltaY < 0);
+      if (scrollable) {
+        // Delegate to an inner scrollable element (e.g. side panel)
+        scrollable.scrollTop += e.deltaY;
+        acc = 0;
+      } else {
+        acc += e.deltaY; // signed: builds negative going up, positive going down
+        if (acc <= -THRESHOLD_BCK) {
+          goTo(false); // back to description
+        } else if (acc >= THRESHOLD_NEXT) {
+          acc = 0;
+          document.getElementById('section-closing')
+            ?.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+
+    } else {
+      acc = 0;
+    }
+  }, { passive: false, capture: true });
+}());
