@@ -1449,7 +1449,7 @@ window.addEventListener('load', () => {
 
   function isSnapped() {
     const t = section.getBoundingClientRect().top;
-    return t > 55 && t < 110;
+    return t > 40 && t < 130;
   }
 
   function goTo(phase2) {
