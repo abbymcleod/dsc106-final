@@ -556,25 +556,6 @@ function drawFan() {
   
     g.select('.grid .domain').remove();
   
-    // ── Paris threshold lines ────────────────────────────────
-    [1.5, 2.0].forEach(threshold => {
-      g.append('line')
-        .attr('x1', 0).attr('x2', innerW)
-        .attr('y1', y(threshold)).attr('y2', y(threshold))
-        .attr('stroke', '#a78bfa')
-        .attr('stroke-width', 1)
-        .attr('stroke-dasharray', '5,4')
-        .attr('opacity', 0.7);
-  
-      g.append('text')
-        .attr('x', innerW + 6)
-        .attr('y', y(threshold) + 4)
-        .attr('fill', '#a78bfa')
-        .attr('font-size', '11px')
-        .attr('font-family', 'sans-serif')
-        .text(`${threshold}°C`);
-    });
-  
     // ── 2015 handoff line ────────────────────────────────────
     g.append('line')
       .attr('x1', x(2015)).attr('x2', x(2015))
@@ -989,25 +970,6 @@ function drawAdventure() {
       .attr('stroke-dasharray', '3,3');
   
     g.select('.grid .domain').remove();
-  
-    // ── Paris thresholds ────────────────────────────────────
-    [1.5, 2.0].forEach(threshold => {
-      g.append('line')
-        .attr('x1', 0).attr('x2', innerW)
-        .attr('y1', y(threshold)).attr('y2', y(threshold))
-        .attr('stroke', '#a78bfa')
-        .attr('stroke-width', 1)
-        .attr('stroke-dasharray', '5,4')
-        .attr('opacity', 0.7);
-  
-      g.append('text')
-        .attr('x', innerW + 6)
-        .attr('y', y(threshold) + 4)
-        .attr('fill', '#a78bfa')
-        .attr('font-size', '11px')
-        .attr('font-family', 'sans-serif')
-        .text(`${threshold}°C`);
-    });
   
     // ── 2015 handoff ────────────────────────────────────────
     g.append('line')
