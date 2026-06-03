@@ -349,6 +349,16 @@ body {
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--color-accent);
+  margin-bottom: 8px;
+}
+
+.hero-authors {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
   margin-bottom: 20px;
 }
 
