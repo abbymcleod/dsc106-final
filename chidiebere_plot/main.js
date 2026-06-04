@@ -22,69 +22,6 @@ const projection = d3.geoAlbersUsa()
 const path = d3.geoPath(projection);
 
 
-const MILESTONES_CMIP = [
-  {
-    year: 2035,
-    scenario: "ssp585",
-    city: "Norfolk VA",
-    headline: "Norfolk Leads Early Rise",
-    text: "All cities remain at moderate risk but Norfolk already shows the highest dynamic sea-level anomaly on the East Coast, signaling early vulnerability along the Chesapeake Bay."
-  },
-  {
-    year: 2050,
-    scenario: "ssp585",
-    city: "Boston MA",
-    headline: "Boston Pulls Ahead",
-    text: "Cities remain moderate but Boston overtakes Norfolk as the highest projected dynamic anomaly, reflecting accelerating ocean circulation changes along the Northeast coast."
-  },
-  {
-    year: 2070,
-    scenario: "ssp585",
-    city: "New York NY",
-    headline: "Northeast Shifts to High Risk",
-    text: "Boston, New York, Atlantic City, and Norfolk all cross into high risk — the Northeast corridor emerges as the most exposed stretch of the U.S. coastline under the CMIP6 dynamic signal."
-  },
-  {
-    year: 2100,
-    scenario: "ssp585",
-    city: "Boston MA",
-    headline: "Critical Risk Arrives",
-    text: "Boston, New York, and Atlantic City reach critical risk by end of century. Charleston moves to high risk and southern cities like Miami, Tampa, and New Orleans close in on the high threshold."
-  }
-];
-
-const MILESTONES_IPCC = [
-  {
-    year: 2035,
-    scenario: "ssp585",
-    city: "Galveston TX",
-    headline: "Gulf Coast First to Escalate",
-    text: "Galveston and New Orleans are the first cities to reach high risk under total sea-level projections, with Norfolk close behind — ice melt and land subsidence push Gulf and mid-Atlantic cities ahead of the rest of the country."
-  },
-  {
-    year: 2050,
-    scenario: "ssp585",
-    city: "New Orleans LA",
-    headline: "Eastern Seaboard Joins High Risk",
-    text: "Almost every city east of Galveston crosses into high risk as total sea-level rise accelerates — ice-sheet and glacier contributions begin compounding on top of ocean dynamics across the Gulf and Atlantic coasts."
-  },
-  {
-    year: 2070,
-    scenario: "ssp585",
-    city: "Galveston TX",
-    headline: "Galveston Hits Critical",
-    text: "Galveston and New Orleans becomes the first cities to reach critical total sea-level risk while the remaining tracked cities hold at high risk — the Gulf Coast's low elevation and subsidence make it the most exposed region in the country."
-  },
-  {
-    year: 2100,
-    scenario: "ssp585",
-    city: "Boston MA",
-    headline: "Near Universal Critical Risk",
-    text: "By end of century every tracked city except Seattle and San Francisco reaches critical total sea-level risk — ice melt, glaciers, land subsidence, and ocean dynamics converge to put the entire Atlantic and Gulf coastline in a precarious position."
-  }
-];
-
-
   // ── Scales ─────────────────────────────────────────────────────────────────
   // Color: matches your original threshold logic
   const colorScale = d3.scaleThreshold()
@@ -359,6 +296,8 @@ const MILESTONES_IPCC = [
         d3.select(`[data-scenario="${scen}"]`)
           .classed("active", true);
         updateMap();
+        buildTimeline();
+        highlightMilestone();
         updatePanel(city);       // redraws sparkline with new selectedScenario
       })
       .on("mouseover", function() {
@@ -480,6 +419,8 @@ const MILESTONES_IPCC = [
     d3.selectAll("#scenario-buttons button").classed("active", false);
     d3.select(this).classed("active", true);
     updateMap();
+    buildTimeline();
+    highlightMilestone()
     if (selectedCity) updatePanel(selectedCity);
   });
 
@@ -491,7 +432,6 @@ const MILESTONES_IPCC = [
     buildTimeline();
   });
 
-  // ── Helpers (your originals) ────────────────────────────────────────────────
  function getRiskLabel(value) {
   const [highThreshold, criticalThreshold] = getRiskThresholds();
 
@@ -540,8 +480,7 @@ function getCityNote(city) {
 }
 
 function buildTimeline() {
-  const milestones = includeTotalSeaLevel ? MILESTONES_IPCC : MILESTONES_CMIP;
-
+  const milestones = getActiveMilestones();
   const container = d3.select("#timeline");
   container.selectAll("*").remove();
 
@@ -585,10 +524,15 @@ function buildTimeline() {
 }
 
 function highlightMilestone() {
-  const milestones = includeTotalSeaLevel ? MILESTONES_IPCC : MILESTONES_CMIP;
+  const milestones = getActiveMilestones();
   const active = milestones
     .filter(m => m.year <= selectedYear)
     .at(-1);
   d3.selectAll(".timeline-card").classed("active", false);
   if (active) d3.select(`[data-year="${active.year}"]`).classed("active", true);
+}
+
+function getActiveMilestones() {
+  const dataset = includeTotalSeaLevel ? "IPCC" : "CMIP";
+  return MILESTONES[dataset][selectedScenario] ?? [];
 }
