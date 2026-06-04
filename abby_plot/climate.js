@@ -352,11 +352,12 @@ function drawHistorical() {
       .attr('stroke-dasharray', '4,4');
   
     g.append('text')
-      .attr('x', 8)
-      .attr('y', y(0) - 6)
+      .attr('x', innerW - 8)
+      .attr('y', y(0) - 8)
       .attr('fill', '#8b949e')
       .attr('font-size', '11px')
       .attr('font-family', 'sans-serif')
+      .attr('text-anchor', 'end')
       .text('Pre-industrial baseline (1850–1900)');
   
     // ── 1.2°C annotation ────────────────────────────────────
@@ -554,25 +555,6 @@ function drawFan() {
       .attr('stroke-dasharray', '3,3');
   
     g.select('.grid .domain').remove();
-  
-    // ── Paris threshold lines ────────────────────────────────
-    [1.5, 2.0].forEach(threshold => {
-      g.append('line')
-        .attr('x1', 0).attr('x2', innerW)
-        .attr('y1', y(threshold)).attr('y2', y(threshold))
-        .attr('stroke', '#a78bfa')
-        .attr('stroke-width', 1)
-        .attr('stroke-dasharray', '5,4')
-        .attr('opacity', 0.7);
-  
-      g.append('text')
-        .attr('x', innerW + 6)
-        .attr('y', y(threshold) + 4)
-        .attr('fill', '#a78bfa')
-        .attr('font-size', '11px')
-        .attr('font-family', 'sans-serif')
-        .text(`${threshold}°C`);
-    });
   
     // ── 2015 handoff line ────────────────────────────────────
     g.append('line')
@@ -988,25 +970,6 @@ function drawAdventure() {
       .attr('stroke-dasharray', '3,3');
   
     g.select('.grid .domain').remove();
-  
-    // ── Paris thresholds ────────────────────────────────────
-    [1.5, 2.0].forEach(threshold => {
-      g.append('line')
-        .attr('x1', 0).attr('x2', innerW)
-        .attr('y1', y(threshold)).attr('y2', y(threshold))
-        .attr('stroke', '#a78bfa')
-        .attr('stroke-width', 1)
-        .attr('stroke-dasharray', '5,4')
-        .attr('opacity', 0.7);
-  
-      g.append('text')
-        .attr('x', innerW + 6)
-        .attr('y', y(threshold) + 4)
-        .attr('fill', '#a78bfa')
-        .attr('font-size', '11px')
-        .attr('font-family', 'sans-serif')
-        .text(`${threshold}°C`);
-    });
   
     // ── 2015 handoff ────────────────────────────────────────
     g.append('line')
