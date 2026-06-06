@@ -768,11 +768,11 @@ function drawFan() {
     const fanDescriptions = {
       ssp126: {
         title: 'SSP1-2.6 — Best Case',
-        body:  'Rapid global decarbonization reaches net-zero before 2075. Renewables scale massively, international cooperation holds, and warming is limited to roughly +1.5–2°C by 2100 — but only with transformational action starting now.'
+        body:  'Rapid global decarbonization reaches net-zero before 2075. Renewables scale massively, international cooperation holds, and warming is limited to roughly +1.5–2°C by 2100, but only with transformational action starting now.'
       },
       ssp245: {
         title: 'SSP2-4.5 — Middle Road',
-        body:  'Modest mitigation efforts slow but never stop rising emissions. Warming reaches approximately +2.7°C by 2100 — enough to cause severe disruptions to ecosystems, agriculture, and coastlines worldwide.'
+        body:  'Modest mitigation efforts slow but never stop rising emissions. Warming reaches approximately +2.7°C by 2100 which is enough to cause severe disruptions to ecosystems, agriculture, and coastlines worldwide.'
       },
       ssp370: {
         title: 'SSP3-7.0 — High Emissions',
