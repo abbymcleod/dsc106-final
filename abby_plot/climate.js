@@ -1384,9 +1384,9 @@ function drawHeroWater() {
   let time = 0;
 
   // water level starts low and very slowly rises
-  let waterLevel = 0.8; // fraction from top — starts near bottom
+  let waterLevel = 0.75; // fraction from top — starts near bottom
   const targetLevel = 0.45; // rises to ~halfway up over time
-  const riseSpeed = 0.00008;
+  const riseSpeed = 0.0001;
 
   function resize() {
     width  = canvas.width  = canvas.offsetWidth;
