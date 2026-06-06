@@ -1384,9 +1384,9 @@ function drawHeroWater() {
   let time = 0;
 
   // water level starts low and very slowly rises
-  let waterLevel = 0.92; // fraction from top — starts near bottom
-  const targetLevel = 0.55; // rises to ~halfway up over time
-  const riseSpeed = 0.000015;
+  let waterLevel = 0.8; // fraction from top — starts near bottom
+  const targetLevel = 0.45; // rises to ~halfway up over time
+  const riseSpeed = 0.00008;
 
   function resize() {
     width  = canvas.width  = canvas.offsetWidth;
@@ -1462,8 +1462,8 @@ function drawHeroWater() {
         + Math.sin(x * 0.004 + time * 0.5) * 12;
       ctx.lineTo(x, y);
     }
-    ctx.strokeStyle = 'rgba(100, 180, 255, 0.3)';
-    ctx.lineWidth = 1.5;
+    ctx.strokeStyle = 'rgba(100, 200, 255, 0.5)';
+    ctx.lineWidth = 2;
     ctx.stroke();
 
     time += 0.012;
