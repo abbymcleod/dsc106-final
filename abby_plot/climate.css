@@ -340,6 +340,7 @@ body {
   text-align: center;
   border-bottom: 1px solid var(--border-dim);
   scroll-snap-align: start;
+  overflow: hidden;
 }
 
 .hero-eyebrow {

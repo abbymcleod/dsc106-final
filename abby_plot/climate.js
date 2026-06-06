@@ -1357,8 +1357,127 @@ function drawAdventure() {
     renderStep();
   }
 
+// ── Hero: Animated Rising Water ─────────────────────────────
+function drawHeroWater() {
+  const section = document.getElementById('section-hero');
+  if (!section) return;
+
+  const canvas = document.createElement('canvas');
+  canvas.id = 'hero-canvas';
+  canvas.style.cssText = `
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    pointer-events: none;
+    z-index: 0;
+  `;
+  section.style.position = 'relative';
+  section.insertBefore(canvas, section.firstChild);
+
+  // make sure hero content sits above canvas
+  const heroContent = section.querySelector('.hero-content');
+  if (heroContent) heroContent.style.position = 'relative';
+  heroContent.style.zIndex = '1';
+
+  const ctx = canvas.getContext('2d');
+  let width, height;
+  let time = 0;
+
+  // water level starts low and very slowly rises
+  let waterLevel = 0.92; // fraction from top — starts near bottom
+  const targetLevel = 0.55; // rises to ~halfway up over time
+  const riseSpeed = 0.000015;
+
+  function resize() {
+    width  = canvas.width  = canvas.offsetWidth;
+    height = canvas.height = canvas.offsetHeight;
+  }
+
+  resize();
+  window.addEventListener('resize', resize);
+
+  function drawFrame() {
+    ctx.clearRect(0, 0, width, height);
+
+    // slowly rise
+    if (waterLevel > targetLevel) {
+      waterLevel -= riseSpeed;
+    }
+
+    const waveY = waterLevel * height;
+
+    // ── Draw wave surface ──────────────────────────────────
+    ctx.beginPath();
+    ctx.moveTo(0, waveY);
+
+    for (let x = 0; x <= width; x += 2) {
+      const y = waveY
+        + Math.sin(x * 0.008 + time * 1.2) * 8
+        + Math.sin(x * 0.015 + time * 0.8) * 5
+        + Math.sin(x * 0.004 + time * 0.5) * 12;
+      ctx.lineTo(x, y);
+    }
+
+    ctx.lineTo(width, height);
+    ctx.lineTo(0, height);
+    ctx.closePath();
+
+    // gradient fill for water body
+    const gradient = ctx.createLinearGradient(0, waveY, 0, height);
+    gradient.addColorStop(0,   'rgba(30, 100, 160, 0.35)');
+    gradient.addColorStop(0.4, 'rgba(20, 70,  130, 0.25)');
+    gradient.addColorStop(1,   'rgba(10, 40,  100, 0.15)');
+    ctx.fillStyle = gradient;
+    ctx.fill();
+
+    // ── Draw a second wave layer slightly offset ───────────
+    ctx.beginPath();
+    ctx.moveTo(0, waveY);
+
+    for (let x = 0; x <= width; x += 2) {
+      const y = waveY
+        + Math.sin(x * 0.009 + time * 1.0 + 1.5) * 6
+        + Math.sin(x * 0.012 + time * 1.4 + 0.8) * 4
+        + Math.sin(x * 0.005 + time * 0.6 + 2.0) * 9;
+      ctx.lineTo(x, y);
+    }
+
+    ctx.lineTo(width, height);
+    ctx.lineTo(0, height);
+    ctx.closePath();
+
+    const gradient2 = ctx.createLinearGradient(0, waveY, 0, height);
+    gradient2.addColorStop(0,   'rgba(50, 130, 200, 0.2)');
+    gradient2.addColorStop(1,   'rgba(15, 55,  120, 0.1)');
+    ctx.fillStyle = gradient2;
+    ctx.fill();
+
+    // ── Wave surface highlight line ────────────────────────
+    ctx.beginPath();
+    ctx.moveTo(0, waveY);
+    for (let x = 0; x <= width; x += 2) {
+      const y = waveY
+        + Math.sin(x * 0.008 + time * 1.2) * 8
+        + Math.sin(x * 0.015 + time * 0.8) * 5
+        + Math.sin(x * 0.004 + time * 0.5) * 12;
+      ctx.lineTo(x, y);
+    }
+    ctx.strokeStyle = 'rgba(100, 180, 255, 0.3)';
+    ctx.lineWidth = 1.5;
+    ctx.stroke();
+
+    time += 0.012;
+    requestAnimationFrame(drawFrame);
+  }
+
+  drawFrame();
+}
+
 // ── Scrollama setup ─────────────────────────────────────────
 window.addEventListener('load', () => {
+
+    drawHeroWater();
+
     const scroller = scrollama();
 
     scroller
