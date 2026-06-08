@@ -257,6 +257,8 @@ h1 {
 
   font-size: 0.8rem;
   line-height: 1.55;
+  text-transform: none;
+  letter-spacing: normal;
 
   opacity: 0;
   pointer-events: none;
@@ -346,11 +348,11 @@ label {
 /* ── Legend ─────────────────────────────────────────────────── */
 #legend {
   display: flex;
-  gap: 20px;
+  gap: 15px;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0px 0px;
+  /* margin-top: -12px; */
 }
 
 .legend-item { 
@@ -439,6 +441,7 @@ label {
 }
 
 #timeline-section h3 {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+  margin-top: -25px;
 }
   

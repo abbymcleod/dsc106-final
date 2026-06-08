@@ -216,8 +216,8 @@ const path = d3.geoPath(projection);
       <span class="info-icon">ⓘ</span>
       <span class="info-tooltip">
         ${includeTotalSeaLevel
-          ? "IPCC total projection: ocean dynamics, ice-sheet melt, glaciers, land water storage, and vertical land motion."
-          : "CMIP6 dynamic sea-level anomaly (zos): regional ocean changes, excludes ice melt and land movement."}
+          ? "This uses the IPCC total sea-level projection, which includes multiple contributors such as ocean dynamics, ice-sheet melt, glaciers, land water storage, and vertical land motion."
+          : "This estimate uses CMIP6 dynamic sea-level anomaly (zos), which reflects regional ocean changes but excludes ice melt and land movement."}
       </span>
     </span>
     <span class="stat-val">${currentValue.toFixed(1)} cm</span>
