@@ -1518,6 +1518,64 @@ window.addEventListener('load', () => {
   document.querySelectorAll('.scroll-section').forEach(s => observer.observe(s));
 });
 
+// ── Section 01: scroll triggers text → chart transition ────────
+(function () {
+  const section = document.getElementById('section-now');
+  if (!section) return;
+  let transitioning = false;
+  let acc = 0;
+  const DURATION        = 500;
+  const THRESHOLD_FWD   = 350;   // phase 1 → phase 2
+  const THRESHOLD_BCK   = 120;   // phase 2 → phase 1 (low so it's easy to return)
+  const THRESHOLD_EXIT  = 250;   // phase 1 → section-hero (requires deliberate upward scroll)
+  const THRESHOLD_NEXT  = 400;   // phase 2 → section-history
+
+  function isSnapped() {
+    const t = section.getBoundingClientRect().top;
+    return t > 40 && t < 130;
+  }
+
+  function goTo(phase2) {
+    if (transitioning || section.classList.contains('phase-2') === phase2) return;
+    transitioning = true;
+    acc = 0;
+    section.classList.toggle('phase-2', phase2);
+    setTimeout(() => { transitioning = false; }, DURATION + 100);
+  }
+
+  section.addEventListener('wheel', e => {
+    if (!isSnapped()) { acc = 0; return; }
+    if (transitioning) { e.preventDefault(); return; }
+
+    const inPhase2 = section.classList.contains('phase-2');
+
+    if (!inPhase2) {
+      // Phase 1: trap ALL scroll — require deliberate intent to leave in either direction
+      e.preventDefault();
+      acc += e.deltaY;
+      if (acc >= THRESHOLD_FWD) {
+        goTo(true);
+      } else if (acc <= -THRESHOLD_EXIT) {
+        acc = 0;
+        document.getElementById('section-hero')
+          ?.scrollIntoView({ behavior: 'smooth' });
+      }
+
+    } else {
+      // Phase 2: trap ALL scroll
+      e.preventDefault();
+      acc += e.deltaY;
+      if (acc <= -THRESHOLD_BCK) {
+        goTo(false);
+      } else if (acc >= THRESHOLD_NEXT) {
+        acc = 0;
+        document.getElementById('section-history')
+          ?.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, { passive: false, capture: true });
+}());
+
 // ── Section 05: scroll triggers description → map transition ──
 (function () {
   const section = document.getElementById('section-sealevel');

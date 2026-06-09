@@ -202,38 +202,27 @@ const path = d3.geoPath(projection);
 
 
   d3.select("#panel-stats").html(`
-  <div class="stat-row">
+  <div class="stat-card">
     <span class="stat-label">Year</span>
     <span class="stat-val">${selectedYear}</span>
   </div>
-
-  <div class="stat-row">
+  <div class="stat-card">
     <span class="stat-label">Scenario</span>
     <span class="stat-val">${formatScenario(selectedScenario)}</span>
   </div>
-
-  <div class="stat-row">
+  <div class="stat-card">
     <span class="stat-label info-label">
-      ${
-    includeTotalSeaLevel
-      ? "IPCC total projected sea-level rise"
-      : "CMIP6 dynamic sea-level anomaly"
-      }
+      ${includeTotalSeaLevel ? "IPCC rise" : "Sea level"}
       <span class="info-icon">ⓘ</span>
-
       <span class="info-tooltip">
-        ${
-            includeTotalSeaLevel
-              ? "This uses the IPCC total sea-level projection, which includes multiple contributors such as ocean dynamics, ice-sheet melt, glaciers, land water storage, and vertical land motion."
-              : "This estimate uses CMIP6 dynamic sea-level anomaly (zos), which reflects regional ocean changes but excludes ice melt and land movement"
-          }
+        ${includeTotalSeaLevel
+          ? "This uses the IPCC total sea-level projection, which includes multiple contributors such as ocean dynamics, ice-sheet melt, glaciers, land water storage, and vertical land motion."
+          : "This estimate uses CMIP6 dynamic sea-level anomaly (zos), which reflects regional ocean changes but excludes ice melt and land movement."}
       </span>
     </span>
-
     <span class="stat-val">${currentValue.toFixed(1)} cm</span>
   </div>
-
-  <div class="stat-row">
+  <div class="stat-card">
     <span class="stat-label">By 2100</span>
     <span class="stat-val">${val2100 ? getSeaLevelValue(val2100).toFixed(1) + " cm" : "—"}</span>
   </div>

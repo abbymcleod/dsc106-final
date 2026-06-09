@@ -123,7 +123,7 @@ body {
 .section-nav a::after {
   content: attr(title);
   position: absolute;
-  bottom: calc(100% + 10px);
+  top: calc(100% + 10px);
   left: 50%;
   transform: translateX(-50%);
   white-space: nowrap;
@@ -143,6 +143,7 @@ body {
 .section-nav a:hover::after {
   opacity: 1;
 }
+
 
 /* ── Scroll sections ──────────────────────────────────────────── */
 .scroll-section {
@@ -583,7 +584,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 28px 60px 0;
+  padding: 0px 60px 0;
   text-align: center;
   z-index: 2;
 }
@@ -604,8 +605,9 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 8px 40px 0;
-  overflow: hidden;
+  padding: 4px 16px 0;
+  overflow-y: auto;
+  zoom: 0.80;
   transform: scale(0.42);
   transform-origin: center 75%;
   transition: opacity 0.5s ease, transform 0.5s ease;
@@ -639,7 +641,7 @@ body {
 }
 
 #section-sealevel #legend {
-  margin: 6px 0;
+  margin: -6px 0 6px;
   gap: 14px;
 }
 
@@ -647,48 +649,6 @@ body {
   font-size: 11px;
 }
 
-#section-sealevel #side-panel {
-  overflow-y: auto;
-  max-height: 500px;
-}
-
-#section-sealevel #timeline-section {
-  margin-top: 14px;
-  padding-top: 14px;
-  border-top: 1px solid var(--border-dim);
-}
-
-#section-sealevel #timeline-section h3 {
-  font-size: 0.72rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--text-secondary);
-  margin-bottom: 8px;
-}
-
-#section-sealevel #timeline {
-  flex-direction: column;
-  gap: 8px;
-  max-width: 100%;
-  margin-top: 4px;
-}
-
-#section-sealevel .timeline-card {
-  padding: 10px 12px;
-}
-
-#section-sealevel .timeline-year {
-  font-size: 0.95rem;
-}
-
-#section-sealevel .timeline-headline {
-  font-size: 0.8rem;
-}
-
-#section-sealevel .timeline-text {
-  font-size: 0.74rem;
-}
 
 /* ── Section 05 scenario buttons: match SSP colors from section 03 ─ */
 #scenario-buttons button[data-scenario="ssp126"]        { border-color: var(--color-ssp126); }
@@ -707,43 +667,89 @@ body {
 #scenario-buttons button[data-scenario="ssp585"]:hover  { color: var(--color-ssp585); border-color: var(--color-ssp585); }
 #scenario-buttons button[data-scenario="ssp585"].active { background: #d7302722; color: var(--color-ssp585); border-color: var(--color-ssp585); }
 
-/* ── Section 01: text + chart side by side ───────────────────── */
+/* ── Section 01: phase transition (text → chart) ─────────────── */
 #section-now {
-  flex-direction: row;
-  align-items: center;
-  gap: 40px;
-  padding: 40px 60px;
-  overflow-y: auto;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding: 0;
+  overflow: hidden;
+  scroll-snap-stop: always;
 }
 
-#section-now .text-block {
-  flex: 0 0 480px;
-  text-align: left;
-  margin-bottom: 0;
+#now-header {
+  flex: 0 0 auto;
+  background: var(--bg-primary);
+  text-align: center;
+  padding: 28px 40px 16px;
+  z-index: 10;
 }
 
-#section-now .chart-block {
+#now-header h2 {
+  font-family: var(--font-serif);
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+#now-phases {
   flex: 1;
-  min-height: 400px;
+  position: relative;
+  overflow: hidden;
 }
 
-@media (max-width: 960px) {
-  #section-now {
-    flex-direction: column;
-    align-items: center;
-    padding: 40px;
-  }
-  #section-now .text-block {
-    flex: unset;
-    text-align: center;
-    margin-bottom: 24px;
-    width: 100%;
-    max-width: 680px;
-  }
-  #section-now .chart-block {
-    flex: unset;
-    width: 100%;
-  }
+#now-phase1,
+#now-phase2 {
+  position: absolute;
+  inset: 0;
+  transition: opacity 0.5s ease;
+}
+
+#now-phase1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 32px 60px 0;
+  text-align: center;
+  z-index: 2;
+}
+#now-phase1 .text-block {
+  max-width: 55vw;
+}
+
+
+#now-scroll-cue {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  letter-spacing: 0.05em;
+}
+
+#now-phase2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  opacity: 0.45;
+  pointer-events: none;
+  z-index: 1;
+  transform: scale(0.38);
+  transform-origin: center 88%;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+#section-now.phase-2 #now-phase1 {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#section-now.phase-2 #now-phase2 {
+  opacity: 1;
+  pointer-events: all;
+  transform: scale(1);
 }
 
 /* ── Closing section ──────────────────────────────────────────── */
@@ -754,3 +760,4 @@ body {
 #section-closing .text-block p + p {
   margin-top: 18px;
 }
+
