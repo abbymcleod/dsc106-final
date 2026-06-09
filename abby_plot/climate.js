@@ -25,8 +25,8 @@ function drawKeeling() {
       co2_smooth:  +d.co2_smooth
     })).then(data => {
   
-      const width  = 900, height = 480;
-      const margin = { top: 45, right: 40, bottom: 65, left: 70 };
+      const width  = 900, height = 500;
+      const margin = { top: 45, right: 40, bottom: 80, left: 70 };
       const innerW = width  - margin.left - margin.right;
       const innerH = height - margin.top  - margin.bottom;
   
@@ -138,7 +138,7 @@ function drawKeeling() {
       // ── Caption ──────────────────────────────────────────────
       svg.append('text')
         .attr('x', width / 2)
-        .attr('y', height - 2)
+        .attr('y', height - 12)
         .attr('text-anchor', 'middle')
         .attr('fill', '#8b949e')
         .attr('font-size', '10px')
