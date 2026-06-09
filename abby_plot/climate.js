@@ -131,7 +131,7 @@ function drawKeeling() {
         .attr('text-anchor', 'middle')
         .attr('fill', '#ffffff')
         .attr('font-size', '14px')
-        .attr('font-weight', '600')
+        .attr('font-weight', '400')
         .attr('font-family', 'sans-serif')
         .text('Atmospheric CO₂ Since 1958 — The Keeling Curve');
 
