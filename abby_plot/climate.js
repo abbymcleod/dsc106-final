@@ -25,8 +25,8 @@ function drawKeeling() {
       co2_smooth:  +d.co2_smooth
     })).then(data => {
   
-      const width  = 900, height = 470;
-      const margin = { top: 45, right: 40, bottom: 50, left: 70 };
+      const width  = 900, height = 480;
+      const margin = { top: 45, right: 40, bottom: 65, left: 70 };
       const innerW = width  - margin.left - margin.right;
       const innerH = height - margin.top  - margin.bottom;
   
