@@ -297,7 +297,7 @@ function drawHistorical() {
     const data = globalData.filter(d => d.scenario === 'historical');
   
     const width  = 900, height = 420;
-    const margin = { top: 30, right: 40, bottom: 50, left: 70 };
+    const margin = { top: 45, right: 40, bottom: 50, left: 70 };
     const innerW = width  - margin.left - margin.right;
     const innerH = height - margin.top  - margin.bottom;
   
@@ -305,7 +305,17 @@ function drawHistorical() {
       .append('svg')
       .attr('width', width)
       .attr('height', height);
-  
+
+    // ── Chart subtitle ───────────────────────────────────────
+    svg.append('text')
+      .attr('x', width / 2)
+      .attr('y', 18)
+      .attr('text-anchor', 'middle')
+      .attr('fill', '#8b949e')
+      .attr('font-size', '11px')
+      .attr('font-family', 'sans-serif')
+      .text('Global Mean Surface Temperature Anomaly, 1850–2015 · CMIP6 Multi-Model Ensemble');
+            
     const g = svg.append('g')
       .attr('transform', `translate(${margin.left},${margin.top})`);
   
