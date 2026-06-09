@@ -207,6 +207,7 @@ body {
 #chart-keeling {
   position: relative;
   margin-top: 24px;
+  overflow: visible;
 }
 
 #chart-historical svg,

@@ -33,7 +33,8 @@ function drawKeeling() {
       const svg = d3.select('#chart-keeling')
         .append('svg')
         .attr('width', width)
-        .attr('height', height);
+        .attr('height', height)
+        .style('overflow','visible');
   
       const g = svg.append('g')
         .attr('transform', `translate(${margin.left},${margin.top})`);
