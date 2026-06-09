@@ -204,6 +204,11 @@ body {
   position: relative;
 }
 
+#chart-keeling {
+  position: relative;
+  margin-top: 24px;
+}
+
 #chart-historical svg,
 #chart-fan svg,
 #chart-keeling svg,
