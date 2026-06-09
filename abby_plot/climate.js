@@ -26,7 +26,7 @@ function drawKeeling() {
     })).then(data => {
   
       const width  = 900, height = 420;
-      const margin = { top: 30, right: 40, bottom: 50, left: 70 };
+      const margin = { top: 45, right: 40, bottom: 50, left: 70 };
       const innerW = width  - margin.left - margin.right;
       const innerH = height - margin.top  - margin.bottom;
   
@@ -122,7 +122,27 @@ function drawKeeling() {
         .attr('font-family', 'sans-serif')
         .attr('text-anchor', 'end')
         .text(`${lastPoint.co2_smooth.toFixed(1)} ppm today`);
-  
+      
+      // ── Chart title ──────────────────────────────────────────
+      svg.append('text')
+        .attr('x', width / 2)
+        .attr('y', 18)
+        .attr('text-anchor', 'middle')
+        .attr('fill', '#ffffff')
+        .attr('font-size', '14px')
+        .attr('font-weight', '600')
+        .attr('font-family', 'sans-serif')
+        .text('Atmospheric CO₂ Since 1958 — The Keeling Curve');
+
+      // ── Caption ──────────────────────────────────────────────
+      svg.append('text')
+        .attr('x', width / 2)
+        .attr('y', height - 2)
+        .attr('text-anchor', 'middle')
+        .attr('fill', '#8b949e')
+        .attr('font-size', '10px')
+        .attr('font-family', 'sans-serif')
+        .text('Monthly measurements from Mauna Loa Observatory, Hawaii. Seasonal variation reflects natural plant absorption cycles; upward trend reflects human emissions.');
       // ── Axes ────────────────────────────────────────────────
       g.append('g')
         .attr('transform', `translate(0,${innerH})`)
