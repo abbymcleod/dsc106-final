@@ -397,6 +397,21 @@ body {
   max-width: 560px;
 }
 
+.hero-video-link {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-accent);
+  text-decoration: none;
+  margin-bottom: 32px;
+  transition: opacity 0.15s;
+}
+
+.hero-video-link:hover {
+  opacity: 0.75;
+}
+
 .scroll-cue {
   display: inline-block;
   color: var(--text-secondary);
